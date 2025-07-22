@@ -28,8 +28,45 @@
             color: white;
             padding: 30px 0;
             margin-bottom: 30px;
-            text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .summary-info {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: right;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .summary-info .event-count {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .summary-info .last-update {
+            font-size: 0.85em;
+        }
+
+        @media (max-width: 768px) {
+            .summary-info {
+                position: static;
+                transform: none;
+                text-align: center;
+                margin-top: 15px;
+            }
         }
 
         h1 {
@@ -143,7 +180,22 @@
             margin-bottom: 15px;
         }
 
-        .events-grid {
+        .location-group {
+            margin-bottom: 20px;
+        }
+
+        .location-group-header {
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #7b8898;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            background-color: #f0f4f8;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .location-events {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 15px;
@@ -317,8 +369,14 @@
 </head>
 <body>
     <header>
-        <h1>Hacktown 2025</h1>
-        <div class="subtitle">Event Timeline</div>
+        <div class="header-content">
+            <h1>Hacktown 2025</h1>
+            <div class="subtitle">Event Timeline</div>
+            <div class="summary-info">
+                <div class="event-count" id="totalEvents">Loading...</div>
+                <div class="last-update" id="lastUpdate">Last updated: ...</div>
+            </div>
+        </div>
     </header>
 
     <div class="container">
@@ -356,6 +414,7 @@
         let currentDay = null;
         let locations = new Set();
         let showSpeakers = false;
+        let summaryData = null;
 
         // Event dates
         const EVENT_DATES = [
@@ -369,8 +428,10 @@
         // Initialize the app
         async function init() {
             createDayButtons();
+            await loadSummary();
             await loadAllEvents();
             populateLocationFilter();
+            updateSummaryDisplay();
             
             // Set up speaker toggle
             const speakerToggle = document.getElementById('showSpeakers');
@@ -384,6 +445,18 @@
             // Select first day by default
             if (EVENT_DATES.length > 0) {
                 selectDay(EVENT_DATES[0].date);
+            }
+        }
+
+        // Load summary data
+        async function loadSummary() {
+            try {
+                const response = await fetch('events/summary.json');
+                if (response.ok) {
+                    summaryData = await response.json();
+                }
+            } catch (error) {
+                console.error('Error loading summary:', error);
             }
         }
 
@@ -514,20 +587,58 @@
                 const timeEvents = timeSlots[timeKey];
                 const [startTime, endTime] = timeKey.split(' - ');
                 
+                // Group events by location within this time slot
+                const locationGroups = {};
+                timeEvents.forEach(event => {
+                    const location = event.filterLocation || event.place || 'Other';
+                    if (!locationGroups[location]) {
+                        locationGroups[location] = [];
+                    }
+                    locationGroups[location].push(event);
+                });
+                
+                // Sort locations
+                const sortedLocations = Object.keys(locationGroups).sort();
+                
                 html += `
                     <div class="time-slot">
                         <div class="time-header">${startTime} - ${endTime}</div>
-                        <div class="events-grid">
                 `;
                 
-                timeEvents.forEach(event => {
-                    html += createEventCard(event);
-                });
+                // If only one location or no filter applied, show simplified view
+                if (sortedLocations.length === 1 || locationFilter === '') {
+                    sortedLocations.forEach(location => {
+                        const locationEvents = locationGroups[location];
+                        
+                        if (sortedLocations.length > 1) {
+                            html += `
+                                <div class="location-group">
+                                    <div class="location-group-header">${location}</div>
+                                    <div class="location-events">
+                            `;
+                        } else {
+                            html += '<div class="location-events">';
+                        }
+                        
+                        locationEvents.forEach(event => {
+                            html += createEventCard(event);
+                        });
+                        
+                        html += '</div>';
+                        if (sortedLocations.length > 1) {
+                            html += '</div>';
+                        }
+                    });
+                } else {
+                    // Single location view when filtered
+                    html += '<div class="location-events">';
+                    timeEvents.forEach(event => {
+                        html += createEventCard(event);
+                    });
+                    html += '</div>';
+                }
                 
-                html += `
-                        </div>
-                    </div>
-                `;
+                html += '</div>';
             });
 
             timeline.innerHTML = html;
