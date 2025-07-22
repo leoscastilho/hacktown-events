@@ -403,6 +403,9 @@
 
         // Load all event files
         async function loadAllEvents() {
+            // Clear locations set before loading
+            locations.clear();
+            
             const promises = EVENT_DATES.map(async ({ date }) => {
                 try {
                     const response = await fetch(`events/hacktown_events_${date}.json`);
@@ -444,8 +447,12 @@
                 locationFilter.appendChild(option);
             });
             
-            // Add change event listener
-            locationFilter.addEventListener('change', () => displayEvents(currentDay));
+            console.log('Unique locations found:', sortedLocations.length);
+            
+            // Add change event listener (remove any existing listeners first)
+            const newLocationFilter = locationFilter.cloneNode(true);
+            locationFilter.parentNode.replaceChild(newLocationFilter, locationFilter);
+            newLocationFilter.addEventListener('change', () => displayEvents(currentDay));
         }
 
         // Select a day and display its events
