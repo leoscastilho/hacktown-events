@@ -1,0 +1,225 @@
+{
+  "date": "2025-08-03",
+  "total_events": 4,
+  "scraped_at": "2025-07-22T17:56:49.281081",
+  "events": [
+    {
+      "id": 1601,
+      "start_time": "2025-08-03T13:00:00.000+00:00",
+      "end_time": "2025-08-03T15:30:00.000+00:00",
+      "title": "Hack Santa Rita – Prototipando o Futuro Agora",
+      "description": "Cidade para Todos: Uma experiência Hyper Island com Casa Dinamarca para cocriar soluções reais para Santa Rita do Sapucaí.\n\nParticipe de um hackathon intenso no estilo Hyper Island, com técnicas criativas e colaborativas testadas no mundo inteiro. Vamos transformar visões e dores reais de Santa Rita em protótipos ousados de soluções concretas.\n\nÉ nossa forma de retribuir à cidade que nos recebe — uma chance única de cocriar com outras mentes inquietas, imaginar futuros possíveis e plantar sementes de mudança juntos.\n\nChamamos mentes locais e Hacktowners para construir, na prática, o que Santa Rita pode ser.\n\nAprender fazendo. Aprender juntos. Pronto para o mundo real!\n\nTraga sua energia. Vamos hackear o futuro — juntos.",
+      "hub_event_id": 1,
+      "entity_register_id": 6089,
+      "place": "Casa Dinamarca - Cine Teatro",
+      "allow_questions": false,
+      "external_id": "yazo_1601",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -120064,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 3142,
+          "name": "Carlos Benito Berretta Fontes",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1752955436750.png?ims=filters:quality(75)",
+          "bio": "Diretor Geral da Hyper Island, é formado em Ciências da Computação e Econometria. Atua no desenvolvimento de competências em liderança, inovação e tecnologia, facilitando processos de mudança para pessoas, times e organizações.",
+          "role": "Managing Director na Hyper Island Américas",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1601,
+            "pivot_speaker_id": 3142,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4079,
+          "name": "Adam Kurdahl",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1752949978349.png?ims=filters:quality(75)",
+          "bio": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects e idealizador do projeto São Paulo 2035. Codiretor da requalificação do histórico Complexo Matarazzo, em São Paulo, e cocriador, ainda jovem, de uma cidade futurista na Coreia do Sul. Defende uma nova urbanidade: a “cidade-esponja”, capaz de dialogar com o clima, a natureza e os desejos humanos. Atua entre o Brasil e a Europa, projetando cidades mais vivas, adaptáveis e sustentáveis.",
+          "role": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects",
+          "company": "SPOL Architects",
+          "meta": {
+            "pivot_schedule_id": 1601,
+            "pivot_speaker_id": 4079,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4083,
+          "name": "Jesper Rhode",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1752951036593.png?ims=filters:quality(75)",
+          "bio": "Fundador da Casa Dinamarca, pensador de cultura digital e conselheiro em inovação e futuro.",
+          "role": "Fundador da Casa Dinamarca, pensador de cultura digital e conselheiro em inovação e futuro.",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 1601,
+            "pivot_speaker_id": 4083,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 244,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      }
+    },
+    {
+      "id": 1583,
+      "start_time": "2025-08-03T13:00:00.000+00:00",
+      "end_time": "2025-08-03T23:00:00.000+00:00",
+      "title": "Feira da Mantiqueira",
+      "description": "Celebração sensorial da cultura, gastronomia e identidade do Sul de Minas, reúne expositores de mais de 12 cidades e produtos de pelo menos 18 municípios, valorizando sabores, saberes e tradições da Serra da Mantiqueira. Comida típica, inovação culinária, música autoral e curadoria apurada transformam a feira em um elo entre o território e o futuro",
+      "hub_event_id": 1,
+      "entity_register_id": 4991,
+      "place": "Av. Sinhá Moreira",
+      "allow_questions": false,
+      "external_id": "1e40d84f-7879-440d-9a1a-459575aee75d",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -119808,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 31,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Feira",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      }
+    },
+    {
+      "id": 1602,
+      "start_time": "2025-08-03T16:00:00.000+00:00",
+      "end_time": "2025-08-03T17:00:00.000+00:00",
+      "title": "Sementes para um Futuro Verde",
+      "description": "Como segunda etapa da nossa retribuição a Santa Rita, a Casa Dinamarca e a SPOL convidam você para uma action-shop dedicada a rewilding das nossas cidades. Vamos plantar árvores nativas em Santa Rita!\n\n\nQueremos devolver a fauna e flora brasileiras aos espaços urbanos — um passo para introduzir o conceito de Cidade Esponja na realidade brasileira. Precisamos transformar nossas cidades para que a natureza volte a ser uma infraestrutura essencial no tecido urbano.\n\n\nA Secretaria de Meio Ambiente, a Casa Dinamarca e a SPOL Architects unem forças para rewilding em Santa Rita. Bem-vindos à Mata City!\n\n\nConvidamos Hack-towners e alunos das escolas primárias de Santa Rita para se juntar a nós nessa ação de plantio de árvores nativas na Praça.",
+      "hub_event_id": 1,
+      "entity_register_id": 6090,
+      "place": "Casa Dinamarca - Cine Teatro",
+      "allow_questions": false,
+      "external_id": "yazo_1602",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -120320,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4079,
+          "name": "Adam Kurdahl",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1752949978349.png?ims=filters:quality(75)",
+          "bio": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects e idealizador do projeto São Paulo 2035. Codiretor da requalificação do histórico Complexo Matarazzo, em São Paulo, e cocriador, ainda jovem, de uma cidade futurista na Coreia do Sul. Defende uma nova urbanidade: a “cidade-esponja”, capaz de dialogar com o clima, a natureza e os desejos humanos. Atua entre o Brasil e a Europa, projetando cidades mais vivas, adaptáveis e sustentáveis.",
+          "role": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects",
+          "company": "SPOL Architects",
+          "meta": {
+            "pivot_schedule_id": 1602,
+            "pivot_speaker_id": 4079,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 244,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      }
+    },
+    {
+      "id": 1584,
+      "start_time": "2025-08-03T16:00:00.000+00:00",
+      "end_time": "2025-08-03T17:00:00.000+00:00",
+      "title": "A regeneração das relações e a sustentabilidade do planeta",
+      "description": "Esta palestra convida à reflexão sobre como nossas mentalidades moldam o futuro da vida na Terra. Ao substituir a lógica da competição e do isolamento por confiança, colaboração e unidade, podemos regenerar nossas relações humanas e construir um caminho sustentável. Um chamado para cultivar valores coletivos e criar uma civilização baseada em harmonia, propósito comum e respeito à diversidade.",
+      "hub_event_id": 1,
+      "entity_register_id": 4992,
+      "place": "ETE - Sala 82",
+      "allow_questions": false,
+      "external_id": "a593f7aa-4884-452f-9ffc-9771f67ccacc",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -120064,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 3415,
+          "name": "Kaw Yin e Yan Yin",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1628/partner_1628_1752611944371.png",
+          "bio": "Especialistas em desenvolvimento espiritual, Kaw Yin e Yan Yin são fundadores da Coexiste Consultoria Existencial. Com 35 anos de trajetória, desenvolveram a metodologia “A Verdade Presencial”, curso de 8 anos que estuda integralmente *Um Curso em Milagres*. Desde 2007, formam Consultores Existenciais e conduzem processos de autoconhecimento profundo, promovendo consciência, clareza nas relações e expansão espiritual.",
+          "role": "Consultores Existenciais, Professores e Fundadores da Coexiste Consultoria Existencial.",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 1584,
+            "pivot_speaker_id": 3415,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      }
+    }
+  ]
+}
