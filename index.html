@@ -50,6 +50,23 @@
             align-items: center;
         }
 
+        .toggle-speakers {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toggle-speakers input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .toggle-speakers label {
+            cursor: pointer;
+            user-select: none;
+        }
+
         .day-selector {
             display: flex;
             gap: 10px;
@@ -258,9 +275,16 @@
             color: #2c3e50;
         }
 
-        .speaker-role {
+        .speaker-preview {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9em;
             color: #666;
-            margin-top: 5px;
+        }
+
+        .speaker-preview-item {
+            margin: 3px 0;
         }
 
         .no-events {
@@ -308,6 +332,10 @@
                     <option value="">All locations</option>
                 </select>
             </div>
+            <div class="toggle-speakers">
+                <input type="checkbox" id="showSpeakers">
+                <label for="showSpeakers">Show speakers in cards</label>
+            </div>
         </div>
 
         <div class="timeline-container" id="timeline">
@@ -327,6 +355,7 @@
         let allEvents = {};
         let currentDay = null;
         let locations = new Set();
+        let showSpeakers = false;
 
         // Event dates
         const EVENT_DATES = [
@@ -342,6 +371,15 @@
             createDayButtons();
             await loadAllEvents();
             populateLocationFilter();
+            
+            // Set up speaker toggle
+            const speakerToggle = document.getElementById('showSpeakers');
+            speakerToggle.addEventListener('change', (e) => {
+                showSpeakers = e.target.checked;
+                if (currentDay) {
+                    displayEvents(currentDay);
+                }
+            });
             
             // Select first day by default
             if (EVENT_DATES.length > 0) {
@@ -372,9 +410,12 @@
                     const data = await response.json();
                     allEvents[date] = data.events || [];
                     
-                    // Collect all unique locations
+                    // Collect all unique filter locations
                     data.events.forEach(event => {
-                        if (event.place) {
+                        if (event.filterLocation) {
+                            locations.add(event.filterLocation);
+                        } else if (event.place) {
+                            // Fallback to place if filterLocation doesn't exist
                             locations.add(event.place);
                         }
                     });
@@ -433,7 +474,11 @@
             
             // Apply location filter
             if (locationFilter) {
-                events = events.filter(event => event.place === locationFilter);
+                events = events.filter(event => {
+                    // Use filterLocation if available, otherwise fall back to place
+                    const eventLocation = event.filterLocation || event.place;
+                    return eventLocation === locationFilter;
+                });
             }
 
             if (events.length === 0) {
@@ -504,12 +549,28 @@
         // Create event card HTML
         function createEventCard(event) {
             const eventData = JSON.stringify(event).replace(/"/g, '&quot;');
-            return `
+            let cardHtml = `
                 <div class="event-card" onclick="showEventDetails(${eventData})">
                     <div class="event-title">${event.title || 'Untitled Event'}</div>
                     ${event.place ? `<span class="event-place">${event.place}</span>` : ''}
-                </div>
             `;
+            
+            // Add speaker preview if toggle is on
+            if (showSpeakers && event.speakers && event.speakers.length > 0) {
+                cardHtml += '<div class="speaker-preview">';
+                event.speakers.forEach((speaker, index) => {
+                    if (index < 3) { // Show max 3 speakers
+                        cardHtml += `<div class="speaker-preview-item">👤 ${speaker.name || 'Unknown Speaker'}</div>`;
+                    }
+                });
+                if (event.speakers.length > 3) {
+                    cardHtml += `<div class="speaker-preview-item">... and ${event.speakers.length - 3} more</div>`;
+                }
+                cardHtml += '</div>';
+            }
+            
+            cardHtml += '</div>';
+            return cardHtml;
         }
 
         // Show event details in modal
