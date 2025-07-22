@@ -1,7 +1,7 @@
 {
   "date": "2025-07-30",
   "total_events": 1,
-  "scraped_at": "2025-07-22T17:55:39.604377",
+  "scraped_at": "2025-07-22T22:29:40.041481",
   "events": [
     {
       "id": 1585,
@@ -22,7 +22,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -33,10 +32,12 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     }
   ]
 }

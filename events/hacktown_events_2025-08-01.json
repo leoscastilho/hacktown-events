@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 199,
-  "scraped_at": "2025-07-22T17:56:26.304321",
+  "total_events": 198,
+  "scraped_at": "2025-07-22T22:30:01.962650",
   "events": [
     {
       "id": 1239,
@@ -36,7 +36,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1270,
@@ -132,7 +133,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1590,
@@ -198,7 +200,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1268,
@@ -249,7 +252,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1265,
@@ -300,7 +304,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1383,
@@ -351,7 +356,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1264,
@@ -402,7 +408,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1254,
@@ -453,7 +460,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Bar e Restaurante do Dimas II"
     },
     {
       "id": 1245,
@@ -504,7 +512,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1271,
@@ -539,7 +548,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Av. Sinhá Moreira"
     },
     {
       "id": 1242,
@@ -590,7 +600,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1259,
@@ -641,7 +652,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1249,
@@ -692,7 +704,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1258,
@@ -743,7 +756,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Braseiro"
     },
     {
       "id": 1248,
@@ -794,7 +808,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1256,
@@ -845,7 +860,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1269,
@@ -896,7 +912,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Boteco"
     },
     {
       "id": 1262,
@@ -947,7 +964,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1255,
@@ -998,7 +1016,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1246,
@@ -1049,7 +1068,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1247,
@@ -1115,7 +1135,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1241,
@@ -1166,7 +1187,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1267,
@@ -1217,7 +1239,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1251,
@@ -1268,7 +1291,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1260,
@@ -1334,7 +1358,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1243,
@@ -1385,7 +1410,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1266,
@@ -1436,7 +1462,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1252,
@@ -1487,7 +1514,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Escola Sânico Teles - Ginásio"
     },
     {
       "id": 1253,
@@ -1538,7 +1566,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1250,
@@ -1589,7 +1618,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1257,
@@ -1640,7 +1670,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1263,
@@ -1691,58 +1722,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
-    },
-    {
-      "id": 1261,
-      "start_time": "2025-08-01T13:00:00.000+00:00",
-      "end_time": "2025-08-01T14:00:00.000+00:00",
-      "title": "ESG ainda faz sentido? Sustentabilidade em um mundo de narrativas antiwoke",
-      "description": "No mundo onde a sustentabilidade virou campo de batalha de discursos e práticas corporativas e políticas, o ESG ainda faz sentido ou as narrativas antiwoke o enfraquecerá e precisará mudar? Enquanto alguns o veem como essencial para negócios resilientes e éticos, outros o atacam como mera concessão ao politicamente correto. Empresas que adotavam essas práticas para mitigar riscos e agregar valor agora precisam justificar sua relevância diante de uma crescente resistência ideológica. Será possível ignorar questões ambientais, sociais e de governança sem comprometer competitividade e o futuro?",
-      "hub_event_id": 1,
-      "entity_register_id": 4509,
-      "place": "INATEL - Auditório Aureliano Chaves Prédio 1",
-      "allow_questions": false,
-      "external_id": "3224aa2e-3d72-40a3-8840-970470a74933",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -32000,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 3486,
-          "name": "Luiz Filipe Leite da Silva",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1699/partner_1699_1752612371623.png",
-          "bio": "Luiz Filipe, 33 anos, mineiro, é administrador formado pela FGV com especialização em Gestão Empresarial. Proprietário da Destilaria Lassaleti e criador do Gin Lassaleti, reconhecido como o melhor gin do Brasil pela World Gin Awards. Atua na liderança de negócios focados em qualidade e inovação no setor de bebidas artesanais, consolidando-se como referência no mercado nacional.",
-          "role": "Proprietário da Destilari Lassaleti",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1261,
-            "pivot_speaker_id": 3486,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1240,
@@ -1793,7 +1774,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1591,
@@ -1844,7 +1826,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1396,
@@ -1895,7 +1878,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1417,
@@ -1946,7 +1930,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1289,
@@ -1997,7 +1982,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1280,
@@ -2048,7 +2034,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1279,
@@ -2099,7 +2086,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1291,
@@ -2150,7 +2138,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1288,
@@ -2201,7 +2190,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1277,
@@ -2252,7 +2242,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1283,
@@ -2303,7 +2294,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1282,
@@ -2354,7 +2346,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1298,
@@ -2405,7 +2398,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1281,
@@ -2456,7 +2450,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1299,
@@ -2507,7 +2502,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1278,
@@ -2558,7 +2554,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1297,
@@ -2624,7 +2621,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1294,
@@ -2675,7 +2673,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Escola Sânico Teles - Ginásio"
     },
     {
       "id": 1275,
@@ -2696,7 +2695,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3591,
@@ -2723,10 +2721,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1295,
@@ -2747,7 +2747,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3496,
@@ -2774,10 +2773,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1285,
@@ -2798,7 +2799,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3574,
@@ -2825,10 +2825,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1286,
@@ -2849,7 +2851,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3823,
@@ -2876,10 +2877,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1290,
@@ -2900,7 +2903,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3016,
@@ -2927,10 +2929,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1292,
@@ -2951,7 +2955,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3835,
@@ -2978,10 +2981,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1300,
@@ -3002,7 +3007,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3616,
@@ -3059,10 +3063,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1273,
@@ -3083,7 +3089,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3839,
@@ -3110,10 +3115,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1287,
@@ -3134,7 +3141,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3640,
@@ -3161,10 +3167,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1274,
@@ -3185,7 +3193,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3840,
@@ -3212,10 +3219,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1284,
@@ -3266,7 +3275,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1293,
@@ -3317,7 +3327,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1276,
@@ -3368,7 +3379,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1272,
@@ -3419,7 +3431,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1308,
@@ -3470,7 +3483,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1592,
@@ -3521,7 +3535,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1311,
@@ -3572,7 +3587,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1307,
@@ -3623,7 +3639,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1305,
@@ -3674,7 +3691,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1321,
@@ -3695,6 +3713,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3375,
@@ -3721,11 +3740,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1326,
@@ -3746,6 +3765,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3032,
@@ -3772,11 +3792,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1303,
@@ -3797,6 +3817,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3018,
@@ -3823,11 +3844,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1323,
@@ -3848,6 +3869,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3465,
@@ -3874,11 +3896,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1306,
@@ -3899,6 +3921,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3750,
@@ -3925,11 +3948,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1309,
@@ -3950,6 +3973,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3896,
@@ -3976,11 +4000,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1315,
@@ -4001,6 +4025,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3050,
@@ -4027,11 +4052,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1304,
@@ -4052,6 +4077,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3747,
@@ -4078,11 +4104,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1320,
@@ -4103,6 +4129,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3439,
@@ -4129,11 +4156,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1325,
@@ -4154,6 +4181,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3341,
@@ -4180,11 +4208,11 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1318,
@@ -4235,7 +4263,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1314,
@@ -4286,7 +4315,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1317,
@@ -4337,7 +4367,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1310,
@@ -4388,7 +4419,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1330,
@@ -4439,7 +4471,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1316,
@@ -4490,7 +4523,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 1324,
@@ -4541,7 +4575,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1312,
@@ -4592,7 +4627,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1302,
@@ -4658,7 +4694,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1319,
@@ -4709,7 +4746,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1313,
@@ -4760,7 +4798,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1328,
@@ -4811,7 +4850,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1329,
@@ -4892,7 +4932,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1301,
@@ -4943,7 +4984,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1296,
@@ -4994,7 +5036,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1127,
@@ -5045,7 +5088,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1360,
@@ -5096,7 +5140,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1356,
@@ -5147,7 +5192,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1347,
@@ -5213,7 +5259,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Bar e Restaurante do Dimas II"
     },
     {
       "id": 1353,
@@ -5264,7 +5311,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1333,
@@ -5315,7 +5363,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Escola Sânico Teles - Ginásio"
     },
     {
       "id": 1593,
@@ -5366,7 +5415,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1346,
@@ -5432,7 +5482,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1348,
@@ -5483,7 +5534,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Braseiro"
     },
     {
       "id": 1342,
@@ -5534,7 +5586,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1332,
@@ -5600,7 +5653,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1338,
@@ -5651,7 +5705,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1363,
@@ -5702,7 +5757,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1359,
@@ -5753,7 +5809,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1355,
@@ -5804,7 +5861,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1349,
@@ -5855,7 +5913,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1339,
@@ -5906,7 +5965,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1354,
@@ -5957,7 +6017,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1340,
@@ -6008,7 +6069,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 1361,
@@ -6059,7 +6121,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1334,
@@ -6110,7 +6173,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1341,
@@ -6161,7 +6225,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1587,
@@ -6204,7 +6269,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1336,
@@ -6255,7 +6321,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1358,
@@ -6306,7 +6373,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1352,
@@ -6357,7 +6425,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1335,
@@ -6408,7 +6477,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1362,
@@ -6459,7 +6529,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1343,
@@ -6510,7 +6581,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1344,
@@ -6561,7 +6633,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1351,
@@ -6612,7 +6685,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1357,
@@ -6663,7 +6737,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1337,
@@ -6714,7 +6789,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Boteco"
     },
     {
       "id": 1331,
@@ -6749,7 +6825,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1327,
@@ -6800,7 +6877,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1322,
@@ -6851,7 +6929,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1244,
@@ -6902,7 +6981,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1130,
@@ -6968,7 +7048,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1083,
@@ -7019,7 +7100,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1422,
@@ -7070,7 +7152,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Escola Sanico Teles - Ginásio"
     },
     {
       "id": 1392,
@@ -7121,7 +7204,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Boteco"
     },
     {
       "id": 1385,
@@ -7172,7 +7256,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1594,
@@ -7223,7 +7308,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1379,
@@ -7274,7 +7360,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1378,
@@ -7325,7 +7412,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1373,
@@ -7376,7 +7464,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1382,
@@ -7427,7 +7516,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1367,
@@ -7478,7 +7568,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1368,
@@ -7529,7 +7620,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1370,
@@ -7580,7 +7672,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1384,
@@ -7631,7 +7724,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1376,
@@ -7682,7 +7776,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1371,
@@ -7748,7 +7843,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa MFM - Sala Lareira"
     },
     {
       "id": 1369,
@@ -7799,7 +7895,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1380,
@@ -7850,7 +7947,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Bar e Restaurante do Dimas II"
     },
     {
       "id": 1377,
@@ -7901,7 +7999,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1381,
@@ -7952,7 +8051,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1387,
@@ -8003,7 +8103,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1388,
@@ -8054,7 +8155,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1374,
@@ -8105,7 +8207,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Braseiro"
     },
     {
       "id": 1366,
@@ -8156,7 +8259,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1393,
@@ -8207,7 +8311,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1389,
@@ -8258,7 +8363,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1375,
@@ -8309,7 +8415,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1391,
@@ -8360,7 +8467,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1386,
@@ -8411,7 +8519,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1394,
@@ -8522,7 +8631,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1365,
@@ -8573,7 +8683,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 1390,
@@ -8624,7 +8735,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1372,
@@ -8675,7 +8787,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1364,
@@ -8726,7 +8839,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1345,
@@ -8792,7 +8906,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1214,
@@ -8843,7 +8958,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1424,
@@ -8924,7 +9040,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Loja Maçônica"
     },
     {
       "id": 1416,
@@ -8975,7 +9092,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Bar e Restaurante do Dimas ll"
     },
     {
       "id": 1398,
@@ -9026,7 +9144,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1423,
@@ -9107,7 +9226,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Escola Sânico Teles - Ginásio"
     },
     {
       "id": 1413,
@@ -9158,7 +9278,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1397,
@@ -9209,7 +9330,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1595,
@@ -9260,7 +9382,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Casa Dinamarca - Cine Teatro"
     },
     {
       "id": 1418,
@@ -9311,7 +9434,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1412,
@@ -9362,7 +9486,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1408,
@@ -9413,7 +9538,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1410,
@@ -9464,7 +9590,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1405,
@@ -9515,7 +9642,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1401,
@@ -9566,7 +9694,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1402,
@@ -9588,6 +9717,15 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3543,
@@ -9605,19 +9743,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1406,
@@ -9639,6 +9769,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3466,
@@ -9656,19 +9795,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1399,
@@ -9690,6 +9821,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3296,
@@ -9707,19 +9847,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1420,
@@ -9741,6 +9873,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4042,
@@ -9758,19 +9899,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Boteco"
     },
     {
       "id": 1414,
@@ -9792,6 +9925,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3467,
@@ -9809,19 +9951,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1425,
@@ -9843,6 +9977,15 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3257,
@@ -9875,19 +10018,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1426,
@@ -9909,6 +10044,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4044,
@@ -9971,19 +10115,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1404,
@@ -10005,6 +10141,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3863,
@@ -10022,19 +10167,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 1403,
@@ -10056,6 +10193,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3622,
@@ -10073,19 +10219,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Braseiro"
     },
     {
       "id": 1400,
@@ -10107,6 +10245,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3325,
@@ -10124,19 +10271,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1421,
@@ -10187,7 +10326,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "Real Palace"
     },
     {
       "id": 1415,
@@ -10238,7 +10378,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1407,
@@ -10289,7 +10430,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1409,
@@ -10340,7 +10482,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1419,
@@ -10391,7 +10534,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1395,
@@ -10442,7 +10586,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1154,
@@ -10493,7 +10638,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1160,
@@ -10544,7 +10690,8 @@
       "meta": {
         "is_bookmarked": false,
         "rating": 0
-      }
+      },
+      "filterLocation": "INATEL"
     }
   ]
 }
