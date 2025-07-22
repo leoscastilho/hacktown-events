@@ -10,11 +10,14 @@ import os
 from datetime import datetime
 import time
 from typing import List, Dict, Any
+from zoneinfo import ZoneInfo
 
 # Configuration
 BASE_URL = "https://hacktown-2025-ss-v2.api.yazo.com.br/public/schedules"
-OUTPUT_DIR = "output"
+OUTPUT_DIR = "events"
 DELAY_BETWEEN_REQUESTS = 0.5  # seconds
+MAX_RETRIES = 3
+RETRY_DELAY = 2  # seconds between retries
 
 # Event dates
 EVENT_DATES = [
@@ -38,7 +41,7 @@ HEADERS = {
 
 def fetch_page(date: str, page: int) -> Dict[str, Any]:
     """
-    Fetch a single page of events for a given date
+    Fetch a single page of events for a given date with retry logic
     """
     params = {
         'category_id': '42',
@@ -49,16 +52,25 @@ def fetch_page(date: str, page: int) -> Dict[str, Any]:
         'product_ids': '[2]'
     }
     
-    try:
-        response = requests.get(BASE_URL, headers=HEADERS, params=params)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching page {page} for {date}: {e}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON for page {page} on {date}: {e}")
-        return None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(BASE_URL, headers=HEADERS, params=params)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 403 and attempt < MAX_RETRIES - 1:
+                print(f"    403 error on attempt {attempt + 1}, retrying in {RETRY_DELAY} seconds...")
+                time.sleep(RETRY_DELAY)
+                continue
+            else:
+                print(f"Error fetching page {page} for {date}: {e}")
+                return None
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching page {page} for {date}: {e}")
+            return None
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON for page {page} on {date}: {e}")
+            return None
 
 
 def fetch_all_events_for_date(date: str) -> List[Dict[str, Any]]:
@@ -149,11 +161,15 @@ def save_events_to_file(date: str, events: List[Dict[str, Any]]):
     filename = f"hacktown_events_{date}.json"
     filepath = os.path.join(OUTPUT_DIR, filename)
     
+    # Get current time in BRT (Brasília Time)
+    utc_now = datetime.now(ZoneInfo('UTC'))
+    brt_now = utc_now.astimezone(ZoneInfo('America/Sao_Paulo'))
+    
     # Prepare data structure
     output_data = {
         "date": date,
         "total_events": len(processed_events),
-        "scraped_at": datetime.now().isoformat(),
+        "scraped_at": brt_now.isoformat(),
         "events": processed_events
     }
     
@@ -188,10 +204,15 @@ def main():
     print(f"Scraping complete! Total events scraped: {total_events}")
     print(f"Files saved in: {os.path.abspath(OUTPUT_DIR)}")
     
-    # Create a summary file
+    # Create a summary file with BRT timestamp
     summary_file = os.path.join(OUTPUT_DIR, "summary.json")
+    
+    # Get current time in BRT
+    utc_now = datetime.now(ZoneInfo('UTC'))
+    brt_now = utc_now.astimezone(ZoneInfo('America/Sao_Paulo'))
+    
     summary_data = {
-        "scraping_completed": datetime.now().isoformat(),
+        "scraping_completed": brt_now.isoformat(),
         "total_events": total_events,
         "dates_processed": EVENT_DATES,
         "files_created": [f"hacktown_events_{date}.json" for date in EVENT_DATES]

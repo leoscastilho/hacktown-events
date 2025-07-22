@@ -12,6 +12,9 @@ on:
       - 'scrape_hacktown.py'
       - '.github/workflows/scrape-events.yml'
 
+permissions:
+  contents: write  # Give write permissions to the token
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
