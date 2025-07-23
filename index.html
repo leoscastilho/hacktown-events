@@ -20,6 +20,221 @@
             overflow-x: hidden;
         }
 
+        /* Sandwich Menu */
+        .menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 2000;
+            background-color: #484F8B;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 15px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+
+        .menu-toggle:hover {
+            background-color: #FF4500;
+            transform: scale(1.05);
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            transition: all 0.3s;
+        }
+
+        .menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -350px;
+            width: 350px;
+            height: 100vh;
+            background-color: #484F8B;
+            color: #fff;
+            padding: 80px 30px 30px;
+            transition: left 0.3s ease;
+            z-index: 1999;
+            overflow-y: auto;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+        }
+
+        .sidebar.active {
+            left: 0;
+        }
+
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1998;
+            display: none;
+            backdrop-filter: blur(5px);
+        }
+
+        .sidebar-overlay.active {
+            display: block;
+        }
+
+        .sidebar h3 {
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #FF4500;
+        }
+
+        .sidebar-section {
+            margin-bottom: 35px;
+        }
+
+        .sidebar-section-title {
+            font-size: 0.9em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        .sidebar .day-selector {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .sidebar .day-btn {
+            padding: 12px 20px;
+            border: 2px solid #FF4500;
+            background-color: transparent;
+            color: #FF4500;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .sidebar .day-btn:hover {
+            background-color: #FF4500;
+            color: #fff;
+        }
+
+        .sidebar .day-btn.active {
+            background-color: #FF4500;
+            color: #fff;
+        }
+
+        .sidebar .toggle-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+
+        .sidebar .toggle-item label {
+            cursor: pointer;
+            user-select: none;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+
+        .sidebar .toggle-switch {
+            position: relative;
+            width: 50px;
+            height: 25px;
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar .toggle-switch input {
+            display: none;
+        }
+
+        .sidebar .toggle-switch .slider {
+            position: absolute;
+            top: 2.5px;
+            left: 2.5px;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: left 0.3s;
+        }
+
+        .sidebar .toggle-switch input:checked + .slider {
+            left: 27.5px;
+        }
+
+        .sidebar .toggle-switch input:checked ~ .toggle-switch {
+            background-color: #FF4500;
+        }
+
+        .sidebar input[type="checkbox"]:checked + .toggle-switch {
+            background-color: #FF4500;
+        }
+
+        .sidebar .location-filter {
+            margin-top: 15px;
+        }
+
+        .sidebar .location-filter select {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #FF4500;
+            background-color: transparent;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .sidebar .location-filter select option {
+            background-color: #484F8B;
+            color: #fff;
+        }
+
+        .sidebar .location-filter select:hover {
+            background-color: rgba(255,69,0,0.1);
+        }
+
+        .sidebar .location-filter select:focus {
+            outline: none;
+            border-color: #ff6b3d;
+        }
+
         /* Header */
         header {
             background-color: #484F8B;
@@ -31,7 +246,7 @@
         .header-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 40px;
+            padding: 0 40px 0 80px;
             text-align: center;
             position: relative;
         }
@@ -114,109 +329,6 @@
             padding: 40px;
         }
 
-        /* Controls */
-        .controls {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-            align-items: center;
-            background-color: #f5f5f5;
-            padding: 25px;
-            border-radius: 15px;
-            border: 1px solid #e0e0e0;
-        }
-
-        .day-selector {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .day-btn {
-            padding: 12px 25px;
-            border: 2px solid #FF4500;
-            background-color: #fff;
-            color: #FF4500;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: all 0.3s;
-            font-size: 16px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .day-btn:hover {
-            background-color: #FF4500;
-            color: #fff;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(255,69,0,0.3);
-        }
-
-        .day-btn.active {
-            background-color: #FF4500;
-            color: #fff;
-        }
-
-        .location-filter {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-left: auto;
-        }
-
-        .location-filter label {
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 0.9em;
-            color: #484F8B;
-        }
-
-        .location-filter select {
-            padding: 12px 20px;
-            border: 2px solid #e0e0e0;
-            background-color: #fff;
-            color: #333;
-            border-radius: 30px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .location-filter select:hover {
-            border-color: #FF4500;
-        }
-
-        .location-filter select:focus {
-            outline: none;
-            border-color: #FF4500;
-        }
-
-        .toggle-speakers {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .toggle-speakers input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            accent-color: #FF4500;
-        }
-
-        .toggle-speakers label {
-            cursor: pointer;
-            user-select: none;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 0.9em;
-            color: #484F8B;
-        }
-
         /* Timeline Container */
         .timeline-container {
             background-color: #f9f9f9;
@@ -245,18 +357,27 @@
             position: relative;
         }
 
-        .time-header {
-            font-size: 2em;
-            font-weight: 900;
-            color: #484F8B;
-            margin-bottom: 25px;
-            text-transform: uppercase;
-            letter-spacing: -1px;
+        /* Sticky Header for Time and Location */
+        .time-location-header {
+            position: sticky;
+            top: 0;
+            background-color: #f9f9f9;
+            z-index: 100;
+            padding: 15px 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 20px;
         }
 
-        /* Location Groups */
-        .location-group {
-            margin-bottom: 30px;
+        .time-header {
+            font-size: 1.8em;
+            font-weight: 900;
+            color: #484F8B;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            flex-shrink: 0;
         }
 
         .location-group-header {
@@ -267,9 +388,14 @@
             padding: 8px 20px;
             border-radius: 20px;
             display: inline-block;
-            margin-bottom: 15px;
             text-transform: uppercase;
             letter-spacing: 1px;
+            flex-shrink: 0;
+        }
+
+        /* Location Groups */
+        .location-group {
+            margin-bottom: 30px;
         }
 
         .location-events {
@@ -289,6 +415,10 @@
             position: relative;
             overflow: hidden;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .event-card.compact {
+            padding: 15px;
         }
 
         .event-card::before {
@@ -321,6 +451,11 @@
             color: #333;
         }
 
+        .compact .event-title {
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
         .event-place {
             display: inline-block;
             background-color: rgba(255,69,0,0.1);
@@ -333,12 +468,23 @@
             letter-spacing: 0.5px;
         }
 
+        .compact .event-place {
+            font-size: 0.75em;
+            padding: 4px 12px;
+        }
+
         .speaker-preview {
             margin-top: 15px;
             padding-top: 15px;
             border-top: 1px solid #e0e0e0;
             font-size: 0.9em;
             color: #666;
+        }
+
+        .compact .speaker-preview {
+            margin-top: 10px;
+            padding-top: 10px;
+            font-size: 0.8em;
         }
 
         .speaker-preview-item {
@@ -354,7 +500,7 @@
             width: 100%;
             height: 100%;
             background-color: rgba(0,0,0,0.8);
-            z-index: 1000;
+            z-index: 3000;
             overflow-y: auto;
             backdrop-filter: blur(10px);
         }
@@ -477,7 +623,7 @@
             }
 
             .header-content {
-                padding: 0 20px;
+                padding: 0 20px 0 60px;
             }
 
             .summary-info {
@@ -491,16 +637,9 @@
                 padding: 20px;
             }
 
-            .controls {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 20px;
-            }
-
-            .location-filter {
-                margin-left: 0;
-                flex-direction: column;
-                align-items: stretch;
+            .sidebar {
+                width: 280px;
+                left: -280px;
             }
 
             .location-events {
@@ -513,7 +652,13 @@
             }
 
             .time-header {
-                font-size: 1.5em;
+                font-size: 1.3em;
+            }
+
+            .time-location-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
             }
         }
 
@@ -537,6 +682,65 @@
     </style>
 </head>
 <body>
+    <!-- Sandwich Menu Button -->
+    <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h3>Filtros e Opções</h3>
+        
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Dias do Evento</div>
+            <div class="day-selector" id="daySelector">
+                <!-- Day buttons will be inserted here -->
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Opções de Visualização</div>
+            
+            <div class="toggle-item">
+                <label for="showSpeakers">Mostrar palestrantes</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="showSpeakers">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-item">
+                <label for="showLocation">Mostrar local nos cards</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="showLocation" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-item">
+                <label for="compactMode">Modo compacto</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="compactMode">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Filtrar por Local</div>
+            <div class="location-filter">
+                <select id="locationFilter">
+                    <option value="">Todos os locais</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleMenu()"></div>
+
     <header>
         <div class="header-content">
             <img src="logo.png" alt="HackTown 2025" class="logo">
@@ -556,22 +760,6 @@
     </div>
 
     <div class="container">
-        <div class="controls">
-            <div class="day-selector" id="daySelector">
-                <!-- Day buttons will be inserted here -->
-            </div>
-            <div class="location-filter">
-                <label for="locationFilter">Filtrar por local:</label>
-                <select id="locationFilter">
-                    <option value="">Todos os locais</option>
-                </select>
-            </div>
-            <div class="toggle-speakers">
-                <input type="checkbox" id="showSpeakers">
-                <label for="showSpeakers">Mostrar palestrantes</label>
-            </div>
-        </div>
-
         <div class="timeline-container" id="timeline">
             <div class="loading">Carregando eventos...</div>
         </div>
@@ -590,6 +778,8 @@
         let currentDay = null;
         let locations = new Set();
         let showSpeakers = false;
+        let showLocation = true;
+        let compactMode = false;
         let summaryData = null;
 
         // Event dates
@@ -601,6 +791,17 @@
             { date: '2025-08-03', label: '03 AGO' }
         ];
 
+        // Toggle menu
+        function toggleMenu() {
+            const menuToggle = document.getElementById('menuToggle');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
+
         // Initialize the app
         async function init() {
             createDayButtons();
@@ -609,10 +810,26 @@
             populateLocationFilter();
             updateSummaryDisplay();
             
-            // Set up speaker toggle
+            // Set up toggles
             const speakerToggle = document.getElementById('showSpeakers');
             speakerToggle.addEventListener('change', (e) => {
                 showSpeakers = e.target.checked;
+                if (currentDay) {
+                    displayEvents(currentDay);
+                }
+            });
+
+            const locationToggle = document.getElementById('showLocation');
+            locationToggle.addEventListener('change', (e) => {
+                showLocation = e.target.checked;
+                if (currentDay) {
+                    displayEvents(currentDay);
+                }
+            });
+
+            const compactToggle = document.getElementById('compactMode');
+            compactToggle.addEventListener('change', (e) => {
+                compactMode = e.target.checked;
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -667,7 +884,10 @@
                 const btn = document.createElement('button');
                 btn.className = 'day-btn';
                 btn.textContent = label;
-                btn.onclick = () => selectDay(date);
+                btn.onclick = () => {
+                    selectDay(date);
+                    toggleMenu(); // Close menu after selection
+                };
                 btn.setAttribute('data-date', date);
                 daySelector.appendChild(btn);
             });
@@ -799,43 +1019,27 @@
                 // Sort locations
                 const sortedLocations = Object.keys(locationGroups).sort();
                 
-                html += `
-                    <div class="time-slot">
-                        <div class="time-header">${startTime} - ${endTime}</div>
-                `;
+                html += '<div class="time-slot">';
                 
-                // If only one location or no filter applied, show simplified view
-                if (sortedLocations.length === 1 || locationFilter === '') {
-                    sortedLocations.forEach(location => {
-                        const locationEvents = locationGroups[location];
-                        
-                        if (sortedLocations.length > 1) {
-                            html += `
-                                <div class="location-group">
-                                    <div class="location-group-header">${location}</div>
-                                    <div class="location-events">
-                            `;
-                        } else {
-                            html += '<div class="location-events">';
-                        }
-                        
-                        locationEvents.forEach(event => {
-                            html += createEventCard(event);
-                        });
-                        
-                        html += '</div>';
-                        if (sortedLocations.length > 1) {
-                            html += '</div>';
-                        }
-                    });
-                } else {
-                    // Single location view when filtered
-                    html += '<div class="location-events">';
-                    timeEvents.forEach(event => {
+                // Create sections for each location within this time slot
+                sortedLocations.forEach(location => {
+                    const locationEvents = locationGroups[location];
+                    
+                    html += `
+                        <div class="location-group">
+                            <div class="time-location-header">
+                                <div class="time-header">${startTime} - ${endTime}</div>
+                                ${sortedLocations.length > 1 || locationFilter ? `<div class="location-group-header">${location}</div>` : ''}
+                            </div>
+                            <div class="location-events">
+                    `;
+                    
+                    locationEvents.forEach(event => {
                         html += createEventCard(event);
                     });
-                    html += '</div>';
-                }
+                    
+                    html += '</div></div>';
+                });
                 
                 html += '</div>';
             });
@@ -866,10 +1070,12 @@
         // Create event card HTML
         function createEventCard(event) {
             const eventData = JSON.stringify(event).replace(/"/g, '&quot;');
+            const compactClass = compactMode ? 'compact' : '';
+            
             let cardHtml = `
-                <div class="event-card" onclick="showEventDetails(${eventData})">
+                <div class="event-card ${compactClass}" onclick="showEventDetails(${eventData})">
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
-                    ${event.place ? `<span class="event-place">${event.place}</span>` : ''}
+                    ${showLocation && event.place ? `<span class="event-place">${event.place}</span>` : ''}
             `;
             
             // Add speaker preview if toggle is on
