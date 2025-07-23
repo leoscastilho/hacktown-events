@@ -17,9 +17,9 @@ import logging
 # Configuration
 BASE_URL = "https://hacktown-2025-ss-v2.api.yazo.com.br/public/schedules"
 OUTPUT_DIR = "events"
-MAX_CONCURRENT_REQUESTS = 5  # Limit concurrent requests
-MAX_RETRIES = 3
-RETRY_DELAY = 2  # seconds between retries
+MAX_CONCURRENT_REQUESTS = 2  # Limit concurrent requests
+MAX_RETRIES = 5
+RETRY_DELAY = 10  # seconds between retries
 REQUEST_TIMEOUT = 30  # seconds
 
 # Event dates
@@ -34,11 +34,8 @@ EVENT_DATES = [
 # Headers (minimal required headers)
 HEADERS = {
     'accept': 'application/json, text/plain, */*',
-    'accept-language': 'en-US',
     'origin': 'https://hacktown2025.yazo.app.br',
     'product-identifier': '1',
-    'referer': 'https://hacktown2025.yazo.app.br/',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
 }
 
 # Set up logging

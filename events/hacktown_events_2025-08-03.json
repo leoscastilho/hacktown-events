@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 4,
-  "scraped_at": "2025-07-23T11:14:33.563481-03:00",
+  "scraped_at": "2025-07-23T11:14:18.996325-03:00",
   "events": [
     {
       "id": 1601,
@@ -22,7 +22,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3142,
@@ -70,6 +69,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 244,
@@ -104,8 +104,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 31,
@@ -140,7 +140,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4079,
@@ -158,6 +157,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 244,
@@ -192,7 +192,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3415,
@@ -210,6 +209,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
