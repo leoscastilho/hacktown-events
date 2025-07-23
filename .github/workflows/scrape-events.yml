@@ -46,10 +46,17 @@ jobs:
           rm -rf output
         fi
     
+    - name: Update cache busting version
+      run: |
+        VERSION=$(date +%Y%m%d%H%M%S)
+        sed -i "s/content=\"[0-9.]*\"/content=\"$VERSION\"/" index.html
+        sed -i "s/manifest\.json?v=[^\"]*\"/manifest.json?v=$VERSION\"/" index.html
+        echo "Updated cache version to: $VERSION"
+    
     - name: Check for changes
       id: check_changes
       run: |
-        git add events/
+        git add events/ index.html
         if git diff --staged --quiet; then
           echo "changed=false" >> $GITHUB_OUTPUT
         else
