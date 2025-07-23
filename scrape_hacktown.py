@@ -8,6 +8,7 @@ import asyncio
 import aiohttp
 import json
 import os
+import random
 from datetime import datetime
 import time
 from typing import List, Dict, Any, Optional
@@ -17,9 +18,20 @@ import logging
 # Configuration
 BASE_URL = "https://hacktown-2025-ss-v2.api.yazo.com.br/public/schedules"
 OUTPUT_DIR = "events"
-MAX_CONCURRENT_REQUESTS = 2  # Limit concurrent requests
+
+# Detect if running in CI
+IS_CI = os.environ.get('CI', 'false').lower() == 'true' or os.environ.get('GITHUB_ACTIONS', 'false').lower() == 'true'
+
+# Adjust settings for CI environment
+if IS_CI:
+    MAX_CONCURRENT_REQUESTS = 1  # More conservative in CI
+    RETRY_DELAY = 20  # Longer initial delay in CI
+    print("Running in CI environment - using conservative settings")
+else:
+    MAX_CONCURRENT_REQUESTS = 2  # Normal setting for local
+    RETRY_DELAY = 10  # Normal delay for local
+
 MAX_RETRIES = 5
-RETRY_DELAY = 10  # seconds between retries
 REQUEST_TIMEOUT = 30  # seconds
 
 # Event dates
@@ -100,6 +112,12 @@ async def fetch_page(session: aiohttp.ClientSession, date: str, page: int) -> Op
 
     for attempt in range(MAX_RETRIES):
         try:
+            # Add random delay before request to appear more human-like
+            if IS_CI:
+                await asyncio.sleep(random.uniform(3, 7))  # Longer delay in CI
+            else:
+                await asyncio.sleep(random.uniform(0.5, 1.5))
+            
             async with session.get(
                     BASE_URL,
                     headers=HEADERS,
@@ -110,7 +128,12 @@ async def fetch_page(session: aiohttp.ClientSession, date: str, page: int) -> Op
                     return await response.json()
                 elif response.status == 403 and attempt < MAX_RETRIES - 1:
                     logger.warning(f"403 error for {date} page {page}, attempt {attempt + 1}, retrying...")
-                    await asyncio.sleep(RETRY_DELAY)
+                    # Exponential backoff with jitter
+                    retry_delay = RETRY_DELAY * (2 ** attempt) + random.uniform(0, 5)
+                    if IS_CI:
+                        retry_delay *= 2  # Double the delay in CI
+                    logger.info(f"Waiting {retry_delay:.1f} seconds before retry...")
+                    await asyncio.sleep(min(retry_delay, 120))  # Cap at 2 minutes
                     continue
                 else:
                     logger.error(f"HTTP {response.status} for {date} page {page}")
@@ -226,14 +249,26 @@ async def fetch_all_dates(dates: List[str]) -> Dict[str, List[Dict[str, Any]]]:
     # Create semaphore to limit concurrent requests
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
 
-    # Create session with connection pooling
-    connector = aiohttp.TCPConnector(
-        limit=100,  # Total connection pool limit
-        limit_per_host=30,  # Per-host connection limit
-        ttl_dns_cache=300  # DNS cache timeout
-    )
+    # Create session with connection pooling - more conservative settings for CI
+    if IS_CI:
+        connector = aiohttp.TCPConnector(
+            limit=5,  # Much lower limit in CI
+            limit_per_host=2,  # Very conservative per-host limit
+            ttl_dns_cache=300,  # DNS cache timeout
+            force_close=True  # Force close connections after each request
+        )
+    else:
+        connector = aiohttp.TCPConnector(
+            limit=20,  # Reduced from 100
+            limit_per_host=10,  # Reduced from 30
+            ttl_dns_cache=300  # DNS cache timeout
+        )
 
-    async with aiohttp.ClientSession(connector=connector) as session:
+    # Create session with cookie jar to maintain session state
+    async with aiohttp.ClientSession(
+        connector=connector,
+        cookie_jar=aiohttp.CookieJar()
+    ) as session:
         tasks = []
         for date in dates:
             task = fetch_all_pages_for_date(session, date, semaphore)
