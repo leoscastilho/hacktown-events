@@ -1,7 +1,7 @@
 {
   "date": "2025-08-02",
-  "total_events": 177,
-  "scraped_at": "2025-07-23T14:13:24.401099-03:00",
+  "total_events": 178,
+  "scraped_at": "2025-07-23T15:21:47.266850-03:00",
   "events": [
     {
       "id": 1427,
@@ -22,8 +22,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 29,
@@ -58,6 +58,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3786,
@@ -75,7 +76,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -110,6 +110,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3763,
@@ -127,7 +128,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -162,6 +162,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3765,
@@ -179,7 +180,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -214,6 +214,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3766,
@@ -231,7 +232,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -266,6 +266,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3537,
@@ -283,7 +284,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -318,6 +318,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3770,
@@ -335,7 +336,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -370,6 +370,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3638,
@@ -387,7 +388,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -422,6 +422,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3771,
@@ -439,7 +440,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -474,6 +474,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3623,
@@ -491,7 +492,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -526,6 +526,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3230,
@@ -543,7 +544,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -578,6 +578,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3113,
@@ -595,7 +596,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -630,6 +630,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3777,
@@ -647,7 +648,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -682,6 +682,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3776,
@@ -699,7 +700,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -734,6 +734,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3053,
@@ -751,7 +752,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -786,6 +786,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3126,
@@ -803,7 +804,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -838,6 +838,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3780,
@@ -855,7 +856,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -890,8 +890,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 31,
@@ -926,6 +926,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3783,
@@ -943,7 +944,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -978,6 +978,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3790,
@@ -995,7 +996,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1030,6 +1030,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3795,
@@ -1047,7 +1048,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1082,6 +1082,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3799,
@@ -1099,7 +1100,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1134,6 +1134,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3027,
@@ -1151,7 +1152,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1186,6 +1186,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3801,
@@ -1203,7 +1204,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1238,6 +1238,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3637,
@@ -1270,7 +1271,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -1305,6 +1305,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3808,
@@ -1322,7 +1323,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1357,6 +1357,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3810,
@@ -1374,7 +1375,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1409,6 +1409,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3811,
@@ -1426,7 +1427,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1461,6 +1461,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3813,
@@ -1478,7 +1479,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1513,6 +1513,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3814,
@@ -1530,7 +1531,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1753,6 +1753,73 @@
         "rating": 0
       },
       "filterLocation": "Loja Maçônica"
+    },
+    {
+      "id": 1625,
+      "start_time": "2025-08-02T14:30:00.000+00:00",
+      "end_time": "2025-08-02T15:30:00.000+00:00",
+      "title": "E se o Plano B sempre foi o Plano A?  Como a mudança de carreira pode te devolver propósito, liberdade e direção.",
+      "description": "Casados e sócios, Márcio e Letícia decidiram parar de se esconder atrás do diploma de engenheiros e construir uma vida com propósito. Começaram em uma garagem alugada da tia, impactaram milhares de alunos, criaram um refúgio nas montanhas e hoje vivem nos EUA, liderando a expansão de suas marcas. Trocaram o “caminho seguro” pelo desconforto sem garantia para viver a vida que fazia sentido. Essa palestra é um convite pra quem vive no automático, acumula conquistas, mas sente que deixou algo de si pelo caminho. ",
+      "hub_event_id": 1,
+      "entity_register_id": 6194,
+      "place": "Be Bold",
+      "allow_questions": false,
+      "external_id": "yazo_1625",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -92160,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4095,
+          "name": "Marcio Openheimer",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753292644968.png?ims=filters:quality(75)",
+          "bio": "Empresário e professor de inglês, criador de negócios que unem educação, hospitalidade e propósito. Hoje vive nos EUA, onde lidera a expansão de suas marcas e ensina inglês para empresários e executivos.",
+          "role": "Fundador da Be Bold (BR), Evergreen Cabanas (BR) e Bolder Language (USA)",
+          "company": "Be Bold",
+          "meta": {
+            "pivot_schedule_id": 1625,
+            "pivot_speaker_id": 4095,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4096,
+          "name": "Letícia Borsato",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753292821163.png?ims=filters:quality(75)",
+          "bio": "Fundadora da Be Bold Kids, uma escola de inglês com metodologia prática e imersiva. Engenheira Biomédica de formação, encontrou sua verdadeira paixão no ensino de idiomas e criou um método dinâmico que conecta o inglês ao dia a dia de crianças e adolescentes. Além das aulas presenciais e online, Letícia desenvolveu o projeto BOLD4K, um curso digital criativo para crianças, e lidera experiências imersivas como o Bold Camp. Além disso, também empreende no segmento de hospedagem com a Evergreen, uma cabana nas montanhas, pensada para proporcionar pausa, silêncio e reconexão com o que realmente importa. Apaixonada por empreendedorismo, educação, lifestyle e desenvolvimento pessoal, compartilha sua rotina e inspira outras mulheres a viverem com propósito.",
+          "role": "Engenheira que trocou o diploma por propósito",
+          "company": "Be Bold Kids, Evergreen Cabanas, Bolder Language",
+          "meta": {
+            "pivot_schedule_id": 1625,
+            "pivot_speaker_id": 4096,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Be Bold"
     },
     {
       "id": 1596,
@@ -2085,6 +2152,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3827,
@@ -2102,7 +2170,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2137,6 +2204,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3505,
@@ -2154,7 +2222,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2189,6 +2256,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3830,
@@ -2206,7 +2274,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2241,6 +2308,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3831,
@@ -2258,7 +2326,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2293,6 +2360,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3833,
@@ -2310,7 +2378,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2345,6 +2412,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3834,
@@ -2362,7 +2430,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2397,6 +2464,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3841,
@@ -2414,7 +2482,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2449,6 +2516,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3842,
@@ -2466,7 +2534,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2501,6 +2568,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3843,
@@ -2518,7 +2586,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2553,6 +2620,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3845,
@@ -2570,7 +2638,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4679,6 +4746,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3920,
@@ -4694,15 +4770,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -4731,6 +4798,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3398,
@@ -4746,15 +4822,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -4783,6 +4850,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3921,
@@ -4798,15 +4874,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -4835,6 +4902,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3272,
@@ -4850,15 +4926,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -4887,6 +4954,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4079,
@@ -4919,15 +4995,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4954,6 +5021,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3922,
@@ -4969,15 +5045,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5006,6 +5073,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3029,
@@ -5021,15 +5097,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5058,6 +5125,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3927,
@@ -5073,15 +5149,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5110,6 +5177,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3930,
@@ -5125,15 +5201,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5162,6 +5229,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 3649,
@@ -5177,15 +5253,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5213,7 +5280,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3289,
@@ -5240,6 +5306,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5265,7 +5332,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3938,
@@ -5292,6 +5358,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5317,7 +5384,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3036,
@@ -5344,6 +5410,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5369,7 +5436,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4094,
@@ -5426,6 +5492,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5451,7 +5518,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3943,
@@ -5478,6 +5544,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5503,7 +5570,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3046,
@@ -5530,6 +5596,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5555,7 +5622,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3251,
@@ -5582,6 +5648,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5607,7 +5674,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3723,
@@ -5634,6 +5700,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5659,7 +5726,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3402,
@@ -5686,6 +5752,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5711,7 +5778,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3067,
@@ -5738,6 +5804,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7405,6 +7472,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3983,
@@ -7422,7 +7490,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7457,6 +7524,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3170,
@@ -7474,7 +7542,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7509,6 +7576,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3987,
@@ -7526,7 +7594,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7561,6 +7628,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4089,
@@ -7593,7 +7661,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -7628,6 +7695,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3096,
@@ -7645,7 +7713,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7680,6 +7747,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3710,
@@ -7697,7 +7765,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7732,6 +7799,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3698,
@@ -7749,7 +7817,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7784,6 +7851,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4059,
@@ -7801,7 +7869,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7836,6 +7903,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3248,
@@ -7853,7 +7921,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7888,8 +7955,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 259,

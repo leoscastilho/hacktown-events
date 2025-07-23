@@ -1,7 +1,7 @@
 {
   "date": "2025-07-30",
   "total_events": 1,
-  "scraped_at": "2025-07-23T14:13:24.346018-03:00",
+  "scraped_at": "2025-07-23T15:21:47.223994-03:00",
   "events": [
     {
       "id": 1585,
@@ -23,7 +23,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
       "tags": [
         {
           "id": 29,
@@ -33,6 +32,7 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
