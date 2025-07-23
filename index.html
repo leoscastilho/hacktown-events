@@ -9,7 +9,7 @@
         
         :root {
             /* Primary Colors */
-            --primary-purple: #484F8B;
+            --primary-purple: #393F73;
             --primary-orange: #FF4500;
             --primary-gold: #FFD700;
             
@@ -350,6 +350,30 @@
             border-color: #ff6b3d;
         }
 
+        .sidebar-summary-info {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            padding: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .sidebar-event-count {
+            font-size: 1.2em;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--primary-orange);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar-last-update {
+            font-size: 0.85em;
+            opacity: 0.9;
+            color: var(--text-white);
+            line-height: 1.4;
+        }
+
         /* Header */
         header {
             background: var(--gradient-primary);
@@ -362,7 +386,7 @@
         .header-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 40px 0 80px;
+            padding: 0 40px;
             text-align: center;
             position: relative;
         }
@@ -388,39 +412,13 @@
 
         .subtitle {
             font-size: 1.2em;
-            color: var(--primary-orange);
+            color: var(--text-white);
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 2px;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
 
-        .summary-info {
-            position: absolute;
-            right: 40px;
-            top: 50%;
-            transform: translateY(-50%);
-            text-align: right;
-            color: var(--text-white);
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px 20px;
-            border-radius: var(--radius-xl);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .summary-info .event-count {
-            font-size: 1.3em;
-            font-weight: 700;
-            margin-bottom: 5px;
-            color: var(--primary-orange);
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .summary-info .last-update {
-            font-size: 0.85em;
-            opacity: 0.9;
-        }
 
         /* Scrolling Banner */
         .scrolling-banner {
@@ -541,6 +539,128 @@
             animation: scroll 30s linear infinite, shimmer 3s ease-in-out infinite;
         }
 
+        /* Sticky Day Navigation Bar */
+        .sticky-day-nav {
+            position: sticky;
+            top: 0;
+            background: var(--gradient-card);
+            backdrop-filter: blur(20px);
+            border-bottom: 2px solid var(--border-light);
+            padding: 10px 0;
+            z-index: 200;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-normal);
+        }
+
+        .sticky-day-nav.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(30px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .day-nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .current-day-display {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .current-day-label {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .current-day-value {
+            font-size: 1.4em;
+            font-weight: 900;
+            color: var(--primary-purple);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .day-nav-arrows {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .day-nav-btn {
+            background: var(--gradient-secondary);
+            color: var(--text-white);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            font-size: 18px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .day-nav-btn:hover {
+            transform: scale(1.1) translateY(-2px);
+            box-shadow: var(--shadow-colored);
+        }
+
+        .day-nav-btn:focus {
+            outline: 2px solid var(--primary-orange);
+            outline-offset: 2px;
+        }
+
+        .day-nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .day-nav-btn:disabled:hover {
+            transform: none;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .day-indicator-dots {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 0 15px;
+        }
+
+        .day-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--border-medium);
+            transition: all var(--transition-normal);
+            cursor: pointer;
+        }
+
+        .day-dot.active {
+            background: var(--primary-orange);
+            transform: scale(1.3);
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+        }
+
+        .day-dot:hover {
+            background: var(--primary-orange);
+            transform: scale(1.2);
+        }
+
         /* Main Container */
         .container {
             max-width: 1400px;
@@ -641,18 +761,17 @@
         /* Sticky Header for Time and Location */
         .time-location-header {
             position: sticky;
-            top: 0;
+            top: 58px; /* Height of sticky day nav (padding + content + border) */
             background: var(--gradient-card);
             backdrop-filter: blur(20px);
-            z-index: 100;
-            padding: 20px 0;
+            z-index: 150;
+            padding: 15px 0;
             margin-bottom: 25px;
             border-bottom: 2px solid var(--border-light);
             display: flex;
             align-items: center;
             gap: 20px;
-            /*border-radius: var(--radius-lg);*/
-            /*box-shadow: var(--shadow-md);*/
+            box-shadow: var(--shadow-sm);
         }
 
         .time-header {
@@ -1129,6 +1248,54 @@
                 align-items: flex-start;
                 gap: 10px;
             }
+
+            /* Sticky Day Nav Mobile Styles */
+            .sticky-day-nav {
+                padding: 8px 0;
+            }
+            
+            .day-nav-content {
+                padding: 0 20px;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .current-day-display {
+                flex-direction: column;
+                gap: 2px;
+                text-align: center;
+            }
+
+            .current-day-label {
+                font-size: 0.75em;
+            }
+
+            .current-day-value {
+                font-size: 1.1em;
+            }
+
+            .day-nav-arrows {
+                justify-content: center;
+            }
+
+            .day-nav-btn {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+            }
+
+            .day-indicator-dots {
+                gap: 5px;
+            }
+
+            .day-dot {
+                width: 6px;
+                height: 6px;
+            }
+            
+            .time-location-header {
+                padding: 12px 0;
+            }
         }
 
         /* Custom Scrollbar */
@@ -1222,6 +1389,14 @@
                 </select>
             </div>
         </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Informações do Evento</div>
+            <div class="sidebar-summary-info">
+                <div class="sidebar-event-count" id="sidebarTotalEvents">Carregando...</div>
+                <div class="sidebar-last-update" id="sidebarLastUpdate">Carregando...</div>
+            </div>
+        </div>
     </div>
 
     <!-- Sidebar Overlay -->
@@ -1232,16 +1407,33 @@
             <img src="logo.png" alt="HackTown 2025" class="logo">
             <h1>HackTown 2025</h1>
             <div class="subtitle">Programação Completa</div>
-            <div class="summary-info">
-                <div class="event-count" id="totalEvents">Carregando...</div>
-                <div class="last-update" id="lastUpdate">Carregando...</div>
-            </div>
         </div>
     </header>
 
     <div class="scrolling-banner">
         <div class="scrolling-text">
             INOVAÇÃO ◆ TECNOLOGIA ◆ CRIATIVIDADE ◆ SANTA RITA DO SAPUCAÍ ◆ MINAS GERAIS ◆ 2025 ◆ STARTUPS ◆ NEGÓCIOS ◆ CULTURA ◆ AMÉRICA LATINA ◆ 
+        </div>
+    </div>
+
+    <!-- Sticky Day Navigation Bar -->
+    <div class="sticky-day-nav" id="stickyDayNav">
+        <div class="day-nav-content">
+            <div class="current-day-display">
+                <span class="current-day-label">Dia Atual:</span>
+                <span class="current-day-value" id="currentDayDisplay">Carregando...</span>
+            </div>
+            <div class="day-nav-arrows">
+                <button class="day-nav-btn" id="prevDayBtn" onclick="navigateToPreviousDay()" aria-label="Dia anterior">
+                    ←
+                </button>
+                <div class="day-indicator-dots" id="dayIndicatorDots">
+                    <!-- Day dots will be inserted here -->
+                </div>
+                <button class="day-nav-btn" id="nextDayBtn" onclick="navigateToNextDay()" aria-label="Próximo dia">
+                    →
+                </button>
+            </div>
         </div>
     </div>
 
@@ -1307,6 +1499,11 @@
         let renderCache = new Map(); // Cache rendered HTML
         let filterDebounceTimer = null;
         let locationsData = null; // Store locations data for Google Maps links
+        
+        // Touch/swipe navigation variables
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let isScrolling = false;
 
         // Event dates
         const EVENT_DATES = [
@@ -1414,14 +1611,158 @@
             return location && location.gmaps ? location.gmaps : null;
         }
 
+        // Navigate to previous day
+        function navigateToPreviousDay() {
+            if (!currentDay) return;
+            
+            const currentIndex = EVENT_DATES.findIndex(event => event.date === currentDay);
+            if (currentIndex > 0) {
+                const previousDate = EVENT_DATES[currentIndex - 1].date;
+                selectDay(previousDate);
+            }
+        }
+
+        // Navigate to next day
+        function navigateToNextDay() {
+            if (!currentDay) return;
+            
+            const currentIndex = EVENT_DATES.findIndex(event => event.date === currentDay);
+            if (currentIndex < EVENT_DATES.length - 1) {
+                const nextDate = EVENT_DATES[currentIndex + 1].date;
+                selectDay(nextDate);
+            }
+        }
+
+        // Handle touch start for swipe navigation
+        function handleTouchStart(e) {
+            touchStartX = e.touches[0].clientX;
+            isScrolling = false;
+        }
+
+        // Handle touch move for swipe navigation
+        function handleTouchMove(e) {
+            if (!touchStartX) return;
+            
+            const currentX = e.touches[0].clientX;
+            const diffX = Math.abs(touchStartX - currentX);
+            
+            // If user is scrolling vertically, don't interfere
+            if (diffX < 50) {
+                isScrolling = true;
+                return;
+            }
+        }
+
+        // Handle touch end for swipe navigation
+        function handleTouchEnd(e) {
+            if (!touchStartX || isScrolling) {
+                touchStartX = 0;
+                touchEndX = 0;
+                isScrolling = false;
+                return;
+            }
+            
+            touchEndX = e.changedTouches[0].clientX;
+            const swipeDistance = touchStartX - touchEndX;
+            const minSwipeDistance = 100;
+            
+            if (Math.abs(swipeDistance) > minSwipeDistance) {
+                if (swipeDistance > 0) {
+                    // Swiped left - go to next day
+                    navigateToNextDay();
+                } else {
+                    // Swiped right - go to previous day
+                    navigateToPreviousDay();
+                }
+            }
+            
+            touchStartX = 0;
+            touchEndX = 0;
+            isScrolling = false;
+        }
+
+        // Update sticky day navigation bar
+        function updateStickyDayNav() {
+            if (!currentDay) return;
+            
+            const currentDayData = EVENT_DATES.find(day => day.date === currentDay);
+            if (currentDayData) {
+                document.getElementById('currentDayDisplay').textContent = currentDayData.label;
+            }
+            
+            // Update navigation buttons
+            const currentIndex = EVENT_DATES.findIndex(day => day.date === currentDay);
+            const prevBtn = document.getElementById('prevDayBtn');
+            const nextBtn = document.getElementById('nextDayBtn');
+            
+            prevBtn.disabled = currentIndex <= 0;
+            nextBtn.disabled = currentIndex >= EVENT_DATES.length - 1;
+            
+            // Update day indicator dots
+            updateDayIndicatorDots();
+        }
+
+        // Create day indicator dots
+        function createDayIndicatorDots() {
+            const dotsContainer = document.getElementById('dayIndicatorDots');
+            dotsContainer.innerHTML = '';
+            
+            EVENT_DATES.forEach(({ date, label }, index) => {
+                const dot = document.createElement('div');
+                dot.className = 'day-dot';
+                dot.title = label;
+                dot.onclick = () => selectDay(date);
+                dot.setAttribute('data-date', date);
+                dotsContainer.appendChild(dot);
+            });
+        }
+
+        // Update day indicator dots
+        function updateDayIndicatorDots() {
+            const dots = document.querySelectorAll('.day-dot');
+            dots.forEach(dot => {
+                dot.classList.toggle('active', dot.getAttribute('data-date') === currentDay);
+            });
+        }
+
+        // Handle scroll events for sticky nav styling
+        function handleStickyNavScroll() {
+            const stickyNav = document.getElementById('stickyDayNav');
+            const scrolled = window.scrollY > 100;
+            stickyNav.classList.toggle('scrolled', scrolled);
+            
+            // Update time-location-header top position based on sticky nav height
+            updateTimeLocationHeaderPosition();
+        }
+
+        // Update time-location-header positioning
+        function updateTimeLocationHeaderPosition() {
+            const stickyNav = document.getElementById('stickyDayNav');
+            const timeLocationHeaders = document.querySelectorAll('.time-location-header');
+            
+            if (stickyNav && timeLocationHeaders.length > 0) {
+                const stickyNavHeight = stickyNav.offsetHeight;
+                timeLocationHeaders.forEach(header => {
+                    header.style.top = `${stickyNavHeight}px`;
+                });
+            }
+        }
+
         // Initialize the app
         async function init() {
             loadFavorites(); // Load saved favorites
             createDayButtons();
+            createDayIndicatorDots(); // Create day indicator dots
             await loadSummary();
             await loadLocations(); // Load locations data
             // Don't load all events upfront anymore
             updateSummaryDisplay();
+            
+            // Set up scroll listener for sticky nav
+            window.addEventListener('scroll', handleStickyNavScroll, { passive: true });
+            
+            // Set up resize listener to update positioning
+            window.addEventListener('resize', updateTimeLocationHeaderPosition, { passive: true });
             
             // Set up toggles
             const speakerToggle = document.getElementById('showSpeakers');
@@ -1460,6 +1801,12 @@
                 }
             });
             
+            // Set up touch/swipe navigation
+            const timeline = document.getElementById('timeline');
+            timeline.addEventListener('touchstart', handleTouchStart, { passive: true });
+            timeline.addEventListener('touchmove', handleTouchMove, { passive: true });
+            timeline.addEventListener('touchend', handleTouchEnd, { passive: true });
+            
             // Select first day by default
             if (EVENT_DATES.length > 0) {
                 selectDay(EVENT_DATES[0].date);
@@ -1480,8 +1827,11 @@
 
         // Update summary display
         function updateSummaryDisplay() {
+            const sidebarTotalEvents = document.getElementById('sidebarTotalEvents');
+            const sidebarLastUpdate = document.getElementById('sidebarLastUpdate');
+            
             if (summaryData) {
-                document.getElementById('totalEvents').textContent = `${summaryData.total_events} eventos`;
+                sidebarTotalEvents.textContent = `${summaryData.total_events} eventos`;
                 
                 if (summaryData.scraping_completed) {
                     const lastUpdate = new Date(summaryData.scraping_completed);
@@ -1491,13 +1841,13 @@
                         hour: '2-digit',
                         minute: '2-digit'
                     });
-                    document.getElementById('lastUpdate').textContent = `Atualizado: ${formattedDate}`;
+                    sidebarLastUpdate.textContent = `Atualizado: ${formattedDate}`;
                 } else {
-                    document.getElementById('lastUpdate').textContent = 'Atualização em andamento';
+                    sidebarLastUpdate.textContent = 'Atualização em andamento';
                 }
             } else {
-                document.getElementById('totalEvents').textContent = 'Eventos disponíveis';
-                document.getElementById('lastUpdate').textContent = '';
+                sidebarTotalEvents.textContent = 'Eventos disponíveis';
+                sidebarLastUpdate.textContent = '';
             }
         }
 
@@ -1597,6 +1947,9 @@
             document.querySelectorAll('.day-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.getAttribute('data-date') === date);
             });
+            
+            // Update sticky day navigation
+            updateStickyDayNav();
             
             // Load events for this day if not already loaded
             await loadEventsForDay(date);
@@ -1716,6 +2069,9 @@
                 const firstKey = renderCache.keys().next().value;
                 renderCache.delete(firstKey);
             }
+            
+            // Update time-location-header positioning after content is rendered
+            setTimeout(updateTimeLocationHeaderPosition, 10);
         }
 
         // Format time key for grouping
@@ -1937,6 +2293,17 @@
                 if (sidebar.classList.contains('active')) {
                     toggleMenu();
                 }
+            }
+            
+            // Handle arrow key navigation between days
+            if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                navigateToPreviousDay();
+            }
+            
+            if (e.key === 'ArrowRight') {
+                e.preventDefault();
+                navigateToNextDay();
             }
             
             // Handle Enter key on event cards
