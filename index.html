@@ -559,9 +559,9 @@
         }
 
         .day-nav-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 40px;
+            padding: 0 25px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -816,7 +816,7 @@
             background: var(--gradient-card);
             border: 1px solid var(--border-light);
             border-radius: var(--radius-xl);
-            padding: 25px;
+            padding: 20px;
             cursor: pointer;
             transition: all var(--transition-normal);
             position: relative;
@@ -828,7 +828,7 @@
         }
 
         .event-card.compact {
-            padding: 18px;
+            padding: 15px;
         }
 
         .event-card.favorite {
@@ -970,24 +970,25 @@
         }
 
         .speaker-preview {
-            margin-top: 18px;
-            padding-top: 15px;
+            margin-top: 10px;
+            padding-top: 8px;
             border-top: 1px solid var(--border-light);
             font-size: 0.9em;
             color: var(--text-secondary);
         }
 
         .compact .speaker-preview {
-            margin-top: 12px;
-            padding-top: 10px;
-            font-size: 0.85em;
+            margin-top: 8px;
+            padding-top: 6px;
+            font-size: 0.8em;
         }
 
         .speaker-preview-item {
-            margin: 6px 0;
+            margin: 3px 0;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 3px;
+            font-size: 0.9em;
         }
         
         .speaker-preview-item::before {
@@ -1359,7 +1360,7 @@
             <div class="toggle-item">
                 <label for="showLocation">Mostrar local nos cards</label>
                 <label class="toggle-switch">
-                    <input type="checkbox" id="showLocation" checked>
+                    <input type="checkbox" id="showLocation">
                     <span class="slider"></span>
                 </label>
             </div>
@@ -1491,7 +1492,7 @@
         let currentDay = null;
         let locations = new Set();
         let showSpeakers = true;
-        let showLocation = true;
+        let showLocation = false;
         let compactMode = false;
         let showFavoritesOnly = false;
         let summaryData = null;
@@ -2044,7 +2045,22 @@
                         <div class="location-group">
                             <div class="time-location-header">
                                 <div class="time-header">${startTime} - ${endTime}</div>
-                                ${sortedLocations.length > 1 || locationFilter ? `<div class="location-group-header">${location}</div>` : ''}
+                                ${sortedLocations.length > 1 || locationFilter ? `
+                                    ${getGoogleMapsLink(location) ? `
+                                        <a href="${getGoogleMapsLink(location)}"
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           class="location-group-header"
+                                           style="text-decoration: none; cursor: pointer; transition: all var(--transition-normal);"
+                                           title="Clique para ver direções no Google Maps"
+                                           onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='var(--shadow-lg)'"
+                                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-md)'">
+                                            ${location}
+                                        </a>
+                                    ` : `
+                                        <div class="location-group-header">${location}</div>
+                                    `}
+                                ` : ''}
                             </div>
                             <div class="location-events">
                     `;
@@ -2130,25 +2146,8 @@
                     </button>
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
                     ${showLocation && event.place ? `
-                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <div style="margin-bottom: 10px;">
                             <span class="event-place">${event.place}</span>
-                            ${getGoogleMapsLink(event.filterLocation || event.place) ? `
-                                <a href="${getGoogleMapsLink(event.filterLocation || event.place)}"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   onclick="event.stopPropagation()"
-                                   style="display: inline-flex; align-items: center; justify-content: center;
-                                          background: var(--bg-secondary); color: white;
-                                          text-decoration: none; border-radius: 50%;
-                                          width: 35px; height: 35px; font-size: 15px;
-                                          border: 1px solid var(--primary-orange);
-                                          transition: all var(--transition-normal);"
-                                   title="Ver direções no Google Maps"
-                                   onmouseover="this.style.transform='scale(1.1)'"
-                                   onmouseout="this.style.transform='scale(1)'">
-                                    📍
-                                </a>
-                            ` : ''}
                         </div>
                     ` : ''}
             `;
@@ -2157,12 +2156,12 @@
             if (showSpeakers && event.speakers && event.speakers.length > 0) {
                 cardHtml += '<div class="speaker-preview">';
                 event.speakers.forEach((speaker, index) => {
-                    if (index < 3) { // Show max 3 speakers
+                    if (index < 2) { // Show max 2 speakers
                         cardHtml += `<div class="speaker-preview-item">${speaker.name || 'Palestrante'}</div>`;
                     }
                 });
-                if (event.speakers.length > 3) {
-                    cardHtml += `<div class="speaker-preview-item">... e mais ${event.speakers.length - 3}</div>`;
+                if (event.speakers.length > 2) {
+                    cardHtml += `<div class="speaker-preview-item">... e mais ${event.speakers.length - 2}</div>`;
                 }
                 cardHtml += '</div>';
             }
@@ -2198,7 +2197,7 @@
                     ${event.place ? `
                         <div class="modal-info-item">
                             <span class="modal-info-label">Local:</span>
-                            <div style="display: flex; align-items: center; gap: 10px;">
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
                                 <span>${event.place}</span>
                                 ${getGoogleMapsLink(event.filterLocation || event.place) ? `
                                     <a href="${getGoogleMapsLink(event.filterLocation || event.place)}" 
@@ -2208,7 +2207,8 @@
                                               background: var(--gradient-secondary); color: white; 
                                               text-decoration: none; border-radius: var(--radius-full); 
                                               padding: 8px 16px; font-size: 0.9em; font-weight: 600;
-                                              transition: all var(--transition-normal);"
+                                              transition: all var(--transition-normal);
+                                              align-self: flex-start;"
                                        title="Ver direções no Google Maps"
                                        onmouseover="this.style.transform='translateY(-2px) scale(1.05)'"
                                        onmouseout="this.style.transform='translateY(0) scale(1)'">
