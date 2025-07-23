@@ -305,17 +305,30 @@ async def main():
 
     start_time = time.time()
 
+    # Load existing summary if it exists
+    summary_file = os.path.join(OUTPUT_DIR, "summary.json")
+    existing_summary = {}
+    if os.path.exists(summary_file):
+        try:
+            with open(summary_file, 'r', encoding='utf-8') as f:
+                existing_summary = json.load(f)
+            logger.info(f"Loaded existing summary with {existing_summary.get('total_events', 0)} events")
+        except Exception as e:
+            logger.warning(f"Could not load existing summary: {e}")
+
     # Fetch all events concurrently
     all_events = await fetch_all_dates(EVENT_DATES)
 
     # Track statistics
     total_events = 0
+    fetch_successful = False
 
     # Save results
     for date, events in all_events.items():
         if events:
             save_events_to_file(date, events)
             total_events += len(events)
+            fetch_successful = True
         else:
             logger.warning(f"No events found for {date}")
 
@@ -326,20 +339,32 @@ async def main():
     logger.info(f"Time taken: {elapsed_time:.2f} seconds")
     logger.info(f"Files saved in: {os.path.abspath(OUTPUT_DIR)}")
 
-    # Create a summary file with BRT timestamp
-    summary_file = os.path.join(OUTPUT_DIR, "summary.json")
-
     # Get current time in BRT
     utc_now = datetime.now(ZoneInfo('UTC'))
     brt_now = utc_now.astimezone(ZoneInfo('America/Sao_Paulo'))
 
-    summary_data = {
-        "scraping_completed": brt_now.isoformat(),
-        "total_events": total_events,
-        "dates_processed": EVENT_DATES,
-        "files_created": [f"hacktown_events_{date}.json" for date in EVENT_DATES],
-        "scraping_time_seconds": round(elapsed_time, 2)
-    }
+    # Prepare summary data
+    if fetch_successful:
+        # Update with new data if fetch was successful
+        summary_data = {
+            "scraping_completed": brt_now.isoformat(),
+            "total_events": total_events,
+            "dates_processed": EVENT_DATES,
+            "files_created": [f"hacktown_events_{date}.json" for date in EVENT_DATES],
+            "scraping_time_seconds": round(elapsed_time, 2)
+        }
+        logger.info("Fetch successful - updating summary with new data")
+    else:
+        # Preserve old values if fetch failed
+        summary_data = {
+            "scraping_completed": existing_summary.get("scraping_completed", brt_now.isoformat()),
+            "total_events": existing_summary.get("total_events", 0),
+            "dates_processed": EVENT_DATES,
+            "files_created": existing_summary.get("files_created", []),
+            "scraping_time_seconds": round(elapsed_time, 2),
+            "last_failed_attempt": brt_now.isoformat()
+        }
+        logger.warning("Fetch failed - preserving existing summary values")
 
     with open(summary_file, 'w', encoding='utf-8') as f:
         json.dump(summary_data, f, indent=2)
