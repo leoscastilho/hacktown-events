@@ -765,38 +765,45 @@
             background: var(--gradient-card);
             backdrop-filter: blur(20px);
             z-index: 150;
-            padding: 15px 0;
+            padding: 12px 0;
             margin-bottom: 25px;
             border-bottom: 2px solid var(--border-light);
             display: flex;
             align-items: center;
-            gap: 20px;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            gap: 15px;
             box-shadow: var(--shadow-sm);
         }
 
         .time-header {
-            font-size: 1.8em;
+            font-size: clamp(1.2em, 4vw, 1.8em);
             font-weight: 900;
             color: var(--primary-purple);
             text-transform: uppercase;
             letter-spacing: -1px;
             flex-shrink: 0;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
         }
 
         .location-group-header {
-            font-size: 1em;
+            font-size: clamp(0.8em, 3vw, 1em);
             font-weight: 700;
             color: var(--text-white);
             background: var(--gradient-secondary);
-            padding: 10px 20px;
+            padding: 8px 16px;
             border-radius: var(--radius-full);
             display: inline-block;
             text-transform: uppercase;
             letter-spacing: 1px;
-            flex-shrink: 0;
+            flex-shrink: 1;
             box-shadow: var(--shadow-md);
             border: 1px solid rgba(255, 255, 255, 0.2);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 60%;
         }
 
         /* Location Groups */
@@ -1245,9 +1252,18 @@
             }
 
             .time-location-header {
-                flex-direction: column;
-                align-items: flex-start;
+                padding: 10px 0;
                 gap: 10px;
+            }
+            
+            .time-header {
+                font-size: clamp(1em, 5vw, 1.3em);
+            }
+            
+            .location-group-header {
+                font-size: clamp(0.75em, 4vw, 0.9em);
+                padding: 6px 12px;
+                max-width: 70%;
             }
 
             /* Sticky Day Nav Mobile Styles */
@@ -1295,7 +1311,7 @@
             }
             
             .time-location-header {
-                padding: 12px 0;
+                padding: 8px 0;
             }
         }
 
@@ -2247,7 +2263,7 @@
                     html += `
                         <div class="speaker-card">
                             <div class="speaker-name">${speaker.name || 'Palestrante'}</div>
-                            ${speaker.role ? `<div class="speaker-role">${speaker.role}</div>` : ''}
+                            ${speaker.role && typeof speaker.role === 'string' && speaker.role.trim() !== '' && speaker.role !== '{}' ? `<div class="speaker-role">${speaker.role}</div>` : ''}
                         </div>
                     `;
                 });
