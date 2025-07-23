@@ -1555,7 +1555,7 @@
         let locations = new Set();
         let showSpeakers = true;
         let showLocation = false;
-        let compactMode = false;
+        let compactMode = true;
         let showFavoritesOnly = false;
         let summaryData = null;
         let favorites = new Set();
@@ -1740,7 +1740,7 @@
             if (navigator.share) {
                 navigator.share({
                     title: `Confira este evento no HackTown 2025!`,
-                    text: `${event.title}`,
+                    text: `Confira este evento no HackTown 2025: \n ${event.title}`,
                     url: shareUrl
                 }).catch(err => {
                     console.log('Error sharing:', err);
