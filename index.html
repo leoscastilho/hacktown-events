@@ -961,6 +961,30 @@
             transform: scale(1.1);
         }
 
+        /* New Event Pill */
+        .new-event-pill {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: var(--bg-primary);
+            color: var(--primary-gold);
+            padding: 2px 8px;
+            border-radius: var(--radius-full);
+            font-size: 0.65em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            z-index: 10;
+            box-shadow: var(--shadow-sm);
+            border: 1.5px solid var(--primary-gold);
+        }
+
+        .new-event-pill::before {
+            content: '✨';
+            margin-right: 2px;
+            font-size: 0.8em;
+        }
+
         /* Share Button */
         .share-btn {
             position: absolute;
@@ -1578,6 +1602,7 @@
         let showFavoritesOnly = false;
         let summaryData = null;
         let favorites = new Set();
+        let viewedEvents = new Set(); // Cache for events that have been viewed
         let renderCache = new Map(); // Cache rendered HTML
         let filterDebounceTimer = null;
         let locationsData = null; // Store locations data for Google Maps links
@@ -1618,6 +1643,43 @@
             } catch (error) {
                 console.error('Error saving favorites:', error);
             }
+        }
+
+        // Load viewed events from localStorage
+        function loadViewedEvents() {
+            try {
+                const saved = localStorage.getItem('hacktown2025_viewed_events');
+                if (saved) {
+                    viewedEvents = new Set(JSON.parse(saved));
+                }
+            } catch (error) {
+                console.error('Error loading viewed events:', error);
+                viewedEvents = new Set();
+            }
+        }
+
+        // Save viewed events to localStorage
+        function saveViewedEvents() {
+            try {
+                localStorage.setItem('hacktown2025_viewed_events', JSON.stringify([...viewedEvents]));
+            } catch (error) {
+                console.error('Error saving viewed events:', error);
+            }
+        }
+
+        // Mark event as viewed
+        function markEventAsViewed(eventId) {
+            if (!viewedEvents.has(eventId)) {
+                viewedEvents.add(eventId);
+                saveViewedEvents();
+                // Clear render cache when viewed status changes
+                renderCache.clear();
+            }
+        }
+
+        // Check if event has been viewed
+        function isEventViewed(event) {
+            return viewedEvents.has(getEventId(event));
         }
 
         // Create unique event ID
@@ -1689,6 +1751,14 @@
                 let maxVisibilityRatio = 0;
 
                 entries.forEach(entry => {
+                    // Mark event as viewed when it's sufficiently visible
+                    if (entry.intersectionRatio > 0.5) {
+                        const eventId = entry.target.dataset.eventId;
+                        if (eventId && !viewedEvents.has(eventId)) {
+                            markEventAsViewed(eventId);
+                        }
+                    }
+
                     if (entry.intersectionRatio > maxVisibilityRatio) {
                         maxVisibilityRatio = entry.intersectionRatio;
                         mostVisibleEvent = entry.target;
@@ -2061,6 +2131,7 @@
         // Initialize the app
         async function init() {
             loadFavorites(); // Load saved favorites
+            loadViewedEvents(); // Load viewed events cache
             createDayButtons();
             createDayIndicatorDots(); // Create day indicator dots
             await loadSummary();
@@ -2467,6 +2538,7 @@
                      tabindex="0" 
                      role="button" 
                      aria-label="Ver detalhes do evento: ${event.title}">
+                    ${!isEventViewed(event) ? '<div class="new-event-pill">Novo</div>' : ''}
                     <button class="favorite-btn ${isFavorite(event) ? 'active' : ''}" 
                             onclick="toggleFavorite(${eventData}, event)" 
                             tabindex="0"
