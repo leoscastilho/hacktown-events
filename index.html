@@ -1736,7 +1736,8 @@
             const params = new URLSearchParams(hash);
             return {
                 day: params.get('day'),
-                eventId: params.get('event')
+                eventId: params.get('event'),
+                openCard: params.get('openCard') === 'true'
             };
         }
 
@@ -1823,7 +1824,7 @@
             
             const eventId = getEventId(event);
             const baseUrl = 'https://leoscastilho.github.io/hacktown-events/';
-            const shareUrl = `${baseUrl}#day=${currentDay}&event=${eventId}`;
+            const shareUrl = `${baseUrl}#day=${currentDay}&event=${eventId}&openCard=true`;
             
             // Try to use Web Share API if available
             if (navigator.share) {
@@ -2193,7 +2194,7 @@
             
             if (hashParams.day && EVENT_DATES.some(date => date.date === hashParams.day)) {
                 // Valid day in URL hash
-                selectDay(hashParams.day, hashParams.eventId);
+                selectDay(hashParams.day, hashParams.eventId, hashParams.openCard);
             } else if (EVENT_DATES.length > 0) {
                 // Select first day by default
                 selectDay(EVENT_DATES[0].date);
@@ -2327,7 +2328,7 @@
         }
 
         // Select a day and display its events
-        async function selectDay(date, eventId = null) {
+        async function selectDay(date, eventId = null, openCard = false) {
             currentDay = date;
             
             // Update active button
@@ -2348,7 +2349,7 @@
             
             // Scroll to specific event if provided
             if (eventId) {
-                setTimeout(() => scrollToEvent(eventId, true), 500);
+                setTimeout(() => scrollToEvent(eventId, openCard), 500);
             }
         }
 
