@@ -25,11 +25,11 @@ IS_CI = os.environ.get('CI', 'false').lower() == 'true' or os.environ.get('GITHU
 # Adjust settings for CI environment
 if IS_CI:
     MAX_CONCURRENT_REQUESTS = 1  # More conservative in CI
-    RETRY_DELAY = 20  # Longer initial delay in CI
+    RETRY_DELAY = 10  # Longer initial delay in CI
     print("Running in CI environment - using conservative settings")
 else:
     MAX_CONCURRENT_REQUESTS = 2  # Normal setting for local
-    RETRY_DELAY = 10  # Normal delay for local
+    RETRY_DELAY = 5  # Normal delay for local
 
 MAX_RETRIES = 5
 REQUEST_TIMEOUT = 30  # seconds
@@ -140,12 +140,11 @@ async def fetch_page(session: aiohttp.ClientSession, date: str, page: int) -> Op
                     return await response.json()
                 elif response.status == 403 and attempt < MAX_RETRIES - 1:
                     logger.warning(f"403 error for {date} page {page}, attempt {attempt + 1}, retrying...")
-                    # Exponential backoff with jitter
-                    retry_delay = RETRY_DELAY * (2 ** attempt) + random.uniform(0, 5)
-                    if IS_CI:
-                        retry_delay *= 2  # Double the delay in CI
+                    # Exponential backoff with jitter, capped between 5 and 30 seconds
+                    base_delay = RETRY_DELAY * (2 ** attempt) + random.uniform(0, 5)
+                    retry_delay = max(5, min(base_delay, 30))  # Clamp between 5 and 30 seconds
                     logger.info(f"Waiting {retry_delay:.1f} seconds before retry...")
-                    await asyncio.sleep(min(retry_delay, 120))  # Cap at 2 minutes
+                    await asyncio.sleep(retry_delay)
                     continue
                 else:
                     logger.error(f"HTTP {response.status} for {date} page {page}")
@@ -162,6 +161,7 @@ async def fetch_page(session: aiohttp.ClientSession, date: str, page: int) -> Op
                 await asyncio.sleep(RETRY_DELAY)
                 continue
             return None
+    return None
 
 
 async def fetch_all_pages_for_date(session: aiohttp.ClientSession, date: str, semaphore: asyncio.Semaphore) -> List[
