@@ -942,6 +942,50 @@
             transform: scale(1.1);
         }
 
+        /* Share Button */
+        .share-btn {
+            position: absolute;
+            top: 60px;
+            right: 12px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--border-light);
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            z-index: 10;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .share-btn:hover {
+            transform: scale(1.15) rotate(15deg);
+            border-color: var(--primary-purple);
+            background: #f8fafc;
+            box-shadow: var(--shadow-md);
+        }
+
+        .share-btn:focus {
+            outline: 2px solid var(--primary-orange);
+            outline-offset: 2px;
+        }
+
+        .share-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--text-secondary);
+            transition: all var(--transition-normal);
+        }
+
+        .share-btn:hover svg {
+            fill: var(--primary-purple);
+            transform: scale(1.1);
+        }
+
         .event-title {
             font-size: 1.2em;
             font-weight: 700;
@@ -1518,6 +1562,8 @@
         let renderCache = new Map(); // Cache rendered HTML
         let filterDebounceTimer = null;
         let locationsData = null; // Store locations data for Google Maps links
+        let currentHighlightedEvent = null; // Track currently highlighted event
+        let scrollObserver = null; // Intersection observer for scroll tracking
         
         // Touch/swipe navigation variables
         let touchStartX = 0;
@@ -1593,6 +1639,232 @@
         // Check if event is favorite
         function isFavorite(event) {
             return favorites.has(getEventId(event));
+        }
+
+        // Update URL hash with current day and highlighted event
+        function updateUrlHash(day, eventId = null) {
+            const hash = eventId ? `#day=${day}&event=${eventId}` : `#day=${day}`;
+            if (window.location.hash !== hash) {
+                window.history.replaceState(null, null, hash);
+            }
+        }
+
+        // Parse URL hash to get day and event parameters
+        function parseUrlHash() {
+            const hash = window.location.hash.slice(1);
+            const params = new URLSearchParams(hash);
+            return {
+                day: params.get('day'),
+                eventId: params.get('event')
+            };
+        }
+
+        // Setup scroll observer to track visible events
+        function setupScrollObserver() {
+            if (scrollObserver) {
+                scrollObserver.disconnect();
+            }
+
+            scrollObserver = new IntersectionObserver((entries) => {
+                let mostVisibleEvent = null;
+                let maxVisibilityRatio = 0;
+
+                entries.forEach(entry => {
+                    if (entry.intersectionRatio > maxVisibilityRatio) {
+                        maxVisibilityRatio = entry.intersectionRatio;
+                        mostVisibleEvent = entry.target;
+                    }
+                });
+
+                if (mostVisibleEvent && maxVisibilityRatio > 0.5) {
+                    const eventId = mostVisibleEvent.dataset.eventId;
+                    if (eventId && currentHighlightedEvent !== eventId) {
+                        currentHighlightedEvent = eventId;
+                        updateUrlHash(currentDay, eventId);
+                    }
+                }
+            }, {
+                root: null,
+                rootMargin: '-20% 0px -20% 0px',
+                threshold: [0, 0.25, 0.5, 0.75, 1]
+            });
+        }
+
+        // Scroll to specific event
+        function scrollToEvent(eventId, openModal = false) {
+            const eventCard = document.querySelector(`[data-event-id="${eventId}"]`);
+            if (eventCard) {
+                eventCard.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+                currentHighlightedEvent = eventId;
+                updateUrlHash(currentDay, eventId);
+                
+                // If openModal is true, automatically open the event details
+                if (openModal) {
+                    // Find the event data and show details
+                    setTimeout(() => {
+                        const eventData = findEventById(eventId);
+                        if (eventData) {
+                            showEventDetails(eventData);
+                        }
+                    }, 800); // Wait for scroll animation to complete
+                }
+            }
+        }
+
+        // Find event by ID across all loaded days
+        function findEventById(eventId) {
+            for (const date in allEvents) {
+                const events = allEvents[date];
+                const event = events.find(e => getEventId(e) === eventId);
+                if (event) {
+                    return event;
+                }
+            }
+            return null;
+        }
+
+        // Share event function
+        function shareEvent(event, e) {
+            if (e) {
+                e.stopPropagation();
+            }
+            
+            const eventId = getEventId(event);
+            const baseUrl = 'https://leoscastilho.github.io/hacktown-events/';
+            const shareUrl = `${baseUrl}#day=${currentDay}&event=${eventId}`;
+            
+            // Try to use Web Share API if available
+            if (navigator.share) {
+                navigator.share({
+                    title: `Confira este evento no HackTown 2025!`,
+                    text: `${event.title}`,
+                    url: shareUrl
+                }).catch(err => {
+                    console.log('Error sharing:', err);
+                    fallbackShare(shareUrl, event.title);
+                });
+            } else {
+                fallbackShare(shareUrl, event.title);
+            }
+        }
+
+        // Fallback share function
+        function fallbackShare(url, title) {
+            // Copy to clipboard
+            navigator.clipboard.writeText(url).then(() => {
+                // Show a temporary notification
+                showShareNotification('Link copiado para a área de transferência!');
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+                // Fallback to manual selection
+                showShareModal(url, title);
+            });
+        }
+
+        // Show share notification
+        function showShareNotification(message) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.textContent = message;
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--gradient-secondary);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                box-shadow: var(--shadow-lg);
+                z-index: 4000;
+                font-weight: 600;
+                animation: slideInUp 0.3s ease-out;
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideInUp 0.3s ease-in reverse';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Show share modal as fallback
+        function showShareModal(url, title) {
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: var(--bg-overlay);
+                z-index: 4000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                backdrop-filter: blur(20px);
+            `;
+            
+            const content = document.createElement('div');
+            content.style.cssText = `
+                background: var(--gradient-card);
+                padding: 30px;
+                border-radius: 16px;
+                max-width: 500px;
+                width: 90%;
+                text-align: center;
+                box-shadow: var(--shadow-2xl);
+            `;
+            
+            content.innerHTML = `
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Compartilhar Evento</h3>
+                <p style="margin-bottom: 20px; color: var(--text-secondary);">${title}</p>
+                <input type="text" value="${url}" readonly style="
+                    width: 100%;
+                    padding: 12px;
+                    border: 2px solid var(--border-light);
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    font-family: monospace;
+                    background: var(--bg-secondary);
+                ">
+                <div>
+                    <button onclick="navigator.clipboard.writeText('${url}').then(() => { showShareNotification('Link copiado!'); this.closest('.share-modal').remove(); })" style="
+                        background: var(--gradient-secondary);
+                        color: white;
+                        border: none;
+                        padding: 12px 24px;
+                        border-radius: 8px;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        font-weight: 600;
+                    ">Copiar Link</button>
+                    <button onclick="this.closest('.share-modal').remove()" style="
+                        background: var(--border-medium);
+                        color: var(--text-secondary);
+                        border: none;
+                        padding: 12px 24px;
+                        border-radius: 8per;
+                        cursor: pointer;
+                        font-weight: 600;
+                    ">Fechar</button>
+                </div>
+            `;
+            
+            modal.appendChild(content);
+            modal.className = 'share-modal';
+            document.body.appendChild(modal);
+            
+            // Close on backdrop click
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
         }
 
         // Toggle menu
@@ -1826,8 +2098,14 @@
             timeline.addEventListener('touchmove', handleTouchMove, { passive: true });
             timeline.addEventListener('touchend', handleTouchEnd, { passive: true });
             
-            // Select first day by default
-            if (EVENT_DATES.length > 0) {
+            // Parse URL hash and select appropriate day/event
+            const hashParams = parseUrlHash();
+            
+            if (hashParams.day && EVENT_DATES.some(date => date.date === hashParams.day)) {
+                // Valid day in URL hash
+                selectDay(hashParams.day, hashParams.eventId);
+            } else if (EVENT_DATES.length > 0) {
+                // Select first day by default
                 selectDay(EVENT_DATES[0].date);
             }
         }
@@ -1959,7 +2237,7 @@
         }
 
         // Select a day and display its events
-        async function selectDay(date) {
+        async function selectDay(date, eventId = null) {
             currentDay = date;
             
             // Update active button
@@ -1974,6 +2252,14 @@
             await loadEventsForDay(date);
             
             displayEvents(date);
+            
+            // Update URL hash
+            updateUrlHash(date, eventId);
+            
+            // Scroll to specific event if provided
+            if (eventId) {
+                setTimeout(() => scrollToEvent(eventId, true), 500);
+            }
         }
 
         // Display events for the selected day
@@ -2106,6 +2392,13 @@
             
             // Update time-location-header positioning after content is rendered
             setTimeout(updateTimeLocationHeaderPosition, 10);
+            
+            // Setup scroll observer for visible events
+            setTimeout(() => {
+                setupScrollObserver();
+                const eventCards = document.querySelectorAll('.event-card[data-event-id]');
+                eventCards.forEach(card => scrollObserver.observe(card));
+            }, 100);
         }
 
         // Format time key for grouping
@@ -2151,6 +2444,7 @@
             let cardHtml = `
                 <div class="event-card ${compactClass} ${favoriteClass} ${eventTypeClass}" 
                      onclick="showEventDetails(${eventData})" 
+                     data-event-id="${eventId}"
                      tabindex="0" 
                      role="button" 
                      aria-label="Ver detalhes do evento: ${event.title}">
@@ -2160,6 +2454,14 @@
                             aria-label="${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        </svg>
+                    </button>
+                    <button class="share-btn" 
+                            onclick="shareEvent(${eventData}, event)" 
+                            tabindex="0"
+                            aria-label="Compartilhar evento">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.50-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/>
                         </svg>
                     </button>
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
