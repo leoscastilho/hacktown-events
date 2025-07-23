@@ -52,7 +52,7 @@
         }
 
         .menu-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translate(6px, 6px);
+            transform: rotate(45deg) translateY(9px);
         }
 
         .menu-toggle.active span:nth-child(2) {
@@ -60,7 +60,7 @@
         }
 
         .menu-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(6px, -6px);
+            transform: rotate(-45deg) translateY(-9px);
         }
 
         .sidebar {
@@ -315,10 +315,10 @@
 
         @keyframes scroll {
             0% {
-                transform: translate(0, 0);
+                transform: translateX(0);
             }
             100% {
-                transform: translate(-100%, 0);
+                transform: translateX(-100%);
             }
         }
 
@@ -415,6 +415,7 @@
             position: relative;
             overflow: hidden;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            contain: layout style paint;
         }
 
         .event-card.compact {
@@ -436,6 +437,7 @@
             background: linear-gradient(90deg, #FF4500, #ff6b3d);
             transform: translateX(-100%);
             transition: transform 0.3s;
+            will-change: transform;
         }
 
         .event-card.favorite::before {
@@ -883,14 +885,17 @@
     <script>
         // Global variables
         let allEvents = {};
+        let loadedDays = new Set(); // Track which days have been loaded
         let currentDay = null;
         let locations = new Set();
-        let showSpeakers = false;
+        let showSpeakers = true;
         let showLocation = true;
-        let compactMode = false;
+        let compactMode = true;
         let showFavoritesOnly = false;
         let summaryData = null;
         let favorites = new Set();
+        let renderCache = new Map(); // Cache rendered HTML
+        let filterDebounceTimer = null;
 
         // Event dates
         const EVENT_DATES = [
@@ -943,6 +948,9 @@
             
             saveFavorites();
             
+            // Clear cache when favorites change
+            renderCache.clear();
+            
             // Update UI if needed
             if (currentDay) {
                 displayEvents(currentDay);
@@ -976,14 +984,14 @@
             loadFavorites(); // Load saved favorites
             createDayButtons();
             await loadSummary();
-            await loadAllEvents();
-            populateLocationFilter();
+            // Don't load all events upfront anymore
             updateSummaryDisplay();
             
             // Set up toggles
             const speakerToggle = document.getElementById('showSpeakers');
             speakerToggle.addEventListener('change', (e) => {
                 showSpeakers = e.target.checked;
+                renderCache.clear();
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -992,6 +1000,7 @@
             const locationToggle = document.getElementById('showLocation');
             locationToggle.addEventListener('change', (e) => {
                 showLocation = e.target.checked;
+                renderCache.clear();
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -1000,6 +1009,7 @@
             const compactToggle = document.getElementById('compactMode');
             compactToggle.addEventListener('change', (e) => {
                 compactMode = e.target.checked;
+                renderCache.clear();
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -1008,6 +1018,7 @@
             const favoritesToggle = document.getElementById('showFavoritesOnly');
             favoritesToggle.addEventListener('change', (e) => {
                 showFavoritesOnly = e.target.checked;
+                renderCache.clear();
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -1071,34 +1082,38 @@
             });
         }
 
-        // Load all event files
-        async function loadAllEvents() {
-            // Clear locations set before loading
-            locations.clear();
+        // Load events for a specific day (lazy loading)
+        async function loadEventsForDay(date) {
+            if (loadedDays.has(date)) {
+                return; // Already loaded
+            }
             
-            const promises = EVENT_DATES.map(async ({ date }) => {
-                try {
-                    const response = await fetch(`events/hacktown_events_${date}.json`);
-                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                    const data = await response.json();
-                    allEvents[date] = data.events || [];
-                    
-                    // Collect all unique filter locations
-                    data.events.forEach(event => {
-                        if (event.filterLocation) {
-                            locations.add(event.filterLocation);
-                        } else if (event.place) {
-                            // Fallback to place if filterLocation doesn't exist
-                            locations.add(event.place);
-                        }
-                    });
-                } catch (error) {
-                    console.error(`Error loading events for ${date}:`, error);
-                    allEvents[date] = [];
+            try {
+                const response = await fetch(`events/hacktown_events_${date}.json`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                allEvents[date] = data.events || [];
+                
+                // Collect all unique filter locations
+                data.events.forEach(event => {
+                    if (event.filterLocation) {
+                        locations.add(event.filterLocation);
+                    } else if (event.place) {
+                        // Fallback to place if filterLocation doesn't exist
+                        locations.add(event.place);
+                    }
+                });
+                
+                loadedDays.add(date);
+                
+                // Update location filter if this is the first day loaded
+                if (loadedDays.size === 1) {
+                    populateLocationFilter();
                 }
-            });
-
-            await Promise.all(promises);
+            } catch (error) {
+                console.error(`Error loading events for ${date}:`, error);
+                allEvents[date] = [];
+            }
         }
 
         // Populate location filter dropdown
@@ -1119,20 +1134,27 @@
             
             console.log('Unique locations found:', sortedLocations.length);
             
-            // Add change event listener (remove any existing listeners first)
-            const newLocationFilter = locationFilter.cloneNode(true);
-            locationFilter.parentNode.replaceChild(newLocationFilter, locationFilter);
-            newLocationFilter.addEventListener('change', () => displayEvents(currentDay));
+            // Add change event listener with debouncing
+            locationFilter.addEventListener('change', () => {
+                clearTimeout(filterDebounceTimer);
+                filterDebounceTimer = setTimeout(() => {
+                    renderCache.clear(); // Clear cache when filter changes
+                    displayEvents(currentDay);
+                }, 300);
+            });
         }
 
         // Select a day and display its events
-        function selectDay(date) {
+        async function selectDay(date) {
             currentDay = date;
             
             // Update active button
             document.querySelectorAll('.day-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.getAttribute('data-date') === date);
             });
+            
+            // Load events for this day if not already loaded
+            await loadEventsForDay(date);
             
             displayEvents(date);
         }
@@ -1141,6 +1163,15 @@
         function displayEvents(date) {
             const timeline = document.getElementById('timeline');
             const locationFilter = document.getElementById('locationFilter').value;
+            
+            // Create cache key
+            const cacheKey = `${date}_${locationFilter}_${showFavoritesOnly}_${showSpeakers}_${showLocation}_${compactMode}`;
+            
+            // Check cache first
+            if (renderCache.has(cacheKey)) {
+                timeline.innerHTML = renderCache.get(cacheKey);
+                return;
+            }
             
             if (!allEvents[date]) {
                 timeline.innerHTML = '<div class="error">Erro ao carregar eventos para este dia</div>';
@@ -1231,6 +1262,15 @@
             });
 
             timeline.innerHTML = html;
+            
+            // Cache the rendered HTML
+            renderCache.set(cacheKey, html);
+            
+            // Limit cache size
+            if (renderCache.size > 10) {
+                const firstKey = renderCache.keys().next().value;
+                renderCache.delete(firstKey);
+            }
         }
 
         // Format time key for grouping
