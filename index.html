@@ -1106,10 +1106,8 @@
                 
                 loadedDays.add(date);
                 
-                // Update location filter if this is the first day loaded
-                if (loadedDays.size === 1) {
-                    populateLocationFilter();
-                }
+                // Always update location filter when new day is loaded
+                populateLocationFilter();
             } catch (error) {
                 console.error(`Error loading events for ${date}:`, error);
                 allEvents[date] = [];
@@ -1119,6 +1117,9 @@
         // Populate location filter dropdown
         function populateLocationFilter() {
             const locationFilter = document.getElementById('locationFilter');
+            
+            // Save current selection
+            const currentSelection = locationFilter.value;
             
             // Clear existing options except the first one
             locationFilter.innerHTML = '<option value="">Todos os locais</option>';
@@ -1132,16 +1133,24 @@
                 locationFilter.appendChild(option);
             });
             
+            // Restore selection if it still exists in the new list
+            if (currentSelection && sortedLocations.includes(currentSelection)) {
+                locationFilter.value = currentSelection;
+            }
+            
             console.log('Unique locations found:', sortedLocations.length);
             
-            // Add change event listener with debouncing
-            locationFilter.addEventListener('change', () => {
-                clearTimeout(filterDebounceTimer);
-                filterDebounceTimer = setTimeout(() => {
-                    renderCache.clear(); // Clear cache when filter changes
-                    displayEvents(currentDay);
-                }, 300);
-            });
+            // Add change event listener with debouncing (only if not already added)
+            if (!locationFilter.hasAttribute('data-listener-added')) {
+                locationFilter.addEventListener('change', () => {
+                    clearTimeout(filterDebounceTimer);
+                    filterDebounceTimer = setTimeout(() => {
+                        renderCache.clear(); // Clear cache when filter changes
+                        displayEvents(currentDay);
+                    }, 300);
+                });
+                locationFilter.setAttribute('data-listener-added', 'true');
+            }
         }
 
         // Select a day and display its events

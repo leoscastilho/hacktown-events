@@ -86,8 +86,14 @@ def normalize_location(place: str) -> str:
         result = "Real Palace"
     elif "BRASEIRO" in place_upper:
         result = "Braseiro"
-    elif "BOTECO" in place_upper:
-        result = "Boteco"
+    elif "BOTECO DO TIO" in place_upper:
+        result = "Boteco do Tio João"
+    elif "ASSOCIAÇÃO" in place_upper:
+        result = "Associação José do Patrocínio"
+    elif "BAR E RESTAURANTE" in place_upper:
+        result = "Bar e Restaurante do Dimas"
+    elif "ESCOLA S" in place_upper:
+        result = "Escola Sanico Teles"
     else:
         # Return the original place for unmapped locations
         result = place
