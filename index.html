@@ -421,6 +421,11 @@
             padding: 15px;
         }
 
+        .event-card.favorite {
+            border-color: #FFD700;
+            background: linear-gradient(135deg, #FFFDF7 0%, #FFF9E6 100%);
+        }
+
         .event-card::before {
             content: '';
             position: absolute;
@@ -433,6 +438,10 @@
             transition: transform 0.3s;
         }
 
+        .event-card.favorite::before {
+            background: linear-gradient(90deg, #FFD700, #FFA500);
+        }
+
         .event-card:hover::before {
             transform: translateX(0);
         }
@@ -441,6 +450,59 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(255,69,0,0.2);
             border-color: #FF4500;
+        }
+
+        .event-card.favorite:hover {
+            border-color: #FFD700;
+            box-shadow: 0 10px 30px rgba(255,215,0,0.3);
+        }
+
+        /* Favorite Button */
+        .favorite-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255,255,255,0.9);
+            border: 2px solid #e0e0e0;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+
+        .favorite-btn:hover {
+            transform: scale(1.1);
+            border-color: #FFD700;
+            background: #FFFDF7;
+        }
+
+        .favorite-btn.active {
+            background: #FFD700;
+            border-color: #FFD700;
+        }
+
+        .favorite-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: #ccc;
+            transition: fill 0.3s;
+        }
+
+        .favorite-btn.active svg {
+            fill: #fff;
+        }
+
+        .favorite-btn:hover svg {
+            fill: #FFD700;
+        }
+
+        .favorite-btn.active:hover svg {
+            fill: #fff;
         }
 
         .event-title {
@@ -567,6 +629,44 @@
             line-height: 1.8;
             color: #555;
             font-size: 1.05em;
+        }
+
+        /* Favorite button in modal */
+        .modal-favorite-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #FFD700;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1em;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .modal-favorite-btn:hover {
+            background: #FFA500;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255,215,0,0.3);
+        }
+
+        .modal-favorite-btn.remove {
+            background: #e0e0e0;
+            color: #666;
+        }
+
+        .modal-favorite-btn.remove:hover {
+            background: #d0d0d0;
+        }
+
+        .modal-favorite-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
         }
 
         /* Speakers Section */
@@ -726,6 +826,14 @@
                     <span class="slider"></span>
                 </label>
             </div>
+
+            <div class="toggle-item">
+                <label for="showFavoritesOnly">Mostrar apenas favoritos</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="showFavoritesOnly">
+                    <span class="slider"></span>
+                </label>
+            </div>
         </div>
 
         <div class="sidebar-section">
@@ -780,7 +888,9 @@
         let showSpeakers = false;
         let showLocation = true;
         let compactMode = false;
+        let showFavoritesOnly = false;
         let summaryData = null;
+        let favorites = new Set();
 
         // Event dates
         const EVENT_DATES = [
@@ -790,6 +900,65 @@
             { date: '2025-08-02', label: '02 AGO' },
             { date: '2025-08-03', label: '03 AGO' }
         ];
+
+        // Load favorites from localStorage
+        function loadFavorites() {
+            try {
+                const saved = localStorage.getItem('hacktown2025_favorites');
+                if (saved) {
+                    favorites = new Set(JSON.parse(saved));
+                }
+            } catch (error) {
+                console.error('Error loading favorites:', error);
+                favorites = new Set();
+            }
+        }
+
+        // Save favorites to localStorage
+        function saveFavorites() {
+            try {
+                localStorage.setItem('hacktown2025_favorites', JSON.stringify([...favorites]));
+            } catch (error) {
+                console.error('Error saving favorites:', error);
+            }
+        }
+
+        // Create unique event ID
+        function getEventId(event) {
+            return `${event.start_time}_${event.title}`.replace(/[^a-zA-Z0-9]/g, '_');
+        }
+
+        // Toggle favorite status
+        function toggleFavorite(event, e) {
+            if (e) {
+                e.stopPropagation();
+            }
+            const eventId = getEventId(event);
+            
+            if (favorites.has(eventId)) {
+                favorites.delete(eventId);
+            } else {
+                favorites.add(eventId);
+            }
+            
+            saveFavorites();
+            
+            // Update UI if needed
+            if (currentDay) {
+                displayEvents(currentDay);
+            }
+            
+            // Update modal if it's open
+            const modalContent = document.getElementById('modalContent');
+            if (modalContent && modalContent.dataset.eventId === eventId) {
+                updateModalFavoriteButton(event);
+            }
+        }
+
+        // Check if event is favorite
+        function isFavorite(event) {
+            return favorites.has(getEventId(event));
+        }
 
         // Toggle menu
         function toggleMenu() {
@@ -804,6 +973,7 @@
 
         // Initialize the app
         async function init() {
+            loadFavorites(); // Load saved favorites
             createDayButtons();
             await loadSummary();
             await loadAllEvents();
@@ -830,6 +1000,14 @@
             const compactToggle = document.getElementById('compactMode');
             compactToggle.addEventListener('change', (e) => {
                 compactMode = e.target.checked;
+                if (currentDay) {
+                    displayEvents(currentDay);
+                }
+            });
+
+            const favoritesToggle = document.getElementById('showFavoritesOnly');
+            favoritesToggle.addEventListener('change', (e) => {
+                showFavoritesOnly = e.target.checked;
                 if (currentDay) {
                     displayEvents(currentDay);
                 }
@@ -980,8 +1158,16 @@
                 });
             }
 
+            // Apply favorites filter
+            if (showFavoritesOnly) {
+                events = events.filter(event => isFavorite(event));
+            }
+
             if (events.length === 0) {
-                timeline.innerHTML = '<div class="no-events">Nenhum evento encontrado para os filtros selecionados</div>';
+                const message = showFavoritesOnly 
+                    ? 'Nenhum evento favorito encontrado para os filtros selecionados' 
+                    : 'Nenhum evento encontrado para os filtros selecionados';
+                timeline.innerHTML = `<div class="no-events">${message}</div>`;
                 return;
             }
 
@@ -1071,9 +1257,18 @@
         function createEventCard(event) {
             const eventData = JSON.stringify(event).replace(/"/g, '&quot;');
             const compactClass = compactMode ? 'compact' : '';
+            const favoriteClass = isFavorite(event) ? 'favorite' : '';
+            const eventId = getEventId(event);
             
             let cardHtml = `
-                <div class="event-card ${compactClass}" onclick="showEventDetails(${eventData})">
+                <div class="event-card ${compactClass} ${favoriteClass}" onclick="showEventDetails(${eventData})">
+                    <button class="favorite-btn ${isFavorite(event) ? 'active' : ''}" 
+                            onclick="toggleFavorite(${eventData}, event)" 
+                            title="${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        </svg>
+                    </button>
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
                     ${showLocation && event.place ? `<span class="event-place">${event.place}</span>` : ''}
             `;
@@ -1100,6 +1295,9 @@
         function showEventDetails(event) {
             const modal = document.getElementById('eventModal');
             const modalContent = document.getElementById('modalContent');
+            const eventId = getEventId(event);
+            
+            modalContent.dataset.eventId = eventId;
             
             const startTime = new Date(event.start_time);
             const endTime = new Date(event.end_time);
@@ -1118,6 +1316,14 @@
                         </div>
                     ` : ''}
                 </div>
+                
+                <button class="modal-favorite-btn ${isFavorite(event) ? 'remove' : ''}" 
+                        onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                    ${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+                </button>
             `;
             
             if (event.description) {
@@ -1148,6 +1354,21 @@
             
             modalContent.innerHTML = html;
             modal.style.display = 'block';
+        }
+
+        // Update modal favorite button
+        function updateModalFavoriteButton(event) {
+            const btn = document.querySelector('.modal-favorite-btn');
+            if (btn) {
+                const isFav = isFavorite(event);
+                btn.className = `modal-favorite-btn ${isFav ? 'remove' : ''}`;
+                btn.innerHTML = `
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                    ${isFav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+                `;
+            }
         }
 
         // Close modal
