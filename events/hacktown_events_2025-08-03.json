@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 4,
-  "scraped_at": "2025-07-23T13:42:41.440195-03:00",
+  "scraped_at": "2025-07-23T14:13:24.412648-03:00",
   "events": [
     {
       "id": 1601,
@@ -22,7 +22,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3142,
@@ -79,11 +78,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca - Cine Teatro"
+      "filterLocation": "Casa Dinamarca"
     },
     {
       "id": 1583,
@@ -104,7 +104,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -115,6 +114,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -140,7 +140,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4079,
@@ -167,11 +166,12 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca - Cine Teatro"
+      "filterLocation": "Casa Dinamarca"
     },
     {
       "id": 1584,
@@ -192,7 +192,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 3415,
@@ -219,6 +218,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
