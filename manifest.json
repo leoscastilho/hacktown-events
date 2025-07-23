@@ -1,0 +1,27 @@
+{
+  "name": "HackTown 2025 - Programação",
+  "short_name": "HackTown 2025",
+  "description": "Programação completa do HackTown 2025 - Santa Rita do Sapucaí",
+  "start_url": "/hacktown-events/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#393F73",
+  "background_color": "#ffffff",
+  "categories": ["events", "conference", "technology"],
+  "lang": "pt-BR",
+  "scope": "/hacktown-events/",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",  
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
