@@ -399,6 +399,7 @@
         /* Refresh Button */
         .refresh-button {
             width: 100%;
+            min-width: 180px; /* Fixed minimum width to prevent resizing */
             padding: 12px 20px;
             background: var(--gradient-secondary);
             color: var(--text-white);
@@ -415,6 +416,7 @@
             box-shadow: var(--shadow-md);
             text-transform: uppercase;
             letter-spacing: 1px;
+            margin-bottom: 20px; /* Add space underneath the button */
         }
 
         .refresh-button:hover {
@@ -431,12 +433,6 @@
         .refresh-button.loading {
             opacity: 0.7;
             cursor: not-allowed;
-        }
-
-        .refresh-icon {
-            font-size: 1.2em;
-            display: inline-block;
-            transition: transform var(--transition-slow);
         }
 
         .refresh-button.loading .refresh-icon {
@@ -1191,22 +1187,22 @@
 
         .close-btn {
             position: absolute;
-            top: 20px;
+            top: 10px;
             right: 25px;
             font-size: 28px;
             cursor: pointer;
             color: var(--primary-orange);
             line-height: 1;
             transition: all var(--transition-normal);
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            /*background: rgba(255, 255, 255, 0.1);*/
+            /*backdrop-filter: blur(10px);*/
             border-radius: 50%;
             width: 40px;
             height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            /*border: 1px solid rgba(255, 255, 255, 0.2);*/
             z-index: 10;
         }
 
@@ -1226,9 +1222,20 @@
             top: 0;
             background: var(--gradient-card);
             backdrop-filter: blur(30px);
-            padding: 20px 40px 0 40px;
+            padding: 15px 40px 5px 40px;
             border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
             z-index: 10;
+            transition: all var(--transition-normal);
+        }
+
+        .modal-header.scrolled {
+            background: linear-gradient(135deg, 
+                rgba(255, 69, 0, 0.3) 0%, 
+                rgba(255, 140, 0, 0.25) 50%, 
+                var(--gradient-card) 100%);
+            box-shadow: 0 20px 20px rgba(255, 69, 0, 0.3);
+            margin: 0px -1px 0 -1px;
+            padding: 0px 41px 5px 41px;
         }
 
         .modal-body {
@@ -1410,7 +1417,12 @@
             }
 
             .modal-header {
-                padding: 15px 30px 0 30px;
+                padding: 10px 30px 5px 30px;
+            }
+
+            .modal-header.scrolled {
+                margin: -1px -1px 0 -1px;
+                padding: 1px 1px 5px 31px;
             }
 
             .modal-body {
@@ -1591,7 +1603,7 @@
             <div class="sidebar-section-title">Atualizar Dados</div>
             <button class="refresh-button" id="refreshCacheBtn" onclick="refreshCache()">
 <!--                <span class="refresh-icon">🔄</span>-->
-                <span class="refresh-text">Atualizar Cache</span>
+                <span class="refresh-text">Atualizar eventos</span>
             </button>
         </div>
     </div>
@@ -2275,7 +2287,7 @@
                 updateLocationFilter();
                 
                 // Show success message
-                refreshText.textContent = 'Atualizado!';
+                refreshText.textContent = 'Atualizado';
                 
                 // Re-register service worker after a delay
                 setTimeout(async () => {
@@ -2286,7 +2298,7 @@
                             console.log('Service worker re-registration failed:', e);
                         }
                     }
-                    refreshText.textContent = 'Atualizar Cache';
+                    refreshText.textContent = 'Atualizar eventos';
                     button.classList.remove('loading');
                     button.disabled = false;
                 }, 2000);
@@ -2852,6 +2864,23 @@
             }
             
             modalContent.innerHTML = html;
+            
+            // Add scroll listener for header gradient effect
+            const modalBody = modal.querySelector('.modal-body');
+            const modalHeader = modal.querySelector('.modal-header');
+            
+            const handleScroll = () => {
+                if (modalBody.scrollTop > 20) {
+                    modalHeader.classList.add('scrolled');
+                } else {
+                    modalHeader.classList.remove('scrolled');
+                }
+            };
+            
+            // Remove existing listener if any
+            modalBody.removeEventListener('scroll', handleScroll);
+            // Add new listener
+            modalBody.addEventListener('scroll', handleScroll);
         }
 
         // Update modal favorite button
