@@ -1174,12 +1174,12 @@
             backdrop-filter: blur(30px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             margin: 50px auto;
-            padding: 40px;
+            padding: 0;
             max-width: 800px;
             border-radius: var(--radius-2xl);
             position: relative;
             max-height: 90vh;
-            overflow-y: auto;
+            overflow: hidden;
             box-shadow: var(--shadow-2xl);
             transform: translateY(30px) scale(0.95);
             transition: all var(--transition-normal);
@@ -1207,6 +1207,7 @@
             align-items: center;
             justify-content: center;
             border: 1px solid rgba(255, 255, 255, 0.2);
+            z-index: 10;
         }
 
         .close-btn:hover {
@@ -1218,6 +1219,22 @@
         .close-btn:focus {
             outline: 2px solid var(--primary-orange);
             outline-offset: 2px;
+        }
+
+        .modal-header {
+            position: sticky;
+            top: 0;
+            background: var(--gradient-card);
+            backdrop-filter: blur(30px);
+            padding: 20px 40px 0 40px;
+            border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+            z-index: 10;
+        }
+
+        .modal-body {
+            padding: 0 40px 40px 40px;
+            overflow-y: auto;
+            max-height: calc(90vh - 80px);
         }
 
         .modal-title {
@@ -1390,7 +1407,14 @@
 
             .modal-content {
                 margin: 20px;
-                padding: 30px;
+            }
+
+            .modal-header {
+                padding: 15px 30px 0 30px;
+            }
+
+            .modal-body {
+                padding: 0 30px 30px 30px;
             }
 
             .time-header {
@@ -1652,8 +1676,12 @@
 
     <div class="modal" id="eventModal">
         <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <div id="modalContent"></div>
+            <div class="modal-header">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent"></div>
+            </div>
         </div>
     </div>
 
