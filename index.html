@@ -396,6 +396,62 @@
             line-height: 1.4;
         }
 
+        /* Refresh Button */
+        .refresh-button {
+            width: 100%;
+            padding: 12px 20px;
+            background: var(--gradient-secondary);
+            color: var(--text-white);
+            border: none;
+            border-radius: var(--radius-full);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: var(--shadow-md);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .refresh-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            background: linear-gradient(135deg, #ff6b3d 0%, #ff8c42 100%);
+        }
+
+        .refresh-button:active {
+            transform: translateY(0);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .refresh-button.loading {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .refresh-icon {
+            font-size: 1.2em;
+            display: inline-block;
+            transition: transform var(--transition-slow);
+        }
+
+        .refresh-button.loading .refresh-icon {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
         /* Header */
         header {
             background: var(--gradient-primary);
@@ -1506,6 +1562,14 @@
                 <div class="sidebar-last-update" id="sidebarLastUpdate">Carregando...</div>
             </div>
         </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Atualizar Dados</div>
+            <button class="refresh-button" id="refreshCacheBtn" onclick="refreshCache()">
+<!--                <span class="refresh-icon">🔄</span>-->
+                <span class="refresh-text">Atualizar Cache</span>
+            </button>
+        </div>
     </div>
 
     <!-- Sidebar Overlay -->
@@ -1974,7 +2038,10 @@
         // Load locations data
         async function loadLocations() {
             try {
-                const response = await fetch('events/locations.json');
+                const timestamp = new Date().getTime();
+                const response = await fetch(`events/locations.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
                 if (response.ok) {
                     locationsData = await response.json();
                 }
@@ -2132,6 +2199,81 @@
             }
         }
 
+        // Refresh cache function
+        async function refreshCache() {
+            const button = document.getElementById('refreshCacheBtn');
+            const refreshIcon = button.querySelector('.refresh-icon');
+            const refreshText = button.querySelector('.refresh-text');
+            
+            // Disable button and show loading state
+            button.classList.add('loading');
+            button.disabled = true;
+            refreshText.textContent = 'Atualizando...';
+            
+            try {
+                // Clear all cached data
+                allEvents = {};
+                loadedDays.clear();
+                renderCache.clear();
+                summaryData = null;
+                locationsData = null;
+                
+                // Clear browser cache for the JSON files
+                const cacheNames = await caches.keys();
+                await Promise.all(
+                    cacheNames.map(cacheName => caches.delete(cacheName))
+                );
+                
+                // Unregister service worker temporarily to bypass cache
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (let registration of registrations) {
+                        await registration.unregister();
+                    }
+                }
+                
+                // Force reload all data
+                await loadSummary();
+                await loadLocations();
+                
+                // If there's a current day selected, reload its events
+                if (currentDay) {
+                    await loadEventsForDay(currentDay, true);
+                    displayEvents(currentDay);
+                }
+                
+                // Update UI elements
+                updateSummaryDisplay();
+                updateLocationFilter();
+                
+                // Show success message
+                refreshText.textContent = 'Atualizado!';
+                
+                // Re-register service worker after a delay
+                setTimeout(async () => {
+                    if ('serviceWorker' in navigator) {
+                        try {
+                            await navigator.serviceWorker.register('/hacktown-events/service-worker.js');
+                        } catch (e) {
+                            console.log('Service worker re-registration failed:', e);
+                        }
+                    }
+                    refreshText.textContent = 'Atualizar Cache';
+                    button.classList.remove('loading');
+                    button.disabled = false;
+                }, 2000);
+                
+            } catch (error) {
+                console.error('Error refreshing cache:', error);
+                refreshText.textContent = 'Erro ao atualizar';
+                setTimeout(() => {
+                    refreshText.textContent = 'Atualizar Cache';
+                    button.classList.remove('loading');
+                    button.disabled = false;
+                }, 2000);
+            }
+        }
+        
         // Initialize the app
         async function init() {
             loadFavorites(); // Load saved favorites
@@ -2207,7 +2349,10 @@
         // Load summary data
         async function loadSummary() {
             try {
-                const response = await fetch('events/summary.json');
+                const timestamp = new Date().getTime();
+                const response = await fetch(`events/summary.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
                 if (response.ok) {
                     summaryData = await response.json();
                 }
@@ -2260,13 +2405,16 @@
         }
 
         // Load events for a specific day (lazy loading)
-        async function loadEventsForDay(date) {
-            if (loadedDays.has(date)) {
+        async function loadEventsForDay(date, forceReload = false) {
+            if (!forceReload && loadedDays.has(date)) {
                 return; // Already loaded
             }
             
             try {
-                const response = await fetch(`events/hacktown_events_${date}.json`);
+                const timestamp = new Date().getTime();
+                const response = await fetch(`events/hacktown_events_${date}.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
                 if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const data = await response.json();
                 allEvents[date] = data.events || [];
@@ -2291,6 +2439,11 @@
             }
         }
 
+        // Update location filter (wrapper for populateLocationFilter)
+        function updateLocationFilter() {
+            populateLocationFilter();
+        }
+        
         // Populate location filter dropdown
         function populateLocationFilter() {
             const locationFilter = document.getElementById('locationFilter');
