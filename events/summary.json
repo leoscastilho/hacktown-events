@@ -15,5 +15,6 @@
     "hacktown_events_2025-08-02.json",
     "hacktown_events_2025-08-03.json"
   ],
-  "scraping_time_seconds": 299.18
+  "scraping_time_seconds": 598.08,
+  "last_failed_attempt": "2025-07-25T13:24:48.556542-03:00"
 }
