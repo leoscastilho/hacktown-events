@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
-  "total_events": 16,
-  "scraped_at": "2025-07-26T16:16:50.012021-03:00",
+  "total_events": 17,
+  "scraped_at": "2025-07-26T18:18:22.656558-03:00",
   "events": [
     {
       "id": 2161,
@@ -22,6 +22,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4426,
@@ -54,7 +55,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -69,6 +69,88 @@
         "rating": 0
       },
       "filterLocation": "INATEL"
+    },
+    {
+      "id": 2503,
+      "start_time": "2025-08-03T13:00:00.000+00:00",
+      "end_time": "2025-08-03T15:00:00.000+00:00",
+      "title": "Hack Santa Rita – Prototipando o Futuro Agora",
+      "description": "Cidade para Todos: Uma experiência Hyper Island com Casa Dinamarca para cocriar soluções reais para Santa Rita do Sapucaí.\n\nTopa sair da conversa e entrar na ação?\nParticipe de um hackathon intenso no estilo Hyper Island, com técnicas criativas e colaborativas testadas no mundo inteiro. Vamos transformar visões e dores reais de Santa Rita em protótipos ousados de soluções concretas.\nÉ nossa forma de retribuir à cidade que nos recebe — uma chance única de cocriar com outras mentes inquietas, imaginar futuros possíveis e plantar sementes de mudança juntos.\nChamamos mentes locais e Hacktowners para construir, na prática, o que Santa Rita pode ser.\n \nAprender fazendo. Aprender juntos. Pronto para o mundo real!\nTraga sua energia. Vamos hackear o futuro — juntos.\n",
+      "hub_event_id": 1,
+      "entity_register_id": 10256,
+      "place": "Casa Dinamarca - Cine Teatro",
+      "allow_questions": false,
+      "external_id": "yazo_2503",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4224,
+          "name": "Benito Berretta",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753556746540.png?ims=filters:quality(75)",
+          "bio": "Diretor Geral da Hyper Island, é formado em Ciências da Computação e Econometria. Atua no desenvolvimento de competências em liderança, inovação e tecnologia, facilitando processos de mudança para pessoas, times e organizações.",
+          "role": "Managing Director na Hyper Island Américas",
+          "company": "Hyper Island",
+          "meta": {
+            "pivot_schedule_id": 2503,
+            "pivot_speaker_id": 4224,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5360,
+          "name": "Adam Kurdahl",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753556465369.png?ims=filters:quality(75)",
+          "bio": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects e idealizador do projeto São Paulo 2035. Codiretor da requalificação do histórico Complexo Matarazzo, em São Paulo, e cocriador, ainda jovem, de uma cidade futurista na Coreia do Sul. Defende uma nova urbanidade: a “cidade-esponja”, capaz de dialogar com o clima, a natureza e os desejos humanos. Atua entre o Brasil e a Europa, projetando cidades mais vivas, adaptáveis e sustentáveis. ",
+          "role": "Sócio do SPOL Architects ",
+          "company": "SPOL Architects",
+          "meta": {
+            "pivot_schedule_id": 2503,
+            "pivot_speaker_id": 5360,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5356,
+          "name": "Jesper Rhode",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753555906204.png?ims=filters:quality(75)",
+          "bio": "Fundador da Casa Dinamarca, Jesper é pensador de cultura digital e conselheiro em inovação e futuro, mentor no Hyper Island. ",
+          "role": "Fundador da Casa Dinamarca",
+          "company": "Casa Dinamarca",
+          "meta": {
+            "pivot_schedule_id": 2503,
+            "pivot_speaker_id": 5356,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Dinamarca"
     },
     {
       "id": 2267,
@@ -89,6 +171,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5286,
@@ -136,7 +219,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -185,6 +267,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4106,
@@ -202,7 +285,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -251,6 +333,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5230,
@@ -268,7 +351,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -317,6 +399,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4195,
@@ -334,7 +417,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -376,6 +458,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -393,7 +476,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -417,6 +499,58 @@
       "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
+      "id": 2504,
+      "start_time": "2025-08-03T15:00:00.000+00:00",
+      "end_time": "2025-08-03T17:00:00.000+00:00",
+      "title": "Sementes para um Futuro Verde",
+      "description": "Vamos plantar árvores em Santa Rita! Junte-se à Casa Dinamarca no rewilding da cidade.\n\nComo segunda etapa da nossa retribuição a Santa Rita, a Casa Dinamarca e a SPOL convidam você para uma action-shop dedicada a rewilding das nossas cidades. Vamos plantar árvores nativas em Santa Rita!\n \nQueremos devolver a fauna e flora brasileiras aos espaços urbanos — um passo para introduzir o conceito de Cidade Esponja na realidade brasileira. Precisamos transformar nossas cidades para que a natureza volte a ser uma infraestrutura essencial no tecido urbano.\n \nA Secretaria de Meio Ambiente, a Casa Dinamarca e a SPOL Architects unem forças para rewilding em Santa Rita. Bem-vindos à Mata City!\n \nConvidamos Hack-towners e alunos das escolas primárias de Santa Rita para se juntar a nós nessa ação de plantio de árvores nativas na Praça.\n",
+      "hub_event_id": 1,
+      "entity_register_id": 10257,
+      "place": "Casa Dinamarca - Cine Teatro",
+      "allow_questions": false,
+      "external_id": "yazo_2504",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 2048,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5360,
+          "name": "Adam Kurdahl",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753556465369.png?ims=filters:quality(75)",
+          "bio": "Arquiteto e urbanista dinamarquês, sócio do SPOL Architects e idealizador do projeto São Paulo 2035. Codiretor da requalificação do histórico Complexo Matarazzo, em São Paulo, e cocriador, ainda jovem, de uma cidade futurista na Coreia do Sul. Defende uma nova urbanidade: a “cidade-esponja”, capaz de dialogar com o clima, a natureza e os desejos humanos. Atua entre o Brasil e a Europa, projetando cidades mais vivas, adaptáveis e sustentáveis. ",
+          "role": "Sócio do SPOL Architects ",
+          "company": "SPOL Architects",
+          "meta": {
+            "pivot_schedule_id": 2504,
+            "pivot_speaker_id": 5360,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Dinamarca"
+    },
+    {
       "id": 2190,
       "start_time": "2025-08-03T15:00:00.000+00:00",
       "end_time": "2025-08-03T15:40:00.000+00:00",
@@ -435,6 +569,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5226,
@@ -452,7 +587,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -487,6 +621,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4489,
@@ -504,7 +639,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -553,6 +687,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4195,
@@ -570,7 +705,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -592,58 +726,6 @@
         "rating": 0
       },
       "filterLocation": "Casa Google Cloud - Sala Academy"
-    },
-    {
-      "id": 2203,
-      "start_time": "2025-08-03T17:00:00.000+00:00",
-      "end_time": "2025-08-03T17:40:00.000+00:00",
-      "title": "Desrobotizando pessoas e humanizando robôs, uma jornada de IA com sentido",
-      "description": "A ser anunciado",
-      "hub_event_id": 1,
-      "entity_register_id": 9841,
-      "place": "Casa Google Cloud - Sala Varanda",
-      "allow_questions": false,
-      "external_id": "f589beae-2a39-486b-96fd-02972b2c847d",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 1792,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "speakers": [
-        {
-          "id": 5237,
-          "name": "Danton Coelho",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2203,
-            "pivot_speaker_id": 5237,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Casa Google Cloud - Sala Varanda"
     },
     {
       "id": 2203,
