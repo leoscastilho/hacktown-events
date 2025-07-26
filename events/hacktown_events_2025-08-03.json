@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
-  "total_events": 15,
-  "scraped_at": "2025-07-26T15:23:49.903344-03:00",
+  "total_events": 16,
+  "scraped_at": "2025-07-26T16:16:50.012021-03:00",
   "events": [
     {
       "id": 2161,
@@ -22,7 +22,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4426,
@@ -55,6 +54,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -89,7 +89,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5286,
@@ -137,6 +136,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -185,7 +185,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4106,
@@ -203,6 +202,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -251,7 +251,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5230,
@@ -269,6 +268,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -317,7 +317,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4195,
@@ -335,6 +334,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -376,7 +376,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -394,6 +393,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -435,7 +435,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5226,
@@ -453,6 +452,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -487,7 +487,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4489,
@@ -505,6 +504,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -553,7 +553,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4195,
@@ -571,6 +570,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -592,6 +592,58 @@
         "rating": 0
       },
       "filterLocation": "Casa Google Cloud - Sala Academy"
+    },
+    {
+      "id": 2203,
+      "start_time": "2025-08-03T17:00:00.000+00:00",
+      "end_time": "2025-08-03T17:40:00.000+00:00",
+      "title": "Desrobotizando pessoas e humanizando robôs, uma jornada de IA com sentido",
+      "description": "A ser anunciado",
+      "hub_event_id": 1,
+      "entity_register_id": 9841,
+      "place": "Casa Google Cloud - Sala Varanda",
+      "allow_questions": false,
+      "external_id": "f589beae-2a39-486b-96fd-02972b2c847d",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1792,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [
+        {
+          "id": 5237,
+          "name": "Danton Coelho",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 2203,
+            "pivot_speaker_id": 5237,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Google Cloud - Sala Varanda"
     },
     {
       "id": 2203,
