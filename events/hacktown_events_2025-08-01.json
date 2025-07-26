@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 263,
-  "scraped_at": "2025-07-26T04:19:34.653648-03:00",
+  "total_events": 284,
+  "scraped_at": "2025-07-26T15:23:49.853186-03:00",
   "events": [
     {
       "id": 2002,
@@ -99,6 +99,42 @@
       "filterLocation": "INATEL"
     },
     {
+      "id": 2433,
+      "start_time": "2025-08-01T11:30:00.000+00:00",
+      "end_time": "2025-08-01T12:30:00.000+00:00",
+      "title": "Meetup: Coffee Lovers @ Grandpa Joel's Coffee Shop",
+      "description": "Ponto de conexão e bate-papo aberto entre quem ama um café de qualidade, em um dos coffee shops mais charmosos da cidade.",
+      "hub_event_id": 1,
+      "entity_register_id": 10150,
+      "place": "Grandpa Joel´s Coffee Shop",
+      "allow_questions": false,
+      "external_id": "yazo_2433",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 415,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Meetup",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Grandpa Joel´s Coffee Shop"
+    },
+    {
       "id": 2259,
       "start_time": "2025-08-01T11:30:00.000+00:00",
       "end_time": "2025-08-01T13:00:00.000+00:00",
@@ -143,14 +179,73 @@
       "filterLocation": "Casa do CCCF - Palco Externo"
     },
     {
+      "id": 2425,
+      "start_time": "2025-08-01T12:00:00.000+00:00",
+      "end_time": "2025-08-01T14:20:00.000+00:00",
+      "title": "Creative Mornings: A IA e seus impactos",
+      "description": "Com 17 anos de existência e presença em mais de 240 cidades em 70 países, o CreativeMornings é a maior comunidade criativa cara-a-cara do mundo, com o objetivo de que cada capítulo local inspire a conexão e a criatividade da comunidade de sua cidade – tudo isso gratuitamente e com um café da manhã delicioso. Nesta edição do Hacktown, os dois capítulos ativos no Brasil, São Paulo e Santos, se unem para trazer a experiência do evento para Santa Rita do Sapucaí, na Casa Futuros Possíveis, num formato mais participativo e para discutirmos juntos um tema emergente e cada vez mais influente – para o bem ou para o mal – em nossa jornada criativa: a inteligência artificial e seus impactos. Vem com a gente nessa?",
+      "hub_event_id": 1,
+      "entity_register_id": 10137,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2425",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4257,
+          "name": "Daniel Quiteque",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1389/partner_1389_1752610511630.png",
+          "bio": "Pesquisador de IA aplicada à internet das coisas no IoT Research Group do INATEL, é pós-graduando em Inovação pela FURG-RS e criador da AI.Africa, comunidade global que conecta líderes africanos em torno da inteligência artificial. É reconhecido por integrar pessoas, tecnologia e futuros transformadores.",
+          "role": "Criador da AI.Africa",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2425,
+            "pivot_speaker_id": 4257,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 290,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Economia Criativa",
+          "hub_event_id": 1
+        },
+        {
+          "id": 321,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Direitos Autorais / Criatividade",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
+    },
+    {
       "id": 2178,
       "start_time": "2025-08-01T12:00:00.000+00:00",
       "end_time": "2025-08-01T16:00:00.000+00:00",
       "title": "Introdução à IA e Machine Learning",
-      "description": "A ser anunciado",
+      "description": "Neste curso prático, você vai explorar as ofertas de IA e ML do Google Cloud para construir projetos de IA preditiva e generativa. É ideal para cientistas de dados, desenvolvedores de IA e engenheiros de ML, que visam aprimorar suas habilidades e conhecimentos com experiências de aprendizado e exercícios práticos. Você aprenderá a reconhecer tecnologias e ferramentas de dados para IA do Google Cloud, desenvolver projetos de IA generativa usando Gemini multimodal, prompts eficientes e ajuste de modelo, além de criar um modelo de ML de ponta a ponta com o Vertex AI.",
       "hub_event_id": 1,
       "entity_register_id": 9816,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Academy",
       "allow_questions": false,
       "external_id": "36b790f0-2780-4cc3-abef-99be440bf62e",
       "place_color": null,
@@ -159,7 +254,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -179,12 +274,86 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Academy"
+    },
+    {
+      "id": 2479,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T14:00:00.000+00:00",
+      "title": "Plágio musical: O caso Toninho Geraes x Adele",
+      "description": "O clássico \"\"Mulheres\"\", de Martinho da Vila, e o hit \"\"I Only Wanted to Have Fun\"\", de Adele, ganharam uma nova conexão no campo da polêmica. O compositor Toninho Geraes processou a cantora britânica alegando plágio de sua obra. Nesta palestra, vamos explorar os detalhes do caso e discutir a interseção entre a música popular brasileira e o mercado internacional, analisando questões de direitos autorais e a transformação cultural impulsionada pelas redes sociais.",
+      "hub_event_id": 1,
+      "entity_register_id": 10212,
+      "place": "Casa MFM - Quintal",
+      "allow_questions": false,
+      "external_id": "yazo_2479",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4268,
+          "name": "Deborah Sztajnberg",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1401/partner_1401_1752610574014.png",
+          "bio": "CEO da Debs Consultoria, jurista, professora universitária e advogada atuante em casos de grande repercussão. PhD e M.Sc., é autora da primeira obra sobre Direito do Entretenimento no Brasil e membro efetivo do IAB, Instituto dos Advogados do Brasil",
+          "role": "CEO da Debs Consultoria",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2479,
+            "pivot_speaker_id": 4268,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 321,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Direitos Autorais / Criatividade",
+          "hub_event_id": 1
+        },
+        {
+          "id": 337,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Música / Inovação na Indústria",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa MFM - Quintal"
     },
     {
       "id": 2278,
@@ -259,110 +428,6 @@
         "rating": 0
       },
       "filterLocation": "Escola Sanico Teles"
-    },
-    {
-      "id": 2420,
-      "start_time": "2025-08-01T13:00:00.000+00:00",
-      "end_time": "2025-08-01T14:00:00.000+00:00",
-      "title": "Café com RH: Futuro do trabalho - como podemos construir hoje o futuro desejável para nossas carreiras, organizações e sociedade?",
-      "description": "",
-      "hub_event_id": 1,
-      "entity_register_id": 10131,
-      "place": "INATEL - Sala 20 - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "yazo_2420",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4557,
-          "name": "Luiz Drouet",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1698/partner_1698_1752612367056.png",
-          "bio": "Co-fundador da Prosper Digital Skills, edtech focada em upskilling e reskilling digital, Luiz Drouet também é cofundador da Humanship, comunidade que promove um futuro do trabalho mais humano e equitativo, e chairperson da Share People Hub, hub de soluções em RH com mais de 10 anos de mercado. Ex-presidente da ABRH-SP, foi cofundador da Campinas Tech e do Capitalismo Consciente regional Campinas, além de superintendente da ACIC e gerente regional da Amcham-Brasil. Especialista em Gestão Empresarial pela FGV e empreendedorismo pela Babson College, é professor de MBA e palestrante.",
-          "role": "Founder da Prosper Digital Skills, da Share People Hub e da Humanship",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2420,
-            "pivot_speaker_id": 4557,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
-      "id": 2419,
-      "start_time": "2025-08-01T13:00:00.000+00:00",
-      "end_time": "2025-08-01T14:00:00.000+00:00",
-      "title": "Café com RH: Futuro do trabalho - como podemos construir hoje o futuro desejável para nossas carreiras, organizações e sociedade? ",
-      "description": "",
-      "hub_event_id": 1,
-      "entity_register_id": 10130,
-      "place": "INATEL - Sala 20 - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "yazo_2419",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4557,
-          "name": "Luiz Drouet",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1698/partner_1698_1752612367056.png",
-          "bio": "Co-fundador da Prosper Digital Skills, edtech focada em upskilling e reskilling digital, Luiz Drouet também é cofundador da Humanship, comunidade que promove um futuro do trabalho mais humano e equitativo, e chairperson da Share People Hub, hub de soluções em RH com mais de 10 anos de mercado. Ex-presidente da ABRH-SP, foi cofundador da Campinas Tech e do Capitalismo Consciente regional Campinas, além de superintendente da ACIC e gerente regional da Amcham-Brasil. Especialista em Gestão Empresarial pela FGV e empreendedorismo pela Babson College, é professor de MBA e palestrante.",
-          "role": "Founder da Prosper Digital Skills, da Share People Hub e da Humanship",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2419,
-            "pivot_speaker_id": 4557,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
     },
     {
       "id": 2227,
@@ -508,7 +573,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4769,
@@ -542,6 +606,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -567,7 +632,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4169,
@@ -608,6 +672,51 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
+    },
+    {
+      "id": 2421,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T14:00:00.000+00:00",
+      "title": "Futuro do trabalho - como podemos construir hoje o futuro desejável para nossas carreiras, organizações e sociedade? ",
+      "description": "Café com RH.",
+      "hub_event_id": 1,
+      "entity_register_id": 10133,
+      "place": "INATEL - Sala 20 - Prédio 1 - 2º Piso",
+      "allow_questions": false,
+      "external_id": "yazo_2421",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [
+        {
+          "id": 4557,
+          "name": "Luiz Drouet",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1698/partner_1698_1752612367056.png",
+          "bio": "Co-fundador da Prosper Digital Skills, edtech focada em upskilling e reskilling digital, Luiz Drouet também é cofundador da Humanship, comunidade que promove um futuro do trabalho mais humano e equitativo, e chairperson da Share People Hub, hub de soluções em RH com mais de 10 anos de mercado. Ex-presidente da ABRH-SP, foi cofundador da Campinas Tech e do Capitalismo Consciente regional Campinas, além de superintendente da ACIC e gerente regional da Amcham-Brasil. Especialista em Gestão Empresarial pela FGV e empreendedorismo pela Babson College, é professor de MBA e palestrante.",
+          "role": "Founder da Prosper Digital Skills, da Share People Hub e da Humanship",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2421,
+            "pivot_speaker_id": 4557,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -633,7 +742,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4177,
@@ -667,6 +775,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -692,7 +801,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4165,
@@ -726,6 +834,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -751,7 +860,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4323,
@@ -785,6 +893,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -810,7 +919,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4624,
@@ -851,6 +959,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -876,7 +985,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4631,
@@ -917,6 +1025,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -942,7 +1051,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4196,
@@ -983,6 +1091,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -1008,7 +1117,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4515,
@@ -1042,6 +1150,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -1998,7 +2107,7 @@
       "description": "Como levar algoritmos de visão computacional do laboratório para aplicações reais em campo? Nesta conversa, compartilho aprendizados de projetos de P&D com drones voltados ao monitoramento de infraestruturas e ambientes. Vamos discutir os desafios de processar imagens em tempo real em ambientes remotos, o papel dos modelos de machine learning nesse processo e como soluções do Google Cloud, tais como Vertex AI, Cloud Functions e Cloud Storage, podem apoiar o treinamento, versionamento e escalabilidade dos modelos.",
       "hub_event_id": 1,
       "entity_register_id": 9803,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Cafézin",
       "allow_questions": false,
       "external_id": "8b261c7c-796d-407f-bc1e-78e979a04c25",
       "place_color": null,
@@ -2007,7 +2116,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -2027,12 +2136,20 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
       "id": 1989,
@@ -2258,7 +2375,7 @@
         {
           "id": 5137,
           "name": "Daniely Gomes",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5137/partner_5137_1753477809355.png",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/2527/2527_1753545214170.png?ims=filters:quality(75)",
           "bio": "Pesquisadora do xGMobile/Inatel, atua em redes 5G e 6G, com foco em inclusão e formação de talentos. Engenheira com experiência em microeletrônica e comunicação digital, promove a participação feminina na engenharia.",
           "role": "Professora e Pesquisadora do xGMobile/Inatel",
           "company": " ",
@@ -3226,6 +3343,72 @@
       "filterLocation": "ETE"
     },
     {
+      "id": 2131,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T14:00:00.000+00:00",
+      "title": "Da ETE FMC para a NASA, e agora BIZU!",
+      "description": "De Santa Rita do Sapucaí à NASA. Como projetos e ideias, que surgiram enquanto eu estudava na ETE FMC, me levaram a treinar na Nasa e ficar cada vez mais perto do Espaço.",
+      "hub_event_id": 1,
+      "entity_register_id": 9769,
+      "place": "ETE - Sala 81 - by SkyOne",
+      "allow_questions": false,
+      "external_id": "c41154f0-d7e2-425c-8f71-073d147f323d",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5032,
+          "name": "Athos Massafera",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5032/partner_5032_1753477547714.png",
+          "bio": "Estudante de Engenharia Aeroespacial, atua na Bizu Space com foco em eletrônica aplicada a foguetes. Conecta o setor espacial brasileiro à prática tecnológica.",
+          "role": "Sou estudante de Engenharia Aeroespacial, com base em eletrônica e telecomunicações.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2131,
+            "pivot_speaker_id": 5032,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 328,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Espaço / Novas Fronteiras",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
+    },
+    {
       "id": 2166,
       "start_time": "2025-08-01T14:00:00.000+00:00",
       "end_time": "2025-08-01T14:40:00.000+00:00",
@@ -3233,7 +3416,7 @@
       "description": "A inteligência artificial deixou de ser tendência para se tornar parte central do desenvolvimento de produtos. Nessa palestra traçaremos uma visão panorâmica — e provocativa — sobre a evolução da IA: das origens simbólicas aos modelos generativos atuais. Abordando o impacto real dos LLMs, os setores mais transformados e as estratégias adotadas por Big Techs e startups. Um convite à reflexão: o que profissionais de produto precisam compreender, questionar e dominar para atuar com relevância nesta nova era?",
       "hub_event_id": 1,
       "entity_register_id": 9804,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Varanda",
       "allow_questions": false,
       "external_id": "c15597a6-19b4-419c-aa1c-4ae3d0d8ddb6",
       "place_color": null,
@@ -3242,7 +3425,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -3262,12 +3445,20 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Varanda"
     },
     {
       "id": 2208,
@@ -3782,6 +3973,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 305,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Brasilidade / Latinidade",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5239,
@@ -3797,22 +4004,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 305,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brasilidade / Latinidade",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -3841,23 +4032,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4245,
-          "name": "Claudia Benedetti",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1376/partner_1376_1752610396134.png",
-          "bio": "Claudia Benedetti, PhD em Ciências Sociais pela PUC-SP, é Head de Produção de Conteúdo na ED+ Content Hub, liderando projetos que unem arte, tecnologias imersivas e educação sensível. Artista e pesquisadora, cria experiências autorais que transformam o aprendizado por meio de corpo, voz e narrativa expandida, ampliando as fronteiras da educação contemporânea.",
-          "role": "Especialista em conteúdos imersivos para aprendizagem sensível e experiências autorais.",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1974,
-            "pivot_speaker_id": 4245,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -3881,6 +4055,23 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4245,
+          "name": "Claudia Benedetti",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1376/partner_1376_1752610396134.png",
+          "bio": "Claudia Benedetti, PhD em Ciências Sociais pela PUC-SP, é Head de Produção de Conteúdo na ED+ Content Hub, liderando projetos que unem arte, tecnologias imersivas e educação sensível. Artista e pesquisadora, cria experiências autorais que transformam o aprendizado por meio de corpo, voz e narrativa expandida, ampliando as fronteiras da educação contemporânea.",
+          "role": "Especialista em conteúdos imersivos para aprendizagem sensível e experiências autorais.",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1974,
+            "pivot_speaker_id": 4245,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -3892,10 +4083,10 @@
       "start_time": "2025-08-01T14:30:00.000+00:00",
       "end_time": "2025-08-01T15:10:00.000+00:00",
       "title": "Demo de Veo3",
-      "description": "A ser anunciado",
+      "description": "Descubra o Veo, o mais recente modelo de inteligência artificial generativa de vídeo do Google, em uma sessão exclusiva com um Customer Engineer do Google Cloud para startups. Prepare-se para uma demonstração dinâmica que revelará como o Veo transforma texto, imagens e vídeos existentes em conteúdo visual inovador. Esta é a sua chance de explorar, de forma prática e informal, o poder do Veo para impulsionar a criatividade e o desenvolvimento de produtos em sua startup, com a possibilidade de interagir diretamente com a ferramenta e experimentar suas capacidades em tempo real.",
       "hub_event_id": 1,
       "entity_register_id": 9815,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Cafézin",
       "allow_questions": false,
       "external_id": "6cdab0ef-2cb3-4788-afcf-73874ec63127",
       "place_color": null,
@@ -3904,9 +4095,25 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 286,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Novas Mídias / Realidades Expandidas",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5231,
@@ -3924,12 +4131,11 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
       "id": 1995,
@@ -4110,7 +4316,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "tags": [
@@ -4482,6 +4688,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4210,
+          "name": "Calebe Bezerra",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1341/partner_1341_1752610203553.png",
+          "bio": "Designer gráfico e publicitário, especializado em criatividade (University of Texas at Austin) e marketing estratégico (Ohio University), com pós-graduação em Marketing Digital. Fundador da AlmaBrands (antiga Calebe\\_) e da startup Prosas. Atua como professor de Branding e é vice-presidente da ABEDESIGN. Já atendeu mais de 300 clientes no Brasil e no exterior, incluindo ONU, WWF, Suzano, Méliuz e Grupo BMG.",
+          "role": "CEO/founder da Almabrands e Vice-presidente da ABEDESIGN",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1947,
+            "pivot_speaker_id": 4210,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -4503,23 +4726,6 @@
           "type": "schedules",
           "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4210,
-          "name": "Calebe Bezerra",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1341/partner_1341_1752610203553.png",
-          "bio": "Designer gráfico e publicitário, especializado em criatividade (University of Texas at Austin) e marketing estratégico (Ohio University), com pós-graduação em Marketing Digital. Fundador da AlmaBrands (antiga Calebe\\_) e da startup Prosas. Atua como professor de Branding e é vice-presidente da ABEDESIGN. Já atendeu mais de 300 clientes no Brasil e no exterior, incluindo ONU, WWF, Suzano, Méliuz e Grupo BMG.",
-          "role": "CEO/founder da Almabrands e Vice-presidente da ABEDESIGN",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1947,
-            "pivot_speaker_id": 4210,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -4548,6 +4754,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5189,
+          "name": "Anna Prado",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 1898,
+            "pivot_speaker_id": 5189,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -4569,23 +4792,6 @@
           "type": "schedules",
           "name": "Direitos Autorais / Criatividade",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 5189,
-          "name": "Anna Prado",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1898,
-            "pivot_speaker_id": 5189,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -4614,29 +4820,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5028,
@@ -4682,6 +4865,29 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -5231,7 +5437,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4987,
@@ -5249,6 +5454,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5297,7 +5503,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4539,
@@ -5330,6 +5535,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5371,7 +5577,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4426,
@@ -5404,6 +5609,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5452,7 +5658,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4661,
@@ -5470,6 +5675,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5518,7 +5724,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4408,
@@ -5536,6 +5741,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5584,7 +5790,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4506,
@@ -5602,6 +5807,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5650,7 +5856,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4506,
@@ -5668,6 +5873,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5716,7 +5922,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4259,
@@ -5734,6 +5939,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5782,7 +5988,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4496,
@@ -5800,6 +6005,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5848,7 +6054,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4116,
@@ -5866,6 +6071,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -6087,6 +6293,58 @@
       "filterLocation": "ETE"
     },
     {
+      "id": 2164,
+      "start_time": "2025-08-01T15:00:00.000+00:00",
+      "end_time": "2025-08-01T15:40:00.000+00:00",
+      "title": "Accessibility at Google",
+      "description": "Junte-se a Bernardo Barlach para descobrir como a Google está construindo um mundo mais inclusivo através da acessibilidade e da IA. Entenda o compromisso da Google em garantir que produtos e serviços sejam úteis para todos, abordando diversas deficiências (visão, audição, mobilidade, fala e cognitiva). Veja como a IA nivela o campo de jogo, desde legendas em tempo real a descrições visuais. Uma palestra essencial para entender como a inovação gera impacto positivo na vida de bilhões.",
+      "hub_event_id": 1,
+      "entity_register_id": 9802,
+      "place": "Casa Google Cloud - Sala Varanda",
+      "allow_questions": false,
+      "external_id": "95b1977a-909b-4273-a887-afb29ef874e6",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5226,
+          "name": "Bernardo Barlach",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 2164,
+            "pivot_speaker_id": 5226,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Google Cloud - Sala Varanda"
+    },
+    {
       "id": 2198,
       "start_time": "2025-08-01T15:00:00.000+00:00",
       "end_time": "2025-08-01T15:40:00.000+00:00",
@@ -6129,6 +6387,117 @@
         "rating": 0
       },
       "filterLocation": "Other"
+    },
+    {
+      "id": 2474,
+      "start_time": "2025-08-01T16:00:00.000+00:00",
+      "end_time": "2025-08-01T17:00:00.000+00:00",
+      "title": "AgFood do Futuro: Blockchain, Startups e Tecnologias emergentes que Alimentam o Mundo",
+      "description": "O painel aborda como tecnologias emergentes como blockchain, biotecnologia e IA estão transformando o setor agroalimentar. Discutiremos o papel de AgTechs, FoodTechs e DeepTechs no futuro da alimentação e como o uso do blockchain pode democratizar o investimento em startups do setor. Uma visão estratégica sobre inovação, sustentabilidade e o protagonismo do Brasil na construção de soluções para alimentar o mundo.",
+      "hub_event_id": 1,
+      "entity_register_id": 10200,
+      "place": "Associação José do Patrocínio",
+      "allow_questions": false,
+      "external_id": "yazo_2474",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4394,
+          "name": "Prof Hélio Costa",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1530/partner_1530_1752611363586.png",
+          "bio": "PhD em Inovação e Tecnologia, atua há mais de 30 anos com criatividade, ciência, tecnologia e inovação. Com forte presença na comunicação e divulgação científica no Brasil e no exterior, dedica-se a transformar conhecimento em ferramenta de adaptação e prosperidade em um mundo em constante transformação.",
+          "role": "Sócio da AgFood/Sapienza",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2474,
+            "pivot_speaker_id": 4394,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5334,
+          "name": "Alain Marques",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/2527/2527_1753541030773.png?ims=filters:quality(75)",
+          "bio": "Alain Marques é CEO da AgFood Ventures, ecossistema de inovação e investimento em startups da cadeia agroalimentar #agtech #foodtech #deeptech. Atua há mais de uma década com inovação aberta, aceleração de startups e tecnologias emergentes. É membro do comitê de AgFoodTechs da Abstartups e do comitê de inovação do Ministério da Agricultura, contribuindo ativamente para o desenvolvimento do ecossistema agro e food tech no Brasil.",
+          "role": "CEO e head de investimentos da agfoodventures",
+          "company": "AgFoodVentures",
+          "meta": {
+            "pivot_schedule_id": 2474,
+            "pivot_speaker_id": 5334,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5335,
+          "name": "Ely Prado ",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/2527/2527_1753541117583.png?ims=filters:quality(75)",
+          "bio": "Mestre em Ciência da Computação, CTO e fundador da E-ctare, a qual provê um ecossistema de tecnologia para empresas e cooperativas do agronegócio.",
+          "role": " CTO e fundador ",
+          "company": "E-ctare",
+          "meta": {
+            "pivot_schedule_id": 2474,
+            "pivot_speaker_id": 5335,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5336,
+          "name": "Diro Hokari ",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/2527/2527_1753541159429.png?ims=filters:quality(75)",
+          "bio": "Desenvolvemos e fabricamos um insumo agrícola orgânico, de biotecnologia japonesa, que recupera a saúde dos solos degradados pelo cultivo intensivo e agroquímicos.",
+          "role": " Founder",
+          "company": "Solusolo",
+          "meta": {
+            "pivot_schedule_id": 2474,
+            "pivot_speaker_id": 5336,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 312,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Futuro da Alimentação",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 2228,
@@ -6195,6 +6564,110 @@
         "rating": 0
       },
       "filterLocation": "Incubadora Municipal - Auditório"
+    },
+    {
+      "id": 2437,
+      "start_time": "2025-08-01T16:00:00.000+00:00",
+      "end_time": "2025-08-01T17:00:00.000+00:00",
+      "title": "IA para organizações: como adaptar novas ferramentas para o dia-a-dia empresarial",
+      "description": "Apresentar como organizações podem adaptar ferramentas de IA originalmente voltadas para o consumidor final, focando em ampliar e melhorar a qualidade dos inputs de dados, o que resulta em decisões mais precisas. Com uma abordagem agnóstica, explicar como integrar e estruturar diferentes fontes de dados utilizando casos práticos de personalização do atendimento ao cliente e otimização operacional, permitindo adaptações rápidas e maior assertividade nas tomadas de decisão.",
+      "hub_event_id": 1,
+      "entity_register_id": 10155,
+      "place": "INATEL - Sala 23 - Prédio 1 - 2º Piso",
+      "allow_questions": false,
+      "external_id": "yazo_2437",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5036,
+          "name": "Gustavo Maierá",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5036/partner_5036_1753477554453.png",
+          "bio": "AI Latam Team Leader na Oracle, lidera adoção de IA na América Latina. Engenheiro pela UFU, com passagens por Singularity University, Endeavor e FDC.",
+          "role": "AI Latam Team Leader na Oracle",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2437,
+            "pivot_speaker_id": 5036,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
+    },
+    {
+      "id": 2432,
+      "start_time": "2025-08-01T16:00:00.000+00:00",
+      "end_time": "2025-08-01T17:00:00.000+00:00",
+      "title": "Limites sem culpa: entre abismos e muros, construímos pontes",
+      "description": "Os limites são vistos como barreiras que precisamos superar. Mas e se, na verdade, eles forem a ponte que nos conecta e a borda que nos protege? Viver sem limites nos desconecta da nossa capacidade de nos proteger e, ao mesmo tempo, de nos relacionar de maneira profunda e verdadeira. E é aqui que nos encontramos com a exaustão, a solidão e o burnout. Restaurar nossas bordas é o caminho para nossa potência e para nos conectarmos de forma verdadeira, sabendo até onde ir sem nos machucar ou machucar o outro.",
+      "hub_event_id": 1,
+      "entity_register_id": 10149,
+      "place": "ETE - Sala 65",
+      "allow_questions": false,
+      "external_id": "yazo_2432",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5327,
+          "name": "Cinthia Costa",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753533597445.png?ims=filters:quality(75)",
+          "bio": "TEDx Speaker  | Palestrante  | Cuidadora e desenvolvedora de gente e empresas para o viver bem e trabalhar de forma saudável e sustentável, especialista em psicotraumatologia e em redução de estresse e mindfulness pelas Universidades de Massachusetts e Brown, EUA",
+          "role": "TEDx Speaker, Cuidadora e Desenvolvedora de Gente e de Empresas",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 2432,
+            "pivot_speaker_id": 5327,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1948,
@@ -6281,7 +6754,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4221,
@@ -6315,6 +6787,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6340,7 +6813,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4582,
@@ -6426,6 +6898,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6451,7 +6924,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4686,
@@ -6492,6 +6964,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6517,7 +6990,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4320,
@@ -6551,6 +7023,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6576,7 +7049,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4452,
@@ -6617,6 +7089,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6642,7 +7115,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4367,
@@ -6728,6 +7200,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6753,7 +7226,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4508,
@@ -6794,6 +7266,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6819,7 +7292,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4136,
@@ -6853,6 +7325,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6878,7 +7351,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5153,
@@ -6912,6 +7384,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6937,7 +7410,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4916,
@@ -6993,6 +7465,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7412,7 +7885,7 @@
       "description": "Em um mundo que acelera na direção do digital, o fazer manual segue sendo um campo de resistência e reinvenção. Esta roda de conversa propõe uma reflexão crítica sobre a marginalização de saberes manuais nos espaços de formação e aponta caminhos para revalorizar práticas ancestrais, coletivas e acessíveis. A partir de experiências práticas em educação e oficinas, discutiremos o papel do corpo, da presença e das ferramentas compartilhadas como tecnologias sociais que podem — e devem — coexistir com o digital.",
       "hub_event_id": 1,
       "entity_register_id": 9541,
-      "place": "INATEL - Sala 23 - Prédio 1 - 2º Piso",
+      "place": "ETE - Sala 82",
       "allow_questions": false,
       "external_id": "25ec70b4-a934-4616-bfd8-2648c5f2fae0",
       "place_color": null,
@@ -7421,7 +7894,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -7468,7 +7941,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "INATEL"
+      "filterLocation": "ETE"
     },
     {
       "id": 1935,
@@ -8089,65 +8562,6 @@
       "filterLocation": "Escola Sanico Teles"
     },
     {
-      "id": 1700,
-      "start_time": "2025-08-01T16:00:00.000+00:00",
-      "end_time": "2025-08-01T17:00:00.000+00:00",
-      "title": "Impacto Social da ciência resolvendo problemas reais da sociedade",
-      "description": "Pensando novas ideias de negócio e soluções inovadoras, transformando pesquisas em empreendimentos viáveis e com potencial de mercado e que entreguem soluções sustentáveis para problemas reais da sociedade",
-      "hub_event_id": 1,
-      "entity_register_id": 9338,
-      "place": "ETE - Sala 65",
-      "allow_questions": false,
-      "external_id": "6f9f4440-919c-4c87-ac1d-0c5dfda30816",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4859,
-          "name": "Taynara Alves",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4859/partner_4859_1753477121993.png",
-          "bio": "Química e Gestora em Inovação, é fundadora da InQuímica, startup que desenvolve soluções científicas para desafios sociais. Atua com inovação e impacto por meio da ciência aplicada.",
-          "role": "Cientista empreendedora da startup InQuímica",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1700,
-            "pivot_speaker_id": 4859,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "ETE"
-    },
-    {
       "id": 1914,
       "start_time": "2025-08-01T16:00:00.000+00:00",
       "end_time": "2025-08-01T17:00:00.000+00:00",
@@ -8344,72 +8758,6 @@
         "rating": 0
       },
       "filterLocation": "ETE"
-    },
-    {
-      "id": 2403,
-      "start_time": "2025-08-01T16:00:00.000+00:00",
-      "end_time": "2025-08-01T17:00:00.000+00:00",
-      "title": "O design a serviço da educação emancipatória",
-      "description": "Como criar experiências educacionais que dialoguem com os desafios do mundo do trabalho e fortaleçam o protagonismo dos jovens? A partir da interseção entre o design estratégico e uma educação emancipatória, esta palestra apresenta práticas que ampliam repertórios, despertam sonhos e preparam para uma vida com sentido. O design entra como ferramenta para projetar vínculos, estimular a imaginação e formar trajetórias viáveis em um mundo em constante transformação.",
-      "hub_event_id": 1,
-      "entity_register_id": 10109,
-      "place": "Associação José do Patrocínio",
-      "allow_questions": false,
-      "external_id": "69708cfa-f84e-4dd5-8f06-6b40e83005a3",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4472,
-          "name": "Juliana Vieira",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1608/partner_1608_1752611832446.png",
-          "bio": "Gerente Educacional no Instituto Caldeira e parceira de aprendizagem no O Futuro das Coisas. Mestranda em Design Estratégico, atua há mais de 15 anos com educação de jovens, com foco em inovação, mundo do trabalho e construção de carreiras de futuro.",
-          "role": "Gerente Educacional no Instituto Caldeira",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2403,
-            "pivot_speaker_id": 4472,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        },
-        {
-          "id": 384,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Design / UX / Acessibilidade",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Associação José do Patrocínio"
     },
     {
       "id": 1972,
@@ -8919,72 +9267,6 @@
       "filterLocation": "INATEL"
     },
     {
-      "id": 1668,
-      "start_time": "2025-08-01T16:00:00.000+00:00",
-      "end_time": "2025-08-01T17:00:00.000+00:00",
-      "title": "Ciência: um bom negócio no Brasil",
-      "description": "Como transformar ciência em oportunidade real de negócio? Esta palestra apresenta caminhos para empreender com base em conhecimento científico, conectando pesquisa, inovação e mercado. Um convite para pensar a ciência não só como produção de conhecimento, mas como motor estratégico para o desenvolvimento econômico e social no Brasil.",
-      "hub_event_id": 1,
-      "entity_register_id": 9306,
-      "place": "ETE - Sala 82",
-      "allow_questions": false,
-      "external_id": "407e4920-7e81-4a1d-88fd-e10203c3cd43",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4204,
-          "name": "Bruno Stefani",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1335/partner_1335_1752610163870.png",
-          "bio": "Conselheiro de inovação de grandes empresas e professor na Fundação Dom Cabral, Insper e FGV. Atuou como Diretor Global de Inovação na Ambev e líder de Inovação Aberta no Itaú. É membro do conselho da MIT Sloan Management Review no Brasil, colunista da Época Negócios, engenheiro de produção pela UFSCar e doutorando em estratégias de construção de novos negócios por empresas não digitais.",
-          "role": "Sócio da NERD Partners",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1668,
-            "pivot_speaker_id": 4204,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 261,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Empreendedorismo",
-          "hub_event_id": 1
-        },
-        {
-          "id": 283,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cinema / Audiovisual",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "ETE"
-    },
-    {
       "id": 1689,
       "start_time": "2025-08-01T16:00:00.000+00:00",
       "end_time": "2025-08-01T17:00:00.000+00:00",
@@ -9199,8 +9481,31 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
+      "tags": [
+        {
+          "id": 392,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Consciência / Responsabilidade",
+          "hub_event_id": 1
+        },
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9264,29 +9569,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 392,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Consciência / Responsabilidade",
-          "hub_event_id": 1
-        },
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9312,6 +9594,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "tags": [],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9330,7 +9613,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9342,10 +9624,10 @@
       "start_time": "2025-08-01T17:00:00.000+00:00",
       "end_time": "2025-08-01T21:00:00.000+00:00",
       "title": "Introdução à IA e Machine Learning",
-      "description": "A ser anunciado",
+      "description": "Neste curso prático, você vai explorar as ofertas de IA e ML do Google Cloud para construir projetos de IA preditiva e generativa. É ideal para cientistas de dados, desenvolvedores de IA e engenheiros de ML, que visam aprimorar suas habilidades e conhecimentos com experiências de aprendizado e exercícios práticos. Você aprenderá a reconhecer tecnologias e ferramentas de dados para IA do Google Cloud, desenvolver projetos de IA generativa usando Gemini multimodal, prompts eficientes e ajuste de modelo, além de criar um modelo de ML de ponta a ponta com o Vertex AI.",
       "hub_event_id": 1,
       "entity_register_id": 9819,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Academy",
       "allow_questions": false,
       "external_id": "1b902a67-d641-408b-a6c2-8d01046c3260",
       "place_color": null,
@@ -9354,8 +9636,17 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9374,12 +9665,11 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Academy"
     },
     {
       "id": 2179,
@@ -9389,7 +9679,7 @@
       "description": "A ser anunciado",
       "hub_event_id": 1,
       "entity_register_id": 9817,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Cafézin",
       "allow_questions": false,
       "external_id": "3b94319b-2e3f-4673-9086-c01de241c558",
       "place_color": null,
@@ -9400,6 +9690,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "tags": [],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9418,12 +9709,11 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
       "id": 2362,
@@ -9444,24 +9734,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4650,
-          "name": "Paloma Pena Firme",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1792/partner_1792_1752612966485.png",
-          "bio": "Educadora e bióloga pela UFSCar, designer de experiências e especialista em cultura de aprendizagem. É uma aprendiz inquieta que idealizou o Copo da Aprendizagem para expandir as fronteiras da educação.",
-          "role": "Criadora do Copo da Aprendizagem",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2362,
-            "pivot_speaker_id": 4650,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 275,
@@ -9483,6 +9755,24 @@
           "type": "schedules",
           "name": "Espaço / Novas Fronteiras",
           "hub_event_id": 1
+        }
+      ],
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4650,
+          "name": "Paloma Pena Firme",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1792/partner_1792_1752612966485.png",
+          "bio": "Educadora e bióloga pela UFSCar, designer de experiências e especialista em cultura de aprendizagem. É uma aprendiz inquieta que idealizou o Copo da Aprendizagem para expandir as fronteiras da educação.",
+          "role": "Criadora do Copo da Aprendizagem",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2362,
+            "pivot_speaker_id": 4650,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9510,24 +9800,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4757,
-          "name": "Tarcio Borgo",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1905/partner_1905_1752613645322.png",
-          "bio": "Designer de Serviço e Analista de Soluções Sustentáveis no Cazoolo, o Lab de Design Circular de Embalagens da Braskem. Atua no desenvolvimento de negócios e inovações voltadas à economia circular dos plásticos. Formado em Design e pós-graduado em Design de Serviço pela PUC-Rio, possui mais de 9 anos de experiência em design de produto e, desde 2021, dedica-se ao design para sustentabilidade na indústria petroquímica.",
-          "role": "Desenvolvimento de mercado - Embalagens e Bens de consumo",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2232,
-            "pivot_speaker_id": 4757,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 399,
@@ -9549,6 +9821,24 @@
           "type": "schedules",
           "name": "Empreendedorismo",
           "hub_event_id": 1
+        }
+      ],
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4757,
+          "name": "Tarcio Borgo",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1905/partner_1905_1752613645322.png",
+          "bio": "Designer de Serviço e Analista de Soluções Sustentáveis no Cazoolo, o Lab de Design Circular de Embalagens da Braskem. Atua no desenvolvimento de negócios e inovações voltadas à economia circular dos plásticos. Formado em Design e pós-graduado em Design de Serviço pela PUC-Rio, possui mais de 9 anos de experiência em design de produto e, desde 2021, dedica-se ao design para sustentabilidade na indústria petroquímica.",
+          "role": "Desenvolvimento de mercado - Embalagens e Bens de consumo",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2232,
+            "pivot_speaker_id": 4757,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9576,6 +9866,29 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        },
+        {
+          "id": 332,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cidades / Comunidades Inovadoras",
+          "hub_event_id": 1
+        }
+      ],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9609,29 +9922,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        },
-        {
-          "id": 332,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cidades / Comunidades Inovadoras",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9657,24 +9947,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4785,
-          "name": "Tiago José",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1933/partner_1933_1752613814157.png",
-          "bio": "Consultor e psicanalista com atuação global, formado em escolas de psicanálise no Brasil e no Reino Unido. Cruza subjetividade, inovação e diversidade para tensionar certezas e abrir futuros, combinando saberes acadêmicos e ancestrais em processos de escuta profunda e transformação.",
-          "role": "Consultor em desenvolvimento de lideranças e transformação organizacional",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2352,
-            "pivot_speaker_id": 4785,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 392,
@@ -9696,6 +9968,24 @@
           "type": "schedules",
           "name": "Economia Criativa",
           "hub_event_id": 1
+        }
+      ],
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4785,
+          "name": "Tiago José",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1933/partner_1933_1752613814157.png",
+          "bio": "Consultor e psicanalista com atuação global, formado em escolas de psicanálise no Brasil e no Reino Unido. Cruza subjetividade, inovação e diversidade para tensionar certezas e abrir futuros, combinando saberes acadêmicos e ancestrais em processos de escuta profunda e transformação.",
+          "role": "Consultor em desenvolvimento de lideranças e transformação organizacional",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2352,
+            "pivot_speaker_id": 4785,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9723,6 +10013,22 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 337,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Música / Inovação na Indústria",
+          "hub_event_id": 1
+        }
+      ],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9739,22 +10045,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 337,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Música / Inovação na Indústria",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9782,6 +10072,22 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "broadcast_rooms": [],
       "speakers": [
         {
@@ -9800,19 +10106,70 @@
           "allow_access": false
         }
       ],
-      "tags": [
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles"
+    },
+    {
+      "id": 2426,
+      "start_time": "2025-08-01T17:30:00.000+00:00",
+      "end_time": "2025-08-01T18:20:00.000+00:00",
+      "title": "Falta tempo livre, sobra trabalho: que saídas temos para um dia a dia mais justo?",
+      "description": "Vivemos uma crise do tempo livre no Brasil. O acesso a momentos de descanso, lazer ou desenvolvimento pessoal é restrito a uma parcela pequena (e privilegiada) da população. O trabalho, parte central da vida, está sob revisão para acomodar as demandas de uma sociedade esgotada. Novos arranjos, como o modelo remoto e a semana de 4 dias, buscam equilibrar a expectativa por mais tempo livre com as exigências do desempenho em alto nível. Neste contexto, como buscar mais tempo livre e de qualidade? Que conversas precisam acontecer dentro das empresas para encurtar distâncias? De que forma a tecnologia pode — ou não — liberar nosso tempo?",
+      "hub_event_id": 1,
+      "entity_register_id": 10138,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2426",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
         {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
+          "id": 4565,
+          "name": "Maíra Blasi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1706/partner_1706_1752612416267.png",
+          "bio": "Professora na PUC, especialista em futuro do trabalho e fundadora da Subversiva. Já esteve na CNN, Folha, Estadão e em empresas como Globo, Danone e Grupo Omelete levando novas ideias para mudar o mundo do trabalho.",
+          "role": "Fundadora da Subversiva",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2426,
+            "pivot_speaker_id": 4565,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         },
         {
-          "id": 264,
+          "id": 4862,
+          "name": "Rodrigo Casagrande",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4862/partner_4862_1753477131651.png",
+          "bio": "Psicanalista e pesquisador do NEPE-UNIVAP e LAPSUS-UNICAMP, é mestrando em Planejamento Urbano e curador do TEDxJacareí. Atua nas interfaces entre tempo, subjetividade e longevidade.",
+          "role": "Psicanalista e pesquisador do NEPE-UNIVAP e LAPSUS-UNICAMP",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2426,
+            "pivot_speaker_id": 4862,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 388,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
+          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
           "hub_event_id": 1
         }
       ],
@@ -9820,7 +10177,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
     },
     {
       "id": 1940,
@@ -10234,6 +10591,88 @@
       "filterLocation": "INATEL"
     },
     {
+      "id": 2431,
+      "start_time": "2025-08-01T17:30:00.000+00:00",
+      "end_time": "2025-08-01T18:30:00.000+00:00",
+      "title": "Mulheres não choram, faturam",
+      "description": "Habilidades femininas, IA e as oportunidades de empreender no Brasil (para homens também).",
+      "hub_event_id": 1,
+      "entity_register_id": 10147,
+      "place": "ETE - Auditório Sinhá Moreira by SESC/SENAC ",
+      "allow_questions": false,
+      "external_id": "yazo_2431",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4636,
+          "name": "Nathalia Arcuri",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1778/partner_1778_1752612871364.png",
+          "bio": "Lidera o maior canal de finanças pessoais do mundo no YouTube, o Me Poupe! Autora de 3 livros e pentacampeã, consecutiva, no prêmio iBest.",
+          "role": "Founder do Me Poupe!",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2431,
+            "pivot_speaker_id": 4636,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4744,
+          "name": "Simone Kliass",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1891/partner_1891_1752613561566.png",
+          "bio": "Consultora de inovação no audiovisual, locutora e palestrante internacional. Co-fundadora da XRBR, é voz oficial da LATAM e SKY, com 7 prêmios SOVAS, já palestrou em eventos como SXSW, Web Summit e OCDE, além de ser embaixadora da Women in Voice no Brasil.",
+          "role": "Consultora de Inovação, Co-Fundadora da XRBR",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2431,
+            "pivot_speaker_id": 4744,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4971,
+          "name": "Andreza Maia",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4971/partner_4971_1753477392882.png",
+          "bio": "Cofundadora da Futuros Possíveis, é especialista em inovação inclusiva, LinkedIn Top Voice e TedX Speaker. Traduz temas complexos em narrativas acessíveis, conectando dados, impacto social e resultados concretos com linguagem clara e envolvente.",
+          "role": "CoFundadora Futuros Possíveis e especialista em inovação inclusiva",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2431,
+            "pivot_speaker_id": 4971,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
+    },
+    {
       "id": 2335,
       "start_time": "2025-08-01T17:30:00.000+00:00",
       "end_time": "2025-08-01T18:30:00.000+00:00",
@@ -10357,6 +10796,72 @@
         "rating": 0
       },
       "filterLocation": "Casa MFM - Sala Lareira"
+    },
+    {
+      "id": 2403,
+      "start_time": "2025-08-01T17:30:00.000+00:00",
+      "end_time": "2025-08-01T18:30:00.000+00:00",
+      "title": "O design a serviço da educação emancipatória",
+      "description": "Como criar experiências educacionais que dialoguem com os desafios do mundo do trabalho e fortaleçam o protagonismo dos jovens? A partir da interseção entre o design estratégico e uma educação emancipatória, esta palestra apresenta práticas que ampliam repertórios, despertam sonhos e preparam para uma vida com sentido. O design entra como ferramenta para projetar vínculos, estimular a imaginação e formar trajetórias viáveis em um mundo em constante transformação.",
+      "hub_event_id": 1,
+      "entity_register_id": 10109,
+      "place": "ETE - Sala 81 - by SkyOne",
+      "allow_questions": false,
+      "external_id": "69708cfa-f84e-4dd5-8f06-6b40e83005a3",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4472,
+          "name": "Juliana Vieira",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1608/partner_1608_1752611832446.png",
+          "bio": "Gerente Educacional no Instituto Caldeira e parceira de aprendizagem no O Futuro das Coisas. Mestranda em Design Estratégico, atua há mais de 15 anos com educação de jovens, com foco em inovação, mundo do trabalho e construção de carreiras de futuro.",
+          "role": "Gerente Educacional no Instituto Caldeira",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2403,
+            "pivot_speaker_id": 4472,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 275,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Educação / Aprendizado",
+          "hub_event_id": 1
+        },
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
     },
     {
       "id": 1955,
@@ -10957,7 +11462,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4278,
@@ -10975,6 +11479,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -11023,7 +11528,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4207,
@@ -11041,6 +11545,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -11089,7 +11594,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4682,
@@ -11107,6 +11611,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -11155,7 +11660,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4656,
@@ -11188,6 +11692,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11236,7 +11741,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4189,
@@ -11254,6 +11758,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 407,
@@ -11302,7 +11807,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4390,
@@ -11320,6 +11824,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -11368,7 +11873,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4202,
@@ -11386,6 +11890,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11434,7 +11939,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4468,
@@ -11467,6 +11971,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -11515,7 +12020,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4758,
@@ -11533,6 +12037,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11581,7 +12086,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4216,
@@ -11599,6 +12103,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12037,10 +12542,10 @@
       "start_time": "2025-08-01T18:00:00.000+00:00",
       "end_time": "2025-08-01T18:40:00.000+00:00",
       "title": "From Silos to Synergy",
-      "description": "A ser anunciado",
+      "description": "Google Cloud Startup Marketing, explora como a IA pode transformar equipes de marketing, superando desafios comuns como falta de pessoal, orçamento, mensuração e personalização. A palestra demonstra como a IA otimiza campanhas, estende orçamentos com criação de conteúdo e podcasts, e permite \"conversar\" com dados para decisões mais inteligentes. Ela destaca tendências como IA multimodal e agentes de IA, mostrando como o Google Cloud capacita uma nova era de marketing personalizado e eficiente.",
       "hub_event_id": 1,
       "entity_register_id": 9838,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Varanda",
       "allow_questions": false,
       "external_id": "6a813d53-680c-441c-b7a9-288db9e9936d",
       "place_color": null,
@@ -12049,7 +12554,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -12069,12 +12574,72 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 307,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Vendas / Marketing",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Varanda"
+    },
+    {
+      "id": 2427,
+      "start_time": "2025-08-01T18:30:00.000+00:00",
+      "end_time": "2025-08-01T19:20:00.000+00:00",
+      "title": "O sonho impossível: ter saúde mental na era do scroll infinito",
+      "description": "Vivemos uma crise do tempo livre no Brasil. O acesso a momentos de descanso, lazer ou desenvolvimento pessoal é restrito a uma parcela pequena (e privilegiada) da população. O trabalho, parte central da vida, está sob revisão para acomodar as demandas de uma sociedade esgotada. Novos arranjos, como o modelo remoto e a semana de 4 dias, buscam equilibrar a expectativa por mais tempo livre com as exigências do desempenho em alto nível. Neste contexto, como buscar mais tempo livre e de qualidade? Que conversas precisam acontecer dentro das empresas para encurtar distâncias? De que forma a tecnologia pode — ou não — liberar nosso tempo?",
+      "hub_event_id": 1,
+      "entity_register_id": 10140,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2427",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1280,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4863,
+          "name": "Jules de Faria",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4863/partner_4863_1753477136856.png",
+          "bio": "Jornalista, escritora e consultora criativa. Cofundadora da agência AQI e do movimento Bora Sonhar, escreve sobre criatividade e sonhos como motor de transformação em veículos como Fast Company e Marie Claire.",
+          "role": "Co-fundadora da agência AQI e do movimento Bora Sonhar",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2427,
+            "pivot_speaker_id": 4863,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 386,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental – Presente / Futuro",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
     },
     {
       "id": 1920,
@@ -12430,7 +12995,7 @@
       "description": "A ser anunciado",
       "hub_event_id": 1,
       "entity_register_id": 9818,
-      "place": "",
+      "place": "Casa Google Cloud - Sala Cafézin",
       "allow_questions": false,
       "external_id": "c367e2f2-80dc-48bb-8299-a9cc2bd69a47",
       "place_color": null,
@@ -12459,12 +13024,20 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
       "id": 2236,
@@ -13676,7 +14249,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -14209,7 +14782,7 @@
       "start_time": "2025-08-01T19:00:00.000+00:00",
       "end_time": "2025-08-01T20:00:00.000+00:00",
       "title": "O Papel Estratégico dos Eventos de Inovação Para Marcas",
-      "description": "A ser anunciado",
+      "description": "",
       "hub_event_id": 1,
       "entity_register_id": 9639,
       "place": "INATEL - Sala 22 - Prédio 1 - 2º Piso",
@@ -14221,20 +14794,50 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
         {
-          "id": 5202,
-          "name": "Franklin Costa + 3 convidados",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "id": 4340,
+          "name": "Franklin Costa",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1473/partner_1473_1752611021324.png",
+          "bio": "Publicitário, atua há 20 anos na interseção entre o marketing, a inovação e o design de experiências. Criativo e estrategista, Iniciou carreira na Globo, fundou a 1ª agência de social media do RJ e trabalhou como consultor para alguns dos maiores festivais do mundo e diversas marcas globais.",
+          "role": "Co-fundador da oclb",
+          "company": " ",
           "meta": {
             "pivot_schedule_id": 2001,
-            "pivot_speaker_id": 5202,
+            "pivot_speaker_id": 4340,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5323,
+          "name": "João Bosco",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753532369139.png?ims=filters:quality(75)",
+          "bio": "",
+          "role": " Head of Open Innovation",
+          "company": "Claro",
+          "meta": {
+            "pivot_schedule_id": 2001,
+            "pivot_speaker_id": 5323,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5324,
+          "name": "Aline Jurie",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753532551088.png?ims=filters:quality(75)",
+          "bio": "",
+          "role": " Senior Experience and Events Manager",
+          "company": "ManyChat",
+          "meta": {
+            "pivot_schedule_id": 2001,
+            "pivot_speaker_id": 5324,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -14915,6 +15518,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4181,
@@ -14932,7 +15536,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14981,6 +15584,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4354,
@@ -14998,7 +15602,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15347,6 +15950,42 @@
       "filterLocation": "ETE"
     },
     {
+      "id": 2428,
+      "start_time": "2025-08-01T19:30:00.000+00:00",
+      "end_time": "2025-08-01T20:30:00.000+00:00",
+      "title": "Dados contam histórias: como transformar comportamento em narrativa ",
+      "description": "Dados provam pontos. E mais: constroem narrativas. Neste painel, vamos mostrar como o uso estratégico de dados pode expandir o alcance de um relatório e gerar conteúdo relevante. Combinando análise de comportamento, recortes interessantes e timing editorial, revelamos como transformar números em histórias que consolidam autoridade, chamam atenção e geram impacto real.\n",
+      "hub_event_id": 1,
+      "entity_register_id": 10142,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2428",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
+    },
+    {
       "id": 1695,
       "start_time": "2025-08-01T19:30:00.000+00:00",
       "end_time": "2025-08-01T20:30:00.000+00:00",
@@ -15397,6 +16036,101 @@
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 2460,
+      "start_time": "2025-08-01T20:30:00.000+00:00",
+      "end_time": "2025-08-01T21:00:00.000+00:00",
+      "title": "Núbia",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10183,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2460",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2444,
+      "start_time": "2025-08-01T20:30:00.000+00:00",
+      "end_time": "2025-08-01T21:30:00.000+00:00",
+      "title": "Quem sou eu usando IA na fila do pão?",
+      "description": "Nesta palestra eu vou contextualizar como as atuais ferramentas de IA podem te ajudar a ganhar produtividade no cotidiano, independente da sua área de atuação. Teremos algumas demos com escopos coletados da audiência",
+      "hub_event_id": 1,
+      "entity_register_id": 10164,
+      "place": "INATEL - Sala 03 - Prédio 1 - Térreo",
+      "allow_questions": false,
+      "external_id": "yazo_2444",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [
+        {
+          "id": 4960,
+          "name": "Flávio Pimenta",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4960/partner_4960_1753477367909.png",
+          "bio": "Staff Engineer na Select Soluções, com mais de 25 anos em TI. Atuou na implantação da Nota Fiscal Eletrônica, SPED e Open Finance. Especialista em cloud AWS há mais de 14 anos, conecta IA à estratégia de negócios dos clientes.",
+          "role": "Staff Engineer",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2444,
+            "pivot_speaker_id": 4960,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1938,
@@ -15549,6 +16283,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4441,
@@ -15566,7 +16301,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -16055,7 +16789,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -16099,6 +16833,21 @@
           "meta": {
             "pivot_schedule_id": 2000,
             "pivot_speaker_id": 5201,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4848,
+          "name": "Augusto Ohashi",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4848/partner_4848_1753477093640.png",
+          "bio": "CEO e cofundador da Nouvenn, com 24 anos de experiência em transformação digital para cidades e indústrias. Criador de soluções em IoT, IA e edge computing, atua com inovação sustentável e impacto real nos serviços urbanos.",
+          "role": "CEO e Co-Fundador da Nouvenn",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2000,
+            "pivot_speaker_id": 4848,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -16278,7 +17027,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4761,
@@ -16296,6 +17044,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 273,
@@ -16344,7 +17093,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4322,
@@ -16362,6 +17110,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 390,
@@ -16417,7 +17166,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5001,
@@ -16480,6 +17228,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -16521,7 +17270,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4317,
@@ -16539,6 +17287,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -16587,7 +17336,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5046,
@@ -16605,6 +17353,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -16646,7 +17395,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5301,
@@ -16739,6 +17487,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16780,7 +17529,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4503,
@@ -16798,6 +17546,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16839,7 +17588,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4214,
@@ -16857,6 +17605,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 399,
@@ -16905,7 +17654,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4930,
@@ -16923,6 +17671,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -16964,7 +17713,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5040,
@@ -16982,6 +17730,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 399,
@@ -17023,7 +17772,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4806,
@@ -17041,6 +17789,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17089,7 +17838,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4250,
@@ -17137,6 +17885,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -17171,7 +17920,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4544,
@@ -17219,6 +17967,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17267,7 +18016,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4345,
@@ -17285,6 +18033,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 286,
@@ -17333,7 +18082,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4266,
@@ -17351,6 +18099,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -17399,7 +18148,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4333,
@@ -17417,6 +18165,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -17465,7 +18214,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4256,
@@ -17483,6 +18231,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17496,72 +18245,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Inovação Corporativa",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
-      "id": 1916,
-      "start_time": "2025-08-01T20:30:00.000+00:00",
-      "end_time": "2025-08-01T21:30:00.000+00:00",
-      "title": "As máquinas vão roubar o seu trabalho, mas está tudo bem",
-      "description": "Uma conversa direta sobre o impacto da IA no mercado de trabalho brasileiro — sem alarmismo. A palestra propõe um novo olhar sobre produtividade, aponta caminhos para o reposicionamento profissional e mostra como dados e inteligência artificial podem ser aliados estratégicos. No lugar do medo, entra a inovação — com exemplos reais, novas habilidades e uma visão de futuro mais inteligente e humana.",
-      "hub_event_id": 1,
-      "entity_register_id": 9554,
-      "place": "INATEL - Sala 03 - Prédio 1 - Térreo",
-      "allow_questions": false,
-      "external_id": "0ae56903-f53e-41b7-89e8-a8c9d997ee1f",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4615,
-          "name": "Yuri Quisbert",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1756/partner_1756_1752612729507.png",
-          "bio": "Consultor de Dados especializado em estratégia, visualização e suporte à tomada de decisão. Atua na tradução de desafios de negócio em soluções analíticas práticas e acionáveis. Palestrante e facilitador em temas como cultura analítica e inteligência artificial.",
-          "role": "Data Strategist - Cappra Institute e Digital Forest",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1916,
-            "pivot_speaker_id": 4615,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 388,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
         }
       ],
@@ -17590,7 +18273,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4540,
@@ -17608,6 +18290,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17656,7 +18339,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4381,
@@ -17674,6 +18356,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17722,7 +18405,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4701,
@@ -17740,6 +18422,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17788,6 +18471,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4361,
@@ -17828,7 +18512,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17854,6 +18537,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4847,
@@ -17894,7 +18578,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17920,6 +18603,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4539,
@@ -17953,12 +18637,468 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 2429,
+      "start_time": "2025-08-01T20:30:00.000+00:00",
+      "end_time": "2025-08-01T21:20:00.000+00:00",
+      "title": "Relevância distribuída: como comunicar quando a atenção não tem mais centro",
+      "description": "A comunicação não tem mais um centro — e essa pode ser a melhor notícia para marcas, criadores e comunidades. Em um cenário onde a atenção é fragmentada, a construção de reputação se espalha entre grandes veículos, newsletters independentes, criadores de nicho, podcasts autorais e conversas espontâneas nas redes. Neste painel, três visões complementares se encontram: Ana Paula Passarelli, CEO da Brunch é uma das principais vozes sobre a economia da influência no Brasil; Cris Dias, criador do Boa Noite Internet e cofundador da produtora criativa Ampère; e Catarina Cicarelli, CEO da Beet, agência especializada em thought leadership e conteúdo estratégico. Juntos, eles discutem como comunicar com relevância em um ecossistema distribuído — onde narrativas fortes nascem da conexão entre tecnologia, criatividade e propósito. Porque hoje, mais do que falar para muitos, é preciso saber como falar certo nos lugares certos",
+      "hub_event_id": 1,
+      "entity_register_id": 10144,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2429",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4251,
+          "name": "Dandara Fonseca",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1382/partner_1382_1752610462413.png",
+          "bio": "Jornalista formada pela Faculdade Cásper Líbero, Dandara Fonseca é repórter da The Summer Hunter e apresentadora do podcast *Desenrola*, um dos mais ouvidos do Brasil no Spotify e Apple Podcasts. Com escuta atenta e condução leve, destaca-se por criar conexões genuínas em suas entrevistas. Atua também como voluntária de comunicação na ONG Dados Contra o Racismo, unindo propósito e impacto social à sua trajetória.",
+          "role": "Jornalista e apresentadora do podcast Desenrola",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2429,
+            "pivot_speaker_id": 4251,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5135,
+          "name": "Catarina Cicarelli",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5135/partner_5135_1753477805889.png",
+          "bio": "CEO da Beet e referência em PR estratégico. Foi a primeira profissional da área no Nubank e atuou na Wise. Participou da definição da voz do Open Finance no Brasil. Criou a Beet para transformar o impacto do PR nos negócios.",
+          "role": "Founder & CEO da Beet",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2429,
+            "pivot_speaker_id": 5135,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5325,
+          "name": "Cris Dias",
+          "picture": null,
+          "bio": "",
+          "role": "",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 2429,
+            "pivot_speaker_id": 5325,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
+    },
+    {
+      "id": 2461,
+      "start_time": "2025-08-01T21:20:00.000+00:00",
+      "end_time": "2025-08-01T21:50:00.000+00:00",
+      "title": "Yukáh",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10184,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2461",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2430,
+      "start_time": "2025-08-01T21:30:00.000+00:00",
+      "end_time": "2025-08-01T22:00:00.000+00:00",
+      "title": "Como pensar o seu futuro em tempos de caos?",
+      "description": "Em um país onde bets consomem o orçamento familiar e múltiplas crises se sobrepõem, como pensar o futuro quando o presente parece fora de controle? Nathalia Arcuri, criadora do Me Poupe! e referência em educação financeira que impacta 12 milhões de pessoas mensalmente, traz uma reflexão urgente sobre planejamento financeiro em tempos de policrise. Dos 8 anos juntando trocados para o primeiro carro, aos 23 comprando um apartamento à vista, Nath construiu sua expertise observando como disciplina financeira pode ser ferramenta de libertação — especialmente para mulheres em situação de vulnerabilidade.\n\nNesta sessão na Casa Futuros Possíveis, ela aborda como fenômenos como as apostas online expõem nossa fragilidade diante do caos econômico e social, transformando a busca por soluções rápidas em armadilhas que perpetuam a dependência financeira. Partindo de sua experiência pessoal — desde a infância simples em família de classe média até se tornar pioneira do entretenimento financeiro no Brasil — Nath explora como criar estabilidade pessoal quando o mundo parece instável. Ela oferece ferramentas práticas para navegar entre promessas falsas de enriquecimento rápido e construção real de futuro, mostrando que planejar não é sobre ter certezas, mas desenvolver resistência às ilusões do tempo presente.",
+      "hub_event_id": 1,
+      "entity_register_id": 10145,
+      "place": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "allow_questions": false,
+      "external_id": "yazo_2430",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4636,
+          "name": "Nathalia Arcuri",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1778/partner_1778_1752612871364.png",
+          "bio": "Lidera o maior canal de finanças pessoais do mundo no YouTube, o Me Poupe! Autora de 3 livros e pentacampeã, consecutiva, no prêmio iBest.",
+          "role": "Founder do Me Poupe!",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2430,
+            "pivot_speaker_id": 4636,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4971,
+          "name": "Andreza Maia",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4971/partner_4971_1753477392882.png",
+          "bio": "Cofundadora da Futuros Possíveis, é especialista em inovação inclusiva, LinkedIn Top Voice e TedX Speaker. Traduz temas complexos em narrativas acessíveis, conectando dados, impacto social e resultados concretos com linguagem clara e envolvente.",
+          "role": "CoFundadora Futuros Possíveis e especialista em inovação inclusiva",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2430,
+            "pivot_speaker_id": 4971,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
+    },
+    {
+      "id": 2446,
+      "start_time": "2025-08-01T22:00:00.000+00:00",
+      "end_time": "2025-08-02T02:00:00.000+00:00",
+      "title": "Noite Mineira @ Dija Gastronomia",
+      "description": "Petiscos autênticos de Minas Gerais, cerveja gelada e a melhor cachaça da região, no botequim mais tradicional da cidade.",
+      "hub_event_id": 1,
+      "entity_register_id": 10166,
+      "place": "Dija Gastronomia",
+      "allow_questions": false,
+      "external_id": "yazo_2446",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 415,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Meetup",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Dija Gastronomia"
+    },
+    {
+      "id": 2462,
+      "start_time": "2025-08-01T23:00:00.000+00:00",
+      "end_time": "2025-08-01T23:30:00.000+00:00",
+      "title": "Chico Bernardes",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10185,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2462",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2454,
+      "start_time": "2025-08-01T23:30:00.000+00:00",
+      "end_time": "2025-08-02T00:30:00.000+00:00",
+      "title": "Ivyson",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10177,
+      "place": "Palco Alcidão",
+      "allow_questions": false,
+      "external_id": "yazo_2454",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco Alcidão"
+    },
+    {
+      "id": 2463,
+      "start_time": "2025-08-01T23:50:00.000+00:00",
+      "end_time": "2025-08-02T00:20:00.000+00:00",
+      "title": "Lucas Pretti",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10186,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2463",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2464,
+      "start_time": "2025-08-02T00:40:00.000+00:00",
+      "end_time": "2025-08-02T01:10:00.000+00:00",
+      "title": "Exclusive Os Cabides",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10187,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2464",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1280,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2455,
+      "start_time": "2025-08-02T01:00:00.000+00:00",
+      "end_time": "2025-08-02T02:00:00.000+00:00",
+      "title": "Getúlio Abelha",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10178,
+      "place": "Palco Alcidão",
+      "allow_questions": false,
+      "external_id": "yazo_2455",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco Alcidão"
+    },
+    {
+      "id": 2465,
+      "start_time": "2025-08-02T01:30:00.000+00:00",
+      "end_time": "2025-08-02T02:00:00.000+00:00",
+      "title": "Nina Fernandes",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10188,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2465",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1280,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2466,
+      "start_time": "2025-08-02T02:30:00.000+00:00",
+      "end_time": "2025-08-01T03:15:00.000+00:00",
+      "title": "Carla Sceno",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10189,
+      "place": "Palco MFM",
+      "allow_questions": false,
+      "external_id": "yazo_2466",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1536,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco MFM"
     }
   ]
 }

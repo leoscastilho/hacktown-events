@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 15,
-  "scraped_at": "2025-07-26T04:19:34.700972-03:00",
+  "scraped_at": "2025-07-26T15:23:49.903344-03:00",
   "events": [
     {
       "id": 2161,
@@ -23,15 +23,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4426,
@@ -64,6 +55,15 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -90,29 +90,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 332,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cidades / Comunidades Inovadoras",
-          "hub_event_id": 1
-        },
-        {
-          "id": 397,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Ancestralidade / Espiritualidade / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5286,
@@ -160,6 +137,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 332,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cidades / Comunidades Inovadoras",
+          "hub_event_id": 1
+        },
+        {
+          "id": 397,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ancestralidade / Espiritualidade / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -186,6 +186,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4106,
+          "name": "Adriana Kaku",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1235/partner_1235_1752609525272.png",
+          "bio": "Adriana Kaku é especialista em aceleração na FIAP Rock New Ventures, mentora em programas de empreendedorismo e facilitadora do Startup Weekend pela Techstars. Atua na interseção entre ciência, inovação e negócios, com olhar estratégico e sensível para transformar ideias em empreendimentos viáveis.",
+          "role": "Especialista de aceleração",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2169,
+            "pivot_speaker_id": 4106,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -207,23 +224,6 @@
           "type": "schedules",
           "name": "Desenvolvimento de Hardware / Software",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4106,
-          "name": "Adriana Kaku",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1235/partner_1235_1752609525272.png",
-          "bio": "Adriana Kaku é especialista em aceleração na FIAP Rock New Ventures, mentora em programas de empreendedorismo e facilitadora do Startup Weekend pela Techstars. Atua na interseção entre ciência, inovação e negócios, com olhar estratégico e sensível para transformar ideias em empreendimentos viáveis.",
-          "role": "Especialista de aceleração",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2169,
-            "pivot_speaker_id": 4106,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -252,6 +252,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5230,
+          "name": "Alexandre Alves Andrade",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 2170,
+            "pivot_speaker_id": 5230,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 264,
@@ -275,23 +292,6 @@
           "hub_event_id": 1
         }
       ],
-      "speakers": [
-        {
-          "id": 5230,
-          "name": "Alexandre Alves Andrade",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2170,
-            "pivot_speaker_id": 5230,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -303,7 +303,7 @@
       "start_time": "2025-08-03T14:30:00.000+00:00",
       "end_time": "2025-08-03T16:00:00.000+00:00",
       "title": "Intro to Gemini 2.5",
-      "description": "A ser anunciado",
+      "description": "Explore o Gemini 2.5, modelo de IA multimodal da Google, e a Vertex AI para criar soluções preditivas e generativas. Aprenda sobre os modelos Gemini 2.5 Pro, Flash e mais. Descubra as novas funcionalidades e use os SDKs Python para desenvolver seus projetos de IA",
       "hub_event_id": 1,
       "entity_register_id": 9827,
       "place": "Casa Google Cloud - Sala Academy",
@@ -315,18 +315,9 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4195,
@@ -344,6 +335,22 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -355,7 +362,7 @@
       "start_time": "2025-08-03T14:30:00.000+00:00",
       "end_time": "2025-08-03T15:10:00.000+00:00",
       "title": "Demo de Veo3",
-      "description": "A ser anunciado",
+      "description": "Descubra o Veo, o mais recente modelo de inteligência artificial generativa de vídeo do Google, em uma sessão exclusiva com um Customer Engineer do Google Cloud para startups. Prepare-se para uma demonstração dinâmica que revelará como o Veo transforma texto, imagens e vídeos existentes em conteúdo visual inovador. Esta é a sua chance de explorar, de forma prática e informal, o poder do Veo para impulsionar a criatividade e o desenvolvimento de produtos em sua startup, com a possibilidade de interagir diretamente com a ferramenta e experimentar suas capacidades em tempo real.",
       "hub_event_id": 1,
       "entity_register_id": 9826,
       "place": "Casa Google Cloud - Sala Cafézin",
@@ -367,18 +374,9 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5231,
@@ -396,6 +394,22 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 286,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Novas Mídias / Realidades Expandidas",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -407,7 +421,7 @@
       "start_time": "2025-08-03T15:00:00.000+00:00",
       "end_time": "2025-08-03T15:40:00.000+00:00",
       "title": "Accessibility at Google",
-      "description": "A ser anunciado",
+      "description": "Junte-se a Bernardo Barlach para descobrir como a Google está construindo um mundo mais inclusivo através da acessibilidade e da IA. Entenda o compromisso da Google em garantir que produtos e serviços sejam úteis para todos, abordando diversas deficiências (visão, audição, mobilidade, fala e cognitiva). Veja como a IA nivela o campo de jogo, desde legendas em tempo real a descrições visuais. Uma palestra essencial para entender como a inovação gera impacto positivo na vida de bilhões.",
       "hub_event_id": 1,
       "entity_register_id": 9828,
       "place": "Casa Google Cloud - Sala Varanda",
@@ -419,18 +433,9 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5226,
@@ -446,6 +451,15 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -474,6 +488,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4489,
+          "name": "Kaw Yin e Yan Yin",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1628/partner_1628_1752611944371.png",
+          "bio": "Especialistas em desenvolvimento espiritual, Kaw Yin e Yan Yin são fundadores da Coexiste Consultoria Existencial. Com 35 anos de trajetória, desenvolveram a metodologia “A Verdade Presencial”, curso de 8 anos que estuda integralmente *Um Curso em Milagres*. Desde 2007, formam Consultores Existenciais e conduzem processos de autoconhecimento profundo, promovendo consciência, clareza nas relações e expansão espiritual.",
+          "role": "Consultores Existenciais, Professores e Fundadores da Coexiste Consultoria Existencial.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1751,
+            "pivot_speaker_id": 4489,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -497,23 +528,6 @@
           "hub_event_id": 1
         }
       ],
-      "speakers": [
-        {
-          "id": 4489,
-          "name": "Kaw Yin e Yan Yin",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1628/partner_1628_1752611944371.png",
-          "bio": "Especialistas em desenvolvimento espiritual, Kaw Yin e Yan Yin são fundadores da Coexiste Consultoria Existencial. Com 35 anos de trajetória, desenvolveram a metodologia “A Verdade Presencial”, curso de 8 anos que estuda integralmente *Um Curso em Milagres*. Desde 2007, formam Consultores Existenciais e conduzem processos de autoconhecimento profundo, promovendo consciência, clareza nas relações e expansão espiritual.",
-          "role": "Consultores Existenciais, Professores e Fundadores da Coexiste Consultoria Existencial.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1751,
-            "pivot_speaker_id": 4489,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -525,7 +539,7 @@
       "start_time": "2025-08-03T16:00:00.000+00:00",
       "end_time": "2025-08-03T17:30:00.000+00:00",
       "title": "Intro to Gemini 2.5",
-      "description": "A ser anunciado",
+      "description": "Explore o Gemini 2.5, modelo de IA multimodal da Google, e a Vertex AI para criar soluções preditivas e generativas. Aprenda sobre os modelos Gemini 2.5 Pro, Flash e mais. Descubra as novas funcionalidades e use os SDKs Python para desenvolver seus projetos de IA",
       "hub_event_id": 1,
       "entity_register_id": 9831,
       "place": "Casa Google Cloud - Sala Academy",
@@ -537,18 +551,9 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4195,
@@ -564,6 +569,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -592,15 +613,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5237,
@@ -616,6 +628,15 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -661,15 +682,7 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
+      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -681,7 +694,7 @@
       "start_time": "2025-08-03T17:30:00.000+00:00",
       "end_time": "2025-08-03T19:00:00.000+00:00",
       "title": "Intro to Gemini 2.5",
-      "description": "A ser anunciado",
+      "description": "Explore o Gemini 2.5, modelo de IA multimodal da Google, e a Vertex AI para criar soluções preditivas e generativas. Aprenda sobre os modelos Gemini 2.5 Pro, Flash e mais. Descubra as novas funcionalidades e use os SDKs Python para desenvolver seus projetos de IA",
       "hub_event_id": 1,
       "entity_register_id": 9832,
       "place": "Casa Google Cloud - Sala Academy",
@@ -693,7 +706,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -720,6 +733,13 @@
           "type": "schedules",
           "name": "Workshop",
           "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -733,7 +753,7 @@
       "start_time": "2025-08-03T18:00:00.000+00:00",
       "end_time": "2025-08-03T18:40:00.000+00:00",
       "title": "From Silos to Synergy",
-      "description": "A ser anunciado",
+      "description": "Google Cloud Startup Marketing, explora como a IA pode transformar equipes de marketing, superando desafios comuns como falta de pessoal, orçamento, mensuração e personalização. A palestra demonstra como a IA otimiza campanhas, estende orçamentos com criação de conteúdo e podcasts, e permite \"conversar\" com dados para decisões mais inteligentes. Ela destaca tendências como IA multimodal e agentes de IA, mostrando como o Google Cloud capacita uma nova era de marketing personalizado e eficiente.",
       "hub_event_id": 1,
       "entity_register_id": 9842,
       "place": "Casa Google Cloud - Sala Varanda",
@@ -745,7 +765,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -767,10 +787,10 @@
       ],
       "tags": [
         {
-          "id": 23,
+          "id": 307,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Painel",
+          "name": "Vendas / Marketing",
           "hub_event_id": 1
         }
       ],
@@ -785,7 +805,7 @@
       "start_time": "2025-08-03T19:00:00.000+00:00",
       "end_time": "2025-08-03T20:30:00.000+00:00",
       "title": "Intro to Gemini 2.5",
-      "description": "A ser anunciado",
+      "description": "Explore o Gemini 2.5, modelo de IA multimodal da Google, e a Vertex AI para criar soluções preditivas e generativas. Aprenda sobre os modelos Gemini 2.5 Pro, Flash e mais. Descubra as novas funcionalidades e use os SDKs Python para desenvolver seus projetos de IA",
       "hub_event_id": 1,
       "entity_register_id": 9833,
       "place": "Casa Google Cloud - Sala Academy",
@@ -797,7 +817,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -823,6 +843,13 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
         }
       ],
@@ -871,10 +898,10 @@
       ],
       "tags": [
         {
-          "id": 27,
+          "id": 264,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Workshop",
+          "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
         }
       ],
