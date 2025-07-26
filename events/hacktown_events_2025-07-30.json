@@ -1,7 +1,7 @@
 {
   "date": "2025-07-30",
   "total_events": 1,
-  "scraped_at": "2025-07-25T20:19:19.566934-03:00",
+  "scraped_at": "2025-07-25T23:59:01.118026-03:00",
   "events": [
     {
       "id": 2413,
@@ -11,12 +11,12 @@
       "description": "",
       "hub_event_id": 1,
       "entity_register_id": 10119,
-      "place": "Ao lado do Teatro Inatel - Prédio 5 - 2º Piso ",
+      "place": "Ao lado do Teatro Inatel - Prédio 5 - 2º Piso",
       "allow_questions": false,
       "external_id": "yazo_2413",
       "place_color": null,
       "allow_evaluation": false,
-      "order": -512,
+      "order": -768,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,

@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 15,
-  "scraped_at": "2025-07-25T20:19:19.645739-03:00",
+  "scraped_at": "2025-07-25T23:59:01.192116-03:00",
   "events": [
     {
       "id": 2161,
@@ -16,7 +16,7 @@
       "external_id": "85ea52a8-d183-45e9-bf43-f23536d0c59e",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 1536,
+      "order": 1280,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -83,7 +83,7 @@
       "external_id": "16ca8dac-54a8-44a6-8061-c81f55f2bc85",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 1536,
+      "order": 1280,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -139,24 +139,24 @@
       ],
       "tags": [
         {
+          "id": 332,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cidades / Comunidades Inovadoras",
+          "hub_event_id": 1
+        },
+        {
+          "id": 397,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ancestralidade / Espiritualidade / Futuro",
+          "hub_event_id": 1
+        },
+        {
           "id": 27,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 274,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cidades e Comunidades Inovadoras",
-          "hub_event_id": 1
-        },
-        {
-          "id": 314,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Ancestralidade / Espiritualidade e Futuro",
           "hub_event_id": 1
         }
       ],
@@ -179,7 +179,7 @@
       "external_id": "b92ea5d5-8d88-4fd9-b2d3-817cb33ac284",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 1792,
+      "order": 1536,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -245,7 +245,7 @@
       "external_id": "e8209a98-a26f-4cfa-bac0-a54627d93cf6",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2048,
+      "order": 1792,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -271,6 +271,13 @@
       ],
       "tags": [
         {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
           "id": 19,
           "color": "#21C89D",
           "type": "schedules",
@@ -282,20 +289,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Empreendedorismo",
-          "hub_event_id": 1
-        },
-        {
-          "id": 320,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 356,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA",
           "hub_event_id": 1
         }
       ],
@@ -318,7 +311,7 @@
       "external_id": "49bd68a9-9808-4118-a6f1-f212a0b2e315",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2048,
+      "order": 1792,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -349,13 +342,6 @@
           "type": "schedules",
           "name": "Workshop",
           "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -377,7 +363,7 @@
       "external_id": "3b82c8e4-2f6f-4cb1-b116-85fd82ecfb04",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2304,
+      "order": 2048,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -429,7 +415,7 @@
       "external_id": "848815bf-d1e7-4c8b-b8ac-806363d4807a",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2560,
+      "order": 2304,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -460,13 +446,6 @@
           "type": "schedules",
           "name": "Workshop",
           "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -474,65 +453,6 @@
         "rating": 0
       },
       "filterLocation": "Casa Google Cloud - Sala Varanda"
-    },
-    {
-      "id": 2193,
-      "start_time": "2025-08-03T16:00:00.000+00:00",
-      "end_time": "2025-08-03T17:30:00.000+00:00",
-      "title": "Intro to Gemini 2.5",
-      "description": "A ser anunciado",
-      "hub_event_id": 1,
-      "entity_register_id": 9831,
-      "place": "Casa Google Cloud - Sala Academy",
-      "allow_questions": false,
-      "external_id": "6d01ece6-27d1-45c6-b2f9-8a61bea8e5e3",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 1536,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4195,
-          "name": "Brenda Xavier",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1326/partner_1326_1752610070226.png",
-          "bio": "Engenheira de Dados no Itaú, mentora no Google for Startups e organizadora do GDG Santos, atua conectando tecnologia, inovação e impacto social por meio de comunidades e projetos inclusivos.",
-          "role": "Engenheira de Dados no Itaú",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2193,
-            "pivot_speaker_id": 4195,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Casa Google Cloud - Sala Academy"
     },
     {
       "id": 1751,
@@ -547,7 +467,7 @@
       "external_id": "3c301d24-4303-4b02-8a87-41ee9aed1a48",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 1792,
+      "order": 1280,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
@@ -587,17 +507,10 @@
           "hub_event_id": 1
         },
         {
-          "id": 267,
+          "id": 392,
           "color": "#21C89D",
           "type": "schedules",
-          "name": " Para deletar",
-          "hub_event_id": 1
-        },
-        {
-          "id": 268,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Consciência e Responsabilidade",
+          "name": "Consciência / Responsabilidade",
           "hub_event_id": 1
         }
       ],
@@ -606,6 +519,58 @@
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 2193,
+      "start_time": "2025-08-03T16:00:00.000+00:00",
+      "end_time": "2025-08-03T17:30:00.000+00:00",
+      "title": "Intro to Gemini 2.5",
+      "description": "A ser anunciado",
+      "hub_event_id": 1,
+      "entity_register_id": 9831,
+      "place": "Casa Google Cloud - Sala Academy",
+      "allow_questions": false,
+      "external_id": "6d01ece6-27d1-45c6-b2f9-8a61bea8e5e3",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1280,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4195,
+          "name": "Brenda Xavier",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1326/partner_1326_1752610070226.png",
+          "bio": "Engenheira de Dados no Itaú, mentora no Google for Startups e organizadora do GDG Santos, atua conectando tecnologia, inovação e impacto social por meio de comunidades e projetos inclusivos.",
+          "role": "Engenheira de Dados no Itaú",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2193,
+            "pivot_speaker_id": 4195,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa Google Cloud - Sala Academy"
     },
     {
       "id": 2203,
@@ -651,13 +616,6 @@
           "type": "schedules",
           "name": "Painel",
           "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -679,13 +637,12 @@
       "external_id": "91fa3954-914e-4ff0-94d2-d65ff36c0b13",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2048,
+      "order": 1792,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5226,
@@ -703,19 +660,13 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
           "hub_event_id": 1
         }
       ],
@@ -738,13 +689,12 @@
       "external_id": "bffa109b-176b-46b1-af21-d0e814bdadee",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2304,
+      "order": 2048,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5235,
@@ -762,19 +712,13 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
           "hub_event_id": 1
         }
       ],
@@ -797,13 +741,12 @@
       "external_id": "a6d1ed6d-b663-42a1-874a-3a6f58a2d81a",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2560,
+      "order": 2304,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5233,
@@ -821,19 +764,13 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
           "hub_event_id": 1
         }
       ],
@@ -856,13 +793,12 @@
       "external_id": "6df693cd-07b2-4999-a12f-21a693cc8ca5",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2048,
+      "order": 1792,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5235,
@@ -880,19 +816,13 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
           "hub_event_id": 1
         }
       ],
@@ -915,13 +845,12 @@
       "external_id": "81bf0fbf-47a3-470e-ae96-785708e6d666",
       "place_color": null,
       "allow_evaluation": false,
-      "order": 2304,
+      "order": 2048,
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5234,
@@ -939,19 +868,13 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Workshop",
-          "hub_event_id": 1
-        },
-        {
-          "id": 299,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "A ser anunciado",
           "hub_event_id": 1
         }
       ],
