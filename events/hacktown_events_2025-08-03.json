@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 21,
-  "scraped_at": "2025-07-27T19:20:08.756911-03:00",
+  "scraped_at": "2025-07-27T20:51:38.906648-03:00",
   "events": [
     {
       "id": 2161,
@@ -68,7 +68,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "INATEL"
+      "filterLocation": "Inatel"
     },
     {
       "id": 2503,
@@ -246,7 +246,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF - Venue Principal"
+      "filterLocation": "Casa do CCCF"
     },
     {
       "id": 2169,
@@ -312,7 +312,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Cafézin"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2524,
@@ -414,7 +414,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Varanda"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2189,
@@ -473,7 +473,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Academy"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2188,
@@ -532,7 +532,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Cafézin"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2504,
@@ -636,7 +636,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Varanda"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2525,
@@ -797,7 +797,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Academy"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2203,
@@ -849,7 +849,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Varanda"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2191,
@@ -893,7 +893,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Cafézin"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2194,
@@ -952,7 +952,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Academy"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2204,
@@ -1004,7 +1004,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Varanda"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2526,
@@ -1099,7 +1099,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Academy"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2192,
@@ -1151,7 +1151,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud - Sala Cafézin"
+      "filterLocation": "Casa Google Cloud"
     },
     {
       "id": 2527,
