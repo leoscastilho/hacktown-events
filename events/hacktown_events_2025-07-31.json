@@ -1,7 +1,7 @@
 {
   "date": "2025-07-31",
-  "total_events": 257,
-  "scraped_at": "2025-07-27T13:21:48.296370-03:00",
+  "total_events": 259,
+  "scraped_at": "2025-07-27T19:20:08.681682-03:00",
   "events": [
     {
       "id": 2414,
@@ -633,7 +633,7 @@
       "description": "Desacelerar é revolucionar. Esta palestra propõe uma pausa intencional no ritmo tecnológico para resgatar a criatividade autêntica por meio do feito à mão. Com foco no autocuidado, presença e conexão com o essencial, vamos explorar como o ato de criar com as mãos pode desbloquear inovação genuína e reconectar indivíduos ao seu potencial criativo mais profundo.",
       "hub_event_id": 1,
       "entity_register_id": 9403,
-      "place": "INATEL - Sala 05 - Prédio 1 - Térreo",
+      "place": "INATEL - Sala 02 - Prédio 1 - Térreo",
       "allow_questions": false,
       "external_id": "1ce9a286-950f-453f-80ac-5bfd586491f6",
       "place_color": null,
@@ -642,7 +642,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -1078,7 +1078,7 @@
           "name": "Camilla Abdallah",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753554091759.png?ims=filters:quality(75)",
           "bio": "Formada em Arquitetura e Urbanismo pela Escola da Cidade, pós graduada em Arquitetura, Educação e Sociedade. Atua em seu estúdio em São Paulo em trabalhos de arquitetura e paisagismo e é professora assistente da disciplina de desenho na Escola da Cidade. ",
-          "role": "",
+          "role": "Arquiteta e Urbanista pela Escola da Cidade",
           "company": "Escola da Cidade",
           "meta": {
             "pivot_schedule_id": 2482,
@@ -6258,21 +6258,6 @@
             "allow_access": false
           },
           "allow_access": false
-        },
-        {
-          "id": 5164,
-          "name": "Mediadora: Marystela Barbosa",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1660,
-            "pivot_speaker_id": 5164,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "tags": [
@@ -6910,21 +6895,6 @@
           "meta": {
             "pivot_schedule_id": 2398,
             "pivot_speaker_id": 4922,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 5319,
-          "name": "Mediador: Igor Lopes",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2398,
-            "pivot_speaker_id": 5319,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -8085,6 +8055,65 @@
       "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
+      "id": 1776,
+      "start_time": "2025-07-31T17:30:00.000+00:00",
+      "end_time": "2025-07-31T18:30:00.000+00:00",
+      "title": "O cinema além do Oscar: como os criadores digitais deram novo formato à linguagem da sétima arte",
+      "description": "As linguagens clássicas do audiovisual encontram novas expressões no ambiente digital, influenciando vídeos curtos, produtos e profissões emergentes. Da trucagem do cinema mudo aos algoritmos das plataformas, criadores brasileiros usam o lema \"um celular na mão e uma ideia na cabeça\" para reinventar narrativas. Esta palestra analisa como o domínio do audiovisual pode se tornar um diferencial competitivo na economia da atenção, mais do que seguir tendências, propondo consciência criativa e estratégica para marcas e produtores de conteúdo.",
+      "hub_event_id": 1,
+      "entity_register_id": 9414,
+      "place": "INATEL - Sala 02 - Prédio 1 - Térreo",
+      "allow_questions": false,
+      "external_id": "75e2e504-767f-415d-83d0-b907f32ae12a",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4499,
+          "name": "Larissa Gonzalez",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1640/partner_1640_1752612020856.png",
+          "bio": "Bacharel em Imagem e Som, pós-graduada em Produção de Conteúdo Multiplataforma pela UFSCar e com MBA em Business Intelligence & Analytics e Gestão & Transformação Digital pela USP. Lidera as áreas de inteligência de mercado, estratégia e mídias digitais no Grupo EP (EPTV/Globo), conectando dados, conteúdo e inovação.",
+          "role": "Gerente de Mídias Digitais e Inteligência de Mercado da EPTV",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1776,
+            "pivot_speaker_id": 4499,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 273,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Criação Digital / Economia dos Criadores",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
+    },
+    {
       "id": 2334,
       "start_time": "2025-07-31T17:30:00.000+00:00",
       "end_time": "2025-07-31T18:30:00.000+00:00",
@@ -8393,87 +8422,6 @@
         "rating": 0
       },
       "filterLocation": "ETE"
-    },
-    {
-      "id": 2349,
-      "start_time": "2025-07-31T17:30:00.000+00:00",
-      "end_time": "2025-07-31T18:30:00.000+00:00",
-      "title": "Como a Inteligência Artificial pode ser um aliado na automação de tarefas, atendimento inteligente e soluções completas",
-      "description": "Veja casos reais e práticos, de como a Inteligência Artificial pode ser um grande aliado no desenvolvimento de ferramentas para empresas, automações de tarefas, atendimento inteligente e desenvolvimento de soluções completas.",
-      "hub_event_id": 1,
-      "entity_register_id": 10055,
-      "place": "Braseiro Restaurante",
-      "allow_questions": false,
-      "external_id": "2850a3ed-ee8a-440c-b979-4a51632bd471",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4123,
-          "name": "Aline Maretti",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1253/partner_1253_1752609638814.png",
-          "bio": "Desenvolvedora FullStack com expertise em ReactJS, JavaScript, TypeScript, PHP, NodeJS e Power Apps. Graduanda em Engenharia de Computação, combina habilidades técnicas para criar soluções digitais eficientes e inovadoras.",
-          "role": "Desenvolvedora FullStack de Soluções em Power Apps e Web",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2349,
-            "pivot_speaker_id": 4123,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4552,
-          "name": "Luis Gustavo Serra",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1693/partner_1693_1752612337480.png",
-          "bio": "CEO da Excelência Consultoria e Educação, Microsoft MVP e especialista em Business Intelligence e Inteligência Artificial. Instrutor certificado Microsoft (MCT), líder do PUG Brasil e expert em Power BI. Atuação também como escritor e palestrante, compartilhando conhecimento em tecnologia e inovação.",
-          "role": "Business Intelligence and AI Specialist | Microsoft MVP",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2349,
-            "pivot_speaker_id": 4552,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Braseiro"
     },
     {
       "id": 2486,
@@ -9003,7 +8951,7 @@
           "name": "Camilla Abdallah",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753554091759.png?ims=filters:quality(75)",
           "bio": "Formada em Arquitetura e Urbanismo pela Escola da Cidade, pós graduada em Arquitetura, Educação e Sociedade. Atua em seu estúdio em São Paulo em trabalhos de arquitetura e paisagismo e é professora assistente da disciplina de desenho na Escola da Cidade. ",
-          "role": "",
+          "role": "Arquiteta e Urbanista pela Escola da Cidade",
           "company": "Escola da Cidade",
           "meta": {
             "pivot_schedule_id": 2488,
@@ -9305,6 +9253,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4400,
@@ -9322,7 +9271,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9371,6 +9319,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4179,
@@ -9388,7 +9337,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9437,6 +9385,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4105,
@@ -9454,7 +9403,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9503,6 +9451,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4709,
@@ -9520,7 +9469,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9569,6 +9517,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4401,
@@ -9586,7 +9535,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9635,6 +9583,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4899,
@@ -9697,7 +9646,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9746,6 +9694,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4899,
@@ -9823,7 +9772,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -9872,6 +9820,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4800,
@@ -9889,7 +9838,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9938,6 +9886,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4748,
@@ -9955,7 +9904,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -10004,6 +9952,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4633,
@@ -10021,7 +9970,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12029,23 +11977,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5176,
-          "name": "Francisco Angelo Silva Assis",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1855,
-            "pivot_speaker_id": 5176,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -12228,23 +12160,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5294,
-          "name": "Gabriela Rodrigues Salomão",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2274,
-            "pivot_speaker_id": 5294,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -12793,7 +12709,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4694,
@@ -12811,6 +12726,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12859,11 +12775,10 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5053,
-          "name": "BÉA ALCANTARA",
+          "name": "Béa Alcantara",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5053/partner_5053_1753477598264.png",
           "bio": "Fundadora da DO AMANHÃ, é estrategista, designer especulativa e pesquisadora da imaginação. Cria experiências lúdicas e explora futuros fora das bolhas.",
           "role": "Fundadora DO AMANHÃ. Estrategista, facilitadora de experiências, pesquisadora e designer especulativa.",
@@ -12877,6 +12792,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12918,7 +12834,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4309,
@@ -12936,6 +12851,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12984,7 +12900,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4732,
@@ -13002,6 +12917,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13050,7 +12966,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4222,
@@ -13113,6 +13028,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13154,7 +13070,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4272,
@@ -13172,6 +13087,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -13220,7 +13136,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4955,
@@ -13283,6 +13198,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13331,7 +13247,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4433,
@@ -13349,6 +13264,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13397,7 +13313,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4307,
@@ -13415,6 +13330,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13463,7 +13379,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5107,
@@ -13511,6 +13426,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13980,6 +13896,72 @@
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 1965,
+      "start_time": "2025-07-31T19:00:00.000+00:00",
+      "end_time": "2025-07-31T20:00:00.000+00:00",
+      "title": "A última atualização.",
+      "description": "Por que a desprogramação das crenças religiosas é o último salto da consciência? Em 2025, temos IA, carros autônomos e terapias genéticas, mas ainda somos guiados por códigos emocionais de povos antigos. Desenvolvemos foguetes, mas educamos com culpa; temos redes neurais, mas políticas baseadas em “vontade divina”. A desprogramação não é crise de fé — é atualização civilizatória. Sem ela, seguimos presos em um moralismo arcaico, onde prazer vira pecado e submissão, virtude.",
+      "hub_event_id": 1,
+      "entity_register_id": 9603,
+      "place": "A ser anunciado",
+      "allow_questions": false,
+      "external_id": "2abbce47-b417-4e60-a6b6-7aa17d13b8fa",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4100,
+          "name": "Aline Câmara",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1229/partner_1229_1752609491461.png",
+          "bio": "Terapeuta especializada em traumas religiosos e criadora do método mais avançado do Brasil para diagnóstico e desprogramação de crenças. Pesquisadora independente, atua na interseção entre psicologia, neurociência e crítica cultural, promovendo libertação emocional e transformação profunda.",
+          "role": "Especialista em traumas religiosos",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1965,
+            "pivot_speaker_id": 4100,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 404,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ética / Consciência / Responsabilidade",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "A ser anunciado"
     },
     {
       "id": 1631,
@@ -15719,10 +15701,10 @@
         {
           "id": 5183,
           "name": "Alan Farias",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753648526694.png?ims=filters:quality(75)",
+          "bio": "Administrador e mestre em Propriedade Intelectual. Community Leader do SEST SENAT no Learning Village",
+          "role": "Entusiasta da inovação e apaixonado por transformar vidas no SEST SENAT",
+          "company": "Learning Village",
           "meta": {
             "pivot_schedule_id": 1870,
             "pivot_speaker_id": 5183,
@@ -15734,10 +15716,10 @@
         {
           "id": 5184,
           "name": "Alvaro Machado",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753650892736.png?ims=filters:quality(75)",
+          "bio": "Head do DotHub e gerente do Programa de Inovação, lidera iniciativas de cultura, governança, gestão e desenvolvimento de ativos digitais. Atua na conexão com ecossistemas de open innovation, promovendo mindset inovador, melhoria contínua e geração de novos produtos, serviços e modelos de entrega.",
+          "role": "Gerente de Inovação e Head do DotHub",
+          "company": "Learning Village",
           "meta": {
             "pivot_schedule_id": 1870,
             "pivot_speaker_id": 5184,
@@ -15826,65 +15808,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Cinema / Audiovisual",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
-      "id": 1776,
-      "start_time": "2025-07-31T20:30:00.000+00:00",
-      "end_time": "2025-07-31T21:30:00.000+00:00",
-      "title": "O cinema além do Oscar: como os criadores digitais deram novo formato à linguagem da sétima arte",
-      "description": "As linguagens clássicas do audiovisual encontram novas expressões no ambiente digital, influenciando vídeos curtos, produtos e profissões emergentes. Da trucagem do cinema mudo aos algoritmos das plataformas, criadores brasileiros usam o lema \"um celular na mão e uma ideia na cabeça\" para reinventar narrativas. Esta palestra analisa como o domínio do audiovisual pode se tornar um diferencial competitivo na economia da atenção, mais do que seguir tendências, propondo consciência criativa e estratégica para marcas e produtores de conteúdo.",
-      "hub_event_id": 1,
-      "entity_register_id": 9414,
-      "place": "INATEL - Sala 02 - Prédio 1 - Térreo",
-      "allow_questions": false,
-      "external_id": "75e2e504-767f-415d-83d0-b907f32ae12a",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4499,
-          "name": "Larissa Gonzalez",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1640/partner_1640_1752612020856.png",
-          "bio": "Bacharel em Imagem e Som, pós-graduada em Produção de Conteúdo Multiplataforma pela UFSCar e com MBA em Business Intelligence & Analytics e Gestão & Transformação Digital pela USP. Lidera as áreas de inteligência de mercado, estratégia e mídias digitais no Grupo EP (EPTV/Globo), conectando dados, conteúdo e inovação.",
-          "role": "Gerente de Mídias Digitais e Inteligência de Mercado da EPTV",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1776,
-            "pivot_speaker_id": 4499,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
           "hub_event_id": 1
         }
       ],
@@ -16235,7 +16158,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -16279,6 +16202,21 @@
           "meta": {
             "pivot_schedule_id": 2533,
             "pivot_speaker_id": 4682,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4117,
+          "name": "Alê MOB",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1247/partner_1247_1752609606275.png",
+          "bio": "Atua como consultor estratégico nos mercados de moda, calçados e cultura, desenvolvendo soluções e comunicação direcionada para o universo dos sneakers, do streetwear e dos colecionáveis.",
+          "role": "Fundador da Sneakers MOB, Comunicador e Estrategista de Cultura e Branding.",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2533,
+            "pivot_speaker_id": 4117,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -16624,6 +16562,87 @@
       "filterLocation": "ETE"
     },
     {
+      "id": 2349,
+      "start_time": "2025-07-31T20:30:00.000+00:00",
+      "end_time": "2025-07-31T21:30:00.000+00:00",
+      "title": "Como a Inteligência Artificial pode ser um aliado na automação de tarefas, atendimento inteligente e soluções completas",
+      "description": "Veja casos reais e práticos, de como a Inteligência Artificial pode ser um grande aliado no desenvolvimento de ferramentas para empresas, automações de tarefas, atendimento inteligente e desenvolvimento de soluções completas.",
+      "hub_event_id": 1,
+      "entity_register_id": 10055,
+      "place": "Braseiro Restaurante",
+      "allow_questions": false,
+      "external_id": "2850a3ed-ee8a-440c-b979-4a51632bd471",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4123,
+          "name": "Aline Maretti",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1253/partner_1253_1752609638814.png",
+          "bio": "Desenvolvedora FullStack com expertise em ReactJS, JavaScript, TypeScript, PHP, NodeJS e Power Apps. Graduanda em Engenharia de Computação, combina habilidades técnicas para criar soluções digitais eficientes e inovadoras.",
+          "role": "Desenvolvedora FullStack de Soluções em Power Apps e Web",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2349,
+            "pivot_speaker_id": 4123,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4552,
+          "name": "Luis Gustavo Serra",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1693/partner_1693_1752612337480.png",
+          "bio": "CEO da Excelência Consultoria e Educação, Microsoft MVP e especialista em Business Intelligence e Inteligência Artificial. Instrutor certificado Microsoft (MCT), líder do PUG Brasil e expert em Power BI. Atuação também como escritor e palestrante, compartilhando conhecimento em tecnologia e inovação.",
+          "role": "Business Intelligence and AI Specialist | Microsoft MVP",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2349,
+            "pivot_speaker_id": 4552,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Braseiro"
+    },
+    {
       "id": 1639,
       "start_time": "2025-07-31T20:30:00.000+00:00",
       "end_time": "2025-07-31T21:30:00.000+00:00",
@@ -16841,23 +16860,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5160,
-          "name": "Felipe Hammel\nJean Nemanis",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1654,
-            "pivot_speaker_id": 5160,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -17210,6 +17213,72 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Direitos Autorais / Criatividade",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
+    },
+    {
+      "id": 2089,
+      "start_time": "2025-07-31T20:30:00.000+00:00",
+      "end_time": "2025-07-31T21:30:00.000+00:00",
+      "title": "Governança além do Controle: Estratégia e Inovação.",
+      "description": "A palestra “Governança além do Controle: Estratégia e Inovação” propõe uma visão atualizada da governança como mecanismo estratégico, capaz de conectar inovação, diversidade, tecnologia e perenidade dos negócios. Com exemplos reais, aborda temas como decisões em rede, o custo de resolver o problema errado, IA responsável e colaboração entre humanos e tecnologia, mostrando como tornar a governança mais adaptável e orientada ao futuro.",
+      "hub_event_id": 1,
+      "entity_register_id": 9727,
+      "place": "INATEL - Sala 02 - Prédio 1 - Térreo",
+      "allow_questions": false,
+      "external_id": "7f71c0b4-7da8-4e5c-8a99-755a7c2c4a72",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4536,
+          "name": "Luana Machado",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1676/partner_1676_1752612235186.png",
+          "bio": "Advogada com atuação na interseção entre jurídico, inovação e negócios. Auxilia escritórios e empresas a se prepararem para o futuro com estratégia, governança e foco nas pessoas, promovendo transformação com visão sistêmica e humanizada.",
+          "role": "Consultora | Conselheira Consultiva em Inovação e Governança |Advogada",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2089,
+            "pivot_speaker_id": 4536,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
         }
       ],

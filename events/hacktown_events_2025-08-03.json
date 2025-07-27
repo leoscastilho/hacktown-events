@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 21,
-  "scraped_at": "2025-07-27T13:21:48.376261-03:00",
+  "scraped_at": "2025-07-27T19:20:08.756911-03:00",
   "events": [
     {
       "id": 2161,
@@ -375,9 +375,9 @@
           "id": 5230,
           "name": "Alexandre Alves Andrade",
           "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "bio": "",
+          "role": "Google Cloud Customer Engineer, Coordenador e Professor de MBA na FIAP",
+          "company": "",
           "meta": {
             "pivot_schedule_id": 2170,
             "pivot_speaker_id": 5230,
@@ -920,9 +920,9 @@
           "id": 5235,
           "name": "Camilla Martins",
           "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "bio": "",
+          "role": "GDE em Google Cloud",
+          "company": "",
           "meta": {
             "pivot_schedule_id": 2194,
             "pivot_speaker_id": 5235,
@@ -1067,9 +1067,9 @@
           "id": 5235,
           "name": "Camilla Martins",
           "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "bio": "",
+          "role": "GDE em Google Cloud",
+          "company": "",
           "meta": {
             "pivot_schedule_id": 2195,
             "pivot_speaker_id": 5235,
