@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 292,
-  "scraped_at": "2025-07-26T18:18:22.605531-03:00",
+  "total_events": 298,
+  "scraped_at": "2025-07-26T22:14:16.982393-03:00",
   "events": [
     {
       "id": 2002,
@@ -6739,7 +6739,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -6760,6 +6760,13 @@
         }
       ],
       "tags": [
+        {
+          "id": 419,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde física/mental + Cultura organizacional",
+          "hub_event_id": 1
+        },
         {
           "id": 19,
           "color": "#21C89D",
@@ -7258,7 +7265,7 @@
       "start_time": "2025-08-01T16:00:00.000+00:00",
       "end_time": "2025-08-01T17:00:00.000+00:00",
       "title": "Ctrl+S: Como Salvar o Mundo com Inovação Social e Tecnologia",
-      "description": "Em um cenário de múltiplas crises sociais, climáticas e econômicas, a inovação no terceiro setor é urgente — e possível. Esse painel traz histórias e estratégias de quem está hackeando causas sociais com criatividade, tecnologia e propósito.\nGiane Santos (PIT / EmpreendaOn) e Bruna do Vale (Sis Coworking / Casa do Caminho) mostram como iniciativas sociais estão se conectando a ecossistemas de startups e inovação. Terceira pessoa a confirmar.\nPara quem acredita que a tecnologia pode fortalecer territórios, criar pontes entre setores e ampliar o acesso a oportunidades.",
+      "description": "Em um cenário de múltiplas crises sociais, climáticas e econômicas, a inovação no terceiro setor é urgente — e possível. Esse painel traz histórias e estratégias de quem está hackeando causas sociais com criatividade, tecnologia e propósito.\n\nGiane Santos (PIT / EmpreendaOn), Bruna do Valle (Sis Coworking / Casa do Caminho), Gabi Salles (KalebDigital / Projeto Decola, Hotmart) e Luciano Jurioli (SMCTDE / OBAM - mediador) mostram como iniciativas sociais estão se conectando a ecossistemas de startups e inovação. \n",
       "hub_event_id": 1,
       "entity_register_id": 9342,
       "place": "ETE - Sala 64",
@@ -7270,7 +7277,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -7322,10 +7329,10 @@
         {
           "id": 5167,
           "name": "Bruna do Valle Rodrigues Neves",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753568268054.png?ims=filters:quality(75)",
+          "bio": "",
+          "role": "",
+          "company": "",
           "meta": {
             "pivot_schedule_id": 1704,
             "pivot_speaker_id": 5167,
@@ -10738,7 +10745,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4683,
@@ -10779,6 +10785,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10804,7 +10811,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4991,
@@ -10852,6 +10858,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10877,7 +10884,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4636,
@@ -10934,6 +10940,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10959,7 +10966,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4760,
@@ -11000,6 +11006,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11025,7 +11032,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5241,
@@ -11059,6 +11065,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11084,7 +11091,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4472,
@@ -11125,6 +11131,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11150,7 +11157,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5192,
@@ -11184,6 +11190,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11209,7 +11216,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4173,
@@ -11250,6 +11256,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11275,7 +11282,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4583,
@@ -11316,6 +11322,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11341,7 +11348,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4729,
@@ -11382,6 +11388,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11407,6 +11414,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4829,
@@ -11440,7 +11448,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11466,6 +11473,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4672,
@@ -11506,7 +11514,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11532,6 +11539,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5022,
@@ -11572,7 +11580,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11598,6 +11605,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4745,
@@ -11638,7 +11646,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11664,6 +11671,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4680,
@@ -11704,7 +11712,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11730,6 +11737,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4278,
@@ -11770,7 +11778,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11796,6 +11803,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4207,
@@ -11836,7 +11844,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11862,6 +11869,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4682,
@@ -11902,7 +11910,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11928,6 +11935,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4656,
@@ -11983,7 +11991,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -12009,6 +12016,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4189,
@@ -12049,7 +12057,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -14844,6 +14851,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4843,
@@ -14861,7 +14869,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14903,6 +14910,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4621,
@@ -14920,7 +14928,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -14969,6 +14976,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4505,
@@ -14986,7 +14994,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15042,6 +15049,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4276,
@@ -15059,7 +15067,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -15108,6 +15115,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4340,
@@ -15155,7 +15163,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -15190,6 +15197,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4301,
@@ -15207,7 +15215,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 386,
@@ -15249,6 +15256,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4325,
@@ -15266,7 +15274,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15308,6 +15315,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4152,
@@ -15325,7 +15333,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15374,6 +15381,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4285,
@@ -15391,7 +15399,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -15440,6 +15447,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4872,
@@ -15517,7 +15525,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -15583,7 +15590,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -15607,6 +15613,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15649,7 +15656,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 404,
@@ -15673,6 +15679,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15715,7 +15722,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15739,6 +15745,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15781,7 +15788,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15805,6 +15811,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15847,7 +15854,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15871,6 +15877,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15913,7 +15920,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15937,6 +15943,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15979,7 +15986,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15996,6 +16002,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16053,7 +16060,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -16063,6 +16069,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16105,7 +16112,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16129,6 +16135,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16231,7 +16238,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -16255,6 +16261,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16466,6 +16473,42 @@
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 2508,
+      "start_time": "2025-08-01T20:00:00.000+00:00",
+      "end_time": "2025-08-01T21:00:00.000+00:00",
+      "title": "Drenna",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10263,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2508",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
     },
     {
       "id": 2460,
@@ -18320,7 +18363,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4250,
@@ -18368,6 +18410,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -18443,6 +18486,21 @@
           "meta": {
             "pivot_schedule_id": 2310,
             "pivot_speaker_id": 4764,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4282,
+          "name": "Eduardo Heluany",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1415/partner_1415_1752610653916.png",
+          "bio": "Estrategista digital com atuação global e raízes em Santa Rita, transita por diferentes lugares do mundo sem perder sua essência. Movido por propósito, trabalha diariamente para criar conexões, experiências e ideias que arrepiam o mundo, unindo criatividade, estratégia e impacto.",
+          "role": "Diretor de Branding e conteúdo em Projetos de Marketing",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2310,
+            "pivot_speaker_id": 4282,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -19019,6 +19077,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4847,
@@ -19036,7 +19095,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -19200,6 +19258,42 @@
       "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
     },
     {
+      "id": 2509,
+      "start_time": "2025-08-01T21:00:00.000+00:00",
+      "end_time": "2025-08-01T22:00:00.000+00:00",
+      "title": "Glitter Paranoia",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10264,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2509",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
+    },
+    {
       "id": 2461,
       "start_time": "2025-08-01T21:20:00.000+00:00",
       "end_time": "2025-08-01T21:50:00.000+00:00",
@@ -19295,6 +19389,42 @@
       "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar"
     },
     {
+      "id": 2510,
+      "start_time": "2025-08-01T22:00:00.000+00:00",
+      "end_time": "2025-08-01T23:00:00.000+00:00",
+      "title": "Tião e os Bravos convidam IVor",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10265,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2510",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
+    },
+    {
       "id": 2446,
       "start_time": "2025-08-01T22:00:00.000+00:00",
       "end_time": "2025-08-02T02:00:00.000+00:00",
@@ -19329,6 +19459,42 @@
         "rating": 0
       },
       "filterLocation": "Dija Gastronomia"
+    },
+    {
+      "id": 2511,
+      "start_time": "2025-08-01T23:00:00.000+00:00",
+      "end_time": "2025-08-02T00:00:00.000+00:00",
+      "title": "Cor dos Olhos",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10266,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2511",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
     },
     {
       "id": 2462,
@@ -19475,6 +19641,42 @@
       "filterLocation": "Palco MFM"
     },
     {
+      "id": 2512,
+      "start_time": "2025-08-02T01:00:00.000+00:00",
+      "end_time": "2025-08-02T02:00:00.000+00:00",
+      "title": "Luna Di",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10267,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2512",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
+    },
+    {
       "id": 2455,
       "start_time": "2025-08-02T01:00:00.000+00:00",
       "end_time": "2025-08-02T02:00:00.000+00:00",
@@ -19545,6 +19747,42 @@
         "rating": 0
       },
       "filterLocation": "Palco MFM"
+    },
+    {
+      "id": 2513,
+      "start_time": "2025-08-02T02:00:00.000+00:00",
+      "end_time": "2025-08-01T03:00:00.000+00:00",
+      "title": "Zimbra",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10268,
+      "place": "Palco UNDERSTREAM – by: Marã Música",
+      "allow_questions": false,
+      "external_id": "yazo_2513",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1536,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Palco UNDERSTREAM"
     },
     {
       "id": 2466,
