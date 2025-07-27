@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
-  "total_events": 17,
-  "scraped_at": "2025-07-27T08:17:29.835399-03:00",
+  "total_events": 21,
+  "scraped_at": "2025-07-27T13:21:48.376261-03:00",
   "events": [
     {
       "id": 2161,
@@ -315,6 +315,42 @@
       "filterLocation": "Casa Google Cloud - Sala Cafézin"
     },
     {
+      "id": 2524,
+      "start_time": "2025-08-03T14:00:00.000+00:00",
+      "end_time": "2025-08-03T15:00:00.000+00:00",
+      "title": " Duo Malonera (Música Instrumental Brasileira e Jazz)",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10279,
+      "place": "Circuito SESC Amantikir – HackTown ",
+      "allow_questions": false,
+      "external_id": "yazo_2524",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1536,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Circuito SESC Amantikir – HackTown "
+    },
+    {
       "id": 2170,
       "start_time": "2025-08-03T14:00:00.000+00:00",
       "end_time": "2025-08-03T14:40:00.000+00:00",
@@ -601,6 +637,42 @@
         "rating": 0
       },
       "filterLocation": "Casa Google Cloud - Sala Varanda"
+    },
+    {
+      "id": 2525,
+      "start_time": "2025-08-03T16:00:00.000+00:00",
+      "end_time": "2025-08-03T17:30:00.000+00:00",
+      "title": "Zamat Band (Blues/Rock)",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10280,
+      "place": "Circuito SESC Amantikir – Hack Town ",
+      "allow_questions": false,
+      "external_id": "yazo_2525",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Circuito SESC Amantikir – Hack Town "
     },
     {
       "id": 1751,
@@ -935,6 +1007,42 @@
       "filterLocation": "Casa Google Cloud - Sala Varanda"
     },
     {
+      "id": 2526,
+      "start_time": "2025-08-03T18:30:00.000+00:00",
+      "end_time": "2025-08-03T20:00:00.000+00:00",
+      "title": "Eduardo Machado convida Victor Biglione e Carlos Bala (Blues, Rock e Música Instrumental Brasileira)",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10281,
+      "place": "Circuito SESC Amantikir – HackTown ",
+      "allow_questions": false,
+      "external_id": "yazo_2526",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 2560,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Circuito SESC Amantikir – HackTown "
+    },
+    {
       "id": 2195,
       "start_time": "2025-08-03T19:00:00.000+00:00",
       "end_time": "2025-08-03T20:30:00.000+00:00",
@@ -1044,6 +1152,42 @@
         "rating": 0
       },
       "filterLocation": "Casa Google Cloud - Sala Cafézin"
+    },
+    {
+      "id": 2527,
+      "start_time": "2025-08-03T21:00:00.000+00:00",
+      "end_time": "2025-08-03T22:30:00.000+00:00",
+      "title": "Keith Dunn & The Simi Brothers (Blues e Soul)",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10282,
+      "place": "Circuito SESC Amantikir – HackTown ",
+      "allow_questions": false,
+      "external_id": "yazo_2527",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 2304,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Circuito SESC Amantikir – HackTown "
     }
   ]
 }

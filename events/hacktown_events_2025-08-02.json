@@ -1,7 +1,7 @@
 {
   "date": "2025-08-02",
-  "total_events": 320,
-  "scraped_at": "2025-07-27T08:17:29.808351-03:00",
+  "total_events": 318,
+  "scraped_at": "2025-07-27T13:21:48.347829-03:00",
   "events": [
     {
       "id": 2439,
@@ -819,6 +819,42 @@
         "rating": 0
       },
       "filterLocation": "INATEL"
+    },
+    {
+      "id": 2530,
+      "start_time": "2025-08-02T13:00:00.000+00:00",
+      "end_time": "2025-08-02T15:00:00.000+00:00",
+      "title": "Coffee Beats",
+      "description": "Mini festas diurnas com DJs no vinil, café especial e muita vibe.\n\nNesta edição, quem comanda o som é o DJ TRINITY, e quem aquece os corações com cafés incríveis é o pessoal da CAFETELIER.",
+      "hub_event_id": 1,
+      "entity_register_id": 10285,
+      "place": "Feira da Mantiqueira",
+      "allow_questions": false,
+      "external_id": "yazo_2530",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [],
+      "tags": [
+        {
+          "id": 417,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Showcase",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Feira da Mantiqueira"
     },
     {
       "id": 2311,
@@ -3060,72 +3096,6 @@
       "filterLocation": "ETE"
     },
     {
-      "id": 2382,
-      "start_time": "2025-08-02T13:00:00.000+00:00",
-      "end_time": "2025-08-02T14:00:00.000+00:00",
-      "title": "Transformando diagnóstico em potência: do desencaixe à inovação",
-      "description": "Como o diagnóstico de TDAH e dislexia não foi um freio, mas o ponto de partida para o surgimento da Soil — e como, a partir da dor do \"não pertencimento\", nasce um novo jeito de pensar, criar e empreender com impacto. Uma palestra sobre virada de chave, mas com exemplos reais e aprendizados difíceis.",
-      "hub_event_id": 1,
-      "entity_register_id": 10088,
-      "place": "Be Bold",
-      "allow_questions": false,
-      "external_id": "f2e2a2b7-7079-41c8-a378-1a78a2c9dea3",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4407,
-          "name": "Igor Mendes",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1543/partner_1543_1752611439075.png",
-          "bio": "Empreendedor neurodivergente e fundador da Soil Tecnologia, startup que utiliza IA e automação para otimizar a irrigação no agronegócio. Palestrante, transforma sua experiência com TDAH e dislexia em força criativa para impulsionar inovação.",
-          "role": "Sócio Fundador da Soil Tecnologia",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2382,
-            "pivot_speaker_id": 4407,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        },
-        {
-          "id": 387,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Diversidade / Equidade / Inclusão",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Be Bold"
-    },
-    {
       "id": 1722,
       "start_time": "2025-08-02T13:00:00.000+00:00",
       "end_time": "2025-08-02T14:00:00.000+00:00",
@@ -3765,6 +3735,58 @@
       "filterLocation": "Incubadora Municipal - Auditório"
     },
     {
+      "id": 2523,
+      "start_time": "2025-08-02T14:30:00.000+00:00",
+      "end_time": "2025-08-02T15:30:00.000+00:00",
+      "title": "Liderar na América Latina é outra história (e não fomos nós que a escrevemos)",
+      "description": "Se liderar já é desafiador, tentar fazer isso com modelos importados é quase uma cilada. A América Latina não deveria funcionar como cópia do Norte Global, pois nossos desafios corporativos são outros. Nessa conversa, proponho um novo olhar sobre nosso modo de trabalho, onde gambiarra e improviso não são falhas, mas estratégias criativas para lidar com um contexto de crise constante e instabilidade 24/7. Tudo isso a partir dos primeiros achados da minha pesquisa de mestrado em liderança latino-americana pela USP.",
+      "hub_event_id": 1,
+      "entity_register_id": 10278,
+      "place": "Escola Sânico Teles - Ginásio",
+      "allow_questions": false,
+      "external_id": "yazo_2523",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4565,
+          "name": "Maíra Blasi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1706/partner_1706_1752612416267.png",
+          "bio": "Professora na PUC, especialista em futuro do trabalho e fundadora da Subversiva. Já esteve na CNN, Folha, Estadão e em empresas como Globo, Danone e Grupo Omelete levando novas ideias para mudar o mundo do trabalho.",
+          "role": "Fundadora da Subversiva",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2523,
+            "pivot_speaker_id": 4565,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles"
+    },
+    {
       "id": 2248,
       "start_time": "2025-08-02T14:30:00.000+00:00",
       "end_time": "2025-08-02T15:30:00.000+00:00",
@@ -3908,6 +3930,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4431,
@@ -3925,7 +3948,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3974,6 +3996,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4115,
@@ -4021,7 +4044,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -4070,6 +4092,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4577,
@@ -4087,7 +4110,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -4136,6 +4158,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4762,
@@ -4153,7 +4176,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 275,
@@ -4202,6 +4224,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5206,
@@ -4219,7 +4242,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -4268,6 +4290,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4591,
@@ -4285,7 +4308,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 275,
@@ -4334,6 +4356,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5075,
@@ -4396,7 +4419,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4438,6 +4460,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -4455,7 +4478,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -4497,6 +4519,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5016,
@@ -4514,7 +4537,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -4563,6 +4585,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4312,
@@ -4580,7 +4603,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 397,
@@ -4874,131 +4896,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
-      "id": 2095,
-      "start_time": "2025-08-02T14:30:00.000+00:00",
-      "end_time": "2025-08-02T15:30:00.000+00:00",
-      "title": "Enquanto a calma não vem: 316 aprendizados para os momentos mais caóticos da vida",
-      "description": "Uma viagem de 316 semanas — e contando. Como topar uma jornada tão longa sem perder a cabeça enquanto o destino final ainda é um mistério? Nesta palestra, a jornalista Helena Galante compartilha o que tem aprendido desde que criou o podcast Jornada da Calma. A cada segunda-feira, há mais de seis anos, ela conversa com pessoas muito diferentes sobre como viver com mais presença em um mundo que não para. São lições sobre leveza, caos, beleza — e o que existe no meio disso tudo.",
-      "hub_event_id": 1,
-      "entity_register_id": 9733,
-      "place": "INATEL - Teatro Inatel - Prédio 5 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "83d180b6-1cda-466f-8114-6a0eb0f894af",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4393,
-          "name": "Helena Galante",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1529/partner_1529_1752611358773.png",
-          "bio": "Jornalista e escritora, Helena Galante é diretora das revistas CLAUDIA, Boa Forma e Bravo!. Em 2019, criou o podcast *Jornada da Calma*, projeto que mantém há mais de 300 semanas, promovendo reflexões sobre bem-estar e desaceleração. Une conteúdo de qualidade e sensibilidade editorial na busca por uma vida com mais presença e equilíbrio.",
-          "role": "Criadora do podcast Jornada da Calma e Diretora das revistas CLAUDIA, Boa Forma e Bravo!",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2095,
-            "pivot_speaker_id": 4393,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 386,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental – Presente / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
-      "id": 2121,
-      "start_time": "2025-08-02T14:30:00.000+00:00",
-      "end_time": "2025-08-02T15:30:00.000+00:00",
-      "title": "Entretenimento em transformação: o futuro, a complexidade e o desafio da segurança total",
-      "description": "O painel abordará as tendências tecnológicas, os novos riscos e a necessidade de integrar segurança física, emocional e digital para garantir experiências imersivas e protegidas em eventos de alta complexidade.",
-      "hub_event_id": 1,
-      "entity_register_id": 9759,
-      "place": "INATEL - Sala 10 - Prédio 1 - Térreo",
-      "allow_questions": false,
-      "external_id": "2f79ee56-8bfb-4275-b644-bc90cf3fa0cd",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4217,
-          "name": "Camilo Dornellas",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1348/partner_1348_1752610245632.png",
-          "bio": "Gestor de segurança com mais de 30 anos de experiência em grandes eventos, como Rock in Rio, Copa do Mundo e Olimpíadas. Foi gerente regional do BNY, atua no HackTown e é referência internacional em gestão de riscos e crises.",
-          "role": "Fundador da Headline Consultoria Empresarial",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2121,
-            "pivot_speaker_id": 4217,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 391,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
           "hub_event_id": 1
         }
       ],
@@ -5855,72 +5752,6 @@
       "filterLocation": "INATEL"
     },
     {
-      "id": 2106,
-      "start_time": "2025-08-02T14:30:00.000+00:00",
-      "end_time": "2025-08-02T15:30:00.000+00:00",
-      "title": "Medo de dar certo",
-      "description": "Quando falamos em inovação, lidamos com o que ainda não existe ou está sendo criado. Esse desconhecimento, mesmo provocado por nós, gera sentimentos conflitantes, como medo e ansiedade. Criar pode ser assustador, e não saber lidar com isso atrapalha o processo criativo. Reconhecer e nomear emoções é essencial para regulá-las e tomar decisões melhores. Por meio de provocações criativas, Natália vai guiar os participantes a enfrentar as dores da inovação e sair mais fortes e conscientes de si.",
-      "hub_event_id": 1,
-      "entity_register_id": 9744,
-      "place": "Escola Sânico Teles - Ginásio ",
-      "allow_questions": false,
-      "external_id": "823ac65f-630f-4717-be65-5066799450ab",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4630,
-          "name": "Natália Sousa",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1772/partner_1772_1752612834637.png",
-          "bio": "Jornalista, escritora e podcaster, Natália Sousa é criadora do podcast *Para Dar Nome às Coisas* e autora do livro *Medo de Dar Certo*. Apaixonada por histórias, explora narrativas que ajudam a traduzir sentimentos e a promover autoconhecimento, conectando emoção e palavra com sensibilidade e profundidade.",
-          "role": "Criadora do podcast \"Para dar Nome às Coisas\"",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2106,
-            "pivot_speaker_id": 4630,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 290,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Economia Criativa",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Escola Sanico Teles"
-    },
-    {
       "id": 1740,
       "start_time": "2025-08-02T14:30:00.000+00:00",
       "end_time": "2025-08-02T15:30:00.000+00:00",
@@ -5985,6 +5816,72 @@
         "rating": 0
       },
       "filterLocation": "ETE"
+    },
+    {
+      "id": 2040,
+      "start_time": "2025-08-02T14:30:00.000+00:00",
+      "end_time": "2025-08-02T15:30:00.000+00:00",
+      "title": "Momentos sabáticos: uma pausa consciente para transformar sua rotina",
+      "description": "Em meio à correria do dia a dia, fazer pausas pode ser o maior diferencial. Nesta palestra, conheça o Método AMOR e descubra como os “Momentos Sabáticos” ajudam a cultivar criatividade, bem-estar e tomada de decisão mais equilibrada. Uma provocação necessária para quem quer inovar sem perder a si mesmo.",
+      "hub_event_id": 1,
+      "entity_register_id": 9678,
+      "place": "INATEL - Sala 10 - Prédio 1 - Térreo",
+      "allow_questions": false,
+      "external_id": "5e14d5c9-a311-414e-b301-aca53eaf5417",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4580,
+          "name": "Marcelo Rondon",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1721/partner_1721_1752612516424.png",
+          "bio": "Profissional de desenvolvimento humano, atua na criação de ambientes seguros e acolhedores. Autor do livro Momentos Sabáticos e da coluna A Tal Felicidade na Veja SP. Transitou do mercado financeiro para dedicar-se a promover sentido e bem-estar, alinhando experiência e propósito.",
+          "role": "Cofundador",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2040,
+            "pivot_speaker_id": 4580,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 386,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental – Presente / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "INATEL"
     },
     {
       "id": 1742,
@@ -8081,6 +7978,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4280,
@@ -8098,7 +7996,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -8749,7 +8646,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4605,
@@ -8767,6 +8663,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 389,
@@ -8815,7 +8712,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4349,
@@ -8833,6 +8729,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -8881,7 +8778,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4798,
@@ -8899,6 +8795,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -8947,7 +8844,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4527,
@@ -8965,6 +8861,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 386,
@@ -9013,7 +8910,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4199,
@@ -9031,6 +8927,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 386,
@@ -9079,7 +8976,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4386,
@@ -9127,6 +9023,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9175,7 +9072,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5042,
@@ -9223,6 +9119,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -9271,7 +9168,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5213,
@@ -9334,6 +9230,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -9375,7 +9272,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4211,
@@ -9393,6 +9289,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -9434,7 +9331,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5086,
@@ -9452,6 +9348,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -9500,7 +9397,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4336,
@@ -9563,6 +9459,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -9605,6 +9502,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 281,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Arquitetura / Novas Formas de Construção",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5196,
@@ -9620,22 +9533,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 281,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Arquitetura / Novas Formas de Construção",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9664,6 +9561,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4152,
@@ -9726,22 +9639,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9768,23 +9665,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4572,
-          "name": "Marcela Ary",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1713/partner_1713_1752612463775.png",
-          "bio": "Bioarquiteta especializada em soluções regenerativas para arquitetura sustentável. CEO do Bioseri Hub, dedicado à pesquisa, inovação, curadoria e desenvolvimento de materiais naturais voltados à construção regenerativa. Atua na vanguarda da sustentabilidade aplicada ao setor da construção.",
-          "role": "Liderando inovação em bioarquitetura regenerativa através de pesquisa, curadoria e materiais naturais",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1739,
-            "pivot_speaker_id": 4572,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -9806,6 +9686,23 @@
           "type": "schedules",
           "name": "Futuro da Alimentação",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4572,
+          "name": "Marcela Ary",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1713/partner_1713_1752612463775.png",
+          "bio": "Bioarquiteta especializada em soluções regenerativas para arquitetura sustentável. CEO do Bioseri Hub, dedicado à pesquisa, inovação, curadoria e desenvolvimento de materiais naturais voltados à construção regenerativa. Atua na vanguarda da sustentabilidade aplicada ao setor da construção.",
+          "role": "Liderando inovação em bioarquitetura regenerativa através de pesquisa, curadoria e materiais naturais",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1739,
+            "pivot_speaker_id": 4572,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9834,23 +9731,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4474,
-          "name": "Juliana Morais",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1611/partner_1611_1752611849228.png",
-          "bio": "Empresária, professora da Fundação Dom Cabral, palestrante, TEDx speaker e autora do livro \"Vivendo do Meu Negócio\", atua ajudando empreendedores a aumentarem sua rentabilidade e realizarem sonhos, com foco na potência dos negócios de favela.",
-          "role": "Empresária, Professora e Especialista em Empreendedorismo de Impacto",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1708,
-            "pivot_speaker_id": 4474,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -9872,6 +9752,23 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4474,
+          "name": "Juliana Morais",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1611/partner_1611_1752611849228.png",
+          "bio": "Empresária, professora da Fundação Dom Cabral, palestrante, TEDx speaker e autora do livro \"Vivendo do Meu Negócio\", atua ajudando empreendedores a aumentarem sua rentabilidade e realizarem sonhos, com foco na potência dos negócios de favela.",
+          "role": "Empresária, Professora e Especialista em Empreendedorismo de Impacto",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1708,
+            "pivot_speaker_id": 4474,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9900,6 +9797,15 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5232,
@@ -9915,15 +9821,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9952,6 +9849,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5237,
@@ -9969,7 +9867,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9996,6 +9893,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5226,
@@ -10013,7 +9911,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10040,23 +9937,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4753,
-          "name": "Tai Barroso",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1900/partner_1900_1752613617859.png",
-          "bio": "Há 15 anos desenhando e facilitando estratégias, métodos e experiências com a alquimia da colaboração radical e a inteligência coletiva na Europa, África e América do Sul para governos, organizações da sociedade civil, fundações e multinacionais.",
-          "role": "Community Strategist, Fundadora na AWELLE",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2048,
-            "pivot_speaker_id": 4753,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 388,
@@ -10080,6 +9960,23 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4753,
+          "name": "Tai Barroso",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1900/partner_1900_1752613617859.png",
+          "bio": "Há 15 anos desenhando e facilitando estratégias, métodos e experiências com a alquimia da colaboração radical e a inteligência coletiva na Europa, África e América do Sul para governos, organizações da sociedade civil, fundações e multinacionais.",
+          "role": "Community Strategist, Fundadora na AWELLE",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2048,
+            "pivot_speaker_id": 4753,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10094,7 +9991,7 @@
       "description": "Neste painel, especialistas discutem os impactos, desafios e a convergência entre inteligência artificial e como as tecnologias imersivas estão transformando profundamente a forma como criamos, interagimos e experimentamos o mundo digital. Neste painel, vamos explorar como IA generativa, XR (realidade estendida) e interfaces emergentes estão derrubando as fronteiras entre o físico e o virtual, ampliando possibilidades criativas e redefinindo conceitos como presença, autoria e percepção. Experiências imersivas cada vez mais inteligentes, acessíveis e sensoriais.",
       "hub_event_id": 1,
       "entity_register_id": 10234,
-      "place": "ETE - Sala 64",
+      "place": "Incubadora Municipal - Auditório",
       "allow_questions": false,
       "external_id": "yazo_2491",
       "place_color": null,
@@ -10106,6 +10003,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5350,
@@ -10168,27 +10081,11 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "Incubadora Municipal - Auditório"
     },
     {
       "id": 2424,
@@ -10210,6 +10107,15 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4643,
@@ -10225,15 +10131,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -10958,7 +10855,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -10993,15 +10890,15 @@
           "allow_access": false
         },
         {
-          "id": 4628,
-          "name": "Nara Naomi",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1770/partner_1770_1752612819788.png",
-          "bio": "Facilitadora em autogestão e culturas regenerativas, com 15 anos de experiência em gestão corporativa. Viveu uma transição de vida ao residir por dois anos na ecovila Findhorn, na Escócia, onde aprofundou práticas de sustentabilidade e cooperação. Atua promovendo processos de transformação organizacional e pessoal, com foco em inovação sistêmica, consciência coletiva e novos modos de viver e trabalhar.",
-          "role": "Consultora em autogestão e design de culturas organizacionais regenerativas",
+          "id": 5056,
+          "name": "Naomi Penteado",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5056/partner_5056_1753477603849.png",
+          "bio": "Facilitadora em Autodefesa e Gestão Colaborativa de Conflitos. Atua com práticas de Comunicação Libertadora para fortalecer relações e promover justiça.",
+          "role": "Autodefesa e Gestão Colaborativa de Conflitos",
           "company": " ",
           "meta": {
             "pivot_schedule_id": 2151,
-            "pivot_speaker_id": 4628,
+            "pivot_speaker_id": 5056,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -12037,7 +11934,7 @@
       "description": "Nesta palestra, líderes do mundo corporativo são convidados a refletir sobre comportamento, influência e tomada de decisão a partir do sistema de hierarquia e comunicação dos cavalos. A apresentação conecta estratégias de liderança eficazes com exemplos do mundo animal, revelando paralelos surpreendentes entre o sistema de comunicação e hierarquização dos cavalos e os desafios enfrentados por líderes em ambientes complexos e dinâmicos.",
       "hub_event_id": 1,
       "entity_register_id": 9883,
-      "place": "Incubadora Municipal - Auditório",
+      "place": "ETE - Sala 64",
       "allow_questions": false,
       "external_id": "284b7e17-3fbc-4d75-b863-6a419e7baad7",
       "place_color": null,
@@ -12046,7 +11943,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -12093,7 +11990,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Incubadora Municipal - Auditório"
+      "filterLocation": "ETE"
     },
     {
       "id": 2327,
@@ -12167,72 +12064,6 @@
         "rating": 0
       },
       "filterLocation": "Mimma's"
-    },
-    {
-      "id": 2040,
-      "start_time": "2025-08-02T17:30:00.000+00:00",
-      "end_time": "2025-08-02T18:30:00.000+00:00",
-      "title": "Momentos sabáticos: uma pausa consciente para transformar sua rotina",
-      "description": "Em meio à correria do dia a dia, fazer pausas pode ser o maior diferencial. Nesta palestra, conheça o Método AMOR e descubra como os “Momentos Sabáticos” ajudam a cultivar criatividade, bem-estar e tomada de decisão mais equilibrada. Uma provocação necessária para quem quer inovar sem perder a si mesmo.",
-      "hub_event_id": 1,
-      "entity_register_id": 9678,
-      "place": "INATEL - Sala 10 - Prédio 1 - Térreo",
-      "allow_questions": false,
-      "external_id": "5e14d5c9-a311-414e-b301-aca53eaf5417",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4580,
-          "name": "Marcelo Rondon",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1721/partner_1721_1752612516424.png",
-          "bio": "Profissional de desenvolvimento humano, atua na criação de ambientes seguros e acolhedores. Autor do livro Momentos Sabáticos e da coluna A Tal Felicidade na Veja SP. Transitou do mercado financeiro para dedicar-se a promover sentido e bem-estar, alinhando experiência e propósito.",
-          "role": "Cofundador",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2040,
-            "pivot_speaker_id": 4580,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 386,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental – Presente / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 291,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Gestão / Governança Inovadora",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
     },
     {
       "id": 2215,
@@ -13485,6 +13316,162 @@
       "filterLocation": "Bar e Restaurante do Dimas II"
     },
     {
+      "id": 2521,
+      "start_time": "2025-08-02T19:00:00.000+00:00",
+      "end_time": "2025-08-02T20:00:00.000+00:00",
+      "title": "Ecos do Universo - Uma jornada pelo Cosmos e a Filosofia da existência humana",
+      "description": "Nesta palestra, vamos explorar a fascinante conexão entre os mistérios da física quântica e as grandes questões filosóficas da humanidade. Do infinitamente pequeno, com a física de partículas e os aceleradores, até o vasto cosmos revelado pelos telescópios James Webb e Vera Rubin, vamos refletir sobre a busca humana por respostas. Quem somos? De onde viemos? Qual o propósito da nossa existência? Em um mergulho entre o micro e o macro, uniremos ciência e filosofia para refletir sobre os segredos do universo e juntos buscarmos novos horizontes e novas perspectivas sobre o nosso lugar nele.",
+      "hub_event_id": 1,
+      "entity_register_id": 10276,
+      "place": "ETE - Auditório Sinhá Moreira by SESC/SENAC",
+      "allow_questions": false,
+      "external_id": "yazo_2521",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4874,
+          "name": "Jorge Groove",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4874/partner_4874_1753477163648.png",
+          "bio": "Artista 3D, diretor de animação e produtor de conteúdo imersivo. Fundador do XRBR, atua com VR, games e metaverso. Criador dos jogos “The Drop” e “Halls of Hell”, também pesquisa astrofísica e novas mídias.",
+          "role": "Fundador do XRBR",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2521,
+            "pivot_speaker_id": 4874,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 328,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Espaço / Novas Fronteiras",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
+    },
+    {
+      "id": 1659,
+      "start_time": "2025-08-02T19:00:00.000+00:00",
+      "end_time": "2025-08-02T20:00:00.000+00:00",
+      "title": "Reforma tributária: o que muda no jogo para startups, techs e inovadores?",
+      "description": "A nova Reforma Tributária promete transformar o ambiente de negócios no Brasil e startups, empresas de tecnologia e criadores de inovação precisam entender o que está por vir. Neste bate-papo, vamos desvendar os impactos reais das mudanças fiscais, identificar oportunidades e riscos, e mostrar como se preparar para um novo cenário tributário mais dinâmico, digital e desafiador.",
+      "hub_event_id": 1,
+      "entity_register_id": 9297,
+      "place": "ETE - Sala 81 - by SkyOne",
+      "allow_questions": false,
+      "external_id": "b1ad7ca7-b4e3-4b83-8de2-66ed0d908ed1",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4145,
+          "name": "Ana Amaral",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1275/partner_1275_1752609764498.png",
+          "bio": "Especialista em estratégias tributárias para empresas e negócios, com mais de 15 anos de experiência. Contabilista, administradora de empresas e bacharelanda em Direito pela FDSM/MG, possui vivência acadêmica e empresarial internacional em Portugal, Espanha e Itália.",
+          "role": "Especialista em Estratégias Tributárias, Fundadora da Amaral Contabilidade e Sócia da A&F",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1659,
+            "pivot_speaker_id": 4145,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5161,
+          "name": "Matheus Oliveira",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 1659,
+            "pivot_speaker_id": 5161,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5162,
+          "name": "Fábio Luiz",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 1659,
+            "pivot_speaker_id": 5162,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5163,
+          "name": "Lucas Pessi Martins",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 1659,
+            "pivot_speaker_id": 5163,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 273,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Criação Digital / Economia dos Criadores",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE"
+    },
+    {
       "id": 2241,
       "start_time": "2025-08-02T19:00:00.000+00:00",
       "end_time": "2025-08-02T20:00:00.000+00:00",
@@ -14515,72 +14502,6 @@
       "filterLocation": "Escola Sanico Teles"
     },
     {
-      "id": 2113,
-      "start_time": "2025-08-02T19:00:00.000+00:00",
-      "end_time": "2025-08-02T20:00:00.000+00:00",
-      "title": "Cidade Criativa Cidade Feliz, um modelo  de educação para cidades",
-      "description": "\"As cidades necessitam de se transformar através do conhecimento,da valorização das humanidades e da criatividade.\nUm caminho seria conectar tecnologias com culturas para gerar inovações\"",
-      "hub_event_id": 1,
-      "entity_register_id": 9751,
-      "place": "INATEL - Sala 15 - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "5e531cab-d6cc-4c18-969f-a92f3e25e96b",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4821,
-          "name": "Professor Wander",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1970/partner_1970_1752614037450.png",
-          "bio": "Secretário Municipal de Educação de Itajubá e ex-prefeito de Santa Rita do Sapucaí por oito anos. Atuou por oito anos como Diretor Geral do Inatel e como secretário municipal de Ciência e Tecnologia de Santa Rita do Sapucaí. Foi um dos idealizadores do movimento Cidade Criativa, Cidade Feliz, promovendo inovação e desenvolvimento local.",
-          "role": "Atual secretário municipal de educação de Itajubá.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2113,
-            "pivot_speaker_id": 4821,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 332,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cidades / Comunidades Inovadoras",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
       "id": 2122,
       "start_time": "2025-08-02T19:00:00.000+00:00",
       "end_time": "2025-08-02T20:00:00.000+00:00",
@@ -14842,7 +14763,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4252,
@@ -14860,6 +14780,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -14901,7 +14822,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5255,
@@ -14949,6 +14869,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14990,7 +14911,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5113,
@@ -15008,6 +14928,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -15056,7 +14977,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4342,
@@ -15074,6 +14994,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 283,
@@ -15115,7 +15036,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4470,
@@ -15133,6 +15053,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15181,7 +15102,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4799,
@@ -15199,6 +15119,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -15247,7 +15168,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4663,
@@ -15265,6 +15185,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 286,
@@ -15306,7 +15227,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4816,
@@ -15324,6 +15244,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 392,
@@ -15372,7 +15293,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4270,
@@ -15390,6 +15310,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -15504,6 +15425,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4328,
@@ -15521,7 +15443,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15570,6 +15491,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4377,
@@ -15602,7 +15524,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15626,6 +15547,72 @@
       "filterLocation": "INATEL"
     },
     {
+      "id": 2106,
+      "start_time": "2025-08-02T19:00:00.000+00:00",
+      "end_time": "2025-08-02T20:00:00.000+00:00",
+      "title": "Medo de dar certo",
+      "description": "Quando falamos em inovação, lidamos com o que ainda não existe ou está sendo criado. Esse desconhecimento, mesmo provocado por nós, gera sentimentos conflitantes, como medo e ansiedade. Criar pode ser assustador, e não saber lidar com isso atrapalha o processo criativo. Reconhecer e nomear emoções é essencial para regulá-las e tomar decisões melhores. Por meio de provocações criativas, Natália vai guiar os participantes a enfrentar as dores da inovação e sair mais fortes e conscientes de si.",
+      "hub_event_id": 1,
+      "entity_register_id": 9744,
+      "place": "Escola Sânico Teles - Ginásio ",
+      "allow_questions": false,
+      "external_id": "823ac65f-630f-4717-be65-5066799450ab",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4630,
+          "name": "Natália Sousa",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1772/partner_1772_1752612834637.png",
+          "bio": "Jornalista, escritora e podcaster, Natália Sousa é criadora do podcast *Para Dar Nome às Coisas* e autora do livro *Medo de Dar Certo*. Apaixonada por histórias, explora narrativas que ajudam a traduzir sentimentos e a promover autoconhecimento, conectando emoção e palavra com sensibilidade e profundidade.",
+          "role": "Criadora do podcast \"Para dar Nome às Coisas\"",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2106,
+            "pivot_speaker_id": 4630,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 290,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Economia Criativa",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles"
+    },
+    {
       "id": 2158,
       "start_time": "2025-08-02T19:00:00.000+00:00",
       "end_time": "2025-08-02T20:00:00.000+00:00",
@@ -15644,6 +15631,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4983,
@@ -15706,7 +15694,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -15748,6 +15735,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4110,
@@ -15765,7 +15753,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -15814,6 +15801,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4304,
@@ -15846,7 +15834,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15895,6 +15882,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4491,
@@ -15912,7 +15900,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15961,6 +15948,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4163,
@@ -15978,7 +15966,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16027,6 +16014,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4359,
@@ -16044,7 +16032,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 405,
@@ -16093,6 +16080,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4283,
@@ -16110,7 +16098,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -16399,6 +16386,72 @@
       "filterLocation": "INATEL"
     },
     {
+      "id": 2260,
+      "start_time": "2025-08-02T19:00:00.000+00:00",
+      "end_time": "2025-08-02T20:00:00.000+00:00",
+      "title": "Sebrae e Gastronomia – A Fome com a Vontade de Empreender!",
+      "description": "Destacar o papel do Sebrae no fomento à gastronomia local e as\noportunidades para o desenvolvimento regional e a economia criativa. Inspirar e capacitar empreendedores do setor alimentício, com a apresentação do programa Prepara Gastronomia e a integração de representantes de municípios participantes como Natércia e Silvianópolis.",
+      "hub_event_id": 1,
+      "entity_register_id": 9966,
+      "place": "Casa do CCCF - Venue Principal",
+      "allow_questions": false,
+      "external_id": "350df913-1e6e-4caf-90a7-b806c669d2ef",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4975,
+          "name": "Myrian Sousa",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4975/partner_4975_1753477407969.png",
+          "bio": "Gestora do Sebrae Vale da Eletrônica, é formada em Administração, com MBA em Psicologia Organizacional. Atua há 13 anos no Sebrae com ações de desenvolvimento econômico, educação empreendedora e suporte a empresas em 13 municípios mineiros.",
+          "role": "Gestora Sebrae Vale da Eletrônica",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2260,
+            "pivot_speaker_id": 4975,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 275,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Educação / Aprendizado",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Casa do CCCF - Venue Principal"
+    },
+    {
       "id": 2263,
       "start_time": "2025-08-02T19:00:00.000+00:00",
       "end_time": "2025-08-02T20:00:00.000+00:00",
@@ -16470,72 +16523,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Inovação Corporativa",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Casa do CCCF - Venue Principal"
-    },
-    {
-      "id": 2260,
-      "start_time": "2025-08-02T19:00:00.000+00:00",
-      "end_time": "2025-08-02T20:00:00.000+00:00",
-      "title": "Sebrae e Gastronomia – A Fome com a Vontade de Empreender!",
-      "description": "Destacar o papel do Sebrae no fomento à gastronomia local e as\noportunidades para o desenvolvimento regional e a economia criativa. Inspirar e capacitar empreendedores do setor alimentício, com a apresentação do programa Prepara Gastronomia e a integração de representantes de municípios participantes como Natércia e Silvianópolis.",
-      "hub_event_id": 1,
-      "entity_register_id": 9966,
-      "place": "Casa do CCCF - Venue Principal",
-      "allow_questions": false,
-      "external_id": "350df913-1e6e-4caf-90a7-b806c669d2ef",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4975,
-          "name": "Myrian Sousa",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4975/partner_4975_1753477407969.png",
-          "bio": "Gestora do Sebrae Vale da Eletrônica, é formada em Administração, com MBA em Psicologia Organizacional. Atua há 13 anos no Sebrae com ações de desenvolvimento econômico, educação empreendedora e suporte a empresas em 13 municípios mineiros.",
-          "role": "Gestora Sebrae Vale da Eletrônica",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2260,
-            "pivot_speaker_id": 4975,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
           "hub_event_id": 1
         }
       ],
@@ -16887,8 +16874,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -16923,6 +16910,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4852,
@@ -16940,7 +16928,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -16989,6 +16976,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4131,
@@ -17006,7 +16994,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -17055,6 +17042,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4653,
@@ -17072,7 +17060,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17107,6 +17094,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5088,
@@ -17154,7 +17142,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17203,6 +17190,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4298,
@@ -17220,7 +17208,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -17269,6 +17256,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4893,
@@ -17301,7 +17289,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 295,
@@ -17343,8 +17330,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -17379,6 +17366,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5080,
@@ -17396,7 +17384,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -17445,6 +17432,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4191,
@@ -17462,7 +17450,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -17493,72 +17480,6 @@
       "filterLocation": "INATEL"
     },
     {
-      "id": 2123,
-      "start_time": "2025-08-02T20:30:00.000+00:00",
-      "end_time": "2025-08-02T21:30:00.000+00:00",
-      "title": "COMO A MÚSICA PODE INFLUENCIAR O PROCESSO CRIATIVO",
-      "description": "E SE A CRIATIVIDADE TIVESSE UM SOM?\n\nKarol Lopo mergulha na música como território fértil para a criação, não só como trilha, mas como estrutura, metáfora, impulso e linguagem visual. Da pulsação rebelde do punk dos anos 70 ao experimentalismo progressivo de álbuns icônicos como Dark Side of the Moon, ela mostra como canções, encartes, batidas e até a anatomia de instrumentos como o violoncelo podem guiar narrativas, despertar estéticas e sustentar marcas e experiências.\n\nUm convite a afinar o processo criativo com aquilo que não se vê, mas se sente, e que pode transformar por inteiro.",
-      "hub_event_id": 1,
-      "entity_register_id": 9761,
-      "place": "INATEL - Sala 23 - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "05f028c0-2c5e-45ef-ad9f-c3ef471dd35d",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 768,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "speakers": [
-        {
-          "id": 5210,
-          "name": "Karol Lopo",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2123,
-            "pivot_speaker_id": 5210,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 321,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Direitos Autorais / Criatividade",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
       "id": 2042,
       "start_time": "2025-08-02T20:30:00.000+00:00",
       "end_time": "2025-08-02T21:30:00.000+00:00",
@@ -17577,6 +17498,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4553,
@@ -17594,7 +17516,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17643,6 +17564,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4917,
@@ -17660,7 +17582,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -17709,6 +17630,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4108,
@@ -17756,7 +17678,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17805,6 +17726,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5318,
@@ -17822,7 +17744,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17864,6 +17785,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4677,
@@ -17911,7 +17833,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 395,
@@ -17960,6 +17881,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4392,
@@ -17977,7 +17899,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -18026,8 +17947,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -18062,6 +17983,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4360,
@@ -18079,7 +18001,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -18128,6 +18049,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4904,
@@ -18145,7 +18067,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -18846,95 +18767,6 @@
       "filterLocation": "INATEL"
     },
     {
-      "id": 2153,
-      "start_time": "2025-08-02T20:30:00.000+00:00",
-      "end_time": "2025-08-02T21:30:00.000+00:00",
-      "title": "Nascer de Novo: Homens, Cuidado e o Futuro da Humanidade",
-      "description": "E se o futuro da sociedade começasse com o modo como nascemos — e com quem nos recebe? Neste painel, reunimos vozes que estão na linha de frente da transformação: médicos, pais, educadores e ativistas que estão desprogramando o patriarcado a partir do cuidado. Vamos explorar como o nascimento, a paternidade e as novas masculinidades se entrelaçam como fios de uma mesma tapeçaria: a de uma cultura mais empática, justa e feliz. Um convite à escuta, à vulnerabilidade e à coragem de nascer — de novo — como homens, como pais e como sociedade.",
-      "hub_event_id": 1,
-      "entity_register_id": 9791,
-      "place": "INATEL - Espaço Ecumênico - Espaço Conexão Origem",
-      "allow_questions": false,
-      "external_id": "9df0d2dd-a1dc-49ba-ac33-478624669cec",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 768,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4109,
-          "name": "Adriano de Oliveira Calhau",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1239/partner_1239_1752609546472.png",
-          "bio": "Mentor e terapeuta integrativo, é especialista em Psicologia Perinatal e Origens da Vida. Criador do Método Mapa do Nascimento, pioneiro mundial na identificação de traumas e crenças formadas no momento do nascimento, atua na promoção do autoconhecimento profundo e da transformação pessoal.",
-          "role": "Mentor, Terapeuta, criador do Mapa do Nascimento",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2153,
-            "pivot_speaker_id": 4109,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4194,
-          "name": "Braulio Zorzella",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1325/partner_1325_1752610065691.png",
-          "bio": "Médico obstetra há 23 anos, é defensor da humanização do parto e da parentalidade consciente. Diretor de comunicação da ReHuNa (Rede pela Humanização do Parto e Nascimento), também se define como cachorreiro e roqueiro — unindo ciência, afeto e atitude em tudo o que faz.",
-          "role": "Médico Obstetra",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2153,
-            "pivot_speaker_id": 4194,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4286,
-          "name": "Elcio Leite",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1419/partner_1419_1752610683379.png",
-          "bio": "Educador pré-natal e ex-profissional de TI, pai da Mahina e casado com Gabi. Após vivenciar a chegada da filha em parto domiciliar, dedicou-se aos estudos sobre nascimento, comprometendo-se a transformar a paternidade em uma tecnologia de impacto social profundo.",
-          "role": "Pai e Educador Pré-Natal",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2153,
-            "pivot_speaker_id": 4286,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 331,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Pré-concepção Consciente / Parentalidade",
-          "hub_event_id": 1
-        },
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "INATEL"
-    },
-    {
       "id": 2312,
       "start_time": "2025-08-02T20:30:00.000+00:00",
       "end_time": "2025-08-02T21:30:00.000+00:00",
@@ -18953,6 +18785,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4419,
@@ -18970,7 +18803,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 294,
@@ -19019,6 +18851,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4858,
@@ -19036,7 +18869,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -19697,7 +19529,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4708,
@@ -19715,6 +19546,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 386,
@@ -19763,7 +19595,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4573,
@@ -19781,6 +19612,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -20512,8 +20344,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20537,7 +20369,7 @@
       "description": "",
       "hub_event_id": 1,
       "entity_register_id": 10179,
-      "place": "Palco Alcidão",
+      "place": "Palco MultiExperiências na Feira da Mantiqueira",
       "allow_questions": false,
       "external_id": "yazo_2456",
       "place_color": null,
@@ -20546,10 +20378,10 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20563,7 +20395,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco Alcidão"
+      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
     },
     {
       "id": 2443,
@@ -20584,7 +20416,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4641,
@@ -20617,6 +20448,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -20658,8 +20490,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20694,8 +20526,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 415,
@@ -20730,8 +20562,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20755,7 +20587,7 @@
       "description": "",
       "hub_event_id": 1,
       "entity_register_id": 10180,
-      "place": "Palco Alcidão",
+      "place": "Palco MultiExperiências na Feira da Mantiqueira",
       "allow_questions": false,
       "external_id": "yazo_2457",
       "place_color": null,
@@ -20764,10 +20596,10 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20781,7 +20613,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco Alcidão"
+      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
     },
     {
       "id": 2517,
@@ -20802,8 +20634,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20838,8 +20670,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20863,7 +20695,7 @@
       "description": "",
       "hub_event_id": 1,
       "entity_register_id": 10181,
-      "place": "Palco Alcidão",
+      "place": "Palco MultiExperiências na Feira da Mantiqueira",
       "allow_questions": false,
       "external_id": "yazo_2458",
       "place_color": null,
@@ -20872,10 +20704,10 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -20889,7 +20721,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco Alcidão"
+      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
     },
     {
       "id": 2470,
@@ -21043,7 +20875,7 @@
       "description": "",
       "hub_event_id": 1,
       "entity_register_id": 10182,
-      "place": "Palco Alcidão",
+      "place": "Palco MultiExperiências na Feira da Mantiqueira",
       "allow_questions": false,
       "external_id": "yazo_2459",
       "place_color": null,
@@ -21052,7 +20884,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [],
@@ -21069,7 +20901,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco Alcidão"
+      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
     },
     {
       "id": 2472,
