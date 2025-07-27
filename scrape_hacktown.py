@@ -77,7 +77,7 @@ def normalize_location(place: str) -> str:
     result = "Other"
 
     if "INATEL" in place_upper:
-        result = "INATEL"
+        result = "Inatel"
     elif "ETE" in place_upper:
         result = "ETE"
     elif "LOJA MAÇONICA" in place_upper or "LOJA MAÇÔNICA" in place_upper:
@@ -98,8 +98,18 @@ def normalize_location(place: str) -> str:
         result = "Casa Dinamarca"
     elif "CASA MDM" in place_upper:
         result = "Casa MFM"
+    elif "CASA MFM" in place_upper:
+        result = "Casa MFM"
+    elif "CASA DO CCCF" in place_upper:
+        result = "Casa do CCCF"
     elif "PALCO UNDERSTREAM" in place_upper:
         result = "Palco UNDERSTREAM"
+    elif "INCUBADORA MUNICIPAL" in place_upper:
+        result = "Palco UNDERSTREAM"
+    elif "CASA GOOGLE CLOUD" in place_upper:
+        result = "Casa Google Cloud"
+    elif "CASA FUTUROS POSSÍVEIS" in place_upper:
+        result = "Casa Futuros Possíveis"
     else:
         # Return the original place for unmapped locations
         result = place

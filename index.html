@@ -108,30 +108,23 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        /* Sandwich Menu */
+        /* Filter Menu */
         .menu-toggle {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 2000;
-            background: var(--gradient-primary);
-            color: var(--text-white);
+            background: transparent;
+            color: var(--text-primary);
             border: none;
-            border-radius: var(--radius-xl);
-            padding: 12px 15px;
+            border-radius: 50%;
+            padding: 10px;
+            margin-left: 10px;
             cursor: pointer;
             display: flex;
-            flex-direction: column;
-            gap: 4px;
-            box-shadow: var(--shadow-lg);
+            align-items: center;
+            justify-content: center;
             transition: all var(--transition-normal);
-            backdrop-filter: blur(20px);
         }
 
         .menu-toggle:hover {
-            background: var(--gradient-secondary);
-            transform: scale(1.05) translateY(-2px);
-            box-shadow: var(--shadow-xl);
+            background: rgba(100, 26, 230, 0.1);
         }
         
         .menu-toggle:focus {
@@ -139,36 +132,35 @@
             outline-offset: 2px;
         }
 
-        .menu-toggle span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--text-white);
-            border-radius: var(--radius-sm);
-            transition: all var(--transition-normal);
+        .menu-toggle svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--text-primary);
+            transition: fill var(--transition-normal);
         }
 
-        .menu-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translateY(9px);
+        .menu-toggle.active {
+            background: var(--primary-purple);
         }
 
-        .menu-toggle.active span:nth-child(2) {
-            opacity: 0;
+        .menu-toggle.active svg {
+            fill: white;
         }
 
-        .menu-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translateY(-9px);
+        .menu-toggle:hover svg {
+            fill: var(--primary-purple);
         }
 
         .sidebar {
             position: fixed;
             top: 0;
-            left: -350px;
+            right: -350px;
             width: 350px;
             height: 100vh;
             background: var(--gradient-primary);
             color: var(--text-white);
             padding: 80px 30px 30px;
-            transition: left var(--transition-normal) ease;
+            transition: right var(--transition-normal) ease;
             z-index: 1999;
             overflow-y: auto;
             box-shadow: var(--shadow-2xl);
@@ -176,7 +168,7 @@
         }
 
         .sidebar.active {
-            left: 0;
+            right: 0;
         }
 
         .sidebar-overlay {
@@ -641,6 +633,13 @@
             justify-content: space-between;
         }
 
+        .nav-left-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 1;
+        }
+
         .current-day-display {
             display: flex;
             align-items: center;
@@ -735,11 +734,68 @@
             transform: scale(1.2);
         }
 
+        /* Star Filter Button */
+        .star-filter-btn {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--border-light);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            box-shadow: var(--shadow-sm);
+            flex-shrink: 0;
+        }
+
+        .star-filter-btn:hover {
+            transform: scale(1.1) translateY(-2px);
+            border-color: var(--primary-gold);
+            background: #fffdf7;
+            box-shadow: var(--shadow-gold);
+        }
+
+        .star-filter-btn.active {
+            background: var(--gradient-accent);
+            border-color: var(--primary-gold);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .star-filter-btn:focus {
+            outline: 2px solid var(--primary-orange);
+            outline-offset: 2px;
+        }
+
+        .star-filter-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--text-light);
+            transition: all var(--transition-normal);
+        }
+
+        .star-filter-btn.active svg {
+            fill: var(--text-white);
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+        }
+
+        .star-filter-btn:hover svg {
+            fill: var(--primary-gold);
+            transform: scale(1.1);
+        }
+
+        .star-filter-btn.active:hover svg {
+            fill: var(--text-white);
+            transform: scale(1.1);
+        }
+
         /* Main Container */
         .container {
-            max-width: 1600px;
+            max-width: 1800px;
             margin: 0 auto;
-            padding: 40px 30px;
+            padding: 40px 10px;
         }
 
         /* Timeline Container */
@@ -839,7 +895,7 @@
             background: var(--gradient-card);
             backdrop-filter: blur(20px);
             z-index: 150;
-            padding: 12px 20px;
+            padding: 12px 10px;
             margin: 0 -30px 25px -30px;
             border-bottom: 2px solid var(--border-light);
             display: flex;
@@ -897,20 +953,20 @@
             background: var(--gradient-card);
             border: 1px solid var(--border-light);
             border-radius: var(--radius-xl);
-            padding: 20px;
+            padding: 15px;
+            padding-right: 5px;
+            padding-bottom: 5px;
             cursor: pointer;
             transition: all var(--transition-normal);
             position: relative;
-            overflow: hidden;
+            overflow: visible;
             box-shadow: var(--shadow-md);
             contain: layout style paint;
             backdrop-filter: blur(10px);
             transform-origin: center;
+            min-height: 130px;
         }
 
-        .event-card.compact {
-            padding: 15px;
-        }
 
         .event-card.favorite {
             border-color: var(--primary-gold);
@@ -1019,8 +1075,8 @@
         /* New Event Pill */
         .new-event-pill {
             position: absolute;
-            bottom: 8px;
-            right: 8px;
+            bottom: 12px;
+            right: 12px;
             background: var(--bg-primary);
             color: var(--primary-gold);
             padding: 2px 8px;
@@ -1085,37 +1141,34 @@
         }
 
         .event-title {
-            font-size: 1.2em;
+            font-size: 0.85em;
+            margin-bottom: 8px;
             font-weight: 700;
-            margin-bottom: 15px;
             line-height: 1.4;
             color: var(--text-primary);
             margin-right: 45px;
         }
 
-        .compact .event-title {
-            font-size: 1.05em;
-            margin-bottom: 10px;
-            font-weight: 600;
+        .event-place {
+            margin-top: 10px;
+            padding-top: 8px;
+            border-top: 1px solid var(--border-light);
+            font-size: 0.9em;
+            margin-right: 45px;
+            color: var(--text-secondary);
+            flex-wrap: nowrap;
+            wrap-option: nowrap;
         }
 
         .event-place {
-            display: inline-block;
-            background: rgba(255, 69, 0, 0.1);
-            color: var(--primary-orange);
-            padding: 8px 16px;
-            border-radius: var(--radius-full);
-            font-size: 0.85em;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            border: 1px solid rgba(255, 69, 0, 0.2);
-            backdrop-filter: blur(5px);
+            margin-top: 8px;
+            padding-top: 6px;
+            font-size: 0.8em;
         }
 
-        .compact .event-place {
-            font-size: 0.8em;
-            padding: 6px 12px;
+        .event-place::before {
+            content: '📍   ';
+            font-size: 0.9em;
         }
 
         .speaker-preview {
@@ -1126,7 +1179,7 @@
             color: var(--text-secondary);
         }
 
-        .compact .speaker-preview {
+        .speaker-preview {
             margin-top: 8px;
             padding-top: 6px;
             font-size: 0.8em;
@@ -1141,7 +1194,7 @@
         }
         
         .speaker-preview-item::before {
-            content: '👤';
+            content: '👤   ';
             font-size: 0.9em;
         }
 
@@ -1400,12 +1453,12 @@
             }
 
             .container {
-                padding: 20px;
+                padding: 10px;
             }
 
             .sidebar {
                 width: 280px;
-                left: -280px;
+                right: -280px;
             }
 
             .location-events {
@@ -1434,7 +1487,7 @@
             }
 
             .time-location-header {
-                padding: 10px 20px;
+                padding: 10px 10px;
                 margin: 0 -20px 25px -20px;
                 gap: 10px;
             }
@@ -1455,8 +1508,11 @@
             }
             
             .day-nav-content {
-                padding: 0 20px;
-                flex-direction: column;
+                padding: 0 15px;
+                gap: 10px;
+            }
+
+            .nav-left-section {
                 gap: 10px;
             }
 
@@ -1492,9 +1548,20 @@
                 width: 6px;
                 height: 6px;
             }
+
+            .star-filter-btn {
+                width: 32px;
+                height: 32px;
+                margin-left: 10px;
+            }
+
+            .star-filter-btn svg {
+                width: 16px;
+                height: 16px;
+            }
             
             .time-location-header {
-                padding: 8px 20px;
+                padding: 8px 10px;
                 margin: 0 -20px 25px -20px;
             }
         }
@@ -1528,12 +1595,6 @@
     </style>
 </head>
 <body>
-    <!-- Sandwich Menu Button -->
-    <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Open menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
 
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
@@ -1546,41 +1607,17 @@
             </div>
         </div>
 
-        <div class="sidebar-section">
-            <div class="sidebar-section-title">Opções de Visualização</div>
-            
-            <div class="toggle-item">
-                <label for="showSpeakers">Mostrar palestrantes</label>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="showSpeakers" checked>
-                    <span class="slider"></span>
-                </label>
-            </div>
+<!--        <div class="sidebar-section">-->
+<!--            <div class="sidebar-section-title">Opções de Visualização</div>-->
 
-            <div class="toggle-item">
-                <label for="showLocation">Mostrar local nos cards</label>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="showLocation">
-                    <span class="slider"></span>
-                </label>
-            </div>
-
-            <div class="toggle-item">
-                <label for="compactMode">Modo compacto</label>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="compactMode" checked>
-                    <span class="slider"></span>
-                </label>
-            </div>
-
-            <div class="toggle-item">
-                <label for="showFavoritesOnly">Mostrar apenas favoritos</label>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="showFavoritesOnly">
-                    <span class="slider"></span>
-                </label>
-            </div>
-        </div>
+<!--            <div class="toggle-item">-->
+<!--                <label for="showFavoritesOnly">Mostrar apenas favoritos</label>-->
+<!--                <label class="toggle-switch">-->
+<!--                    <input type="checkbox" id="showFavoritesOnly">-->
+<!--                    <span class="slider"></span>-->
+<!--                </label>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="sidebar-section">
             <div class="sidebar-section-title">Filtrar por Local</div>
@@ -1628,21 +1665,33 @@
     <!-- Sticky Day Navigation Bar -->
     <div class="sticky-day-nav" id="stickyDayNav">
         <div class="day-nav-content">
-            <div class="current-day-display">
-                <span class="current-day-label">Dia Atual:</span>
-                <span class="current-day-value" id="currentDayDisplay">Carregando...</span>
-            </div>
-            <div class="day-nav-arrows">
-                <button class="day-nav-btn" id="prevDayBtn" onclick="navigateToPreviousDay()" aria-label="Dia anterior">
-                    ←
-                </button>
-                <div class="day-indicator-dots" id="dayIndicatorDots">
-                    <!-- Day dots will be inserted here -->
+            <div class="nav-left-section">
+                <div class="current-day-display">
+<!--                    <span class="current-day-label">Dia Atual:</span>-->
+                    <span class="current-day-value" id="currentDayDisplay">Carregando...</span>
                 </div>
-                <button class="day-nav-btn" id="nextDayBtn" onclick="navigateToNextDay()" aria-label="Próximo dia">
-                    →
-                </button>
+                <div class="day-nav-arrows">
+                    <button class="day-nav-btn" id="prevDayBtn" onclick="navigateToPreviousDay()" aria-label="Dia anterior">
+                        ←
+                    </button>
+                    <div class="day-indicator-dots" id="dayIndicatorDots">
+                        <!-- Day dots will be inserted here -->
+                    </div>
+                    <button class="day-nav-btn" id="nextDayBtn" onclick="navigateToNextDay()" aria-label="Próximo dia">
+                        →
+                    </button>
+                </div>
             </div>
+            <button class="star-filter-btn" id="starFilterBtn" onclick="toggleFavoritesFilter()" aria-label="Filtrar favoritos">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                </svg>
+            </button>
+            <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Open filters">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+                </svg>
+            </button>
         </div>
     </div>
 
@@ -1703,9 +1752,6 @@
         let loadedDays = new Set(); // Track which days have been loaded
         let currentDay = null;
         let locations = new Set();
-        let showSpeakers = true;
-        let showLocation = false;
-        let compactMode = true;
         let showFavoritesOnly = false;
         let summaryData = null;
         let favorites = new Set();
@@ -1827,6 +1873,25 @@
         // Check if event is favorite
         function isFavorite(event) {
             return favorites.has(getEventId(event));
+        }
+
+        // Toggle favorites filter
+        function toggleFavoritesFilter() {
+            showFavoritesOnly = !showFavoritesOnly;
+            
+            // Update button state
+            const starFilterBtn = document.getElementById('starFilterBtn');
+            starFilterBtn.classList.toggle('active', showFavoritesOnly);
+            
+            // Update the sidebar toggle as well
+            // const favoritesToggle = document.getElementById('showFavoritesOnly');
+            // favoritesToggle.checked = showFavoritesOnly;
+            
+            // Clear cache and refresh display
+            renderCache.clear();
+            if (currentDay) {
+                displayEvents(currentDay);
+            }
         }
 
         // Update URL hash with current day and highlighted event
@@ -2332,41 +2397,19 @@
             window.addEventListener('resize', updateTimeLocationHeaderPosition, { passive: true });
             
             // Set up toggles
-            const speakerToggle = document.getElementById('showSpeakers');
-            speakerToggle.addEventListener('change', (e) => {
-                showSpeakers = e.target.checked;
-                renderCache.clear();
-                if (currentDay) {
-                    displayEvents(currentDay);
-                }
-            });
-
-            const locationToggle = document.getElementById('showLocation');
-            locationToggle.addEventListener('change', (e) => {
-                showLocation = e.target.checked;
-                renderCache.clear();
-                if (currentDay) {
-                    displayEvents(currentDay);
-                }
-            });
-
-            const compactToggle = document.getElementById('compactMode');
-            compactToggle.addEventListener('change', (e) => {
-                compactMode = e.target.checked;
-                renderCache.clear();
-                if (currentDay) {
-                    displayEvents(currentDay);
-                }
-            });
-
-            const favoritesToggle = document.getElementById('showFavoritesOnly');
-            favoritesToggle.addEventListener('change', (e) => {
-                showFavoritesOnly = e.target.checked;
-                renderCache.clear();
-                if (currentDay) {
-                    displayEvents(currentDay);
-                }
-            });
+            // const favoritesToggle = document.getElementById('showFavoritesOnly');
+            // favoritesToggle.addEventListener('change', (e) => {
+            //     showFavoritesOnly = e.target.checked;
+            //
+            //     // Update star filter button state
+            //     const starFilterBtn = document.getElementById('starFilterBtn');
+            //     starFilterBtn.classList.toggle('active', showFavoritesOnly);
+            //
+            //     renderCache.clear();
+            //     if (currentDay) {
+            //         displayEvents(currentDay);
+            //     }
+            // });
             
             // Set up touch/swipe navigation
             const timeline = document.getElementById('timeline');
@@ -2555,7 +2598,7 @@
             const locationFilter = document.getElementById('locationFilter').value;
             
             // Create cache key
-            const cacheKey = `${date}_${locationFilter}_${showFavoritesOnly}_${showSpeakers}_${showLocation}_${compactMode}`;
+            const cacheKey = `${date}_${locationFilter}_${showFavoritesOnly}`;
             
             // Check cache first
             if (renderCache.has(cacheKey)) {
@@ -2711,7 +2754,6 @@
         // Create event card HTML
         function createEventCard(event) {
             const eventData = JSON.stringify(event).replace(/"/g, '&quot;');
-            const compactClass = compactMode ? 'compact' : '';
             const favoriteClass = isFavorite(event) ? 'favorite' : '';
             const eventId = getEventId(event);
             
@@ -2729,7 +2771,7 @@
             }
             
             let cardHtml = `
-                <div class="event-card ${compactClass} ${favoriteClass} ${eventTypeClass}" 
+                <div class="event-card ${favoriteClass} ${eventTypeClass}" 
                      onclick="showEventDetails(${eventData})" 
                      data-event-id="${eventId}"
                      tabindex="0" 
@@ -2753,15 +2795,15 @@
                         </svg>
                     </button>
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
-                    ${showLocation && event.place ? `
+                    ${event.place ? `
                         <div style="margin-bottom: 10px;">
                             <span class="event-place">${event.place}</span>
                         </div>
                     ` : ''}
             `;
             
-            // Add speaker preview if toggle is on
-            if (showSpeakers && event.speakers && event.speakers.length > 0) {
+            // Add speaker preview
+            if (event.speakers && event.speakers.length > 0) {
                 cardHtml += '<div class="speaker-preview">';
                 event.speakers.forEach((speaker, index) => {
                     if (index < 2) { // Show max 2 speakers
