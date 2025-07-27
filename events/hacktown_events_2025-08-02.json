@@ -1,7 +1,7 @@
 {
   "date": "2025-08-02",
   "total_events": 320,
-  "scraped_at": "2025-07-27T00:48:27.082886-03:00",
+  "scraped_at": "2025-07-27T03:25:17.944955-03:00",
   "events": [
     {
       "id": 2439,
@@ -9501,6 +9501,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 290,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Economia Criativa",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4336,
@@ -9563,22 +9579,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 290,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Economia Criativa",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9605,6 +9605,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 281,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Arquitetura / Novas Formas de Construção",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5196,
@@ -9620,22 +9636,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 281,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Arquitetura / Novas Formas de Construção",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9664,6 +9664,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4152,
@@ -9726,22 +9742,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9768,23 +9768,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4572,
-          "name": "Marcela Ary",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1713/partner_1713_1752612463775.png",
-          "bio": "Bioarquiteta especializada em soluções regenerativas para arquitetura sustentável. CEO do Bioseri Hub, dedicado à pesquisa, inovação, curadoria e desenvolvimento de materiais naturais voltados à construção regenerativa. Atua na vanguarda da sustentabilidade aplicada ao setor da construção.",
-          "role": "Liderando inovação em bioarquitetura regenerativa através de pesquisa, curadoria e materiais naturais",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1739,
-            "pivot_speaker_id": 4572,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -9806,6 +9789,23 @@
           "type": "schedules",
           "name": "Futuro da Alimentação",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4572,
+          "name": "Marcela Ary",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1713/partner_1713_1752612463775.png",
+          "bio": "Bioarquiteta especializada em soluções regenerativas para arquitetura sustentável. CEO do Bioseri Hub, dedicado à pesquisa, inovação, curadoria e desenvolvimento de materiais naturais voltados à construção regenerativa. Atua na vanguarda da sustentabilidade aplicada ao setor da construção.",
+          "role": "Liderando inovação em bioarquitetura regenerativa através de pesquisa, curadoria e materiais naturais",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1739,
+            "pivot_speaker_id": 4572,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9834,23 +9834,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4474,
-          "name": "Juliana Morais",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1611/partner_1611_1752611849228.png",
-          "bio": "Empresária, professora da Fundação Dom Cabral, palestrante, TEDx speaker e autora do livro \"Vivendo do Meu Negócio\", atua ajudando empreendedores a aumentarem sua rentabilidade e realizarem sonhos, com foco na potência dos negócios de favela.",
-          "role": "Empresária, Professora e Especialista em Empreendedorismo de Impacto",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1708,
-            "pivot_speaker_id": 4474,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -9872,6 +9855,23 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4474,
+          "name": "Juliana Morais",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1611/partner_1611_1752611849228.png",
+          "bio": "Empresária, professora da Fundação Dom Cabral, palestrante, TEDx speaker e autora do livro \"Vivendo do Meu Negócio\", atua ajudando empreendedores a aumentarem sua rentabilidade e realizarem sonhos, com foco na potência dos negócios de favela.",
+          "role": "Empresária, Professora e Especialista em Empreendedorismo de Impacto",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1708,
+            "pivot_speaker_id": 4474,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -9900,6 +9900,15 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5232,
@@ -9915,15 +9924,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9952,6 +9952,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5237,
@@ -9969,7 +9970,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -9996,6 +9996,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5226,
@@ -10013,7 +10014,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10040,23 +10040,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4753,
-          "name": "Tai Barroso",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1900/partner_1900_1752613617859.png",
-          "bio": "Há 15 anos desenhando e facilitando estratégias, métodos e experiências com a alquimia da colaboração radical e a inteligência coletiva na Europa, África e América do Sul para governos, organizações da sociedade civil, fundações e multinacionais.",
-          "role": "Community Strategist, Fundadora na AWELLE",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2048,
-            "pivot_speaker_id": 4753,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 388,
@@ -10078,6 +10061,23 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4753,
+          "name": "Tai Barroso",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1900/partner_1900_1752613617859.png",
+          "bio": "Há 15 anos desenhando e facilitando estratégias, métodos e experiências com a alquimia da colaboração radical e a inteligência coletiva na Europa, África e América do Sul para governos, organizações da sociedade civil, fundações e multinacionais.",
+          "role": "Community Strategist, Fundadora na AWELLE",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2048,
+            "pivot_speaker_id": 4753,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -10106,6 +10106,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5350,
@@ -10166,22 +10182,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -12841,6 +12841,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5088,
@@ -12858,7 +12859,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12907,6 +12907,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4236,
@@ -12924,7 +12925,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 397,
@@ -12973,6 +12973,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4495,
@@ -12990,7 +12991,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13032,6 +13032,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4112,
@@ -13049,7 +13050,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13098,6 +13098,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4119,
@@ -13115,7 +13116,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13164,6 +13164,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5172,
@@ -13181,7 +13182,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -13223,6 +13223,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4667,
@@ -13240,7 +13241,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13289,6 +13289,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5233,
@@ -13306,7 +13307,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -13341,6 +13341,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4378,
@@ -13388,7 +13389,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -13437,6 +13437,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4615,
@@ -13454,7 +13455,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -17511,7 +17511,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5210,
@@ -17552,6 +17551,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17577,7 +17577,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4553,
@@ -17618,6 +17617,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17643,7 +17643,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4917,
@@ -17684,6 +17683,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17709,7 +17709,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4108,
@@ -17780,6 +17779,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17805,7 +17805,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5318,
@@ -17839,6 +17838,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17864,7 +17864,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4677,
@@ -17935,6 +17934,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17960,7 +17960,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4392,
@@ -18001,6 +18000,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -18026,7 +18026,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -18037,6 +18036,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -18062,7 +18062,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4360,
@@ -18103,6 +18102,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -18128,7 +18128,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4904,
@@ -18169,6 +18168,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19698,6 +19698,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4708,
+          "name": "Ricardo Moreno",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1855/partner_1855_1752613351740.png",
+          "bio": "Médico com atuação na Medicina Integrativa e Gastroenterologia Funcional. Utiliza medicina ortomolecular, espiritualidade, psicossomática e autoconhecimento para oferecer assistência integrada à saúde física, mental e espiritual.",
+          "role": "Médico que acredita que cuidar da saúde vai além do corpo físico",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2050,
+            "pivot_speaker_id": 4708,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 386,
@@ -19719,23 +19736,6 @@
           "type": "schedules",
           "name": "Palestra",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4708,
-          "name": "Ricardo Moreno",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1855/partner_1855_1752613351740.png",
-          "bio": "Médico com atuação na Medicina Integrativa e Gastroenterologia Funcional. Utiliza medicina ortomolecular, espiritualidade, psicossomática e autoconhecimento para oferecer assistência integrada à saúde física, mental e espiritual.",
-          "role": "Médico que acredita que cuidar da saúde vai além do corpo físico",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2050,
-            "pivot_speaker_id": 4708,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -19764,22 +19764,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4573,
@@ -19795,6 +19779,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 275,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Educação / Aprendizado",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -19823,6 +19823,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4714,
+          "name": "Rod Cauhi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1861/partner_1861_1752613383243.png",
+          "bio": "Rod Cauhi é diretor premiado e fundador da Daydream Studio, onde explora narrativas visuais impulsionadas por inteligência artificial. Com 15 anos de experiência em cinema e publicidade, combina técnica e arte na criação de filmes de impacto, conectando inovação tecnológica com sensibilidade estética.",
+          "role": "Diretor e AI Artist",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2143,
+            "pivot_speaker_id": 4714,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 283,
@@ -19844,23 +19861,6 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4714,
-          "name": "Rod Cauhi",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1861/partner_1861_1752613383243.png",
-          "bio": "Rod Cauhi é diretor premiado e fundador da Daydream Studio, onde explora narrativas visuais impulsionadas por inteligência artificial. Com 15 anos de experiência em cinema e publicidade, combina técnica e arte na criação de filmes de impacto, conectando inovação tecnológica com sensibilidade estética.",
-          "role": "Diretor e AI Artist",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2143,
-            "pivot_speaker_id": 4714,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -19889,29 +19889,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        },
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5170,
@@ -19959,6 +19936,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        },
+        {
+          "id": 273,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Criação Digital / Economia dos Criadores",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19985,6 +19985,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4770,
+          "name": "Thamiris Adriano",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1918/partner_1918_1752613726664.png",
+          "bio": "Professora e coordenadora de pós-graduação em tecnologia, especialista em Front-End e Inteligência Artificial. Traduz temas complexos em experiências acessíveis, integrando educação, inovação e impacto social para ampliar o alcance do conhecimento.",
+          "role": "Coordenadora de pós graduação na FIAP",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1734,
+            "pivot_speaker_id": 4770,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20006,23 +20023,6 @@
           "type": "schedules",
           "name": "Cidades / Comunidades Inovadoras",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4770,
-          "name": "Thamiris Adriano",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1918/partner_1918_1752613726664.png",
-          "bio": "Professora e coordenadora de pós-graduação em tecnologia, especialista em Front-End e Inteligência Artificial. Traduz temas complexos em experiências acessíveis, integrando educação, inovação e impacto social para ampliar o alcance do conhecimento.",
-          "role": "Coordenadora de pós graduação na FIAP",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1734,
-            "pivot_speaker_id": 4770,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -20051,6 +20051,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4455,
+          "name": "Jones Brandão",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1591/partner_1591_1752611715696.png",
+          "bio": "Gerente de Ensino e Inovações Educacionais na Arco Educação, matemático, pedagogo e gestor de RH. Com experiência em sala de aula, direção escolar, sistemas de ensino e edtech, dedica-se ao desenvolvimento de gestores como palestrante, mentor e autor, promovendo práticas educacionais inovadoras e eficazes.",
+          "role": "Gerente de Ensino e Inovações Educacionais na Arco Educação",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1728,
+            "pivot_speaker_id": 4455,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20072,23 +20089,6 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4455,
-          "name": "Jones Brandão",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1591/partner_1591_1752611715696.png",
-          "bio": "Gerente de Ensino e Inovações Educacionais na Arco Educação, matemático, pedagogo e gestor de RH. Com experiência em sala de aula, direção escolar, sistemas de ensino e edtech, dedica-se ao desenvolvimento de gestores como palestrante, mentor e autor, promovendo práticas educacionais inovadoras e eficazes.",
-          "role": "Gerente de Ensino e Inovações Educacionais na Arco Educação",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1728,
-            "pivot_speaker_id": 4455,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -20117,6 +20117,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4296,
+          "name": "Erico Teixeira",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1429/partner_1429_1752610750722.png",
+          "bio": "Pesquisador em Tecnologias Quânticas no Venturus Instituto de Inovação, é bacharel e mestre em Ciência da Computação pela UFPE, Ph.D. em Química Teórica e Computacional pela UFPE e University of Florida, com pós-doutorado no dQF/UFPE e na Texas Tech University.",
+          "role": "Pesquisador em Tecnologias Quânticas no Venturus",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1711,
+            "pivot_speaker_id": 4296,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20138,23 +20155,6 @@
           "type": "schedules",
           "name": "Ética / Consciência / Responsabilidade",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4296,
-          "name": "Erico Teixeira",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1429/partner_1429_1752610750722.png",
-          "bio": "Pesquisador em Tecnologias Quânticas no Venturus Instituto de Inovação, é bacharel e mestre em Ciência da Computação pela UFPE, Ph.D. em Química Teórica e Computacional pela UFPE e University of Florida, com pós-doutorado no dQF/UFPE e na Texas Tech University.",
-          "role": "Pesquisador em Tecnologias Quânticas no Venturus",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1711,
-            "pivot_speaker_id": 4296,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -20183,6 +20183,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4264,
+          "name": "Danilo Lima",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1396/partner_1396_1752610549006.png",
+          "bio": "Danilo de Oliveira Lima é Diretor de Marca na Flash, com mais de 20 anos de experiência em branding e comunicação. Lidera projetos que combinam estratégia criativa, automação e inteligência artificial para transformar a forma como marcas se conectam com seus públicos.",
+          "role": "Diretor de marca no Flash Benefícios",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1718,
+            "pivot_speaker_id": 4264,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20204,23 +20221,6 @@
           "type": "schedules",
           "name": "Vendas / Marketing",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4264,
-          "name": "Danilo Lima",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1396/partner_1396_1752610549006.png",
-          "bio": "Danilo de Oliveira Lima é Diretor de Marca na Flash, com mais de 20 anos de experiência em branding e comunicação. Lidera projetos que combinam estratégia criativa, automação e inteligência artificial para transformar a forma como marcas se conectam com seus públicos.",
-          "role": "Diretor de marca no Flash Benefícios",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1718,
-            "pivot_speaker_id": 4264,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -20249,6 +20249,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5079,
+          "name": "Flávio Mota",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5079/partner_5079_1753477668509.png",
+          "bio": "CEO da Descubra Soluções, lidera projetos que conectam dados, inteligência artificial e tomada de decisão estratégica. Atua com inovação em tecnologia, impulsionando negócios com soluções orientadas por dados.",
+          "role": "CEO da Descubra Soluções",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1738,
+            "pivot_speaker_id": 5079,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20270,23 +20287,6 @@
           "type": "schedules",
           "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 5079,
-          "name": "Flávio Mota",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5079/partner_5079_1753477668509.png",
-          "bio": "CEO da Descubra Soluções, lidera projetos que conectam dados, inteligência artificial e tomada de decisão estratégica. Atua com inovação em tecnologia, impulsionando negócios com soluções orientadas por dados.",
-          "role": "CEO da Descubra Soluções",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1738,
-            "pivot_speaker_id": 5079,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -20315,6 +20315,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4600,
+          "name": "Professora Lou",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1741/partner_1741_1752612635346.png",
+          "bio": "Professora e doceira, Lou une duas paixões: ensinar e adoçar a vida. Como educadora, compartilha conhecimento com alegria e entusiasmo. À frente dos Brigadeiros DaLou, transforma afeto em sabor, criando doces que reúnem pessoas em torno de experiências acolhedoras e inesquecíveis.",
+          "role": "Professora e Doceira, Diretora de Ensino e Idealizadora do Projeto ConheCiranda",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1717,
+            "pivot_speaker_id": 4600,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -20336,23 +20353,6 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4600,
-          "name": "Professora Lou",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1741/partner_1741_1752612635346.png",
-          "bio": "Professora e doceira, Lou une duas paixões: ensinar e adoçar a vida. Como educadora, compartilha conhecimento com alegria e entusiasmo. À frente dos Brigadeiros DaLou, transforma afeto em sabor, criando doces que reúnem pessoas em torno de experiências acolhedoras e inesquecíveis.",
-          "role": "Professora e Doceira, Diretora de Ensino e Idealizadora do Projeto ConheCiranda",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1717,
-            "pivot_speaker_id": 4600,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
