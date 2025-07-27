@@ -1,5 +1,5 @@
 {
-  "scraping_completed": "2025-07-26T22:14:17.036430-03:00",
+  "scraping_completed": "2025-07-27T00:48:27.111717-03:00",
   "total_events": 884,
   "dates_processed": [
     "2025-07-30",
@@ -15,5 +15,5 @@
     "hacktown_events_2025-08-02.json",
     "hacktown_events_2025-08-03.json"
   ],
-  "scraping_time_seconds": 469.36
+  "scraping_time_seconds": 459.76
 }
