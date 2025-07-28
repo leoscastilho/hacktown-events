@@ -1,12 +1,12 @@
 {
   "date": "2025-07-31",
   "total_events": 267,
-  "scraped_at": "2025-07-28T14:24:09.843425-03:00",
+  "scraped_at": "2025-07-28T17:21:55.571537-03:00",
   "events": [
     {
       "id": 2414,
       "start_time": "2025-07-31T11:00:00.000+00:00",
-      "end_time": "2025-07-31T12:00:00.000+00:00",
+      "end_time": "2025-07-31T23:00:00.000+00:00",
       "title": "Credenciamento: Retirada do crachá de acesso às atividades do HackTown 2025",
       "description": "O credenciamento pode ser feito até às 22h",
       "hub_event_id": 1,
@@ -2814,6 +2814,73 @@
       },
       "filterLocation": "ETE",
       "nearLocation": "ETE e Arredores"
+    },
+    {
+      "id": 1639,
+      "start_time": "2025-07-31T13:00:00.000+00:00",
+      "end_time": "2025-07-31T14:00:00.000+00:00",
+      "title": "Criando uma história imersiva interativa em realidade mista com Rui Barbosa",
+      "description": "Nessa apresentação, Dario Maciel irá demonstrar os conceitos teóricos e as etapas práticas necessárias para a produção da experiência De Volta Para o Passado. Essa obra é uma história imersiva, em parceria com a Fundação Casa Rui Barbosa, onde o jogador precisa interagir com objetos virtuais para ajudar a montar um carro histórico. Toda essa interação é feita somente com as mãos, aumentando a imersão do participante. Também irá mostrar os desafios que surgiram e as formas de solucioná-los, mostrando que não é necessário equipamento de alto custo para produzir uma experiência incrível.",
+      "hub_event_id": 1,
+      "entity_register_id": 9277,
+      "place": "INATEL - Sala 24 - Prédio 1 - 2º Piso",
+      "allow_questions": false,
+      "external_id": "37542358-6067-479b-b395-a4da14e25ef6",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4265,
+          "name": "Dario Maciel",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1398/partner_1398_1752610559106.png",
+          "bio": "Editor de vídeo na Globo desde 2014, graduado em Comunicação Social pela UFRJ (2013). Atualmente cursa mestrado em Mídia Criativa na UFRJ, com previsão de conclusão em 2025. Desenvolveu o projeto de realidade virtual “De Volta Para o Passado”, uma experiência imersiva e interativa que amplia as fronteiras da narrativa audiovisual.",
+          "role": "Desenvolvedor solo",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1639,
+            "pivot_speaker_id": 4265,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 283,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cinema / Audiovisual",
+          "hub_event_id": 1
+        },
+        {
+          "id": 286,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Novas Mídias / Realidades Expandidas",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1627,
@@ -5882,6 +5949,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5379,
@@ -5899,7 +5967,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5927,23 +5994,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4341,
-          "name": "Franklin Yamasake",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1474/partner_1474_1752611026406.png",
-          "bio": "Fundador da Traciona e cofundador do grupo de investidores Poli Angels, é autor do livro *Traciona! Engajando Ecossistemas de Inovação*. Doutor em Administração e professor do MBA da USP, atua na formação de líderes e no fomento à inovação por meio de ecossistemas colaborativos e investimento estratégico.",
-          "role": "Fundador da Traciona",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1854,
-            "pivot_speaker_id": 4341,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -5965,6 +6015,23 @@
           "type": "schedules",
           "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4341,
+          "name": "Franklin Yamasake",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1474/partner_1474_1752611026406.png",
+          "bio": "Fundador da Traciona e cofundador do grupo de investidores Poli Angels, é autor do livro *Traciona! Engajando Ecossistemas de Inovação*. Doutor em Administração e professor do MBA da USP, atua na formação de líderes e no fomento à inovação por meio de ecossistemas colaborativos e investimento estratégico.",
+          "role": "Fundador da Traciona",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1854,
+            "pivot_speaker_id": 4341,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -5994,6 +6061,29 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        },
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4993,
@@ -6056,29 +6146,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 291,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Gestão / Governança Inovadora",
-          "hub_event_id": 1
-        },
-        {
-          "id": 384,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Design / UX / Acessibilidade",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6106,23 +6173,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4219,
-          "name": "Carla e Deka Barrichello",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1350/partner_1350_1752610255805.png",
-          "bio": "Duas irmãs que deixaram o mundo corporativo para aprender com as abelhas e impulsionar uma nova cultura baseada em colaboração, regeneração e propósito. Unem saberes ancestrais e práticas contemporâneas para inspirar transformações sustentáveis em pessoas, organizações e territórios.",
-          "role": "Aprendizes das abelhas",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1846,
-            "pivot_speaker_id": 4219,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -6144,6 +6194,23 @@
           "type": "schedules",
           "name": "Regeneração / Clima / Sustentabilidade",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4219,
+          "name": "Carla e Deka Barrichello",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1350/partner_1350_1752610255805.png",
+          "bio": "Duas irmãs que deixaram o mundo corporativo para aprender com as abelhas e impulsionar uma nova cultura baseada em colaboração, regeneração e propósito. Unem saberes ancestrais e práticas contemporâneas para inspirar transformações sustentáveis em pessoas, organizações e territórios.",
+          "role": "Aprendizes das abelhas",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1846,
+            "pivot_speaker_id": 4219,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -6173,23 +6240,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4507,
-          "name": "Leo Guto",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1648/partner_1648_1752612064259.png",
-          "bio": "Leo Guto é músico, produtor cultural e fundador da Terra Plana Music, empresa especializada em projetos culturais e consultoria estratégica para artistas e instituições. Idealizador do Sete Lagoas Park Day e do Festival de Ver Cidade, atua como presidente do Fórum da Música de Sete Lagoas, contribuindo para o fortalecimento das políticas públicas de cultura na região.",
-          "role": "C&O da Terra Plana Music LTDA",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1832,
-            "pivot_speaker_id": 4507,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -6211,6 +6261,23 @@
           "type": "schedules",
           "name": "Cultura em Movimento",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4507,
+          "name": "Leo Guto",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1648/partner_1648_1752612064259.png",
+          "bio": "Leo Guto é músico, produtor cultural e fundador da Terra Plana Music, empresa especializada em projetos culturais e consultoria estratégica para artistas e instituições. Idealizador do Sete Lagoas Park Day e do Festival de Ver Cidade, atua como presidente do Fórum da Música de Sete Lagoas, contribuindo para o fortalecimento das políticas públicas de cultura na região.",
+          "role": "C&O da Terra Plana Music LTDA",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1832,
+            "pivot_speaker_id": 4507,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -6240,23 +6307,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4134,
-          "name": "Carol Guimarães",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1264/partner_1264_1752609706466.png",
-          "bio": "Pioneira no e-Teatro e exploradora do Cinema Vertical,  é diretora e produtora executiva premiada, transitando entre tradição e inovação na cultura digital. Com vasta experiência e produção executiva em eventos de grande relevância, impulsiona novas linguagens narrativas.",
-          "role": "CEO e Produtora Executiva em Cultura Digital",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1767,
-            "pivot_speaker_id": 4134,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -6278,6 +6328,23 @@
           "type": "schedules",
           "name": "Criação Digital / Economia dos Criadores",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4134,
+          "name": "Carol Guimarães",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1264/partner_1264_1752609706466.png",
+          "bio": "Pioneira no e-Teatro e exploradora do Cinema Vertical,  é diretora e produtora executiva premiada, transitando entre tradição e inovação na cultura digital. Com vasta experiência e produção executiva em eventos de grande relevância, impulsiona novas linguagens narrativas.",
+          "role": "CEO e Produtora Executiva em Cultura Digital",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1767,
+            "pivot_speaker_id": 4134,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -6307,23 +6374,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4380,
-          "name": "Greyce Franzmann",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1513/partner_1513_1752611260017.png",
-          "bio": "Greyce Franzmann é referência em inovação, empreendedorismo e negócios de impacto. Atua na Wadhwani, representa a Casa Sete, é cofundadora do Impact Hub Belém e mentora em iniciativas como InovaClima, Avati, InoveNow e Hub de Inovação Climática. Integra a Coalizão pelo Impacto Belém, promovendo transformação sustentável por meio da colaboração.",
-          "role": "Gerente de conteúdo de empreendedorismo na Wadhwani Foundation",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1851,
-            "pivot_speaker_id": 4380,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -6345,6 +6395,23 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4380,
+          "name": "Greyce Franzmann",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1513/partner_1513_1752611260017.png",
+          "bio": "Greyce Franzmann é referência em inovação, empreendedorismo e negócios de impacto. Atua na Wadhwani, representa a Casa Sete, é cofundadora do Impact Hub Belém e mentora em iniciativas como InovaClima, Avati, InoveNow e Hub de Inovação Climática. Integra a Coalizão pelo Impacto Belém, promovendo transformação sustentável por meio da colaboração.",
+          "role": "Gerente de conteúdo de empreendedorismo na Wadhwani Foundation",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1851,
+            "pivot_speaker_id": 4380,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -6374,23 +6441,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4649,
-          "name": "Pablo Funchal",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1791/partner_1791_1752612958544.png",
-          "bio": "Co-fundador e sócio-diretor da Fluxus Educação, empreendedor dedicado à aprendizagem e desenvolvimento humano. Facilitador de imersões em metodologias inovadoras, incluindo Teoria U. Apaixonado por livros, viagens e histórias que transformam pessoas e organizações.",
-          "role": "Sócio Diretor da Fluxus Educação",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1640,
-            "pivot_speaker_id": 4649,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -6412,6 +6462,23 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4649,
+          "name": "Pablo Funchal",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1791/partner_1791_1752612958544.png",
+          "bio": "Co-fundador e sócio-diretor da Fluxus Educação, empreendedor dedicado à aprendizagem e desenvolvimento humano. Facilitador de imersões em metodologias inovadoras, incluindo Teoria U. Apaixonado por livros, viagens e histórias que transformam pessoas e organizações.",
+          "role": "Sócio Diretor da Fluxus Educação",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1640,
+            "pivot_speaker_id": 4649,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -6441,6 +6508,29 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 275,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Educação / Aprendizado",
+          "hub_event_id": 1
+        },
+        {
+          "id": 388,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4911,
@@ -6473,29 +6563,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        },
-        {
-          "id": 388,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6523,6 +6590,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4720,
@@ -6538,15 +6614,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -6635,6 +6702,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4696,
@@ -6675,7 +6743,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6702,6 +6769,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4302,
@@ -6742,7 +6810,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6769,6 +6836,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4161,
@@ -6809,7 +6877,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6836,6 +6903,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5364,
@@ -6892,7 +6960,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6919,6 +6986,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4475,
@@ -6952,7 +7020,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6979,6 +7046,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4394,
@@ -7019,7 +7087,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7046,6 +7113,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4906,
@@ -7086,7 +7154,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7113,6 +7180,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4897,
@@ -7198,7 +7266,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7225,6 +7292,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4347,
@@ -7265,7 +7333,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7292,6 +7359,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5124,
@@ -7310,7 +7378,6 @@
         }
       ],
       "tags": [],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10047,133 +10114,6 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
-      "id": 1871,
-      "start_time": "2025-07-31T17:30:00.000+00:00",
-      "end_time": "2025-07-31T18:30:00.000+00:00",
-      "title": "Do Pix ao Prompt: como a nova geração financeira se move",
-      "description": "Com hábitos de consumo em transformação e meios de pagamento cada vez mais integrados ao cotidiano digital, o desafio das instituições financeiras e fintechs é construir esteiras tecnológicas capazes de acompanhar – e antecipar – esse novo comportamento. Neste painel, especialistas revelam como nascem as tecnologias que tornam possíveis novas ofertas financeiras e discutem o que vem a seguir: pagamentos com criptoativos? Integrações com reconhecimento facial? Como equilibrar inovação, segurança e experiência do cliente em um setor em constante evolução?",
-      "hub_event_id": 1,
-      "entity_register_id": 9509,
-      "place": "INATEL - Sala 22 - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "098f2cb1-fc0f-4956-b709-bfc76675e2d8",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 256,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4899,
-          "name": "Bernardo Meirelles",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4899/partner_4899_1753477220463.png",
-          "bio": "Especialista em inteligência de dados e estratégias de crescimento, Bernardo Meirelles atua na Klavi, fintech de Open Finance, liderando inovações e soluções analíticas. Com passagens pela CondoConta e Neoway — onde participou da expansão de 3 para 500 clientes e da venda à B3 por R\\$1,8 bi —, acumula mais de 10 anos de experiência em escalar operações e gerar valor em negócios de base tecnológica.",
-          "role": "Diretor Comercial da klavi",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1871,
-            "pivot_speaker_id": 4899,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4908,
-          "name": "Fred Amaral",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4908/partner_4908_1753477242957.png",
-          "bio": "Fundador da Lerian, que desenvolve software open source para infraestrutura financeira, Fred também criou a Dock, primeira plataforma Full BaaS da América Latina, avaliada em US\\$ 1,5 bi após fusão com a Conductor. Iniciou sua carreira no Deutsche Bank e no BTG Pactual, com foco em M\\&A e IPOs, e atuou em cargos de liderança na Uber e Movile. Com trajetória marcada por inovação, hoje impulsiona o futuro das finanças digitais.",
-          "role": "Fundador e CEO da Lerian",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1871,
-            "pivot_speaker_id": 4908,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 5002,
-          "name": "Douglas Barrochelo",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5002/partner_5002_1753477479307.png",
-          "bio": "CEO da Biz e especialista em tecnologia para meios de pagamento e idealizador dos multibenefícios flexíveis hiperpersonalizados. Engenheiro formado pela Cruzeiro do Sul e Mackenzie, iniciou sua trajetória na Biz em 2011 como engenheiro de software e, após sucessivas promoções, tornou-se diretor de engenharia em 2019 e CEO em 2020, liderando a inovação em soluções de pagamentos.",
-          "role": "CEO da Biz",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1871,
-            "pivot_speaker_id": 5002,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 5003,
-          "name": "Renato Carvalho",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5003/partner_5003_1753477481192.png",
-          "bio": "Editor-chefe do Money Times, é jornalista formado pela Unesp com 20 anos de experiência em economia e mercado financeiro. Atuou em veículos como Folha de S. Paulo, DCI, Gazeta Mercantil, Agência Estado/Broadcast, Seu Dinheiro e TC Mover, consolidando uma carreira marcada por apuração rigorosa, liderança editorial e cobertura especializada do setor financeiro.",
-          "role": "Editor-Chefe do portal Money Times",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1871,
-            "pivot_speaker_id": 5003,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 5133,
-          "name": "Jeff Rodrigues",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5133/partner_5133_1753477801007.png",
-          "bio": "Cofundador e CTO da Lerian, liderou a arquitetura do Pix na Dock e a migração da Elo para a nuvem. Especialista em AWS, Kubernetes e sistemas distribuídos, criou o Midaz, primeiro core banking open source da América Latina.",
-          "role": "Co-founder e CTO da Lerian",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1871,
-            "pivot_speaker_id": 5133,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Inatel",
-      "nearLocation": "Inatel e Arredores"
-    },
-    {
       "id": 1857,
       "start_time": "2025-07-31T17:30:00.000+00:00",
       "end_time": "2025-07-31T18:30:00.000+00:00",
@@ -10190,7 +10130,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -10225,21 +10165,6 @@
           "allow_access": false
         },
         {
-          "id": 5002,
-          "name": "Douglas Barrochelo",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5002/partner_5002_1753477479307.png",
-          "bio": "CEO da Biz e especialista em tecnologia para meios de pagamento e idealizador dos multibenefícios flexíveis hiperpersonalizados. Engenheiro formado pela Cruzeiro do Sul e Mackenzie, iniciou sua trajetória na Biz em 2011 como engenheiro de software e, após sucessivas promoções, tornou-se diretor de engenharia em 2019 e CEO em 2020, liderando a inovação em soluções de pagamentos.",
-          "role": "CEO da Biz",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1857,
-            "pivot_speaker_id": 5002,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
           "id": 5003,
           "name": "Renato Carvalho",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5003/partner_5003_1753477481192.png",
@@ -10249,6 +10174,21 @@
           "meta": {
             "pivot_schedule_id": 1857,
             "pivot_speaker_id": 5003,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 5387,
+          "name": "Igor Araujo",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753727715164.png?ims=filters:quality(75)",
+          "bio": "Com mais de 16 anos de experiência em produtos e negócios digitais, tem um histórico consolidado em liderança de engenharia, desenvolvimento de soluções escaláveis e inovação tecnológica nos setores de saúde, telecomunicações e finanças. Antes de ingressar na Biz, atuou como gerente de engenharia na Digibee, onde liderou equipes multidisciplinares em ambientes ágeis e híbridos, com foco em performance e escalabilidade. Ao longo da carreira, esteve à frente de projetos de refatoração e otimização tecnológica, utilizando ferramentas como Java, Kubernetes e quarks. Sua atuação é marcada por uma abordagem orientada a resultados e pela entrega de soluções centradas na experiência do cliente.\n",
+          "role": "CTO da Biz",
+          "company": "Biz",
+          "meta": {
+            "pivot_schedule_id": 1857,
+            "pivot_speaker_id": 5387,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -12360,6 +12300,59 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
+      "id": 2560,
+      "start_time": "2025-07-31T19:00:00.000+00:00",
+      "end_time": "2025-07-31T20:00:00.000+00:00",
+      "title": "Do Caos ao Produto: Arquiteturas Verticais de IA aumentam a Confiabilidade em Ecossistemas Digitais Interconectados",
+      "description": "A IA traz um dos maiores desafios contemporâneos para o design de produto: lidar com a incerteza dos outputs gerados por modelos cada vez mais opacos. Essa imprevisibilidade cria riscos, especialmente em sistemas públicos que exigem confiança, rastreabilidade e segurança. Nesta palestra, apresento como arquiteturas verticais de IA podem reduzir alucinações e aumentar a confiabilidade, potencializando a entrega de valor em ecossistemas digitais interconectados. Compartilho aprendizados e casos, demonstrando como IA, design e dados contribuem para experiências mais seguras e eficientes.",
+      "hub_event_id": 1,
+      "entity_register_id": 10337,
+      "place": "Escola Sânico Teles - Ginásio ",
+      "allow_questions": false,
+      "external_id": "yazo_2560",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4443,
+          "name": "João Marcelo Ferraz",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1579/partner_1579_1752611651992.png",
+          "bio": "Especialista em UX, mestre em Computação e doutor em Mídia, atua na criação de produtos digitais complexos com foco em gerar valor em larga escala. É professor de UX/UI em instituições internacionais como CareerFoundry (Alemanha) e Designlab (EUA).",
+          "role": "Head de Produto e UX",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2560,
+            "pivot_speaker_id": 4443,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
+    },
+    {
       "id": 2320,
       "start_time": "2025-07-31T19:00:00.000+00:00",
       "end_time": "2025-07-31T20:00:00.000+00:00",
@@ -13562,118 +13555,6 @@
       "nearLocation": "Praça e Arredores"
     },
     {
-      "id": 1752,
-      "start_time": "2025-07-31T19:00:00.000+00:00",
-      "end_time": "2025-07-31T20:00:00.000+00:00",
-      "title": "Tecnologia e Sustentabilidade: O Papel da Nanotecnologia na Transição Energética",
-      "description": "O que materiais como grafeno, nióbio e terras raras têm a ver com energia limpa, negócios escaláveis e cidades mais inteligentes? Neste painel, pesquisadores, engenheiros e investidores compartilham experiências reais na transformação de ciência em soluções sustentáveis. Uma conversa sobre como os materiais certos podem alavancar a transição energética e abrir novas rotas entre o laboratório, a indústria e o mercado.",
-      "hub_event_id": 1,
-      "entity_register_id": 9390,
-      "place": "INATEL - Auditório Aureliano Chaves Prédio 1",
-      "allow_questions": false,
-      "external_id": "73ae3d8c-ec73-486a-87bb-8573db77c9a8",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4955,
-          "name": "Marcos Santos",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4955/partner_4955_1753477355675.png",
-          "bio": "CEO da Diamond Nero & Partners e fundador da Insight Grafeno, atua como investidor-anjo em Deep Techs com foco em sustentabilidade e escalabilidade. Sua trajetória une inovação, capital de risco e empreendedorismo no ecossistema de nanotecnologias e materiais avançados.",
-          "role": "CEO da Diamond Nero & Partners e Investidor Anjo",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1752,
-            "pivot_speaker_id": 4955,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4956,
-          "name": "Sidney Nicodemos",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4956/partner_4956_1753477357996.png",
-          "bio": "Professor do CEFET-MG e doutor em Engenharia pela UFMG e Universidade do Porto. Atua como consultor científico no Grupo Delphys, com foco em materiais, metalurgia e inovação. Participou de diversos INCTs, conectando ciência aplicada à indústria.",
-          "role": "Professor do CEFET-MG e consultor científico no Grupo Delphys.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1752,
-            "pivot_speaker_id": 4956,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4957,
-          "name": "Maximiliano Martins",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4957/partner_4957_1753477360372.png",
-          "bio": "Pesquisador do CDTN/CNEN e líder do projeto Granioter do MCTI. Especialista em materiais avançados e minerais estratégicos, atua na interseção entre ciência, indústria e políticas públicas, com foco na transição energética sustentável.",
-          "role": "Especialista em Materiais avançados e minerais estratégicos",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1752,
-            "pivot_speaker_id": 4957,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4958,
-          "name": "Tiago Hilario",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4958/partner_4958_1753477362747.png",
-          "bio": "CEO da Innoma e doutor em Ciência de Materiais. Especialista em gestão de tecnologias Deep Tech, atua conectando pesquisa, inovação e mercado. Foi coordenador de inteligência de mercado no projeto Granioter/MCTI.",
-          "role": "CEO da Innoma",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1752,
-            "pivot_speaker_id": 4958,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 281,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Arquitetura / Novas Formas de Construção",
-          "hub_event_id": 1
-        },
-        {
-          "id": 406,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Energia / Mobilidade / Transição Sustentável",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Inatel",
-      "nearLocation": "Inatel e Arredores"
-    },
-    {
       "id": 1815,
       "start_time": "2025-07-31T19:00:00.000+00:00",
       "end_time": "2025-07-31T20:00:00.000+00:00",
@@ -14542,6 +14423,73 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2099,
+      "start_time": "2025-07-31T19:00:00.000+00:00",
+      "end_time": "2025-07-31T20:00:00.000+00:00",
+      "title": "Reduzir, Reduzir e Reduzir: uma nova perspectiva para alcançar resultados mensuráveis e efetivos para o meio ambiente",
+      "description": "Apesar da crescente competição sobre quem é mais sustentável, é difícil afirmar qual solução reduz mais o impacto ambiental. Matérias-primas podem se decompor rápido, mas ser pesadas ou caras de produzir. Reuso e aumento da vida útil também podem causar contaminações, custos de armazenagem e desafios na reciclagem. Empresas adotam ações sustentáveis por propósito, legislação ou estratégia, mas as metas ambientais não são alcançadas e a pressão global cresce. A palestra apresenta uma solução viável: reduzir consumo e desperdícios.",
+      "hub_event_id": 1,
+      "entity_register_id": 9737,
+      "place": "INATEL - Auditório Aureliano Chaves Prédio 1 ",
+      "allow_questions": false,
+      "external_id": "3c9dbfa8-3d0d-4450-81a6-69a9c10c6857",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4707,
+          "name": "Ricardo Sastre",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1854/partner_1854_1752613346652.png",
+          "bio": "Especialista em gestão empresarial e expressão gráfica com foco em semiótica, atua no desenvolvimento de embalagens eficientes e sustentáveis. Iniciou a carreira na indústria gráfica e aprofundou-se em design sustentável no pós-doutorado em Engenharia de Produção. É mestre em design e doutor em sustentabilidade. Referência na área, contribui ativamente para a profissionalização do setor de embalagens no Brasil e no mundo.",
+          "role": "Founder da Mudrá Design",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2099,
+            "pivot_speaker_id": 4707,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 399,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Regeneração / Clima / Sustentabilidade",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 261,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Empreendedorismo",
           "hub_event_id": 1
         }
       ],
@@ -16801,6 +16749,59 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
+      "id": 2561,
+      "start_time": "2025-07-31T20:30:00.000+00:00",
+      "end_time": "2025-07-31T21:30:00.000+00:00",
+      "title": "Saúde Mental e Tecnologia: Construindo Culturas Organizacionais Sustentáveis",
+      "description": "Em um mundo cada vez mais automatizado, como garantir que a saúde mental das pessoas siga sendo prioridade? Nesta palestra, vamos discutir como líderes e organizações podem identificar riscos psicossociais, integrar o bem-estar às rotinas e transformar a saúde mental em indicador de performance. Também exploraremos os impactos da NR-01 e da Lei 14.831/24 como oportunidade estratégica para construir culturas mais humanas, resilientes e inovadoras.",
+      "hub_event_id": 1,
+      "entity_register_id": 10338,
+      "place": "Escola Sânico Teles - Ginásio ",
+      "allow_questions": false,
+      "external_id": "yazo_2561",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4692,
+          "name": "Raphael Rezende",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1839/partner_1839_1752613253911.png",
+          "bio": "Raphael Rezende é empreendedor e advogado especializado em Direitos Humanos, com foco em Direito do Trabalho e Processo do Trabalho. Também atua como palestrante abordando temas como saúde mental, bem-estar e o futuro do mercado de trabalho.",
+          "role": "Palestrante e Pesquisador do Futuro do Mercado no @raphadorh",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2561,
+            "pivot_speaker_id": 4692,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
+    },
+    {
       "id": 2387,
       "start_time": "2025-07-31T20:30:00.000+00:00",
       "end_time": "2025-07-31T21:30:00.000+00:00",
@@ -17017,73 +17018,6 @@
       "nearLocation": "ETE e Arredores"
     },
     {
-      "id": 1646,
-      "start_time": "2025-07-31T20:30:00.000+00:00",
-      "end_time": "2025-07-31T21:30:00.000+00:00",
-      "title": "Além da gestão: A evolução do papel do líder moderno",
-      "description": "Em um mundo onde a complexidade supera a previsibilidade, surge uma nova demanda por lideranças que saibam navegar entre execução eficiente e exploração constante. Esta palestra parte das provocações de Jim Highsmith sobre o papel emergente do líder moderno — alguém que não apenas gerencia, mas que aprende, conecta e transforma.",
-      "hub_event_id": 1,
-      "entity_register_id": 9284,
-      "place": "ETE - Sala 82",
-      "allow_questions": false,
-      "external_id": "c64d0a05-06cc-4005-bedb-9798926d2e79",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 290,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Economia Criativa",
-          "hub_event_id": 1
-        },
-        {
-          "id": 291,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Gestão / Governança Inovadora",
-          "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4776,
-          "name": "Thiago Brant",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1924/partner_1924_1752613762425.png",
-          "bio": "Fundador da Agilers, unFIX Brasil e Agile People Brasil, atua com foco em Gestão e Liderança Moderna, Design Organizacional e RH Ágil. É facilitador certificado em Management 3.0, Lego® Serious Play®, KCP e OKR, promovendo a transformação de equipes e organizações por meio de práticas ágeis e humanas.",
-          "role": "Head Global de Treinamento",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1646,
-            "pivot_speaker_id": 4776,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "ETE",
-      "nearLocation": "ETE e Arredores"
-    },
-    {
       "id": 1635,
       "start_time": "2025-07-31T20:30:00.000+00:00",
       "end_time": "2025-07-31T21:30:00.000+00:00",
@@ -17103,6 +17037,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4203,
+          "name": "Bruno Henriques",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1334/partner_1334_1752610158511.png",
+          "bio": "Engenheiro e técnico em eletrônica formado em Santa Rita do Sapucaí. Atuou no setor de telecomunicações e hoje é Diretor de Desenvolvimento de Negócios para a América Latina no Projeto Kuiper da Amazon, focado em levar internet banda larga via satélite de alta velocidade a todos e todas.",
+          "role": "LATAM Business Strategy Lead na Amazon",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1635,
+            "pivot_speaker_id": 4203,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -17124,23 +17075,6 @@
           "type": "schedules",
           "name": "Espaço / Novas Fronteiras",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4203,
-          "name": "Bruno Henriques",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1334/partner_1334_1752610158511.png",
-          "bio": "Engenheiro e técnico em eletrônica formado em Santa Rita do Sapucaí. Atuou no setor de telecomunicações e hoje é Diretor de Desenvolvimento de Negócios para a América Latina no Projeto Kuiper da Amazon, focado em levar internet banda larga via satélite de alta velocidade a todos e todas.",
-          "role": "LATAM Business Strategy Lead na Amazon",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1635,
-            "pivot_speaker_id": 4203,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -17170,29 +17104,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4123,
@@ -17225,34 +17136,14 @@
           "allow_access": false
         }
       ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Braseiro",
-      "nearLocation": "Praça e Arredores"
-    },
-    {
-      "id": 1639,
-      "start_time": "2025-07-31T20:30:00.000+00:00",
-      "end_time": "2025-07-31T21:30:00.000+00:00",
-      "title": "Criando uma história imersiva interativa em realidade mista com Rui Barbosa",
-      "description": "Nessa apresentação, Dario Maciel irá demonstrar os conceitos teóricos e as etapas práticas necessárias para a produção da experiência De Volta Para o Passado. Essa obra é uma história imersiva, em parceria com a Fundação Casa Rui Barbosa, onde o jogador precisa interagir com objetos virtuais para ajudar a montar um carro histórico. Toda essa interação é feita somente com as mãos, aumentando a imersão do participante. Também irá mostrar os desafios que surgiram e as formas de solucioná-los, mostrando que não é necessário equipamento de alto custo para produzir uma experiência incrível.",
-      "hub_event_id": 1,
-      "entity_register_id": 9277,
-      "place": "ETE - Sala 81 - by SkyOne",
-      "allow_questions": false,
-      "external_id": "37542358-6067-479b-b395-a4da14e25ef6",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
       "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
         {
           "id": 19,
           "color": "#21C89D",
@@ -17261,43 +17152,19 @@
           "hub_event_id": 1
         },
         {
-          "id": 283,
+          "id": 269,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Cinema / Audiovisual",
+          "name": "Desenvolvimento de Hardware / Software",
           "hub_event_id": 1
-        },
-        {
-          "id": 286,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Novas Mídias / Realidades Expandidas",
-          "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4265,
-          "name": "Dario Maciel",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1398/partner_1398_1752610559106.png",
-          "bio": "Editor de vídeo na Globo desde 2014, graduado em Comunicação Social pela UFRJ (2013). Atualmente cursa mestrado em Mídia Criativa na UFRJ, com previsão de conclusão em 2025. Desenvolveu o projeto de realidade virtual “De Volta Para o Passado”, uma experiência imersiva e interativa que amplia as fronteiras da narrativa audiovisual.",
-          "role": "Desenvolvedor solo",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1639,
-            "pivot_speaker_id": 4265,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE",
-      "nearLocation": "ETE e Arredores"
+      "filterLocation": "Braseiro",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1642,
@@ -17319,6 +17186,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4132,
+          "name": "Carol Fernandes",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1262/partner_1262_1752609694746.png",
+          "bio": "Designer organizacional especializada em gestão adaptativa e modelos operacionais para times autônomos. Formada em Design pela PUC-Rio, com pós-graduação em Marketing (IBMEC), Coaching Ontológico (Instituto Appana) e extensão em Branding (IED Rio). Certificada em metodologia 6Ds e atualmente cursa Behavioral Economics in Action na Universidade de Toronto Online. Atendeu clientes como Natura, Roche, Porto, Itaú, Unilever e Danone.",
+          "role": "Designer Organizacional",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1642,
+            "pivot_speaker_id": 4132,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -17340,23 +17224,6 @@
           "type": "schedules",
           "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4132,
-          "name": "Carol Fernandes",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1262/partner_1262_1752609694746.png",
-          "bio": "Designer organizacional especializada em gestão adaptativa e modelos operacionais para times autônomos. Formada em Design pela PUC-Rio, com pós-graduação em Marketing (IBMEC), Coaching Ontológico (Instituto Appana) e extensão em Branding (IED Rio). Certificada em metodologia 6Ds e atualmente cursa Behavioral Economics in Action na Universidade de Toronto Online. Atendeu clientes como Natura, Roche, Porto, Itaú, Unilever e Danone.",
-          "role": "Designer Organizacional",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1642,
-            "pivot_speaker_id": 4132,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -17386,6 +17253,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4679,
+          "name": "Rafael Becho",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1823/partner_1823_1752613160289.png",
+          "bio": "Rafael Becho é empreendedor e fundador do Vetor Norte Valley e do Instituto Saint Lake Valley. Atua na criação e fortalecimento de ecossistemas de inovação em regiões periféricas, conectando startups, governos e empresas com foco em propósito, impacto social e desenvolvimento territorial sustentável.",
+          "role": "Presidente do Instituto Saint Lake Valley e CEO do Vetor Norte Valley",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1634,
+            "pivot_speaker_id": 4679,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -17407,23 +17291,6 @@
           "type": "schedules",
           "name": "Cidades / Comunidades Inovadoras",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4679,
-          "name": "Rafael Becho",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1823/partner_1823_1752613160289.png",
-          "bio": "Rafael Becho é empreendedor e fundador do Vetor Norte Valley e do Instituto Saint Lake Valley. Atua na criação e fortalecimento de ecossistemas de inovação em regiões periféricas, conectando startups, governos e empresas com foco em propósito, impacto social e desenvolvimento territorial sustentável.",
-          "role": "Presidente do Instituto Saint Lake Valley e CEO do Vetor Norte Valley",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1634,
-            "pivot_speaker_id": 4679,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -17453,6 +17320,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -17476,7 +17344,6 @@
           "hub_event_id": 1
         }
       ],
-      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17504,29 +17371,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 388,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
-          "hub_event_id": 1
-        },
-        {
-          "id": 322,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Fronteiras da Mente",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5337,
@@ -17559,6 +17403,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 388,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
+          "hub_event_id": 1
+        },
+        {
+          "id": 322,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Fronteiras da Mente",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17586,22 +17453,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 386,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental – Presente / Futuro",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4903,
@@ -17679,6 +17530,22 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 386,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental – Presente / Futuro",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17706,6 +17573,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4258,
+          "name": "Dani Costa",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1390/partner_1390_1752610517659.png",
+          "bio": "Jornalista, facilitadora e sócia da Acolheita. Ex-sócia e diretora de operações da YOUPIX, hoje guia profissionais em jornadas de autoconhecimento e escolhas conscientes sobre trabalho e vida.",
+          "role": "Sócia-Fundadora da Acolheita.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1629,
+            "pivot_speaker_id": 4258,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -17727,23 +17611,6 @@
           "type": "schedules",
           "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4258,
-          "name": "Dani Costa",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1390/partner_1390_1752610517659.png",
-          "bio": "Jornalista, facilitadora e sócia da Acolheita. Ex-sócia e diretora de operações da YOUPIX, hoje guia profissionais em jornadas de autoconhecimento e escolhas conscientes sobre trabalho e vida.",
-          "role": "Sócia-Fundadora da Acolheita.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1629,
-            "pivot_speaker_id": 4258,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {

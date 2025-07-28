@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 309,
-  "scraped_at": "2025-07-28T14:24:09.867381-03:00",
+  "total_events": 311,
+  "scraped_at": "2025-07-28T17:21:55.595048-03:00",
   "events": [
     {
       "id": 2002,
@@ -17,12 +17,11 @@
       "place_color": null,
       "allow_evaluation": false,
       "order": 256,
-      "has_check_in": false,
+      "has_check_in": true,
       "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
+      "available_slots": 15,
       "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
+      "requires_booking": true,
       "speakers": [
         {
           "id": 5049,
@@ -55,6 +54,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -90,7 +90,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4257,
@@ -108,6 +107,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 290,
@@ -150,8 +150,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -179,8 +179,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 415,
@@ -216,7 +216,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5280,
@@ -234,6 +233,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -261,7 +261,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5232,
@@ -279,6 +278,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -314,7 +314,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4268,
@@ -332,6 +331,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -381,7 +381,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4587,
@@ -399,6 +398,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -448,7 +448,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4894,
@@ -466,6 +465,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -508,7 +508,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4557,
@@ -526,6 +525,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3031,6 +3031,73 @@
       "nearLocation": "ETE e Arredores"
     },
     {
+      "id": 1995,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T14:00:00.000+00:00",
+      "title": "Distribuição 4.0: A revolução nas formas que recebemos energia!",
+      "description": "A distribuição de energia está passando por uma transformação grandiosa, impulsionada por tecnologias como IoT, digital twins, redes inteligentes e automação. Esta palestra explora como a inovação está descentralizando, digitalizando e tornando o sistema mais resiliente e eficiente. Vamos entender como startups, dados e inteligência artificial estão redesenhando o caminho da energia — do poste à casa conectada. Prepare-se para descobrir o que vem depois dos medidores e o que isso significa para o futuro da mobilidade, sustentabilidade e transição energética",
+      "hub_event_id": 1,
+      "entity_register_id": 9633,
+      "place": "INATEL - Sala 22  - Prédio 1 - 2º Piso",
+      "allow_questions": false,
+      "external_id": "83e90346-a64e-43b5-9fed-5aa647190fb6",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5199,
+          "name": "Denis Mollica",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753654652701.png?ims=filters:quality(75)",
+          "bio": "Com mais de 27 anos no setor elétrico, é Diretor de Estratégia, Sustentabilidade e Inovação na Cemig. Lidera a construção de uma agenda estratégica integrada que acelera a transição energética, com foco em soluções renováveis, digitais e descentralizadas, fortalecendo uma das maiores empresas do setor no Brasil.",
+          "role": "Diretor de Estratégia, Sustentabilidade e Inovação na Cemig",
+          "company": "CEMIG",
+          "meta": {
+            "pivot_schedule_id": 1995,
+            "pivot_speaker_id": 5199,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
+    },
+    {
       "id": 1949,
       "start_time": "2025-08-01T13:00:00.000+00:00",
       "end_time": "2025-08-01T14:00:00.000+00:00",
@@ -3694,7 +3761,7 @@
       "description": "De Santa Rita do Sapucaí à NASA. Como projetos e ideias, que surgiram enquanto eu estudava na ETE FMC, me levaram a treinar na Nasa e ficar cada vez mais perto do Espaço.",
       "hub_event_id": 1,
       "entity_register_id": 9769,
-      "place": "ETE - Sala 81 - by SkyOne",
+      "place": "ETE - Sala 84",
       "allow_questions": false,
       "external_id": "c41154f0-d7e2-425c-8f71-073d147f323d",
       "place_color": null,
@@ -3862,7 +3929,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5240,
@@ -3880,6 +3946,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3915,7 +3982,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4568,
@@ -3933,6 +3999,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -3982,7 +4049,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4645,
@@ -4000,6 +4066,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4049,7 +4116,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4599,
@@ -4067,6 +4133,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4116,7 +4183,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4950,
@@ -4179,6 +4245,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -4228,8 +4295,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4272,7 +4339,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4245,
@@ -4290,6 +4356,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4339,7 +4406,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -4357,6 +4423,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -4381,73 +4448,6 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
-      "id": 1995,
-      "start_time": "2025-08-01T14:30:00.000+00:00",
-      "end_time": "2025-08-01T15:30:00.000+00:00",
-      "title": "Distribuição 4.0: A revolução nas formas que recebemos energia!",
-      "description": "A distribuição de energia está passando por uma transformação grandiosa, impulsionada por tecnologias como IoT, digital twins, redes inteligentes e automação. Esta palestra explora como a inovação está descentralizando, digitalizando e tornando o sistema mais resiliente e eficiente. Vamos entender como startups, dados e inteligência artificial estão redesenhando o caminho da energia — do poste à casa conectada. Prepare-se para descobrir o que vem depois dos medidores e o que isso significa para o futuro da mobilidade, sustentabilidade e transição energética",
-      "hub_event_id": 1,
-      "entity_register_id": 9633,
-      "place": "INATEL - Sala 22  - Prédio 1 - 2º Piso",
-      "allow_questions": false,
-      "external_id": "83e90346-a64e-43b5-9fed-5aa647190fb6",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5199,
-          "name": "Denis Mollica",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753654652701.png?ims=filters:quality(75)",
-          "bio": "Com mais de 27 anos no setor elétrico, é Diretor de Estratégia, Sustentabilidade e Inovação na Cemig. Lidera a construção de uma agenda estratégica integrada que acelera a transição energética, com foco em soluções renováveis, digitais e descentralizadas, fortalecendo uma das maiores empresas do setor no Brasil.",
-          "role": "Diretor de Estratégia, Sustentabilidade e Inovação na Cemig",
-          "company": "CEMIG",
-          "meta": {
-            "pivot_schedule_id": 1995,
-            "pivot_speaker_id": 5199,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Inatel",
-      "nearLocation": "Inatel e Arredores"
-    },
-    {
       "id": 1945,
       "start_time": "2025-08-01T14:30:00.000+00:00",
       "end_time": "2025-08-01T15:30:00.000+00:00",
@@ -4466,7 +4466,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4706,
@@ -4484,6 +4483,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4533,7 +4533,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4842,
@@ -4596,6 +4595,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -4891,7 +4891,7 @@
       "start_time": "2025-08-01T14:30:00.000+00:00",
       "end_time": "2025-08-01T15:30:00.000+00:00",
       "title": "Liderança que gera pertencimento",
-      "description": "A ser anunciado",
+      "description": "",
       "hub_event_id": 1,
       "entity_register_id": 9623,
       "place": "INATEL - Sala 22 - Prédio 1 - 2º Piso",
@@ -4903,10 +4903,26 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
+      "speakers": [
+        {
+          "id": 5388,
+          "name": "Fê Lopes",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753727866878.png?ims=filters:quality(75)",
+          "bio": "Psicóloga clínica, psicanalista, com formação em Psicanálise da Parentalidade e da Perinatalidade pelo Instituto Gerar, e em Psicologia e Relações Étnico Raciais no Instituto Amma Psique e Negritude. Atende em análise adultos e crianças, dá aulas, treinamentos e palestras em escolas, empresas e eventos nos temas perinatalidade, psicologia, relações raciais e diversidade. É co-criadora do Curso de Introdução ao Letramento Racial, do Instituto Aripe, também do projeto Igbaya – Apoio a Amamentação Negra (@amamentacaonegra), e da Semana de Apoio a Amamentação Negra. Além disso, é co-autora do Psy(co), um podcast sobre psicologia e cultura  pop.",
+          "role": "Psicóloga clínica e psicanalista",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 1985,
+            "pivot_speaker_id": 5388,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -5408,6 +5424,59 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
+      "id": 2564,
+      "start_time": "2025-08-01T14:30:00.000+00:00",
+      "end_time": "2025-08-01T15:30:00.000+00:00",
+      "title": "PIXEL A PIXEL: CONSTRUYENDO EL FUTURO DE LOS VIDEOJUEGOS EN SUDAMÉRICA: Un recorrido por el presente y el futuro de la región",
+      "description": "La charla nos guiará por la situación actual de la industria de los videojuegos a nivel global, la crisis que viven los mercados dominantes y las oportunidades que nacen en nuestras latitudes para capitalizar la construcción de un futuro brillante en nuestro territorio con perspectiva e identidad Sudamericana.",
+      "hub_event_id": 1,
+      "entity_register_id": 10344,
+      "place": "ETE - Sala 66",
+      "allow_questions": false,
+      "external_id": "yazo_2564",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5389,
+          "name": "Pablo \"Chamax\" Chamorro ",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753729304920.png?ims=filters:quality(75)",
+          "bio": "El Chamax es diseñador gráfico, músico y desarrollador de videojuegos de Quilmes, Buenos Aires. Desarrolla identidades, campañas y marcas para comunicación visual. Actualmente estudia Desarrollo de videojuegos en UTN y desarrolló un juego fan-made de Papota (EP de Catriel y Paco Amoroso) que logró 1000 visitas en itch.io",
+          "role": "Diseñador gráfico y desarrollador independiente de videojuegos",
+          "company": "",
+          "meta": {
+            "pivot_schedule_id": 2564,
+            "pivot_speaker_id": 5389,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
+    },
+    {
       "id": 2237,
       "start_time": "2025-08-01T14:30:00.000+00:00",
       "end_time": "2025-08-01T15:30:00.000+00:00",
@@ -5860,6 +5929,51 @@
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2562,
+      "start_time": "2025-08-01T14:30:00.000+00:00",
+      "end_time": "2025-08-01T15:30:00.000+00:00",
+      "title": "Saúde Mental Não É Soft Skill: Neurociência e Prevenção de Riscos Psicossociais no Trabalho",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10341,
+      "place": "Escola Sânico Teles - Ginásio",
+      "allow_questions": false,
+      "external_id": "yazo_2562",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4250,
+          "name": "Damião Silva",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1381/partner_1381_1752610457001.png",
+          "bio": "Psicólogo, neuropsicólogo, pedagogo e doutorando pela UFF, Damião Silva é especialista em Altas Habilidades/Superdotação, Educação Inclusiva e Análise do Comportamento Aplicada ao TEA. Com formação internacional na Espanha, atua no atendimento a crianças e adolescentes superdotados. Autor dos livros *“Descobrindo a Superdotação e como lidar com as emoções”* e *“Protagonismo Juvenil”*, integra prática clínica, pesquisa e formação com foco no desenvolvimento do potencial humano.",
+          "role": "Neuropsicologo",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2562,
+            "pivot_speaker_id": 4250,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1890,
@@ -6516,66 +6630,6 @@
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
-    },
-    {
-      "id": 1669,
-      "start_time": "2025-08-01T14:30:00.000+00:00",
-      "end_time": "2025-08-01T15:30:00.000+00:00",
-      "title": "Domine a arte de ser escolhido: como transformar posicionamento em vendas",
-      "description": "Posicionamento estratégico é o que define quem será escolhido — antes mesmo do preço entrar em pauta. Esta palestra mostra como negócios que vendem serviços, soluções ou educação podem transformar comunicação em diferencial competitivo. Com foco em vendas complexas, vamos discutir como construir autoridade com clareza e intenção, criando valor real sem depender de fórmulas prontas ou discursos apelativos.",
-      "hub_event_id": 1,
-      "entity_register_id": 9307,
-      "place": "ETE - Sala 66",
-      "allow_questions": false,
-      "external_id": "eefef5bc-a94c-46eb-ba5c-4f3afd8f5490",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4498,
-          "name": "Larissa Anselmo",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1639/partner_1639_1752612015367.png",
-          "bio": "Estrategista de marketing e posicionamento com mais de 10 anos de experiência, ajuda negócios de serviços a transformarem sua comunicação em um ativo comercial. Criadora do método A Escolha Óbvia, une sensibilidade, clareza estratégica e execução prática para simplificar jornadas de venda complexas.",
-          "role": "Estrategista de Marketing e Posicionamento Comercial",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1669,
-            "pivot_speaker_id": 4498,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 307,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Vendas / Marketing",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "ETE",
-      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2014,
@@ -7570,6 +7624,21 @@
             "allow_access": false
           },
           "allow_access": false
+        },
+        {
+          "id": 4197,
+          "name": "Bruna do Valle",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1328/partner_1328_1752610081435.png",
+          "bio": "Empreendedora e engenheira de formação, atua com sustentabilidade, inovação social e gestão operacional. Lidera um coworking e colabora com a Casa do Caminho, conectando negócios, governo e sociedade na construção de soluções integradas e de impacto positivo.",
+          "role": "Empreendedora social e articuladora de impacto local",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1704,
+            "pivot_speaker_id": 4197,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "tags": [
@@ -7645,13 +7714,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 281,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Arquitetura / Novas Formas de Construção",
           "hub_event_id": 1
         },
         {
@@ -9062,6 +9124,51 @@
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2563,
+      "start_time": "2025-08-01T16:00:00.000+00:00",
+      "end_time": "2025-08-01T17:00:00.000+00:00",
+      "title": "Neurodiversidade como Força Criativa e Inovadora",
+      "description": "",
+      "hub_event_id": 1,
+      "entity_register_id": 10342,
+      "place": "Escola Sânico Teles - Ginásio ",
+      "allow_questions": false,
+      "external_id": "yazo_2563",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 256,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4417,
+          "name": "Ivar Brandi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1553/partner_1553_1752611493824.png",
+          "bio": "Neurologista e palestrante com foco em cognição, comportamento, neuropsiquiatria e neurodiversidade. Mestre em Medicina e Saúde, possui pós-graduação em Neurociências do Comportamento e Pesquisa Clínica. Atua na interface entre ciência, saúde mental e educação, promovendo conhecimento acessível e embasado sobre o funcionamento do cérebro e suas múltiplas expressões.",
+          "role": "Neurologista e palestrante com atuação em neurocognição, comportamento, neuropsiquiatria e neurodiversidade.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2563,
+            "pivot_speaker_id": 4417,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1690,
@@ -12624,6 +12731,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4390,
@@ -12641,7 +12749,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -12691,6 +12798,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4202,
@@ -12708,7 +12816,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12758,6 +12865,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4468,
@@ -12790,7 +12898,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -12840,6 +12947,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4216,
@@ -12857,7 +12965,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12907,6 +13014,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4891,
@@ -12939,7 +13047,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -12989,6 +13096,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4786,
@@ -13006,7 +13114,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -13056,6 +13163,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4157,
@@ -13073,7 +13181,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13123,6 +13230,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4685,
@@ -13140,7 +13248,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13190,6 +13297,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4824,
@@ -13207,7 +13315,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13257,6 +13364,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5165,
@@ -13274,7 +13382,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -18909,21 +19016,6 @@
             "allow_access": false
           },
           "allow_access": false
-        },
-        {
-          "id": 4197,
-          "name": "Bruna do Valle",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1328/partner_1328_1752610081435.png",
-          "bio": "Empreendedora e engenheira de formação, atua com sustentabilidade, inovação social e gestão operacional. Lidera um coworking e colabora com a Casa do Caminho, conectando negócios, governo e sociedade na construção de soluções integradas e de impacto positivo.",
-          "role": "Empreendedora social e articuladora de impacto local",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2310,
-            "pivot_speaker_id": 4197,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "tags": [
@@ -20381,7 +20473,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -20391,6 +20482,7 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
