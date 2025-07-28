@@ -1,7 +1,7 @@
 {
   "date": "2025-07-31",
   "total_events": 267,
-  "scraped_at": "2025-07-28T17:21:55.571537-03:00",
+  "scraped_at": "2025-07-28T18:19:48.765729-03:00",
   "events": [
     {
       "id": 2414,
@@ -212,17 +212,17 @@
           "hub_event_id": 1
         },
         {
-          "id": 328,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Espaço / Novas Fronteiras",
-          "hub_event_id": 1
-        },
-        {
           "id": 275,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Educação / Aprendizado",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
           "hub_event_id": 1
         }
       ],
@@ -250,7 +250,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -272,10 +272,17 @@
       ],
       "tags": [
         {
-          "id": 391,
+          "id": 307,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
+          "name": "Vendas / Marketing",
+          "hub_event_id": 1
+        },
+        {
+          "id": 404,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ética / Consciência / Responsabilidade",
           "hub_event_id": 1
         },
         {
@@ -283,13 +290,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 294,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Impacto Social",
           "hub_event_id": 1
         }
       ],
@@ -384,7 +384,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -406,10 +406,10 @@
       ],
       "tags": [
         {
-          "id": 307,
+          "id": 291,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Vendas / Marketing",
+          "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
         },
         {
@@ -438,7 +438,7 @@
       "id": 2541,
       "start_time": "2025-07-31T13:00:00.000+00:00",
       "end_time": "2025-07-31T21:30:00.000+00:00",
-      "title": "Crie com AMAZON Q CLI no HackTown e leve um KIT AWS exclusivo🤖 ",
+      "title": "Crie com AMAZON Q CLI no HackTown e leve um KIT AWS exclusivo ",
       "description": "Você está pronto para colocar a mão na massa e criar algo incrível durante o HackTown usando a Amazon Q Developer CLI? Então não perca essa oportunidade única!\n\nDurante todo o evento, você pode construir qualquer projeto utilizando o Amazon Q Developer CLI e ganhar um kit exclusivo AWS. Basta desenvolver sua solução, publicá-la no GitHub deixando claro que foi construída com a Amazon Q Developer CLI durante o HackTown, e então ir até o AWS Developer Hub para mostrar o seu trabalho.\n\nO melhor? Você ainda leva para casa uma camiseta especial da AWS - escolha entre o clássico Rubber Duck Debugging ou o fofo Rubber Capibara Debugging! 🦆🦥\n\nNão importa se você é um dev experiente ou está começando agora, essa é a chance perfeita de explorar as possibilidades da inteligência artificial aplicada ao desenvolvimento de software. Venha colocar a criatividade para funcionar e leve para casa um brinde incrível!\n\nRequisitos:\n\nCriar um projeto usando a Amazon Q Developer CLI\nPublicar o código no GitHub, deixando claro que o projeto foi desenvolvido com Amazon Q Developer CLI durante o HackTown 2025\nApresentar o projeto no AWS Developer Hub\nVagas limitadas a 50 projetos por dia. Corra para garantir a camiseta AWS exclusiva!\n\nE o que você pode construir?\n\nCom a Amazon Q Developer CLI, você dar asas à sua criatividade e construir uma ampla variedade de aplicações inovadoras. Aqui só alguns exemplos para inspirar você...\n\n🎨 Geradores de arte e design: Crie imagens, ilustrações e designs únicos usando modelos de IA generativa.\n🤖 Assistentes virtuais personalizados: Desenvolva chatbots e agentes conversacionais com habilidades específicas para ajudar os usuários.\n📚 Ferramentas de escrita criativa: Construa aplicações que auxiliem na geração de histórias, poesias, roteiros e muito mais.\n🎮 Jogos e experiências interativas: Explore a criação de jogos, mundos virtuais e narrativas imersivas.\n🧠 Aplicações de produtividade: Crie ferramentas que utilizem IA para aumentar a eficiência em tarefas do dia a dia.\n🔍 Soluções de análise e insights: Desenvolva dashboards e visualizações que extraiam conhecimento de grandes volumes de dados.\n🌍 Aplicações de impacto social: Use a IA para criar soluções que ajudem a resolver problemas reais da comunidade.\nO Amazon Q Developer CLI será seu aliado nessa jornada criativa, permitindo que você explore as possibilidades da inteligência artificial de maneira prática e inovadora. O céu é o limite para as ideias que podem surgir durante o HackTown!",
       "hub_event_id": 1,
       "entity_register_id": 10305,
@@ -472,6 +472,13 @@
         }
       ],
       "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
         {
           "id": 264,
           "color": "#21C89D",
@@ -511,7 +518,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -540,10 +547,10 @@
           "hub_event_id": 1
         },
         {
-          "id": 269,
+          "id": 291,
           "color": "#21C89D",
           "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
+          "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
         },
         {
@@ -578,7 +585,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -600,6 +607,13 @@
       ],
       "tags": [
         {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        },
+        {
           "id": 19,
           "color": "#21C89D",
           "type": "schedules",
@@ -611,13 +625,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Empreendedorismo",
-          "hub_event_id": 1
-        },
-        {
-          "id": 290,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Economia Criativa",
           "hub_event_id": 1
         }
       ],
@@ -645,9 +652,8 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4218,
@@ -665,6 +671,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -674,17 +681,17 @@
           "hub_event_id": 1
         },
         {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        },
+        {
           "id": 384,
           "color": "#21C89D",
           "type": "schedules",
           "name": "Design / UX / Acessibilidade",
-          "hub_event_id": 1
-        },
-        {
-          "id": 391,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
         }
       ],
@@ -714,7 +721,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4290,
@@ -732,6 +738,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -774,7 +781,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4634,
@@ -792,6 +798,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -841,7 +848,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5270,
@@ -859,6 +865,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -886,7 +893,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4262,
@@ -904,6 +910,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -953,7 +960,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4831,
@@ -971,6 +977,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1020,7 +1027,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5224,
@@ -1038,6 +1044,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -1080,15 +1087,14 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5232,
           "name": "Ronoaldo Pereira",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753734945499.png?ims=filters:quality(75)",
+          "bio": "Instrutor autorizado em Google Cloud, Ronaldo Pereira, conhecido como \"Bill\", possui 12 certificações e foi reconhecido por três anos consecutivos como Instrutor do Ano pelo Google. Atua na formação de profissionais em computação em nuvem, destacando-se pela didática, profundidade técnica e impacto na capacitação de talentos em tecnologia.",
+          "role": "Instrutor do Ano pelo Google autorizado em Google Cloud",
+          "company": "Google",
           "meta": {
             "pivot_schedule_id": 2172,
             "pivot_speaker_id": 5232,
@@ -1098,6 +1104,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -1133,7 +1140,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4809,
@@ -1151,6 +1157,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -1178,7 +1185,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5344,
@@ -1211,6 +1217,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 418,
@@ -2638,7 +2645,7 @@
         {
           "id": 4406,
           "name": "Igor Evangelista",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1542/partner_1542_1752611433841.png",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753736416741.png?ims=filters:quality(75)",
           "bio": "Líder na esteira de Corporate Venture Builder, atua apoiando grandes corporações na priorização, teste e escalada de novos negócios. Economista com especialização em negócios digitais, tem como foco transformar desafios corporativos em inovação com impacto real e resultados sustentáveis.",
           "role": "Líder de Corporate Venture Builder na The Bakery",
           "company": " ",
@@ -3115,10 +3122,10 @@
         {
           "id": 5225,
           "name": "Guilherme Bezerra de Lima",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753734260506.png?ims=filters:quality(75)",
+          "bio": "Desenvolvedor de software com formação em Sistemas de Informação e foco em Go. Atua com aplicações escaláveis, boas práticas arquiteturais e ensino de programação orientada a objetos. Criador de cursos sobre Data Science, web, jogos e infraestrutura como código. Especialista também em Python e JavaScript, é instrutor nas Imersões Alura+Google.",
+          "role": "Desenvolvedor, Especialista e Instrutor nas Imersões Alura+Google",
+          "company": "Alura e Google",
           "meta": {
             "pivot_schedule_id": 2163,
             "pivot_speaker_id": 5225,
@@ -5298,7 +5305,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4461,
@@ -5316,6 +5322,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5358,7 +5365,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4232,
@@ -5376,6 +5382,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5425,7 +5432,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4444,
@@ -5443,6 +5449,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5492,7 +5499,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4291,
@@ -5510,6 +5516,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5559,7 +5566,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5226,
@@ -5577,6 +5583,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -5612,7 +5619,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4791,
@@ -5630,6 +5636,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5679,7 +5686,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4603,
@@ -5697,6 +5703,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5739,7 +5746,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4350,
@@ -5772,6 +5778,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -5814,7 +5821,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4575,
@@ -5832,6 +5838,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5881,7 +5888,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4723,
@@ -5899,6 +5905,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 281,
@@ -5949,7 +5956,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [],
       "speakers": [
         {
           "id": 5379,
@@ -5967,6 +5973,7 @@
           "allow_access": false
         }
       ],
+      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5994,6 +6001,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4341,
+          "name": "Franklin Yamasake",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1474/partner_1474_1752611026406.png",
+          "bio": "Fundador da Traciona e cofundador do grupo de investidores Poli Angels, é autor do livro *Traciona! Engajando Ecossistemas de Inovação*. Doutor em Administração e professor do MBA da USP, atua na formação de líderes e no fomento à inovação por meio de ecossistemas colaborativos e investimento estratégico.",
+          "role": "Fundador da Traciona",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1854,
+            "pivot_speaker_id": 4341,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6015,23 +6039,6 @@
           "type": "schedules",
           "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4341,
-          "name": "Franklin Yamasake",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1474/partner_1474_1752611026406.png",
-          "bio": "Fundador da Traciona e cofundador do grupo de investidores Poli Angels, é autor do livro *Traciona! Engajando Ecossistemas de Inovação*. Doutor em Administração e professor do MBA da USP, atua na formação de líderes e no fomento à inovação por meio de ecossistemas colaborativos e investimento estratégico.",
-          "role": "Fundador da Traciona",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1854,
-            "pivot_speaker_id": 4341,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6061,29 +6068,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 291,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Gestão / Governança Inovadora",
-          "hub_event_id": 1
-        },
-        {
-          "id": 384,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Design / UX / Acessibilidade",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4993,
@@ -6146,6 +6130,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        },
+        {
+          "id": 384,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Design / UX / Acessibilidade",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6173,6 +6180,23 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4219,
+          "name": "Carla e Deka Barrichello",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1350/partner_1350_1752610255805.png",
+          "bio": "Duas irmãs que deixaram o mundo corporativo para aprender com as abelhas e impulsionar uma nova cultura baseada em colaboração, regeneração e propósito. Unem saberes ancestrais e práticas contemporâneas para inspirar transformações sustentáveis em pessoas, organizações e territórios.",
+          "role": "Aprendizes das abelhas",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1846,
+            "pivot_speaker_id": 4219,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6194,23 +6218,6 @@
           "type": "schedules",
           "name": "Regeneração / Clima / Sustentabilidade",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4219,
-          "name": "Carla e Deka Barrichello",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1350/partner_1350_1752610255805.png",
-          "bio": "Duas irmãs que deixaram o mundo corporativo para aprender com as abelhas e impulsionar uma nova cultura baseada em colaboração, regeneração e propósito. Unem saberes ancestrais e práticas contemporâneas para inspirar transformações sustentáveis em pessoas, organizações e territórios.",
-          "role": "Aprendizes das abelhas",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1846,
-            "pivot_speaker_id": 4219,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6240,6 +6247,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4507,
+          "name": "Leo Guto",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1648/partner_1648_1752612064259.png",
+          "bio": "Leo Guto é músico, produtor cultural e fundador da Terra Plana Music, empresa especializada em projetos culturais e consultoria estratégica para artistas e instituições. Idealizador do Sete Lagoas Park Day e do Festival de Ver Cidade, atua como presidente do Fórum da Música de Sete Lagoas, contribuindo para o fortalecimento das políticas públicas de cultura na região.",
+          "role": "C&O da Terra Plana Music LTDA",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1832,
+            "pivot_speaker_id": 4507,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6261,23 +6285,6 @@
           "type": "schedules",
           "name": "Cultura em Movimento",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4507,
-          "name": "Leo Guto",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1648/partner_1648_1752612064259.png",
-          "bio": "Leo Guto é músico, produtor cultural e fundador da Terra Plana Music, empresa especializada em projetos culturais e consultoria estratégica para artistas e instituições. Idealizador do Sete Lagoas Park Day e do Festival de Ver Cidade, atua como presidente do Fórum da Música de Sete Lagoas, contribuindo para o fortalecimento das políticas públicas de cultura na região.",
-          "role": "C&O da Terra Plana Music LTDA",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1832,
-            "pivot_speaker_id": 4507,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6307,6 +6314,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4134,
+          "name": "Carol Guimarães",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1264/partner_1264_1752609706466.png",
+          "bio": "Pioneira no e-Teatro e exploradora do Cinema Vertical,  é diretora e produtora executiva premiada, transitando entre tradição e inovação na cultura digital. Com vasta experiência e produção executiva em eventos de grande relevância, impulsiona novas linguagens narrativas.",
+          "role": "CEO e Produtora Executiva em Cultura Digital",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1767,
+            "pivot_speaker_id": 4134,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6328,23 +6352,6 @@
           "type": "schedules",
           "name": "Criação Digital / Economia dos Criadores",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4134,
-          "name": "Carol Guimarães",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1264/partner_1264_1752609706466.png",
-          "bio": "Pioneira no e-Teatro e exploradora do Cinema Vertical,  é diretora e produtora executiva premiada, transitando entre tradição e inovação na cultura digital. Com vasta experiência e produção executiva em eventos de grande relevância, impulsiona novas linguagens narrativas.",
-          "role": "CEO e Produtora Executiva em Cultura Digital",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1767,
-            "pivot_speaker_id": 4134,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6374,6 +6381,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4380,
+          "name": "Greyce Franzmann",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1513/partner_1513_1752611260017.png",
+          "bio": "Greyce Franzmann é referência em inovação, empreendedorismo e negócios de impacto. Atua na Wadhwani, representa a Casa Sete, é cofundadora do Impact Hub Belém e mentora em iniciativas como InovaClima, Avati, InoveNow e Hub de Inovação Climática. Integra a Coalizão pelo Impacto Belém, promovendo transformação sustentável por meio da colaboração.",
+          "role": "Gerente de conteúdo de empreendedorismo na Wadhwani Foundation",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1851,
+            "pivot_speaker_id": 4380,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6395,23 +6419,6 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4380,
-          "name": "Greyce Franzmann",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1513/partner_1513_1752611260017.png",
-          "bio": "Greyce Franzmann é referência em inovação, empreendedorismo e negócios de impacto. Atua na Wadhwani, representa a Casa Sete, é cofundadora do Impact Hub Belém e mentora em iniciativas como InovaClima, Avati, InoveNow e Hub de Inovação Climática. Integra a Coalizão pelo Impacto Belém, promovendo transformação sustentável por meio da colaboração.",
-          "role": "Gerente de conteúdo de empreendedorismo na Wadhwani Foundation",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1851,
-            "pivot_speaker_id": 4380,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6441,6 +6448,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4649,
+          "name": "Pablo Funchal",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1791/partner_1791_1752612958544.png",
+          "bio": "Co-fundador e sócio-diretor da Fluxus Educação, empreendedor dedicado à aprendizagem e desenvolvimento humano. Facilitador de imersões em metodologias inovadoras, incluindo Teoria U. Apaixonado por livros, viagens e histórias que transformam pessoas e organizações.",
+          "role": "Sócio Diretor da Fluxus Educação",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1640,
+            "pivot_speaker_id": 4649,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -6462,23 +6486,6 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4649,
-          "name": "Pablo Funchal",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1791/partner_1791_1752612958544.png",
-          "bio": "Co-fundador e sócio-diretor da Fluxus Educação, empreendedor dedicado à aprendizagem e desenvolvimento humano. Facilitador de imersões em metodologias inovadoras, incluindo Teoria U. Apaixonado por livros, viagens e histórias que transformam pessoas e organizações.",
-          "role": "Sócio Diretor da Fluxus Educação",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1640,
-            "pivot_speaker_id": 4649,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -6508,29 +6515,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 275,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Educação / Aprendizado",
-          "hub_event_id": 1
-        },
-        {
-          "id": 388,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4911,
@@ -6563,6 +6547,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 275,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Educação / Aprendizado",
+          "hub_event_id": 1
+        },
+        {
+          "id": 388,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -6590,15 +6597,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4720,
@@ -6614,6 +6612,15 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -9210,10 +9217,10 @@
         {
           "id": 5232,
           "name": "Ronoaldo Pereira",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753734945499.png?ims=filters:quality(75)",
+          "bio": "Instrutor autorizado em Google Cloud, Ronaldo Pereira, conhecido como \"Bill\", possui 12 certificações e foi reconhecido por três anos consecutivos como Instrutor do Ano pelo Google. Atua na formação de profissionais em computação em nuvem, destacando-se pela didática, profundidade técnica e impacto na capacitação de talentos em tecnologia.",
+          "role": "Instrutor do Ano pelo Google autorizado em Google Cloud",
+          "company": "Google",
           "meta": {
             "pivot_schedule_id": 2176,
             "pivot_speaker_id": 5232,

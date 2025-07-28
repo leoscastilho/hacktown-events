@@ -1,7 +1,7 @@
 {
   "date": "2025-07-30",
   "total_events": 2,
-  "scraped_at": "2025-07-28T17:21:55.562810-03:00",
+  "scraped_at": "2025-07-28T18:19:48.761189-03:00",
   "events": [
     {
       "id": 2557,
@@ -20,7 +20,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -40,7 +40,29 @@
           "allow_access": false
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 404,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ética / Consciência / Responsabilidade",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
