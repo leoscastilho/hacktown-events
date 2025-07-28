@@ -1153,7 +1153,7 @@
             margin-top: 8px;
             padding-top: 8px;
             border-top: 1px solid var(--border-light);
-            font-size: 0.8em;
+            font-size: 0.7em;
             margin-right: 45px;
             color: var(--text-secondary);
             flex-wrap: nowrap;
@@ -1162,14 +1162,23 @@
 
         .event-place::before {
             content: '📍   ';
-            font-size: 0.9em;
+            font-size: 0.8em;
+        }
+
+        .event-time {
+            font-weight: 500;
+            margin-right: 45px;
+        }
+
+        .event-time svg {
+            flex-shrink: 0;
         }
 
         .speaker-preview {
-            margin-top: 8px;
-            padding-top: 8px;
-            border-top: 1px solid var(--border-light);
-            font-size: 0.8em;
+            margin-top: 4px;
+            padding-top: 4px;
+            /*border-top: 1px solid var(--border-light);*/
+            font-size: 0.7em;
             color: var(--text-secondary);
         }
 
@@ -1178,12 +1187,12 @@
             display: flex;
             align-items: center;
             gap: 3px;
-            font-size: 0.9em;
+            font-size: 0.7em;
         }
 
         .speaker-preview-item::before {
             content: '👤   ';
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
 
         /* Modal with Glass Morphism */
@@ -2762,6 +2771,15 @@
             });
         }
 
+        // Format time for display with AM/PM
+        function formatTimeAMPM(date) {
+            return date.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: true
+            });
+        }
+
         // Create event card HTML
         function createEventCard(event) {
             const eventData = JSON.stringify(event).replace(/"/g, '&quot;');
@@ -2806,8 +2824,16 @@
                         </svg>
                     </button>
                     <div class="event-title">${event.title || 'Evento sem título'}</div>
+                    ${event.start_time && event.end_time ? `
+                        <div class="event-time" style="display: flex; align-items: center; gap: 6px; margin-bottom: 5px; color: var(--text-secondary); font-size: 0.7em;">
+                            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;" aria-hidden="true">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+                            </svg>
+                            <span>${formatTimeAMPM(new Date(event.start_time))} - ${formatTimeAMPM(new Date(event.end_time))}</span>
+                        </div>
+                    ` : ''}
                     ${event.place ? `
-                        <div style="margin-bottom: 10px;">
+                        <div style="margin-bottom: 1px;">
                             <span class="event-place">${event.place}</span>
                         </div>
                     ` : ''}
