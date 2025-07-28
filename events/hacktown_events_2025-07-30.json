@@ -1,7 +1,7 @@
 {
   "date": "2025-07-30",
   "total_events": 1,
-  "scraped_at": "2025-07-27T20:51:38.844030-03:00",
+  "scraped_at": "2025-07-27T21:54:39.946855-03:00",
   "events": [
     {
       "id": 2413,
@@ -22,14 +22,15 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     }
   ]
 }

@@ -54,5 +54,57 @@
   {
     "name": "Real Palace",
     "gmaps": "https://maps.app.goo.gl/WtsHV2N2uGSgoAJbA"
+  },
+  {
+    "name": "A ser anunciado",
+    "gmaps": ""
+  },
+  {
+    "name": "Casa Futuros Possíveis",
+    "gmaps": ""
+  },
+  {
+    "name": "Casa Google Cloud",
+    "gmaps": "https://maps.app.goo.gl/fNhQRZAA4NpefcxH7"
+  },
+  {
+    "name": "Casa do CCCF",
+    "gmaps": ""
+  },
+  {
+    "name": "Circuito SESC Amantikir",
+    "gmaps": ""
+  },
+  {
+    "name": "Dija Gastronomia",
+    "gmaps": "https://maps.app.goo.gl/E3o4Dbw9XodYayQG8"
+  },
+  {
+    "name": "Feira da Mantiqueira",
+    "gmaps": ""
+  },
+  {
+    "name": "Grandpa Joel´s Coffee Shop",
+    "gmaps": "https://maps.app.goo.gl/SqDQ2t2MrkjzmQMM9"
+  },
+  {
+    "name": "Mercado Municipal",
+    "gmaps": "https://maps.app.goo.gl/4sanBmc6v4wctFb76"
+  },
+  {
+    "name": "Mimma's",
+    "gmaps": "https://maps.app.goo.gl/HYoPSS5FKcGjRwUJ7"
+  },
+  {
+    "name": "Other",
+    "gmaps": ""
+  },
+  {
+    "name": "Palco MFM",
+    "gmaps": ""
+  },
+  {
+    "name": "Palco MultiExperiências",
+    "gmaps": ""
   }
 ]

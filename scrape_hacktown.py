@@ -61,12 +61,13 @@ logger = logging.getLogger(__name__)
 location_cache = {}
 
 
-def normalize_location(place: str) -> str:
+def normalize_and_locate(place: str) -> tuple[str, str]:
     """
-    Normalize location names for filtering with caching
+    Normalize location names and define near location with caching
+    Returns: (filter_location, near_location)
     """
     if not place:
-        return "Other"
+        return "Other", "Other"
 
     # Check cache first
     if place in location_cache:
@@ -74,47 +75,120 @@ def normalize_location(place: str) -> str:
 
     # Define location mappings
     place_upper = place.upper()
-    result = "Other"
+    filter_location = "Other"
+    near_location = "Other"
 
     if "INATEL" in place_upper:
-        result = "Inatel"
+        filter_location = "Inatel"
+        near_location = "Inatel e Arredores"
+
     elif "ETE" in place_upper:
-        result = "ETE"
+        filter_location = "ETE"
+        near_location = "ETE e Arredores"
+
     elif "LOJA MAÇONICA" in place_upper or "LOJA MAÇÔNICA" in place_upper:
-        result = "Loja Maçônica"
+        filter_location = "Loja Maçônica"
+        near_location = "Praça e Arredores"
+
     elif "REAL PALACE" in place_upper:
-        result = "Real Palace"
+        filter_location = "Real Palace"
+        near_location = "Praça e Arredores"
+
     elif "BRASEIRO" in place_upper:
-        result = "Braseiro"
+        filter_location = "Braseiro"
+        near_location = "Praça e Arredores"
+
     elif "BOTECO DO TIO" in place_upper:
-        result = "Boteco do Tio João"
+        filter_location = "Boteco do Tio João"
+        near_location = "Praça e Arredores"
+
     elif "ASSOCIAÇÃO" in place_upper:
-        result = "Associação José do Patrocínio"
+        filter_location = "Associação José do Patrocínio"
+        near_location = "Praça e Arredores"
+
     elif "BAR E RESTAURANTE" in place_upper:
-        result = "Bar e Restaurante do Dimas II"
+        filter_location = "Bar e Restaurante do Dimas II"
+        near_location = "Praça e Arredores"
+
     elif "ESCOLA S" in place_upper:
-        result = "Escola Sanico Teles"
+        filter_location = "Escola Sanico Teles"
+        near_location = "Praça e Arredores"
+
     elif "CASA DINAMARCA" in place_upper:
-        result = "Casa Dinamarca"
-    elif "CASA MDM" in place_upper:
-        result = "Casa MFM"
+        filter_location = "Casa Dinamarca"
+        near_location = "Inatel e Arredores"
+
     elif "CASA MFM" in place_upper:
-        result = "Casa MFM"
+        filter_location = "Casa MFM"
+        near_location = "Inatel e Arredores"
+
     elif "CASA DO CCCF" in place_upper:
-        result = "Casa do CCCF"
+        filter_location = "Casa do CCCF"
+        near_location = "Praça e Arredores"
+
     elif "PALCO UNDERSTREAM" in place_upper:
-        result = "Palco UNDERSTREAM"
+        filter_location = "Palco UNDERSTREAM"
+        near_location = "Praça e Arredores"
+
     elif "INCUBADORA MUNICIPAL" in place_upper:
-        result = "Palco UNDERSTREAM"
+        filter_location = "Palco UNDERSTREAM"
+        near_location = "Praça e Arredores"
+
     elif "CASA GOOGLE CLOUD" in place_upper:
-        result = "Casa Google Cloud"
+        filter_location = "Casa Google Cloud"
+        near_location = "Inatel e Arredores"
+
     elif "CASA FUTUROS POSSÍVEIS" in place_upper:
-        result = "Casa Futuros Possíveis"
+        filter_location = "Casa Futuros Possíveis - Maria Maria Gastrobar"
+        near_location = "Praça e Arredores"
+
+    elif "PALCO MULTIEXPERIÊNCIAS" in place_upper:
+        filter_location = "Palco MultiExperiências"
+        near_location = "ETE e Arredores"
+
+    elif "CIRCUITO SESC AMANTIKIR" in place_upper:
+        filter_location = "Circuito SESC Amantikir"
+        near_location = "Praça e Arredores"
+
+    elif "MIMMA" in place_upper:
+        filter_location = "Mimma's"
+        near_location = "Praça e Arredores"
+
+    elif "SINHÁ MOREIRA" in place_upper or "SINHA MOREIRA" in place_upper:
+        filter_location = "Av. Sinhá Moreira"
+        near_location = "ETE e Arredores"
+
+    elif "BE BOLD" in place_upper:
+        filter_location = "Be Bold"
+        near_location = "ETE e Arredores"
+
+    elif "A SER ANUNCIADO" in place_upper:
+        filter_location = "A ser anunciado"
+        near_location = "ETE e Arredores"
+
+    elif "DIJA GASTRONOMIA" in place_upper:
+        filter_location = "Dija Gastronomia"
+        near_location = "Praça e Arredores"
+
+    elif "FEIRA DA MANTIQUEIRA" in place_upper:
+        filter_location = "Feira da Mantiqueira"
+        near_location = "Feira da Mantiqueira"
+
+    elif "GRANDPA JOEL" in place_upper or "COFFEE SHOP" in place_upper:
+        filter_location = "Grandpa Joel´s Coffee Shop"
+        near_location = "Praça e Arredores"
+
+    elif "MERCADO MUNICIPAL" in place_upper:
+        filter_location = "Mercado Municipal"
+        near_location = "ETE e Arredores"
+
     else:
         # Return the original place for unmapped locations
-        result = place
+        filter_location = place
+        near_location = None
 
     # Cache the result
+    result = (filter_location, near_location)
     location_cache[place] = result
     return result
 
@@ -220,11 +294,13 @@ async def fetch_all_pages_for_date(session: aiohttp.ClientSession, date: str, se
 
 def process_events(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Process events to add filterLocation field
+    Process events to add filterLocation and nearLocation fields
     """
     for event in events:
         place = event.get('place', '')
-        event['filterLocation'] = normalize_location(place)
+        filter_location, near_location = normalize_and_locate(place)
+        event['filterLocation'] = filter_location
+        event['nearLocation'] = near_location
 
     return events
 

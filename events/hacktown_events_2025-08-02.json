@@ -1,7 +1,7 @@
 {
   "date": "2025-08-02",
   "total_events": 313,
-  "scraped_at": "2025-07-27T20:51:38.886963-03:00",
+  "scraped_at": "2025-07-27T21:54:39.992671-03:00",
   "events": [
     {
       "id": 2439,
@@ -22,6 +22,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5135,
@@ -69,7 +70,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -83,7 +83,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2416,
@@ -104,14 +105,15 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2434,
@@ -132,8 +134,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 415,
@@ -147,7 +149,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Grandpa Joel´s Coffee Shop"
+      "filterLocation": "Grandpa Joel´s Coffee Shop",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2266,
@@ -168,6 +171,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5012,
@@ -185,13 +189,13 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2183,
@@ -212,6 +216,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5232,
@@ -229,7 +234,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -243,7 +247,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2436,
@@ -264,6 +269,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5328,
@@ -281,7 +287,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 386,
@@ -295,7 +300,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2367,
@@ -316,6 +322,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4254,
@@ -333,7 +340,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 305,
@@ -361,7 +367,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Boteco do Tio João"
+      "filterLocation": "Boteco do Tio João",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2325,
@@ -382,6 +389,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4362,
@@ -399,7 +407,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -427,7 +434,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Mimma's"
+      "filterLocation": "Mimma's",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2261,
@@ -448,6 +456,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4997,
@@ -510,7 +519,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 389,
@@ -538,7 +546,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2087,
@@ -559,6 +568,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4478,
@@ -591,7 +601,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -605,7 +614,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2006,
@@ -671,7 +681,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2003,
@@ -737,7 +748,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2136,
@@ -818,7 +830,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2530,
@@ -854,7 +867,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Feira da Mantiqueira"
+      "filterLocation": "Feira da Mantiqueira",
+      "nearLocation": "Feira da Mantiqueira"
     },
     {
       "id": 2311,
@@ -913,7 +927,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2101,
@@ -979,7 +994,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2018,
@@ -1038,7 +1054,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2129,
@@ -1119,7 +1136,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2146,
@@ -1171,7 +1189,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2411,
@@ -1237,7 +1256,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Associação José do Patrocínio"
+      "filterLocation": "Associação José do Patrocínio",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2167,
@@ -1289,7 +1309,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2450,
@@ -1348,7 +1369,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2022,
@@ -1414,7 +1436,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2296,
@@ -1473,7 +1496,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2239,
@@ -1532,7 +1556,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2125,
@@ -1598,7 +1623,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2029,
@@ -1664,7 +1690,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2093,
@@ -1730,7 +1757,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2090,
@@ -1789,7 +1817,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2160,
@@ -1856,7 +1885,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2130,
@@ -1877,6 +1907,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4871,
@@ -1932,12 +1963,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2394,
@@ -1958,6 +1989,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4208,
@@ -1998,12 +2030,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Bar e Restaurante do Dimas II"
+      "filterLocation": "Bar e Restaurante do Dimas II",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2497,
@@ -2024,6 +2056,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5359,
@@ -2065,12 +2098,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2100,
@@ -2091,6 +2124,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4513,
@@ -2131,12 +2165,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2078,
@@ -2157,6 +2191,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4175,
@@ -2190,12 +2225,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2220,
@@ -2216,6 +2251,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5257,
@@ -2264,12 +2300,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2075,
@@ -2290,6 +2326,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4501,
@@ -2330,12 +2367,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2012,
@@ -2356,6 +2393,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4804,
@@ -2389,12 +2427,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2148,
@@ -2415,6 +2453,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4234,
@@ -2470,12 +2509,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2247,
@@ -2496,6 +2535,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4861,
@@ -2536,12 +2576,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2099,
@@ -2562,6 +2602,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4707,
@@ -2602,12 +2643,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2115,
@@ -2628,6 +2669,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4223,
@@ -2668,12 +2710,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2098,
@@ -2694,6 +2736,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4409,
@@ -2734,12 +2777,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2357,
@@ -2760,6 +2803,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4594,
@@ -2815,12 +2859,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Braseiro"
+      "filterLocation": "Braseiro",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2114,
@@ -2841,6 +2885,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4213,
@@ -2874,12 +2919,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2141,
@@ -2900,6 +2945,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4473,
@@ -2940,12 +2986,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1733,
@@ -2966,6 +3012,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4546,
@@ -2999,12 +3046,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1736,
@@ -3025,6 +3072,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4108,
@@ -3058,12 +3106,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1722,
@@ -3084,6 +3132,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4471,
@@ -3124,12 +3173,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2380,
@@ -3150,6 +3199,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4193,
@@ -3190,12 +3240,12 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Be Bold"
+      "filterLocation": "Be Bold",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1750,
@@ -3217,6 +3267,29 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 391,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Brand Experience / Festivais / Eventos",
+          "hub_event_id": 1
+        },
+        {
+          "id": 403,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Vendas / Marketing",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4661,
@@ -3294,34 +3367,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 391,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
-          "hub_event_id": 1
-        },
-        {
-          "id": 403,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Vendas / Marketing",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1712,
@@ -3343,23 +3394,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4711,
-          "name": "Ellen Kois",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1858/partner_1858_1752613367586.png",
-          "bio": "Com trajetória em áreas como comercial, mídia, política e projetos sociais, atua na promoção do empreendedorismo feminino como ferramenta de transformação. Sua missão é gerar prosperidade nas favelas e reduzir a desigualdade social no Brasil.",
-          "role": "Fundadora da Kawaii Clube",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1712,
-            "pivot_speaker_id": 4711,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -3383,11 +3417,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4711,
+          "name": "Ellen Kois",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1858/partner_1858_1752613367586.png",
+          "bio": "Com trajetória em áreas como comercial, mídia, política e projetos sociais, atua na promoção do empreendedorismo feminino como ferramenta de transformação. Sua missão é gerar prosperidade nas favelas e reduzir a desigualdade social no Brasil.",
+          "role": "Fundadora da Kawaii Clube",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1712,
+            "pivot_speaker_id": 4711,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1723,
@@ -3409,23 +3461,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4689,
-          "name": "Raíssa Ramos",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1836/partner_1836_1752613233751.png",
-          "bio": "Coordenadora de Marketing na Darwin Startups, com mais de 10 anos de experiência em growth B2B, inovação corporativa e branding. Co-fundadora da Avoa e do Estúdio Inka, atuou também em empresas como SMU, NexAtlas e Enercred, unindo estratégia, criatividade e impacto no ecossistema de inovação.",
-          "role": "Coordenadora de Crescimento na Darwin Startups",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1723,
-            "pivot_speaker_id": 4689,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -3449,11 +3484,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4689,
+          "name": "Raíssa Ramos",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1836/partner_1836_1752613233751.png",
+          "bio": "Coordenadora de Marketing na Darwin Startups, com mais de 10 anos de experiência em growth B2B, inovação corporativa e branding. Co-fundadora da Avoa e do Estúdio Inka, atuou também em empresas como SMU, NexAtlas e Enercred, unindo estratégia, criatividade e impacto no ecossistema de inovação.",
+          "role": "Coordenadora de Crescimento na Darwin Startups",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1723,
+            "pivot_speaker_id": 4689,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1707,
@@ -3475,23 +3528,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4660,
-          "name": "Paula Rizzo",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1803/partner_1803_1752613028312.png",
-          "bio": "Com 30 anos de atuação na indústria criativa, lidera a consultoria e*ideias. Foi diretora de planejamento em grandes agências, diretora de inovação da DM9DDB e head de inovação da Globo. É professora na Miami Ad School e colabora com diversos veículos de comunicação",
-          "role": "Sócia Diretora da e*ideias",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1707,
-            "pivot_speaker_id": 4660,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -3515,11 +3551,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4660,
+          "name": "Paula Rizzo",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1803/partner_1803_1752613028312.png",
+          "bio": "Com 30 anos de atuação na indústria criativa, lidera a consultoria e*ideias. Foi diretora de planejamento em grandes agências, diretora de inovação da DM9DDB e head de inovação da Globo. É professora na Miami Ad School e colabora com diversos veículos de comunicação",
+          "role": "Sócia Diretora da e*ideias",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1707,
+            "pivot_speaker_id": 4660,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2438,
@@ -3541,13 +3595,14 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
       "tags": [],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2217,
@@ -3569,6 +3624,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5258,
@@ -3586,27 +3657,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2168,
@@ -3628,6 +3684,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4770,
@@ -3645,27 +3717,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2498,
@@ -3687,6 +3744,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5361,
@@ -3704,12 +3762,12 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2243,
@@ -3731,6 +3789,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4450,
@@ -3748,27 +3822,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2523,
@@ -3790,6 +3849,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4565,
@@ -3807,20 +3875,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2248,
@@ -3841,7 +3901,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4846,
@@ -3859,6 +3918,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -3879,7 +3939,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2116,
@@ -3900,7 +3961,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4557,
@@ -3918,6 +3978,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -3945,7 +4006,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1727,
@@ -3966,7 +4028,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4431,
@@ -3984,6 +4045,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4011,7 +4073,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1747,
@@ -4032,7 +4095,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4115,
@@ -4080,6 +4142,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -4107,7 +4170,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2011,
@@ -4128,7 +4192,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4577,
@@ -4146,6 +4209,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -4173,7 +4237,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2041,
@@ -4194,7 +4259,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4762,
@@ -4212,6 +4276,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 275,
@@ -4239,7 +4304,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2056,
@@ -4260,7 +4326,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5206,
@@ -4278,6 +4343,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -4305,7 +4371,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2034,
@@ -4326,7 +4393,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4591,
@@ -4344,6 +4410,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 275,
@@ -4371,7 +4438,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2292,
@@ -4392,7 +4460,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5075,
@@ -4455,6 +4522,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4475,7 +4543,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2182,
@@ -4496,7 +4565,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -4514,6 +4582,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -4534,7 +4603,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2124,
@@ -4600,7 +4670,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2094,
@@ -4666,7 +4737,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2154,
@@ -4807,7 +4879,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2314,
@@ -4873,7 +4946,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2082,
@@ -4939,7 +5013,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2383,
@@ -5013,7 +5088,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Be Bold"
+      "filterLocation": "Be Bold",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2214,
@@ -5117,7 +5193,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1746,
@@ -5183,7 +5260,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2073,
@@ -5249,7 +5327,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2017,
@@ -5315,7 +5394,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2055,
@@ -5337,23 +5417,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4194,
-          "name": "Braulio Zorzella",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1325/partner_1325_1752610065691.png",
-          "bio": "Médico obstetra há 23 anos, é defensor da humanização do parto e da parentalidade consciente. Diretor de comunicação da ReHuNa (Rede pela Humanização do Parto e Nascimento), também se define como cachorreiro e roqueiro — unindo ciência, afeto e atitude em tudo o que faz.",
-          "role": "Médico Obstetra",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2055,
-            "pivot_speaker_id": 4194,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 387,
@@ -5377,11 +5440,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4194,
+          "name": "Braulio Zorzella",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1325/partner_1325_1752610065691.png",
+          "bio": "Médico obstetra há 23 anos, é defensor da humanização do parto e da parentalidade consciente. Diretor de comunicação da ReHuNa (Rede pela Humanização do Parto e Nascimento), também se define como cachorreiro e roqueiro — unindo ciência, afeto e atitude em tudo o que faz.",
+          "role": "Médico Obstetra",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2055,
+            "pivot_speaker_id": 4194,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2133,
@@ -5403,23 +5484,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4832,
-          "name": "José Braz",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4832/partner_4832_1753477053629.png",
-          "bio": "Analista de Comunicação e Marketing no Inatel, com especializações em Marketing Digital e em Comunicação e Inteligência Artificial pela PUC Minas. Responsável pela gestão estratégica das redes e voz oficial da marca, integra IA na criação de conteúdo, aliando criatividade, eficiência e inovação.",
-          "role": "Analista de Comunicação e Marketing no Inatel",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2133,
-            "pivot_speaker_id": 4832,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 405,
@@ -5443,11 +5507,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4832,
+          "name": "José Braz",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4832/partner_4832_1753477053629.png",
+          "bio": "Analista de Comunicação e Marketing no Inatel, com especializações em Marketing Digital e em Comunicação e Inteligência Artificial pela PUC Minas. Responsável pela gestão estratégica das redes e voz oficial da marca, integra IA na criação de conteúdo, aliando criatividade, eficiência e inovação.",
+          "role": "Analista de Comunicação e Marketing no Inatel",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2133,
+            "pivot_speaker_id": 4832,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2097,
@@ -5469,23 +5551,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4281,
-          "name": "Eduardo Fraga",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1414/partner_1414_1752610645847.png",
-          "bio": "Pesquisador cultural com ampla experiência em estratégia e comunicação, liderou projetos na economia criativa em organizações como Box 1824, Talk Inc, SXSW, Prêmio Multishow, Mesa, Urubu e Fundação Maria Cecília Souto Vidigal. Atualmente, é responsável pela área de cultura e entretenimento no Instituto Caldeira, conectando inovação, arte e impacto cultural.",
-          "role": "Head de Cultura e Entretenimento no Instituto Caldeira",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2097,
-            "pivot_speaker_id": 4281,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 332,
@@ -5509,11 +5574,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4281,
+          "name": "Eduardo Fraga",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1414/partner_1414_1752610645847.png",
+          "bio": "Pesquisador cultural com ampla experiência em estratégia e comunicação, liderou projetos na economia criativa em organizações como Box 1824, Talk Inc, SXSW, Prêmio Multishow, Mesa, Urubu e Fundação Maria Cecília Souto Vidigal. Atualmente, é responsável pela área de cultura e entretenimento no Instituto Caldeira, conectando inovação, arte e impacto cultural.",
+          "role": "Head de Cultura e Entretenimento no Instituto Caldeira",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2097,
+            "pivot_speaker_id": 4281,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1737,
@@ -5535,6 +5618,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 321,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Direitos Autorais / Criatividade",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4277,
@@ -5567,27 +5666,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 321,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Direitos Autorais / Criatividade",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2134,
@@ -5609,23 +5693,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4384,
-          "name": "Guilherme Tropiano",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1519/partner_1519_1752611291252.png",
-          "bio": "Estrategista de marketing digital com 10 anos de experiência, especialista em performance, funis e crescimento previsível. Sócio da Zeniti e coautor do livro *O Ambiente Muda Tudo*, dedica-se a transformar complexidade em clareza e resultados concretos para negócios digitais.",
-          "role": "Estrategista de Marketing Digital e Founder da Agência Zeniti",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2134,
-            "pivot_speaker_id": 4384,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 307,
@@ -5649,11 +5716,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4384,
+          "name": "Guilherme Tropiano",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1519/partner_1519_1752611291252.png",
+          "bio": "Estrategista de marketing digital com 10 anos de experiência, especialista em performance, funis e crescimento previsível. Sócio da Zeniti e coautor do livro *O Ambiente Muda Tudo*, dedica-se a transformar complexidade em clareza e resultados concretos para negócios digitais.",
+          "role": "Estrategista de Marketing Digital e Founder da Agência Zeniti",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2134,
+            "pivot_speaker_id": 4384,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2070,
@@ -5675,23 +5760,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4383,
-          "name": "Guilherme Ciuffi",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1518/partner_1518_1752611286419.png",
-          "bio": "Innovation Group Leader na thyssenkrupp FT-SOA, atua com foco em qualidade, inovação e gestão de processos. Professor e coordenador de pós-graduação na UniAnchieta, também é mentor de startups pelos programas InoveNow e InovAtiva, contribuindo para o fortalecimento do ecossistema empreendedor.",
-          "role": "Gestor de inovação da corporação para América do Sul",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2070,
-            "pivot_speaker_id": 4383,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -5715,11 +5783,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4383,
+          "name": "Guilherme Ciuffi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1518/partner_1518_1752611286419.png",
+          "bio": "Innovation Group Leader na thyssenkrupp FT-SOA, atua com foco em qualidade, inovação e gestão de processos. Professor e coordenador de pós-graduação na UniAnchieta, também é mentor de startups pelos programas InoveNow e InovAtiva, contribuindo para o fortalecimento do ecossistema empreendedor.",
+          "role": "Gestor de inovação da corporação para América do Sul",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2070,
+            "pivot_speaker_id": 4383,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1740,
@@ -5741,23 +5827,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5025,
-          "name": "Bruna Fernandes",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5025/partner_5025_1753477533433.png",
-          "bio": "Professora da ETE \"FMC\" e entusiasta do estilo de vida minimalista. Atua na formação técnica com foco em simplicidade e propósito.",
-          "role": "Professora na ETE\"FMC\"",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1740,
-            "pivot_speaker_id": 5025,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -5781,11 +5850,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 5025,
+          "name": "Bruna Fernandes",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5025/partner_5025_1753477533433.png",
+          "bio": "Professora da ETE \"FMC\" e entusiasta do estilo de vida minimalista. Atua na formação técnica com foco em simplicidade e propósito.",
+          "role": "Professora na ETE\"FMC\"",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1740,
+            "pivot_speaker_id": 5025,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2040,
@@ -5807,23 +5894,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4580,
-          "name": "Marcelo Rondon",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1721/partner_1721_1752612516424.png",
-          "bio": "Profissional de desenvolvimento humano, atua na criação de ambientes seguros e acolhedores. Autor do livro Momentos Sabáticos e da coluna A Tal Felicidade na Veja SP. Transitou do mercado financeiro para dedicar-se a promover sentido e bem-estar, alinhando experiência e propósito.",
-          "role": "Cofundador",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2040,
-            "pivot_speaker_id": 4580,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 386,
@@ -5847,11 +5917,29 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [
+        {
+          "id": 4580,
+          "name": "Marcelo Rondon",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1721/partner_1721_1752612516424.png",
+          "bio": "Profissional de desenvolvimento humano, atua na criação de ambientes seguros e acolhedores. Autor do livro Momentos Sabáticos e da coluna A Tal Felicidade na Veja SP. Transitou do mercado financeiro para dedicar-se a promover sentido e bem-estar, alinhando experiência e propósito.",
+          "role": "Cofundador",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2040,
+            "pivot_speaker_id": 4580,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1742,
@@ -5873,6 +5961,15 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 27,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Workshop",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5030,
@@ -5890,20 +5987,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 27,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Workshop",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2137,
@@ -5925,6 +6014,29 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 405,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Deepfakes / AI Generativa / Fake News",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 273,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Criação Digital / Economia dos Criadores",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4424,
@@ -5957,34 +6069,12 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 405,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Deepfakes / AI Generativa / Fake News",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2127,
@@ -6043,7 +6133,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1725,
@@ -6109,7 +6200,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2117,
@@ -6168,7 +6260,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2157,
@@ -6249,7 +6342,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2024,
@@ -6315,7 +6409,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2021,
@@ -6381,7 +6476,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2077,
@@ -6462,7 +6558,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2341,
@@ -6528,7 +6625,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Real Palace"
+      "filterLocation": "Real Palace",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1719,
@@ -6594,7 +6692,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2080,
@@ -6660,7 +6759,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "A ser anunciado"
+      "filterLocation": "A ser anunciado",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2184,
@@ -6712,7 +6812,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1766,
@@ -6771,7 +6872,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2091,
@@ -6837,7 +6939,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "A ser anunciado"
+      "filterLocation": "A ser anunciado",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2499,
@@ -6889,7 +6992,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2052,
@@ -6955,7 +7059,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2019,
@@ -7021,7 +7126,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2422,
@@ -7065,7 +7171,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2071,
@@ -7124,7 +7231,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2027,
@@ -7205,7 +7313,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2221,
@@ -7279,7 +7388,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2085,
@@ -7345,7 +7455,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2262,
@@ -7456,7 +7567,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2088,
@@ -7522,7 +7634,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2244,
@@ -7588,7 +7701,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2313,
@@ -7654,7 +7768,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2025,
@@ -7713,7 +7828,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2297,
@@ -7772,7 +7888,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2103,
@@ -7838,7 +7955,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2343,
@@ -7904,7 +8022,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Real Palace"
+      "filterLocation": "Real Palace",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2104,
@@ -7970,7 +8089,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2074,
@@ -8036,7 +8156,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2069,
@@ -8102,7 +8223,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2293,
@@ -8161,7 +8283,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2020,
@@ -8227,7 +8350,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2086,
@@ -8308,7 +8432,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2083,
@@ -8374,7 +8499,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2060,
@@ -8440,7 +8566,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2032,
@@ -8506,7 +8633,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2028,
@@ -8572,7 +8700,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2054,
@@ -8638,7 +8767,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2044,
@@ -8704,7 +8834,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2102,
@@ -8770,7 +8901,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2047,
@@ -8836,7 +8968,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2410,
@@ -8932,7 +9065,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Associação José do Patrocínio"
+      "filterLocation": "Associação José do Patrocínio",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2159,
@@ -9028,7 +9162,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2149,
@@ -9132,7 +9267,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2030,
@@ -9191,7 +9327,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2144,
@@ -9257,7 +9394,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1744,
@@ -9361,7 +9499,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1715,
@@ -9420,7 +9559,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1745,
@@ -9524,7 +9664,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1739,
@@ -9590,7 +9731,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1708,
@@ -9656,7 +9798,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2187,
@@ -9708,7 +9851,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2201,
@@ -9752,7 +9896,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Other"
+      "filterLocation": "Other",
+      "nearLocation": "Other"
     },
     {
       "id": 2185,
@@ -9796,7 +9941,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2048,
@@ -9862,7 +10008,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2491,
@@ -9966,7 +10113,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2424,
@@ -10018,7 +10166,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1700,
@@ -10077,7 +10226,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2316,
@@ -10143,7 +10293,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2016,
@@ -10209,7 +10360,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2298,
@@ -10268,7 +10420,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2015,
@@ -10334,7 +10487,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2355,
@@ -10400,7 +10554,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Braseiro"
+      "filterLocation": "Braseiro",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2108,
@@ -10466,7 +10621,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2033,
@@ -10532,7 +10688,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2218,
@@ -10584,7 +10741,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2294,
@@ -10658,7 +10816,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2151,
@@ -10740,7 +10899,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2150,
@@ -10836,7 +10996,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2061,
@@ -10902,7 +11063,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2109,
@@ -10968,7 +11130,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2381,
@@ -11027,7 +11190,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Be Bold"
+      "filterLocation": "Be Bold",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2395,
@@ -11093,7 +11257,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Bar e Restaurante do Dimas II"
+      "filterLocation": "Bar e Restaurante do Dimas II",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2096,
@@ -11152,7 +11317,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2064,
@@ -11218,7 +11384,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2062,
@@ -11284,7 +11451,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2132,
@@ -11350,7 +11518,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2344,
@@ -11416,7 +11585,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Real Palace"
+      "filterLocation": "Real Palace",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2105,
@@ -11482,7 +11652,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2007,
@@ -11548,7 +11719,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2023,
@@ -11614,7 +11786,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2045,
@@ -11680,7 +11853,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2245,
@@ -11746,7 +11920,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2327,
@@ -11819,7 +11994,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Mimma's"
+      "filterLocation": "Mimma's",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2215,
@@ -11878,7 +12054,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2072,
@@ -11944,7 +12121,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2500,
@@ -11996,7 +12174,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2119,
@@ -12062,7 +12241,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2038,
@@ -12143,7 +12323,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2065,
@@ -12209,7 +12390,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2365,
@@ -12275,7 +12457,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Boteco do Tio João"
+      "filterLocation": "Boteco do Tio João",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1732,
@@ -12341,7 +12524,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2246,
@@ -12407,7 +12591,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1721,
@@ -12473,7 +12658,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2005,
@@ -12532,7 +12718,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1730,
@@ -12598,7 +12785,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1726,
@@ -12664,7 +12852,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1743,
@@ -12723,7 +12912,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1706,
@@ -12744,6 +12934,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4667,
@@ -12761,7 +12952,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12789,7 +12979,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2202,
@@ -12810,6 +13001,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5233,
@@ -12827,7 +13019,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -12841,7 +13032,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2440,
@@ -12862,6 +13054,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4378,
@@ -12909,7 +13102,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -12937,7 +13129,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1916,
@@ -12958,6 +13151,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4615,
@@ -12975,7 +13169,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -13003,7 +13196,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Bar e Restaurante do Dimas II"
+      "filterLocation": "Bar e Restaurante do Dimas II",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2521,
@@ -13024,6 +13218,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4874,
@@ -13041,7 +13236,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 328,
@@ -13055,7 +13249,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1659,
@@ -13076,6 +13271,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4145,
@@ -13138,7 +13334,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13159,7 +13354,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2241,
@@ -13180,6 +13376,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4596,
@@ -13197,7 +13394,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13225,7 +13421,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2408,
@@ -13246,6 +13443,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4234,
@@ -13278,7 +13476,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 305,
@@ -13306,7 +13503,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Associação José do Patrocínio"
+      "filterLocation": "Associação José do Patrocínio",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2406,
@@ -13327,6 +13525,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4845,
@@ -13344,7 +13543,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -13372,7 +13570,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2240,
@@ -13393,6 +13592,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4735,
@@ -13410,7 +13610,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -13431,7 +13630,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2501,
@@ -13498,7 +13698,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2449,
@@ -13557,7 +13758,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2053,
@@ -13623,7 +13825,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1741,
@@ -13682,7 +13885,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2004,
@@ -13748,7 +13952,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2110,
@@ -13814,7 +14019,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2058,
@@ -13880,7 +14086,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2063,
@@ -13946,7 +14153,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2219,
@@ -13998,7 +14206,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2142,
@@ -14064,7 +14273,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1710,
@@ -14130,7 +14340,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2299,
@@ -14189,7 +14400,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2122,
@@ -14255,7 +14467,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2186,
@@ -14307,7 +14520,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Google Cloud"
+      "filterLocation": "Casa Google Cloud",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2043,
@@ -14373,7 +14587,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2118,
@@ -14432,7 +14647,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2081,
@@ -14491,7 +14707,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2216,
@@ -14580,7 +14797,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa MFM"
+      "filterLocation": "Casa MFM",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2036,
@@ -14646,7 +14864,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2342,
@@ -14705,7 +14924,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Real Palace"
+      "filterLocation": "Real Palace",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1729,
@@ -14771,7 +14991,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2035,
@@ -14837,7 +15058,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2356,
@@ -14896,7 +15118,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Braseiro"
+      "filterLocation": "Braseiro",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2315,
@@ -14962,7 +15185,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2059,
@@ -15028,7 +15252,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2009,
@@ -15094,7 +15319,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1709,
@@ -15160,7 +15386,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2039,
@@ -15226,7 +15453,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2008,
@@ -15300,7 +15528,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2106,
@@ -15366,7 +15595,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2158,
@@ -15455,7 +15685,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2326,
@@ -15521,7 +15752,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Mimma's"
+      "filterLocation": "Mimma's",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2010,
@@ -15602,7 +15834,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1720,
@@ -15668,7 +15901,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1714,
@@ -15734,7 +15968,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2026,
@@ -15800,7 +16035,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2079,
@@ -15866,7 +16102,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2156,
@@ -15977,7 +16214,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2112,
@@ -16043,7 +16281,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2263,
@@ -16124,7 +16363,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2260,
@@ -16145,7 +16385,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4975,
@@ -16163,6 +16402,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 275,
@@ -16190,7 +16430,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1735,
@@ -16211,7 +16452,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4178,
@@ -16229,6 +16469,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16256,7 +16497,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2068,
@@ -16277,7 +16519,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4775,
@@ -16295,6 +16536,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -16322,7 +16564,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1749,
@@ -16343,7 +16586,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4793,
@@ -16361,6 +16603,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -16388,7 +16631,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2111,
@@ -16409,7 +16653,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4792,
@@ -16427,6 +16670,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16454,7 +16698,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2441,
@@ -16475,7 +16720,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5330,
@@ -16508,12 +16752,14 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2514,
@@ -16534,8 +16780,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,
@@ -16549,7 +16795,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2328,
@@ -16570,7 +16817,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4852,
@@ -16588,6 +16834,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -16615,7 +16862,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Mimma's"
+      "filterLocation": "Mimma's",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2393,
@@ -16636,7 +16884,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4131,
@@ -16654,6 +16901,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 27,
@@ -16681,7 +16929,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Bar e Restaurante do Dimas II"
+      "filterLocation": "Bar e Restaurante do Dimas II",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2423,
@@ -16702,7 +16951,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4653,
@@ -16720,6 +16968,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16733,7 +16982,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2265,
@@ -16829,7 +17079,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2354,
@@ -16895,7 +17146,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Braseiro"
+      "filterLocation": "Braseiro",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2442,
@@ -16969,7 +17221,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2295,
@@ -17005,7 +17258,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2140,
@@ -17071,7 +17325,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2049,
@@ -17137,7 +17392,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2042,
@@ -17203,7 +17459,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2138,
@@ -17269,7 +17526,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2264,
@@ -17365,7 +17623,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa do CCCF"
+      "filterLocation": "Casa do CCCF",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2300,
@@ -17424,7 +17683,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Escola Sanico Teles"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2135,
@@ -17520,7 +17780,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2067,
@@ -17586,7 +17847,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2467,
@@ -17622,7 +17884,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2046,
@@ -17688,7 +17951,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2128,
@@ -17754,7 +18018,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2120,
@@ -17820,7 +18085,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2051,
@@ -17886,7 +18152,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2409,
@@ -17982,7 +18249,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Associação José do Patrocínio"
+      "filterLocation": "Associação José do Patrocínio",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2031,
@@ -18048,7 +18316,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2366,
@@ -18114,7 +18383,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Boteco do Tio João"
+      "filterLocation": "Boteco do Tio João",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2013,
@@ -18180,7 +18450,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2502,
@@ -18292,7 +18563,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Dinamarca"
+      "filterLocation": "Casa Dinamarca",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2076,
@@ -18358,7 +18630,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2312,
@@ -18424,7 +18697,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Loja Maçônica"
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2145,
@@ -18483,7 +18757,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2345,
@@ -18549,7 +18824,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Real Palace"
+      "filterLocation": "Real Palace",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2152,
@@ -18645,7 +18921,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2242,
@@ -18711,7 +18988,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2147,
@@ -18800,7 +19078,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2139,
@@ -18859,7 +19138,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2155,
@@ -18970,7 +19250,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2126,
@@ -19036,7 +19317,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2037,
@@ -19102,7 +19384,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2050,
@@ -19168,7 +19451,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2066,
@@ -19227,7 +19511,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 2143,
@@ -19293,7 +19578,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1716,
@@ -19359,7 +19645,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1734,
@@ -19425,7 +19712,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1728,
@@ -19491,7 +19779,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1711,
@@ -19557,7 +19846,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1718,
@@ -19623,7 +19913,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel"
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
     },
     {
       "id": 1738,
@@ -19689,7 +19980,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1717,
@@ -19755,7 +20047,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1724,
@@ -19821,7 +20114,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 1713,
@@ -19887,7 +20181,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE"
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2515,
@@ -19923,7 +20218,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2456,
@@ -19959,7 +20255,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
+      "filterLocation": "Palco MultiExperiências",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2443,
@@ -20033,7 +20330,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Casa Futuros Possíveis"
+      "filterLocation": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2516,
@@ -20069,7 +20367,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2447,
@@ -20105,7 +20404,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Dija Gastronomia"
+      "filterLocation": "Dija Gastronomia",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2468,
@@ -20141,7 +20441,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2457,
@@ -20177,7 +20478,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
+      "filterLocation": "Palco MultiExperiências",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2517,
@@ -20213,7 +20515,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2469,
@@ -20249,7 +20552,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2458,
@@ -20285,7 +20589,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
+      "filterLocation": "Palco MultiExperiências",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2470,
@@ -20321,7 +20626,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2518,
@@ -20357,7 +20663,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2471,
@@ -20393,7 +20700,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2519,
@@ -20429,7 +20737,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2459,
@@ -20465,7 +20774,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MultiExperiências na Feira da Mantiqueira"
+      "filterLocation": "Palco MultiExperiências",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2472,
@@ -20501,7 +20811,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     },
     {
       "id": 2520,
@@ -20537,7 +20848,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM"
+      "filterLocation": "Palco UNDERSTREAM",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2473,
@@ -20573,7 +20885,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco MFM"
+      "filterLocation": "Palco MFM",
+      "nearLocation": null
     }
   ]
 }
