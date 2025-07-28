@@ -1342,25 +1342,32 @@
         .modal-info-item {
             display: flex;
             align-items: center;
-            margin-bottom: 15px;
-            font-size: 1.1em;
+            margin-bottom: 3px;
+            font-size: 0.7em;
+            gap: 2px;
         }
 
-        .modal-info-label {
-            font-weight: 700;
-            margin-right: 15px;
-            min-width: 100px;
-            color: var(--primary-orange);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 0.9em;
+        .modal-time {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .modal-place {
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border-light);
+            padding-top: 3px;
+        }
+
+        .modal-place::before {
+            content: '📍   ';
+            font-size: 0.8em;
         }
 
         .modal-description {
-            margin: 30px 0;
+            margin: 15px 0;
             line-height: 1.8;
             color: var(--text-secondary);
-            font-size: 1.05em;
+            font-size: 0.98em;
         }
 
         /* Favorite button in modal */
@@ -3142,33 +3149,37 @@
             let html = `
                 <h2 class="modal-title">${event.title || 'Evento sem título'}</h2>
                 <div class="modal-info">
-                    <div class="modal-info-item">
-                        <span class="modal-info-label">Horário:</span>
-                        <span>${formatTime(startTime)} - ${formatTime(endTime)}</span>
+                    <div class="modal-info-item modal-time">
+                        <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor; flex-shrink: 0;" aria-hidden="true">
+                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                        </svg>
+                        <span>${startTime.getDate()} ${startTime.toLocaleDateString('pt-BR', { month: 'short' }).replace('.', '')}</span>
+                        <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor; flex-shrink: 0; margin-left: 10px;" aria-hidden="true">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+                        </svg>
+                        <span>${formatTimeAMPM(startTime)} - ${formatTimeAMPM(endTime)}</span>
                     </div>
                     ${event.place ? `
-                        <div class="modal-info-item">
-                            <span class="modal-info-label">Local:</span>
-                            <div style="display: flex; flex-direction: column; gap: 8px;">
-                                <span>${event.place}</span>
-                                ${getGoogleMapsLink(event.filterLocation || event.place) ? `
-                                    <a href="${getGoogleMapsLink(event.filterLocation || event.place)}" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       style="display: inline-flex; align-items: center; gap: 5px;
-                                              background: var(--gradient-secondary); color: white; 
-                                              text-decoration: none; border-radius: var(--radius-full); 
-                                              padding: 8px 16px; font-size: 0.9em; font-weight: 600;
-                                              transition: all var(--transition-normal);
-                                              align-self: flex-start;"
-                                       title="Ver direções no Google Maps"
-                                       onmouseover="this.style.transform='translateY(-2px) scale(1.05)'"
-                                       onmouseout="this.style.transform='translateY(0) scale(1)'">
-                                        📍 Ver direções
-                                    </a>
-                                ` : ''}
-                            </div>
+                        <div class="modal-info-item modal-place">
+                            <span>${event.place}</span>
                         </div>
+                        ${getGoogleMapsLink(event.filterLocation || event.place) ? `
+                            <div style="margin-top: 10px; margin-bottom: 15px;">
+                                <a href="${getGoogleMapsLink(event.filterLocation || event.place)}" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   style="display: inline-flex; align-items: center; gap: 5px;
+                                          background: var(--gradient-secondary); color: white; 
+                                          text-decoration: none; border-radius: var(--radius-full); 
+                                          padding: 8px 16px; font-size: 0.9em; font-weight: 600;
+                                          transition: all var(--transition-normal);"
+                                   title="Ver direções no Google Maps"
+                                   onmouseover="this.style.transform='translateY(-2px) scale(1.05)'"
+                                   onmouseout="this.style.transform='translateY(0) scale(1)'">
+                                    📍 Ver direções
+                                </a>
+                            </div>
+                        ` : ''}
                     ` : ''}
                 </div>
                 
