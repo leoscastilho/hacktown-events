@@ -3146,6 +3146,7 @@
             
             // Show modal with animation
             modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
             requestAnimationFrame(() => {
                 modal.classList.add('show');
             });
@@ -3268,6 +3269,7 @@
         function closeModal() {
             const modal = document.getElementById('eventModal');
             modal.classList.remove('show');
+            document.body.style.overflow = '';
             setTimeout(() => {
                 modal.style.display = 'none';
             }, 300);
