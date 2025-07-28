@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N3CLJSMQ');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HackTown 2025 - Programação</title>
@@ -1202,7 +1210,7 @@
             font-size: 0.8em;
         }
 
-        /* Modal with Glass Morphism */
+        /* Modal as Bottom Sheet */
         .modal {
             display: none;
             position: fixed;
@@ -1212,7 +1220,6 @@
             height: 100%;
             background: var(--bg-overlay);
             z-index: 3000;
-            overflow-y: auto;
             backdrop-filter: blur(20px);
             opacity: 0;
             transition: opacity var(--transition-normal);
@@ -1226,20 +1233,20 @@
             background: var(--gradient-card);
             backdrop-filter: blur(30px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            margin: 50px auto;
-            padding: 0;
-            max-width: 800px;
-            border-radius: var(--radius-2xl);
-            position: relative;
-            max-height: 90vh;
-            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 85vh;
+            border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+            overflow-y: auto;
             box-shadow: var(--shadow-2xl);
-            transform: translateY(30px) scale(0.95);
-            transition: all var(--transition-normal);
+            transform: translateY(100%);
+            transition: transform var(--transition-normal);
         }
 
         .modal.show .modal-content {
-            transform: translateY(0) scale(1);
+            transform: translateY(0);
         }
 
         .close-btn {
@@ -1302,9 +1309,9 @@
         }
 
         .modal-title {
-            font-size: 2em;
-            font-weight: 900;
-            margin-bottom: 25px;
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-bottom: 20px;
             margin-right: 50px;
             line-height: 1.3;
             color: var(--text-primary);
@@ -1355,7 +1362,6 @@
             cursor: pointer;
             font-weight: 600;
             font-size: 1em;
-            margin-top: 20px;
             transition: all var(--transition-normal);
             box-shadow: var(--shadow-md);
         }
@@ -1384,6 +1390,54 @@
             width: 20px;
             height: 20px;
             fill: currentColor;
+        }
+
+        /* Modal action buttons container */
+        .modal-action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+        /* Share button in modal */
+        .modal-share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 52px;
+            height: 52px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .modal-share-btn:hover {
+            transform: scale(1.15) rotate(15deg);
+            border-color: var(--primary-purple);
+            background: rgba(248, 250, 252, 0.2);
+            box-shadow: var(--shadow-md);
+        }
+
+        .modal-share-btn:focus {
+            outline: 2px solid var(--primary-orange);
+            outline-offset: 2px;
+        }
+
+        .modal-share-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--text-secondary);
+            transition: all var(--transition-normal);
+        }
+
+        .modal-share-btn:hover svg {
+            fill: var(--primary-purple);
+            transform: scale(1.1);
         }
 
         /* Speakers Section */
@@ -1614,7 +1668,10 @@
             }
 
             .modal-content {
-                margin: 20px;
+                width: 100%;
+                height: 85vh;
+                margin: 0;
+                border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
             }
 
             .modal-header {
@@ -1763,6 +1820,10 @@
     </style>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3CLJSMQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
@@ -3097,13 +3158,23 @@
                     ` : ''}
                 </div>
                 
-                <button class="modal-favorite-btn ${isFavorite(event) ? 'remove' : ''}" 
-                        onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'>
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                    </svg>
-                    ${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
-                </button>
+                <div class="modal-action-buttons">
+                    <button class="modal-favorite-btn ${isFavorite(event) ? 'remove' : ''}" 
+                            onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'>
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        </svg>
+                        ${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+                    </button>
+                    <button class="modal-share-btn" 
+                            onclick="shareEvent(${JSON.stringify(event).replace(/"/g, '&quot;')}, event)" 
+                            tabindex="0"
+                            aria-label="Compartilhar evento">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.50-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/>
+                        </svg>
+                    </button>
+                </div>
             `;
             
             if (event.description) {
