@@ -3579,12 +3579,13 @@
         }
 
         function scrollToTime(targetTime) {
-            // Find the first element with this time
+            // Find the first element with this time as start time
             const timeHeaders = document.querySelectorAll('.time-header');
             
             for (const header of timeHeaders) {
                 const headerText = header.textContent;
-                if (headerText.includes(targetTime)) {
+                // Check if the header starts with the target time (e.g., "18:30 - ")
+                if (headerText.startsWith(targetTime + ' -')) {
                     // Scroll to the parent location group
                     const locationGroup = header.closest('.location-group');
                     if (locationGroup) {
