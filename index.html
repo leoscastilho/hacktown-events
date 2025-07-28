@@ -1300,9 +1300,9 @@
             top: 0;
             background: var(--gradient-card);
             backdrop-filter: blur(30px);
-            padding: 15px 40px 5px 40px;
+            padding: 0 0 0 0;
             border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
-            z-index: 10;
+            z-index: 0;
             transition: all var(--transition-normal);
         }
 
@@ -1312,8 +1312,8 @@
                 rgba(255, 140, 0, 0.25) 50%,
                 var(--gradient-card) 100%);
             box-shadow: 0 20px 20px rgba(255, 69, 0, 0.3);
-            margin: 0px -1px 0 -1px;
-            padding: 0px 41px 5px 41px;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
         }
 
         .modal-body {
@@ -1364,42 +1364,39 @@
         }
 
         .modal-description {
-            margin: 15px 0;
-            line-height: 1.8;
+            margin: 20px 0;
+            line-height: 1.3;
             color: var(--text-secondary);
-            font-size: 0.98em;
+            font-size: 0.9em;
         }
 
         /* Favorite button in modal */
         .modal-favorite-btn {
-            display: inline-flex;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--border-light);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
             align-items: center;
-            gap: 10px;
-            background: var(--gradient-accent);
-            color: var(--text-white);
-            padding: 14px 28px;
-            border-radius: var(--radius-full);
-            border: none;
+            justify-content: center;
             cursor: pointer;
-            font-weight: 600;
-            font-size: 1em;
             transition: all var(--transition-normal);
-            box-shadow: var(--shadow-md);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .modal-favorite-btn:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: var(--shadow-gold);
+            transform: scale(1.15) rotate(15deg);
+            border-color: var(--primary-gold);
+            background: #fffdf7;
+            box-shadow: var(--shadow-md);
         }
 
-        .modal-favorite-btn.remove {
-            background: linear-gradient(135deg, var(--border-medium), var(--border-dark));
-            color: var(--text-secondary);
-        }
-
-        .modal-favorite-btn.remove:hover {
-            background: linear-gradient(135deg, var(--border-dark), #64748b);
-            transform: translateY(-2px);
+        .modal-favorite-btn.active {
+            background: var(--gradient-accent);
+            border-color: var(--primary-gold);
+            box-shadow: var(--shadow-md);
         }
 
         .modal-favorite-btn:focus {
@@ -1410,7 +1407,23 @@
         .modal-favorite-btn svg {
             width: 20px;
             height: 20px;
-            fill: currentColor;
+            fill: var(--text-light);
+            transition: all var(--transition-normal);
+        }
+
+        .modal-favorite-btn.active svg {
+            fill: var(--text-white);
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+        }
+
+        .modal-favorite-btn:hover svg {
+            fill: var(--primary-gold);
+            transform: scale(1.1);
+        }
+
+        .modal-favorite-btn.active:hover svg {
+            fill: var(--text-white);
+            transform: scale(1.1);
         }
 
         /* Modal action buttons container */
@@ -1426,15 +1439,15 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 52px;
-            height: 52px;
-            background: rgba(255, 255, 255, 0.1);
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 2px solid var(--border-light);
             border-radius: var(--radius-full);
             cursor: pointer;
             transition: all var(--transition-normal);
-            box-shadow: var(--shadow-sm);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .modal-share-btn:hover {
@@ -1467,10 +1480,10 @@
         }
 
         .speakers-title {
-            font-size: 1.5em;
-            font-weight: 900;
+            font-size: 1.2em;
+            font-weight: 750;
             color: var(--primary-purple);
-            margin-bottom: 20px;
+            margin-bottom: 8px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -1482,6 +1495,7 @@
             margin-bottom: 15px;
             border: 1px solid var(--border-light);
             transition: all var(--transition-normal);
+            box-shadow: var(--shadow-md);
         }
 
         .speaker-card:hover {
@@ -1492,15 +1506,15 @@
         }
 
         .speaker-name {
-            font-weight: 700;
-            font-size: 1.2em;
-            margin-bottom: 5px;
+            font-weight: 650;
+            font-size: 1em;
+            margin-bottom: 3px;
             color: var(--text-primary);
         }
 
         .speaker-role {
             color: var(--text-secondary);
-            font-size: 0.95em;
+            font-size: 0.8em;
         }
 
         .no-events {
@@ -3163,33 +3177,32 @@
                         <div class="modal-info-item modal-place">
                             <span>${event.place}</span>
                         </div>
-                        ${getGoogleMapsLink(event.filterLocation || event.place) ? `
-                            <div style="margin-top: 10px; margin-bottom: 15px;">
-                                <a href="${getGoogleMapsLink(event.filterLocation || event.place)}" 
-                                   target="_blank" 
-                                   rel="noopener noreferrer"
-                                   style="display: inline-flex; align-items: center; gap: 5px;
-                                          background: var(--gradient-secondary); color: white; 
-                                          text-decoration: none; border-radius: var(--radius-full); 
-                                          padding: 8px 16px; font-size: 0.9em; font-weight: 600;
-                                          transition: all var(--transition-normal);"
-                                   title="Ver direções no Google Maps"
-                                   onmouseover="this.style.transform='translateY(-2px) scale(1.05)'"
-                                   onmouseout="this.style.transform='translateY(0) scale(1)'">
-                                    📍 Ver direções
-                                </a>
-                            </div>
-                        ` : ''}
                     ` : ''}
                 </div>
                 
                 <div class="modal-action-buttons">
-                    <button class="modal-favorite-btn ${isFavorite(event) ? 'remove' : ''}" 
-                            onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'>
+                    ${getGoogleMapsLink(event.filterLocation || event.place) ? `
+                        <a href="${getGoogleMapsLink(event.filterLocation || event.place)}" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           style="display: inline-flex; align-items: center; gap: 5px;
+                                  background: var(--gradient-secondary); color: white; 
+                                  text-decoration: none; border-radius: var(--radius-full); 
+                                  padding: 0 16px; height: 40px; font-size: 0.9em; font-weight: 600;
+                                  transition: all var(--transition-normal);
+                                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"
+                           title="Ver direções no Google Maps"
+                           onmouseover="this.style.transform='translateY(-2px) scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.15)'"
+                           onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 2px 8px rgba(0, 0, 0, 0.1)'">
+                            📍 Ver direções
+                        </a>
+                    ` : ''}
+                    <button class="modal-favorite-btn ${isFavorite(event) ? 'active' : ''}" 
+                            onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'
+                            aria-label="${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">
                         <svg viewBox="0 0 24 24">
                             <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
                         </svg>
-                        ${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
                     </button>
                     <button class="modal-share-btn" 
                             onclick="shareEvent(${JSON.stringify(event).replace(/"/g, '&quot;')}, event)" 
@@ -3253,13 +3266,8 @@
             const btn = document.querySelector('.modal-favorite-btn');
             if (btn) {
                 const isFav = isFavorite(event);
-                btn.className = `modal-favorite-btn ${isFav ? 'remove' : ''}`;
-                btn.innerHTML = `
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                    </svg>
-                    ${isFav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
-                `;
+                btn.className = `modal-favorite-btn ${isFav ? 'active' : ''}`;
+                btn.setAttribute('aria-label', isFav ? 'Remover dos favoritos' : 'Adicionar aos favoritos');
             }
         }
 
