@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
   "total_events": 22,
-  "scraped_at": "2025-07-28T11:23:28.002491-03:00",
+  "scraped_at": "2025-07-28T11:35:01.802645-03:00",
   "events": [
     {
       "id": 2161,
@@ -1199,7 +1199,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5234,
@@ -1217,6 +1216,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -1252,8 +1252,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 417,

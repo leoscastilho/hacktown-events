@@ -1,7 +1,7 @@
 {
   "date": "2025-07-31",
   "total_events": 263,
-  "scraped_at": "2025-07-28T11:23:27.928243-03:00",
+  "scraped_at": "2025-07-28T11:35:01.740604-03:00",
   "events": [
     {
       "id": 2414,
@@ -23,8 +23,8 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [],
       "speakers": [],
+      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -52,6 +52,23 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4918,
+          "name": "Nancy Lyra",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4918/partner_4918_1753477266895.png",
+          "bio": "Lead Software Engineer no Nubank, bacharela em Ciência da Computação e mestre em IA pelo CIn/UFPE. Atuou em consultorias globais como Liferay e ThoughtWorks e em fintechs como SumUp e OpenCo. Especialista em criar produtos financeiros escaláveis, é apaixonada por inteligência artificial aplicada e pelo uso de dados para empoderar pessoas e transformar negócios digitais",
+          "role": "Lead Software Engineer",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1866,
+            "pivot_speaker_id": 4918,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 269,
@@ -73,23 +90,6 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4918,
-          "name": "Nancy Lyra",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4918/partner_4918_1753477266895.png",
-          "bio": "Lead Software Engineer no Nubank, bacharela em Ciência da Computação e mestre em IA pelo CIn/UFPE. Atuou em consultorias globais como Liferay e ThoughtWorks e em fintechs como SumUp e OpenCo. Especialista em criar produtos financeiros escaláveis, é apaixonada por inteligência artificial aplicada e pelo uso de dados para empoderar pessoas e transformar negócios digitais",
-          "role": "Lead Software Engineer",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1866,
-            "pivot_speaker_id": 4918,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -119,6 +119,23 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4267,
+          "name": "David Pena",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1400/partner_1400_1752610568923.png",
+          "bio": "David Pena é portador da Síndrome de Heinhart, nascido sem os membros superiores e inferiores. Sensibilizado pela importância da inclusão, dedicou sua carreira a tornar espaços mais acessíveis e verdadeiramente inclusivos. Começou treinando equipes para oferecer atendimento adequado, promovendo atitudes anticapacitistas. Foi consultor de acessibilidade do Estádio Mineirão, onde desenvolveu cartilhas para eventos acessíveis e tradução em libras artísticas. Atualmente, é consultor de acessibilidade da Arena MRV. Com mais de 400 palestras em todo o país, já atuou em locais como Ibirapuera e Casa Cor. Escutá-lo é uma oportunidade valiosa de aprendizado sobre inclusão.",
+          "role": "Consultor de acessibilidade no PI. Consultoria Inclusiva",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1810,
+            "pivot_speaker_id": 4267,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -140,23 +157,6 @@
           "type": "schedules",
           "name": "Diversidade / Equidade / Inclusão",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4267,
-          "name": "David Pena",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1400/partner_1400_1752610568923.png",
-          "bio": "David Pena é portador da Síndrome de Heinhart, nascido sem os membros superiores e inferiores. Sensibilizado pela importância da inclusão, dedicou sua carreira a tornar espaços mais acessíveis e verdadeiramente inclusivos. Começou treinando equipes para oferecer atendimento adequado, promovendo atitudes anticapacitistas. Foi consultor de acessibilidade do Estádio Mineirão, onde desenvolveu cartilhas para eventos acessíveis e tradução em libras artísticas. Atualmente, é consultor de acessibilidade da Arena MRV. Com mais de 400 palestras em todo o país, já atuou em locais como Ibirapuera e Casa Cor. Escutá-lo é uma oportunidade valiosa de aprendizado sobre inclusão.",
-          "role": "Consultor de acessibilidade no PI. Consultoria Inclusiva",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1810,
-            "pivot_speaker_id": 4267,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -186,6 +186,23 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4512,
+          "name": "Leonardo Teixeira",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1653/partner_1653_1752612094497.png",
+          "bio": "Leonardo de Castro Teixeira é músico baterista há 26 anos, graduado em Ciências Sociais pela UFJF e em Música pela UNINCOR. Mestre em Educação, Conhecimento e Sociedade pela UNIVAS, atua na interseção entre arte, cultura e educação, promovendo o desenvolvimento humano por meio da música e do pensamento crítico.",
+          "role": "Professor de Música e Filosofia na Rede Municipal de Pouso Alegre.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1784,
+            "pivot_speaker_id": 4512,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -207,23 +224,6 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4512,
-          "name": "Leonardo Teixeira",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1653/partner_1653_1752612094497.png",
-          "bio": "Leonardo de Castro Teixeira é músico baterista há 26 anos, graduado em Ciências Sociais pela UFJF e em Música pela UNINCOR. Mestre em Educação, Conhecimento e Sociedade pela UNIVAS, atua na interseção entre arte, cultura e educação, promovendo o desenvolvimento humano por meio da música e do pensamento crítico.",
-          "role": "Professor de Música e Filosofia na Rede Municipal de Pouso Alegre.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1784,
-            "pivot_speaker_id": 4512,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -253,6 +253,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4327,
+          "name": "Fernanda Fontes",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1460/partner_1460_1752610946881.png",
+          "bio": "Chief Creative Officer da Agência GINGA, Fernanda Fontes é especialista em criar campanhas que unem cultura, estratégia e impacto. Jornalista de formação, lidera equipes multidisciplinares com expertise em comunicação integrada e conteúdo digital. Reconhecida por sua visão estratégica e sensível, é uma voz feminina de destaque na indústria criativa brasileira.",
+          "role": "Chief Creative Officer (CCO) da Agência Ginga",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2319,
+            "pivot_speaker_id": 4327,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 391,
@@ -274,23 +291,6 @@
           "type": "schedules",
           "name": "Impacto Social",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4327,
-          "name": "Fernanda Fontes",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1460/partner_1460_1752610946881.png",
-          "bio": "Chief Creative Officer da Agência GINGA, Fernanda Fontes é especialista em criar campanhas que unem cultura, estratégia e impacto. Jornalista de formação, lidera equipes multidisciplinares com expertise em comunicação integrada e conteúdo digital. Reconhecida por sua visão estratégica e sensível, é uma voz feminina de destaque na indústria criativa brasileira.",
-          "role": "Chief Creative Officer (CCO) da Agência Ginga",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2319,
-            "pivot_speaker_id": 4327,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -320,6 +320,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4209,
+          "name": "Caíque Nucci",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1340/partner_1340_1752610193525.png",
+          "bio": "Founder e Executive Creative Director da Complete Magazine, primeira plataforma phygital do Brasil, cria experiências imersivas para marcas como L’Oréal, Renner e Camicado. Palestrou no Rio Innovation Week, Metaverse Fashion Week e foi selecionado pelo GIST (EUA) como talento em inovação global.",
+          "role": "Founder & Executive Creative Director na Complete Magazine",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1777,
+            "pivot_speaker_id": 4209,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -341,23 +358,6 @@
           "type": "schedules",
           "name": "Brand Experience / Festivais / Eventos",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4209,
-          "name": "Caíque Nucci",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1340/partner_1340_1752610193525.png",
-          "bio": "Founder e Executive Creative Director da Complete Magazine, primeira plataforma phygital do Brasil, cria experiências imersivas para marcas como L’Oréal, Renner e Camicado. Palestrou no Rio Innovation Week, Metaverse Fashion Week e foi selecionado pelo GIST (EUA) como talento em inovação global.",
-          "role": "Founder & Executive Creative Director na Complete Magazine",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1777,
-            "pivot_speaker_id": 4209,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -387,6 +387,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4618,
+          "name": "Mauro Cunha Neto",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1759/partner_1759_1752612745490.png",
+          "bio": "Advogado há mais de 30 anos, é Assessor Jurídico do sistema FECOMÉRCIO-SP e pós-graduado em Arbitragem, Mediação de Conflitos e Negociação Empresarial. Atua como advogado empresarial, árbitro e mediador em instituições de referência em resolução extrajudicial de conflitos. Preside a Academia de Letras de Santa Rita do Sapucaí-MG.",
+          "role": "Advogado Empresarial e Contratual",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2388,
+            "pivot_speaker_id": 4618,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 307,
@@ -408,23 +425,6 @@
           "type": "schedules",
           "name": "Inovação Corporativa",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4618,
-          "name": "Mauro Cunha Neto",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1759/partner_1759_1752612745490.png",
-          "bio": "Advogado há mais de 30 anos, é Assessor Jurídico do sistema FECOMÉRCIO-SP e pós-graduado em Arbitragem, Mediação de Conflitos e Negociação Empresarial. Atua como advogado empresarial, árbitro e mediador em instituições de referência em resolução extrajudicial de conflitos. Preside a Academia de Letras de Santa Rita do Sapucaí-MG.",
-          "role": "Advogado Empresarial e Contratual",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2388,
-            "pivot_speaker_id": 4618,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -454,22 +454,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4894,
@@ -485,6 +469,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -514,6 +514,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4465,
+          "name": "Jozi Lambert",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1601/partner_1601_1752611780316.png",
+          "bio": "Especialista em Gente e Gestão, fundou uma agência de RH após sofrer racismo em um processo seletivo. Foi nomeada uma das 100 pessoas mais influentes pelo MIPAD, é TEDx speaker, membro da ForbesBLK, escritora best-seller e mãe de cinco filhos.",
+          "role": "Escritora best-seller, Mãe de 5 e Founder da Agência Pontes",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1753,
+            "pivot_speaker_id": 4465,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -535,23 +552,6 @@
           "type": "schedules",
           "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4465,
-          "name": "Jozi Lambert",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1601/partner_1601_1752611780316.png",
-          "bio": "Especialista em Gente e Gestão, fundou uma agência de RH após sofrer racismo em um processo seletivo. Foi nomeada uma das 100 pessoas mais influentes pelo MIPAD, é TEDx speaker, membro da ForbesBLK, escritora best-seller e mãe de cinco filhos.",
-          "role": "Escritora best-seller, Mãe de 5 e Founder da Agência Pontes",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1753,
-            "pivot_speaker_id": 4465,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -581,6 +581,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4140,
+          "name": "Ana Godoy",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1270/partner_1270_1752609739151.png",
+          "bio": "Ana Godoy atua na interseção entre inovação, estratégia, finanças e direito. Especialista em estruturação societária e proteção da escalabilidade de negócios disruptivos, combina visão pragmática e provocadora ao uso estratégico de ferramentas empresariais como alavancas de crescimento.",
+          "role": "Diretora Financeira na Btb Solutions",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 2347,
+            "pivot_speaker_id": 4140,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -602,23 +619,6 @@
           "type": "schedules",
           "name": "Economia Criativa",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4140,
-          "name": "Ana Godoy",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1270/partner_1270_1752609739151.png",
-          "bio": "Ana Godoy atua na interseção entre inovação, estratégia, finanças e direito. Especialista em estruturação societária e proteção da escalabilidade de negócios disruptivos, combina visão pragmática e provocadora ao uso estratégico de ferramentas empresariais como alavancas de crescimento.",
-          "role": "Diretora Financeira na Btb Solutions",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 2347,
-            "pivot_speaker_id": 4140,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -647,7 +647,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4218,
@@ -665,6 +664,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -714,7 +714,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4290,
@@ -732,6 +731,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -774,7 +774,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4634,
@@ -792,6 +791,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 387,
@@ -819,7 +819,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -841,7 +841,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5270,
@@ -859,6 +858,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -886,7 +886,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4262,
@@ -904,6 +903,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -953,7 +953,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4831,
@@ -971,6 +970,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1020,7 +1020,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5224,
@@ -1038,6 +1037,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -1080,7 +1080,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5232,
@@ -1098,6 +1097,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -1133,7 +1133,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5344,
@@ -1166,6 +1165,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 418,
@@ -1201,7 +1201,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4984,
@@ -1234,6 +1233,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1283,7 +1283,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4742,
@@ -1301,6 +1300,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1350,8 +1350,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1394,7 +1394,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4284,
@@ -1412,6 +1411,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1454,7 +1454,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4693,
@@ -1472,6 +1471,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 321,
@@ -1521,7 +1521,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4587,
@@ -1539,6 +1538,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1588,7 +1588,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5055,
@@ -1621,6 +1620,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1663,7 +1663,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4820,
@@ -1681,6 +1680,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1730,7 +1730,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4687,
@@ -1748,6 +1747,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -1797,7 +1797,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5054,
@@ -1860,6 +1859,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -1902,7 +1902,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4619,
@@ -1920,6 +1919,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3268,7 +3268,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -3358,6 +3358,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5084,
@@ -3375,7 +3376,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3418,6 +3418,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5231,
@@ -3435,7 +3436,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -3478,6 +3478,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4141,
@@ -3495,7 +3496,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -3545,6 +3545,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4139,
@@ -3562,7 +3563,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3612,6 +3612,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4571,
@@ -3629,7 +3630,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3679,6 +3679,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4476,
@@ -3696,7 +3697,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3746,6 +3746,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5346,
@@ -3778,7 +3779,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3814,6 +3814,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5290,
@@ -3831,7 +3832,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3874,6 +3874,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4253,
@@ -3891,7 +3892,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3941,6 +3941,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4114,
@@ -3958,7 +3959,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4008,6 +4008,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4873,
@@ -4025,7 +4026,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4075,6 +4075,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4299,
@@ -4092,7 +4093,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4142,6 +4142,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4147,
@@ -4159,7 +4160,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4209,6 +4209,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4586,
@@ -4226,7 +4227,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4276,6 +4276,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4332,
@@ -4293,7 +4294,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4343,6 +4343,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4777,
@@ -4360,7 +4361,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4410,6 +4410,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5028,
@@ -4427,7 +4428,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4477,6 +4477,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4560,
@@ -4494,7 +4495,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4544,6 +4544,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4160,
@@ -4561,7 +4562,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4604,6 +4604,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4128,
@@ -4621,7 +4622,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5313,6 +5313,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4232,
@@ -5330,7 +5331,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5380,6 +5380,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4444,
@@ -5397,7 +5398,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5447,6 +5447,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4291,
@@ -5464,7 +5465,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5514,6 +5514,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5226,
@@ -5531,7 +5532,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -5567,6 +5567,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4791,
@@ -5584,7 +5585,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5634,6 +5634,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4603,
@@ -5651,7 +5652,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5694,6 +5694,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4350,
@@ -5726,7 +5727,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -5769,6 +5769,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4575,
@@ -5786,7 +5787,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5836,6 +5836,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4723,
@@ -5853,7 +5854,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 281,
@@ -5903,6 +5903,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5379,
@@ -5920,7 +5921,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -7388,7 +7388,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4192,
@@ -7406,6 +7405,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7455,7 +7455,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5129,
@@ -7473,6 +7472,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 397,
@@ -7508,7 +7508,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4368,
@@ -7526,6 +7525,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7575,7 +7575,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4241,
@@ -7593,6 +7592,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7642,7 +7642,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4774,
@@ -7660,6 +7659,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7709,7 +7709,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4229,
@@ -7727,6 +7726,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7776,7 +7776,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4595,
@@ -7794,6 +7793,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7843,7 +7843,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4315,
@@ -7861,6 +7860,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7903,7 +7903,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4622,
@@ -7921,6 +7920,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7970,7 +7970,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4437,
@@ -7988,6 +7987,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -8015,7 +8015,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -9040,7 +9040,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -10585,7 +10585,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -11464,6 +11464,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4673,
@@ -11481,7 +11482,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 307,
@@ -11509,7 +11509,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -11531,6 +11531,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4149,
@@ -11548,7 +11549,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11598,6 +11598,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5234,
@@ -11615,7 +11616,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -11651,6 +11651,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5186,
@@ -11698,7 +11699,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -11741,6 +11741,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4974,
@@ -11758,7 +11759,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11801,6 +11801,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4959,
@@ -11833,7 +11834,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -11854,7 +11854,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -11876,6 +11876,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4410,
@@ -11893,7 +11894,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -11936,6 +11936,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4712,
@@ -11968,7 +11969,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12018,6 +12018,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4965,
@@ -12050,7 +12051,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -12100,8 +12100,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 384,
@@ -12122,7 +12122,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -12145,23 +12145,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4385,
-          "name": "Guilherme Loiola",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1520/partner_1520_1752611295820.png",
-          "bio": "COO e cofundador da Chiefs.Group, pioneira em Open Talent Economy e parceira exclusiva da Heidrick & Struggles no Brasil. Iniciou a carreira na Endeavor e liderou estratégias de pessoas na Movile, onde também fundou a vertical de crédito da MovilePay/iFood. Administrador pela UNESP, com especializações no Insper, é especialista em liderança, performance, modelo de gestão e empreendedorismo.",
-          "role": "COO - Chiefs Group",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1853,
-            "pivot_speaker_id": 4385,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -12183,6 +12166,23 @@
           "type": "schedules",
           "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4385,
+          "name": "Guilherme Loiola",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1520/partner_1520_1752611295820.png",
+          "bio": "COO e cofundador da Chiefs.Group, pioneira em Open Talent Economy e parceira exclusiva da Heidrick & Struggles no Brasil. Iniciou a carreira na Endeavor e liderou estratégias de pessoas na Movile, onde também fundou a vertical de crédito da MovilePay/iFood. Administrador pela UNESP, com especializações no Insper, é especialista em liderança, performance, modelo de gestão e empreendedorismo.",
+          "role": "COO - Chiefs Group",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1853,
+            "pivot_speaker_id": 4385,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -12212,7 +12212,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -12229,6 +12228,7 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -12256,6 +12256,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 5081,
@@ -12271,22 +12287,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -12316,6 +12316,29 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 328,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Espaço / Novas Fronteiras",
+          "hub_event_id": 1
+        },
+        {
+          "id": 273,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Criação Digital / Economia dos Criadores",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4125,
@@ -12348,29 +12371,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 328,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Espaço / Novas Fronteiras",
-          "hub_event_id": 1
-        },
-        {
-          "id": 273,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Criação Digital / Economia dos Criadores",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -12398,7 +12398,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -12415,6 +12414,7 @@
           "hub_event_id": 1
         }
       ],
+      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -12442,6 +12442,22 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 391,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Brand Experience / Festivais / Eventos",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4244,
@@ -12457,22 +12473,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 391,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -12502,23 +12502,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4154,
-          "name": "André Veloso",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1284/partner_1284_1752609813205.png",
-          "bio": "Especialista em transformação digital e inovação, com foco nos setores de saúde e finanças. Autor e coautor de cinco livros sobre CRM, inovação e experiência do cliente. Atua como palestrante, conectando estratégia, tecnologia e impacto — e, curiosamente, é também dono de um terreno na lua.",
-          "role": "CMO as a Service/CFatalisador de Transformação Digital",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1833,
-            "pivot_speaker_id": 4154,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -12540,6 +12523,23 @@
           "type": "schedules",
           "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4154,
+          "name": "André Veloso",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1284/partner_1284_1752609813205.png",
+          "bio": "Especialista em transformação digital e inovação, com foco nos setores de saúde e finanças. Autor e coautor de cinco livros sobre CRM, inovação e experiência do cliente. Atua como palestrante, conectando estratégia, tecnologia e impacto — e, curiosamente, é também dono de um terreno na lua.",
+          "role": "CMO as a Service/CFatalisador de Transformação Digital",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1833,
+            "pivot_speaker_id": 4154,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -12569,6 +12569,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [],
       "speakers": [
         {
           "id": 5119,
@@ -12616,7 +12617,6 @@
           "allow_access": false
         }
       ],
-      "tags": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -12644,6 +12644,22 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 393,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA Generativa / Fake News / Deepfakes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4617,
@@ -12659,22 +12675,6 @@
             "allow_access": false
           },
           "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 393,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA Generativa / Fake News / Deepfakes",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -12704,23 +12704,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4162,
-          "name": "Andreza Fonseca",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1293/partner_1293_1752609867964.png",
-          "bio": "Psicóloga clínica com 12 anos de experiência, é especializada em Terapia de Família e Casal e em Terapia Sexual. Atua promovendo relações mais conscientes, leves e verdadeiras, com foco na construção diária do amor e no fortalecimento de vínculos afetivos saudáveis.",
-          "role": "Psicóloga",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1786,
-            "pivot_speaker_id": 4162,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -12742,6 +12725,23 @@
           "type": "schedules",
           "name": "Ancestralidade / Espiritualidade",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4162,
+          "name": "Andreza Fonseca",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1293/partner_1293_1752609867964.png",
+          "bio": "Psicóloga clínica com 12 anos de experiência, é especializada em Terapia de Família e Casal e em Terapia Sexual. Atua promovendo relações mais conscientes, leves e verdadeiras, com foco na construção diária do amor e no fortalecimento de vínculos afetivos saudáveis.",
+          "role": "Psicóloga",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1786,
+            "pivot_speaker_id": 4162,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -12770,6 +12770,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4428,
@@ -12787,7 +12788,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 395,
@@ -12837,6 +12837,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4710,
@@ -12854,7 +12855,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12897,6 +12897,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4438,
@@ -12914,7 +12915,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12964,6 +12964,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4694,
@@ -12981,7 +12982,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13031,6 +13031,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5053,
@@ -13048,7 +13049,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13091,6 +13091,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4309,
@@ -13108,7 +13109,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13158,6 +13158,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4732,
@@ -13175,7 +13176,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13225,6 +13225,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5375,
@@ -13242,7 +13243,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -13285,6 +13285,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4222,
@@ -13347,7 +13348,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13390,6 +13390,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4272,
@@ -13407,7 +13408,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -13457,7 +13457,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4955,
@@ -13520,6 +13519,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13569,7 +13569,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4433,
@@ -13587,6 +13586,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13636,7 +13636,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4307,
@@ -13654,6 +13653,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13703,7 +13703,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5107,
@@ -13751,6 +13750,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13800,7 +13800,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4101,
@@ -13818,6 +13817,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13867,7 +13867,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4429,
@@ -13885,6 +13884,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13934,7 +13934,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4921,
@@ -13997,6 +13996,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -14046,7 +14046,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4363,
@@ -14064,6 +14063,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14113,7 +14113,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4289,
@@ -14131,6 +14130,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14180,7 +14180,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4255,
@@ -14198,6 +14197,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15604,6 +15604,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4492,
@@ -15636,7 +15637,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15679,6 +15679,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4159,
@@ -15696,7 +15697,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -15746,6 +15746,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4790,
@@ -15763,7 +15764,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15806,6 +15806,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4260,
@@ -15823,7 +15824,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15873,6 +15873,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5103,
@@ -15920,7 +15921,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -15970,6 +15970,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5349,
@@ -15987,7 +15988,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16023,6 +16023,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4835,
@@ -16085,7 +16086,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -16128,6 +16128,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4740,
@@ -16145,7 +16146,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16195,6 +16195,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4677,
@@ -16242,7 +16243,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 305,
@@ -16292,6 +16292,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4248,
@@ -16324,7 +16325,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -16374,6 +16374,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4292,
@@ -16414,7 +16415,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16441,6 +16441,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4759,
@@ -16481,7 +16482,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16508,6 +16508,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4643,
@@ -16579,7 +16580,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16606,6 +16606,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5366,
@@ -16624,7 +16625,6 @@
         }
       ],
       "tags": [],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16651,6 +16651,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4121,
@@ -16706,7 +16707,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16733,6 +16733,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4382,
@@ -16773,7 +16774,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16800,6 +16800,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4776,
@@ -16840,7 +16841,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16867,6 +16867,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4203,
@@ -16907,7 +16908,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -16934,6 +16934,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4123,
@@ -16989,7 +16990,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17016,6 +17016,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4265,
@@ -17056,7 +17057,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17083,6 +17083,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4132,
@@ -17100,7 +17101,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17150,6 +17150,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4679,
@@ -17167,7 +17168,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17217,8 +17217,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -17268,6 +17268,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5337,
@@ -17300,7 +17301,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17328,7 +17328,7 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Palco UNDERSTREAM",
+      "filterLocation": "Incubadora Municipal",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -17350,6 +17350,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4903,
@@ -17427,7 +17428,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -17470,6 +17470,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4258,
@@ -17487,7 +17488,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -17537,6 +17537,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5210,
@@ -17554,7 +17555,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 273,
@@ -17604,6 +17604,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4536,
@@ -17621,7 +17622,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 291,
@@ -17671,8 +17671,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -17708,8 +17708,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 415,

@@ -29,7 +29,7 @@
   },
   {
     "name": "Casa MFM",
-    "gmaps": "https://maps.app.goo.gl/KyU5gdHAoS4WWYHk8"
+    "gmaps": "https://maps.app.goo.gl/zyx6UxjG1ikCxy1Q7"
   },
   {
     "name": "ETE",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Palco UNDERSTREAM",
-    "gmaps": ""
+    "gmaps": "https://maps.app.goo.gl/qRd6G9Pmz5HBwnK38"
   },
   {
     "name": "Real Palace",
@@ -60,8 +60,8 @@
     "gmaps": ""
   },
   {
-    "name": "Casa Futuros Possíveis",
-    "gmaps": ""
+    "name": "Casa Futuros Possíveis - Maria Maria Gastrobar",
+    "gmaps": "https://maps.app.goo.gl/wfVjrTyfSphsSgJXA"
   },
   {
     "name": "Casa Google Cloud",
@@ -69,7 +69,7 @@
   },
   {
     "name": "Casa do CCCF",
-    "gmaps": ""
+    "gmaps": "https://maps.app.goo.gl/qRTJexTtb3h9KdFu5"
   },
   {
     "name": "Circuito SESC Amantikir",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Feira da Mantiqueira",
-    "gmaps": ""
+    "gmaps": "https://maps.app.goo.gl/tNv9YuRpLHkxKmK29"
   },
   {
     "name": "Grandpa Joel´s Coffee Shop",
@@ -101,10 +101,18 @@
   },
   {
     "name": "Palco MFM",
-    "gmaps": ""
+    "gmaps": "https://maps.app.goo.gl/zyx6UxjG1ikCxy1Q7"
   },
   {
     "name": "Palco MultiExperiências",
-    "gmaps": ""
+    "gmaps": "https://maps.app.goo.gl/tNv9YuRpLHkxKmK29"
+  },
+  {
+    "name": "Casa Conectada Claro",
+    "gmaps": "https://maps.app.goo.gl/zK8SQpfadjK3MbG18"
+  },
+  {
+    "name": "Incubadora Municipal",
+    "gmaps": "https://maps.app.goo.gl/WzCkWtgSyS7fgoif9"
   }
 ]
