@@ -1475,6 +1475,65 @@
             transform: scale(1.1);
         }
 
+        /* Calendar button styles */
+        .modal-calendar-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--border-light);
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+        }
+
+        .modal-calendar-btn:hover {
+            transform: scale(1.15);
+            border-color: var(--primary-purple);
+            background: rgba(248, 250, 252, 0.2);
+            box-shadow: var(--shadow-md);
+        }
+
+        .modal-calendar-btn:focus {
+            outline: 2px solid var(--primary-orange);
+            outline-offset: 2px;
+        }
+
+        .modal-calendar-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--text-secondary);
+            transition: all var(--transition-normal);
+        }
+
+        .modal-calendar-btn:hover svg {
+            fill: var(--primary-purple);
+        }
+
+        /* App link styles */
+        .modal-app-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--primary-purple);
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all var(--transition-normal);
+        }
+
+        .modal-app-link:hover {
+            color: var(--primary-orange);
+            text-decoration: underline;
+        }
+
         /* Speakers Section */
         .speakers-section {
             margin-top: 40px;
@@ -2106,6 +2165,59 @@
         // Create unique event ID
         function getEventId(event) {
             return `${event.id}`;
+        }
+
+        // Generate calendar URL for event
+        function getCalendarUrl(event) {
+            const startTime = new Date(event.start_time);
+            const endTime = new Date(event.end_time);
+            
+            // Format dates for calendar URL (YYYYMMDDTHHmmss)
+            const formatDate = (date) => {
+                const year = date.getFullYear();
+                const month = String(date.getMonth() + 1).padStart(2, '0');
+                const day = String(date.getDate()).padStart(2, '0');
+                const hours = String(date.getHours()).padStart(2, '0');
+                const minutes = String(date.getMinutes()).padStart(2, '0');
+                const seconds = '00';
+                return `${year}${month}${day}T${hours}${minutes}${seconds}`;
+            };
+            
+            const startStr = formatDate(startTime);
+            const endStr = formatDate(endTime);
+            
+            // Build description
+            let description = event.description || '';
+            
+            // Add app link to description
+            const eventId = getEventId(event);
+            const baseUrl = 'https://leoscastilho.github.io/hacktown-events/';
+            const appUrl = `${baseUrl}#day=${currentDay}&event=${eventId}&openCard=true`;
+            if (description) description += `
+
+            `;
+            description += `Ver no aplicativo: ${appUrl}`;
+            
+            // Get location address
+            let location = '';
+            if (event.filterLocation || event.place) {
+                const locationName = event.filterLocation || event.place;
+                const locationData = locationsData?.find(loc => 
+                    loc.name.toLowerCase() === locationName.toLowerCase()
+                );
+                location = locationData?.address || locationName;
+            }
+            
+            // Build Google Calendar URL
+            const params = new URLSearchParams({
+                action: 'TEMPLATE',
+                text: event.title || 'Evento HackTown 2025',
+                dates: `${startStr}/${endStr}`,
+                details: description,
+                location: location
+            });
+            
+            return `https://calendar.google.com/calendar/render?${params.toString()}`;
         }
 
         // Toggle favorite status
@@ -3191,6 +3303,16 @@
                             📍 Ver direções
                         </a>
                     ` : ''}
+                    <a href="${getCalendarUrl(event)}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="modal-calendar-btn"
+                       title="Adicionar ao calendário"
+                       aria-label="Adicionar ao calendário">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                        </svg>
+                    </a>
                     <button class="modal-favorite-btn ${isFavorite(event) ? 'active' : ''}" 
                             onclick='toggleFavorite(${JSON.stringify(event).replace(/'/g, "&#39;")}, null)'
                             aria-label="${isFavorite(event) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">
