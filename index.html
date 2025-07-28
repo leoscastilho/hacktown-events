@@ -1527,14 +1527,14 @@
             font-weight: 600;
             color: var(--text-secondary);
             transition: all 0.3s ease;
-            opacity: 0.5;
-            transform: scale(0.85);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .time-slot-option.selected {
             color: var(--primary-purple);
-            opacity: 1;
-            transform: scale(1);
             font-size: 1.6em;
         }
 
@@ -1648,6 +1648,26 @@
                 font-size: clamp(0.75em, 4vw, 0.9em);
                 padding: 6px 12px;
                 max-width: 70%;
+            }
+
+            /* Time Selector Mobile Adjustments */
+            .time-selector-content {
+                width: 95%;
+                margin: 30px auto;
+            }
+
+            .time-wheel-container {
+                height: 300px;
+            }
+
+            .time-slot-option {
+                font-size: 1.5em;
+                height: 60px;
+                padding: 20px;
+            }
+
+            .time-slot-option.selected {
+                font-size: 1.8em;
             }
 
             /* Sticky Day Nav Mobile Styles */
@@ -3161,6 +3181,9 @@
             const modal = document.getElementById('timeSelectorModal');
             const timeWheel = document.getElementById('timeWheel');
             
+            // Prevent background scrolling
+            document.body.style.overflow = 'hidden';
+            
             // Generate time slots
             const times = generateTimeSlots();
             timeWheel.innerHTML = times.map((time, index) => `
@@ -3180,6 +3203,10 @@
         function closeTimeSelector() {
             const modal = document.getElementById('timeSelectorModal');
             modal.classList.remove('show');
+            
+            // Re-enable background scrolling
+            document.body.style.overflow = '';
+            
             setTimeout(() => {
                 modal.style.display = 'none';
             }, 300);
@@ -3213,9 +3240,9 @@
             
             // Add event listeners
             wheel.addEventListener('mousedown', startDrag);
-            wheel.addEventListener('touchstart', startDrag, { passive: true });
+            wheel.addEventListener('touchstart', startDrag, { passive: false });
             document.addEventListener('mousemove', drag);
-            document.addEventListener('touchmove', drag, { passive: true });
+            document.addEventListener('touchmove', drag, { passive: false });
             document.addEventListener('mouseup', endDrag);
             document.addEventListener('touchend', endDrag);
             
@@ -3237,8 +3264,14 @@
             const currentY = e.type.includes('mouse') ? e.clientY : e.touches[0].clientY;
             const deltaY = currentY - startY;
             
-            timeWheelOffset = startOffset + deltaY;
-            updateWheelPosition();
+            // Add sensitivity multiplier for touch
+            const sensitivity = e.type.includes('touch') ? 1.5 : 1;
+            timeWheelOffset = startOffset + (deltaY * sensitivity);
+            
+            // Update position immediately for smooth scrolling
+            requestAnimationFrame(() => {
+                updateWheelPosition();
+            });
         }
 
         function endDrag() {
@@ -3265,22 +3298,43 @@
             }, 150);
         }
 
+        function getItemHeight() {
+            // Adjust item height based on screen size
+            return window.innerWidth <= 768 ? 60 : 50;
+        }
+
         function updateWheelPosition() {
             const wheel = document.getElementById('timeWheel');
             const options = wheel.querySelectorAll('.time-slot-option');
-            const itemHeight = 50; // Height of each item
+            const itemHeight = getItemHeight();
             
             // Limit scrolling
             const maxOffset = 0;
             const minOffset = -(options.length - 1) * itemHeight;
             timeWheelOffset = Math.max(minOffset, Math.min(maxOffset, timeWheelOffset));
             
-            wheel.style.transform = `translateY(${timeWheelOffset}px)`;
+            // Use transform3d for better mobile performance
+            wheel.style.transform = `translate3d(0, ${timeWheelOffset}px, 0)`;
+            wheel.style.webkitTransform = `translate3d(0, ${timeWheelOffset}px, 0)`;
             
             // Update selected state
             const selectedIndex = Math.round(-timeWheelOffset / itemHeight);
             options.forEach((option, index) => {
-                option.classList.toggle('selected', index === selectedIndex);
+                const isSelected = index === selectedIndex;
+                option.classList.toggle('selected', isSelected);
+                
+                // Add opacity based on distance from selected
+                const distance = Math.abs(index - selectedIndex);
+                if (distance === 0) {
+                    option.style.opacity = '1';
+                    option.style.transform = 'scale(1)';
+                } else if (distance === 1) {
+                    option.style.opacity = '0.7';
+                    option.style.transform = 'scale(0.9)';
+                } else {
+                    option.style.opacity = '0.5';
+                    option.style.transform = 'scale(0.85)';
+                }
             });
             
             // Update selected time
@@ -3290,7 +3344,7 @@
         }
 
         function snapToNearestItem() {
-            const itemHeight = 50;
+            const itemHeight = getItemHeight();
             const nearestIndex = Math.round(-timeWheelOffset / itemHeight);
             timeWheelOffset = -nearestIndex * itemHeight;
             updateWheelPosition();
