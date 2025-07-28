@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 305,
-  "scraped_at": "2025-07-27T21:54:39.973365-03:00",
+  "total_events": 308,
+  "scraped_at": "2025-07-28T01:46:33.478916-03:00",
   "events": [
     {
       "id": 2002,
@@ -22,7 +22,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5049,
@@ -55,6 +54,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -90,8 +90,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -119,8 +119,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 415,
@@ -156,7 +156,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5280,
@@ -174,6 +173,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,
@@ -201,7 +201,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4257,
@@ -219,6 +218,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 290,
@@ -261,7 +261,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5232,
@@ -279,6 +278,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -314,7 +314,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4268,
@@ -332,6 +331,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -363,6 +363,66 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
+      "id": 2537,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T15:30:00.000+00:00",
+      "title": "AWS VIBE CODING DOJO: Crie com IA e leve brindes AWS exclusivos! 🚀",
+      "description": "Venha participar de uma experiência única no HackTown onde a programação encontra a inteligência artificial! No Vibe Coding Dojo com Amazon Q Developer, você vai mergulhar em um ambiente divertido, colaborativo e dinâmico, usando as mais recentes ferramentas de IA da Amazon para criar soluções reais.\n\n🎯 O que você vai vivenciar:\nProgramação colaborativa em tempo real (O que nós vamos construir? Depende. O que o grupo vai querer construir?) \nHands-on com Amazon Q Developer CLI\nNetworking com outros desenvolvedores\nResolução de problemas do mundo real\nMentoria de especialistas AWS \n\n🎁 BRINDES ESPECIAIS: Kit especial AWS \n\nVenha descobrir como os assistentes de IA estão transformando a criação de produtos e o desenvolvimento de software. Uma oportunidade única de vivenciar o futuro do desenvolvimento!\n\n(Link de inscrição em breve. Garanta sua vaga, quantidade limitada!)",
+      "hub_event_id": 1,
+      "entity_register_id": 10300,
+      "place": "AWS Developer Hub - Laboratório ETE \"FMC\"",
+      "allow_questions": false,
+      "external_id": "yazo_2537",
+      "place_color": null,
+      "allow_evaluation": true,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "speakers": [
+        {
+          "id": 4894,
+          "name": "Marcelo Palladino",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4894/partner_4894_1753477211481.png",
+          "bio": "Senior Developer Advocate na AWS, com mais de 30 anos de experiência em tecnologia. Atua promovendo inovação em nuvem, boas práticas de engenharia e adoção de arquitetura moderna no ecossistema de desenvolvedores.",
+          "role": "Senior Developer Advocate na AWS",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2537,
+            "pivot_speaker_id": 4894,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
+    },
+    {
       "id": 2485,
       "start_time": "2025-08-01T13:00:00.000+00:00",
       "end_time": "2025-08-01T14:00:00.000+00:00",
@@ -381,7 +441,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4557,
@@ -399,6 +458,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -414,6 +474,66 @@
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2542,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T21:30:00.000+00:00",
+      "title": "Crie com AMAZON Q CLI no HackTown e leve um KIT AWS exclusivo🤖 ",
+      "description": "Você está pronto para colocar a mão na massa e criar algo incrível durante o HackTown usando a Amazon Q Developer CLI? Então não perca essa oportunidade única!\n\nDurante todo o evento, você pode construir qualquer projeto utilizando o Amazon Q Developer CLI e ganhar um kit exclusivo AWS. Basta desenvolver sua solução, publicá-la no GitHub deixando claro que foi construída com a Amazon Q Developer CLI durante o HackTown, e então ir até o AWS Developer Hub para mostrar o seu trabalho.\n\nO melhor? Você ainda leva para casa uma camiseta especial da AWS - escolha entre o clássico Rubber Duck Debugging ou o fofo Rubber Capibara Debugging! 🦆🦥\n\nNão importa se você é um dev experiente ou está começando agora, essa é a chance perfeita de explorar as possibilidades da inteligência artificial aplicada ao desenvolvimento de software. Venha colocar a criatividade para funcionar e leve para casa um brinde incrível!\n\nRequisitos:\n\nCriar um projeto usando a Amazon Q Developer CLI\nPublicar o código no GitHub, deixando claro que o projeto foi desenvolvido com Amazon Q Developer CLI durante o HackTown 2025\nApresentar o projeto no AWS Developer Hub\nVagas limitadas a 50 projetos por dia. Corra para garantir a camiseta AWS exclusiva!\n\nE o que você pode construir?\n\nCom a Amazon Q Developer CLI, você dar asas à sua criatividade e construir uma ampla variedade de aplicações inovadoras. Aqui só alguns exemplos para inspirar você...\n\n🎨 Geradores de arte e design: Crie imagens, ilustrações e designs únicos usando modelos de IA generativa.\n🤖 Assistentes virtuais personalizados: Desenvolva chatbots e agentes conversacionais com habilidades específicas para ajudar os usuários.\n📚 Ferramentas de escrita criativa: Construa aplicações que auxiliem na geração de histórias, poesias, roteiros e muito mais.\n🎮 Jogos e experiências interativas: Explore a criação de jogos, mundos virtuais e narrativas imersivas.\n🧠 Aplicações de produtividade: Crie ferramentas que utilizem IA para aumentar a eficiência em tarefas do dia a dia.\n🔍 Soluções de análise e insights: Desenvolva dashboards e visualizações que extraiam conhecimento de grandes volumes de dados.\n🌍 Aplicações de impacto social: Use a IA para criar soluções que ajudem a resolver problemas reais da comunidade.\nO Amazon Q Developer CLI será seu aliado nessa jornada criativa, permitindo que você explore as possibilidades da inteligência artificial de maneira prática e inovadora. O céu é o limite para as ideias que podem surgir durante o HackTown!",
+      "hub_event_id": 1,
+      "entity_register_id": 10306,
+      "place": "AWS Developer Hub - Laboratório ETE \"FMC\"",
+      "allow_questions": false,
+      "external_id": "yazo_2542",
+      "place_color": null,
+      "allow_evaluation": true,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "speakers": [
+        {
+          "id": 4894,
+          "name": "Marcelo Palladino",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4894/partner_4894_1753477211481.png",
+          "bio": "Senior Developer Advocate na AWS, com mais de 30 anos de experiência em tecnologia. Atua promovendo inovação em nuvem, boas práticas de engenharia e adoção de arquitetura moderna no ecossistema de desenvolvedores.",
+          "role": "Senior Developer Advocate na AWS",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2542,
+            "pivot_speaker_id": 4894,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2490,
@@ -2918,7 +3038,7 @@
       "description": "No mundo onde a sustentabilidade virou campo de batalha de discursos e práticas corporativas e políticas, o ESG ainda faz sentido ou as narrativas antiwoke o enfraquecerá e precisará mudar? Enquanto alguns o veem como essencial para negócios resilientes e éticos, outros o atacam como mera concessão ao politicamente correto. Empresas que adotavam essas práticas para mitigar riscos e agregar valor agora precisam justificar sua relevância diante de uma crescente resistência ideológica. Será possível ignorar questões ambientais, sociais e de governança sem comprometer competitividade e o futuro?",
       "hub_event_id": 1,
       "entity_register_id": 9575,
-      "place": "INATEL - Auditório Aureliano Chaves Prédio 1",
+      "place": "Escola Sânico Teles - Ginásio",
       "allow_questions": false,
       "external_id": "7eb51e4c-f2fb-4cc3-b77d-db88c75146fe",
       "place_color": null,
@@ -2927,7 +3047,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -2974,8 +3094,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel",
-      "nearLocation": "Inatel e Arredores"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1876,
@@ -3190,7 +3310,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4120,
@@ -3208,6 +3327,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3257,7 +3377,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4608,
@@ -3275,6 +3394,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3795,6 +3915,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4257,
@@ -3812,7 +3933,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -3862,6 +3982,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4645,
@@ -3879,7 +4000,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -4282,21 +4402,6 @@
       "broadcast_rooms": [],
       "speakers": [
         {
-          "id": 4892,
-          "name": "Pelli",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4892/partner_4892_1753477206177.png",
-          "bio": "Gerente de Pesquisa, Desenvolvimento e Inovação na CEMIG. Defende a ciência, tecnologia e inovação como ferramentas de transformação e atua na geração de resultados estratégicos para grandes corporações.",
-          "role": "Gerente de Pesquisa, Desenvolvimento e Inovação na CEMIG",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1995,
-            "pivot_speaker_id": 4892,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
           "id": 5199,
           "name": "Denis Mollica",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753654652701.png?ims=filters:quality(75)",
@@ -4541,23 +4646,7 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5195,
-          "name": "Isabel Mendes\n\nIsabela Carvalho",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1975,
-            "pivot_speaker_id": 5195,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -4668,23 +4757,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4549,
-          "name": "Luis Bartolomei",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1690/partner_1690_1752612323228.png",
-          "bio": "Com mais de 30 anos de experiência em branding e design, Luis Bartolomei é fundador da CBA B+G, onde lidera projetos de posicionamento e expressão para marcas globais como Nestlé, Heineken, Chandon, Braskem e Colgate-Palmolive. À frente da CBA Design (WPP) na América Latina, atua como líder criativo e executivo. Integra o Conselho do Design for a Better World Award e foi jurado do Festival El Ojo de Iberoamérica.",
-          "role": "CEO da CBA B+G",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1968,
-            "pivot_speaker_id": 4549,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -5435,23 +5508,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5196,
-          "name": "Rafael Henrique Martins Fernandes",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1980,
-            "pivot_speaker_id": 5196,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -7131,21 +7188,6 @@
             "allow_access": false
           },
           "allow_access": false
-        },
-        {
-          "id": 5197,
-          "name": "Macelo Lemmer",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1991,
-            "pivot_speaker_id": 5197,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "tags": [
@@ -7433,21 +7475,6 @@
           "meta": {
             "pivot_schedule_id": 1704,
             "pivot_speaker_id": 4843,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 5167,
-          "name": "Bruna do Valle Rodrigues Neves",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/68/68_1753568268054.png?ims=filters:quality(75)",
-          "bio": "",
-          "role": "",
-          "company": "",
-          "meta": {
-            "pivot_schedule_id": 1704,
-            "pivot_speaker_id": 5167,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -8720,23 +8747,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5191,
-          "name": "Leandro  Pereira",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1943,
-            "pivot_speaker_id": 5191,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -10510,21 +10521,6 @@
             "allow_access": false
           },
           "allow_access": false
-        },
-        {
-          "id": 5072,
-          "name": "Cacá Rhenius",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5072/partner_5072_1753477651469.png",
-          "bio": "Designer e facilitadora no Caórdico Aprendizagem. Atua há 14 anos com culturas de aprendizagem, comunidades e tecnologias sociais. Cria experiências transformadoras para lideranças e organizações, unindo colaboração e regeneração.",
-          "role": "Fundadora do Caórdico Aprendizagem, designer e facilitadora de processos colaborativos",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2389,
-            "pivot_speaker_id": 5072,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "tags": [
@@ -11215,7 +11211,7 @@
       "speakers": [
         {
           "id": 4991,
-          "name": "OSCAR MOTOMURA",
+          "name": "Oscar Motomura",
           "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4991/partner_4991_1753477453965.png",
           "bio": "CEO da Amana-Key, especialista em inovações radicais em gestão, estratégia e liderança. Referência na resolução de “equações impossíveis” no setor público e privado, é reconhecido por seu pensamento sistêmico e atuação transformadora.",
           "role": "CEO do Grupo Amana-Key",
@@ -11548,23 +11544,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5192,
-          "name": "Patrícia Pinelli",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1955,
-            "pivot_speaker_id": 5192,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -13267,6 +13247,66 @@
       "nearLocation": "Praça e Arredores"
     },
     {
+      "id": 2540,
+      "start_time": "2025-08-01T19:00:00.000+00:00",
+      "end_time": "2025-08-01T20:00:00.000+00:00",
+      "title": "⚡ Construa uma aplicação de IA generativa na AWS em menos de 60 minutos ⚡",
+      "description": "Já pensou em criar uma aplicação de IA do zero no mesmo tempo que leva para fazer um miojo (ou alguns miojinhos) e assistir um episódio da sua série favorita? Pois é, nessa atividade você vai mergulhar de cabeça no mundo da IA generativa e sair do outro lado com uma aplicação funcionando!\n\n⚡ O que esperar dessa atividade:\n\n🚀 Zero complicação, 100% diversão\n💻 Vibe Coding\n💡Spoiler: Não é preciso ser um gênio do Vale do Silício. Traga apenas sua curiosidade e vontade de criar algo incrível!\n⏰ 60 minutos. 1 desafio. Infinitas possibilidades. Prepare-se para se gabar pros amigos: \"Ah, isso? Fiz antes do almoço!\"",
+      "hub_event_id": 1,
+      "entity_register_id": 10304,
+      "place": "AWS Developer Hub - Laboratório ETE \"FMC\"",
+      "allow_questions": false,
+      "external_id": "yazo_2540",
+      "place_color": null,
+      "allow_evaluation": true,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5374,
+          "name": "Cheyenne Souza",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/64/64_1753672953005.png?ims=filters:quality(75)",
+          "bio": "Cheyenne é Arquiteta de Soluções na AWS, com atuação no setor financeiro. Trabalha apoiando empresas na adoção de tecnologias modernas, promovendo boas práticas de arquitetura, propondo soluções para problemas reais e conectando inovação às necessidades do negócio.",
+          "role": "Arquiteta de Soluções na AWS",
+          "company": "AWS",
+          "meta": {
+            "pivot_schedule_id": 2540,
+            "pivot_speaker_id": 5374,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
+    },
+    {
       "id": 1920,
       "start_time": "2025-08-01T19:00:00.000+00:00",
       "end_time": "2025-08-01T20:00:00.000+00:00",
@@ -14317,23 +14357,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5242,
-          "name": "Tiago Agostini\nLuísa Mila",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2210,
-            "pivot_speaker_id": 5242,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -14624,23 +14648,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5193,
-          "name": "Maíne Màrttins",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1956,
-            "pivot_speaker_id": 5193,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 388,
@@ -15057,23 +15065,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5300,
-          "name": "Carlos Pereira",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753651796385.png?ims=filters:quality(75)",
-          "bio": "Desenvolve projetos que integram criatividade, design e tecnologia, transformando salas de aula em ambientes experimentais e colaborativos.",
-          "role": "Educador na UNA-Pouso Alegre",
-          "company": "UNA",
-          "meta": {
-            "pivot_schedule_id": 2282,
-            "pivot_speaker_id": 5300,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 391,
@@ -16132,23 +16124,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4892,
-          "name": "Pelli",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4892/partner_4892_1753477206177.png",
-          "bio": "Gerente de Pesquisa, Desenvolvimento e Inovação na CEMIG. Defende a ciência, tecnologia e inovação como ferramentas de transformação e atua na geração de resultados estratégicos para grandes corporações.",
-          "role": "Gerente de Pesquisa, Desenvolvimento e Inovação na CEMIG",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1950,
-            "pivot_speaker_id": 4892,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -16552,7 +16528,7 @@
       "description": "A arte e a psicanálise se encontram em um painel que analisa como realmente criamos. Sublimações, sonhos, traumas e desejos, elementos que a inteligência artificial jamais conseguirá acessar, nos ajudam a compreender a diferença brutal entre o pensamento e o processamento. A psicanalista Paula Prucoli desafia o escritor Luis Biajoni (Elvis & Madonna) e o cantor Tatá Aeroplano a mergulhar fundo em seus processos criativos, com mediação do jornalista cultural Jota Wagner.",
       "hub_event_id": 1,
       "entity_register_id": 9341,
-      "place": "ETE - Sala 64",
+      "place": "Escola Sânico Teles - Ginásio",
       "allow_questions": false,
       "external_id": "fc34fd46-dab8-4944-988e-5a0c3c661877",
       "place_color": null,
@@ -16561,7 +16537,7 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
       "speakers": [
@@ -16624,21 +16600,6 @@
             "allow_access": false
           },
           "allow_access": false
-        },
-        {
-          "id": 5166,
-          "name": "Psicanalista",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 1703,
-            "pivot_speaker_id": 5166,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "tags": [
@@ -16668,8 +16629,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "ETE",
-      "nearLocation": "ETE e Arredores"
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 1748,
@@ -18133,21 +18094,6 @@
           "allow_access": false
         },
         {
-          "id": 5265,
-          "name": "Marco Antônio Gonçalves",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2257,
-            "pivot_speaker_id": 5265,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
           "id": 5266,
           "name": "Ivon Pinto",
           "picture": null,
@@ -19528,23 +19474,7 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4847,
-          "name": "Leonardo Gonçalves",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4847/partner_4847_1753477091711.png",
-          "bio": "Líder de Engenharia na Nouvenn, desenvolve soluções embarcadas para cidades inteligentes, com expertise em redes como Wi-SUN e LPWAN. Une inovação, engenharia de precisão e visão de negócio para impulsionar o futuro das smart cities.",
-          "role": "Líder de Engenharia na Nouvenn",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1688,
-            "pivot_speaker_id": 4847,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
+      "speakers": [],
       "tags": [
         {
           "id": 19,
@@ -20197,8 +20127,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -20234,8 +20164,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -20271,8 +20201,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -20308,8 +20238,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,
@@ -20345,8 +20275,8 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 417,

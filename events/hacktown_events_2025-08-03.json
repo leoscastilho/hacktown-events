@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
-  "total_events": 21,
-  "scraped_at": "2025-07-27T21:54:40.013703-03:00",
+  "total_events": 23,
+  "scraped_at": "2025-07-28T01:46:33.530825-03:00",
   "events": [
     {
       "id": 2161,
@@ -61,6 +61,119 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2539,
+      "start_time": "2025-08-03T13:00:00.000+00:00",
+      "end_time": "2025-08-03T15:30:00.000+00:00",
+      "title": "AWS VIBE CODING DOJO: Crie com IA e leve brindes AWS exclusivos! 🚀",
+      "description": "Venha participar de uma experiência única no HackTown onde a programação encontra a inteligência artificial! No Vibe Coding Dojo com Amazon Q Developer, você vai mergulhar em um ambiente divertido, colaborativo e dinâmico, usando as mais recentes ferramentas de IA da Amazon para criar soluções reais.\n\n🎯 O que você vai vivenciar:\nProgramação colaborativa em tempo real (O que nós vamos construir? Depende. O que o grupo vai querer construir?) \nHands-on com Amazon Q Developer CLI\nNetworking com outros desenvolvedores\nResolução de problemas do mundo real\nMentoria de especialistas AWS \n\n🎁 BRINDES ESPECIAIS: Kit especial AWS \n\nVenha descobrir como os assistentes de IA estão transformando a criação de produtos e o desenvolvimento de software. Uma oportunidade única de vivenciar o futuro do desenvolvimento!\n\n(Link de inscrição em breve. Garanta sua vaga, quantidade limitada!)",
+      "hub_event_id": 1,
+      "entity_register_id": 10302,
+      "place": "AWS Developer Hub - Laboratório ETE \"FMC\"",
+      "allow_questions": false,
+      "external_id": "yazo_2539",
+      "place_color": null,
+      "allow_evaluation": true,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4960,
+          "name": "Flávio Pimenta",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4960/partner_4960_1753477367909.png",
+          "bio": "Staff Engineer na Select Soluções, com mais de 25 anos em TI. Atuou na implantação da Nota Fiscal Eletrônica, SPED e Open Finance. Especialista em cloud AWS há mais de 14 anos, conecta IA à estratégia de negócios dos clientes.",
+          "role": "Staff Engineer",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2539,
+            "pivot_speaker_id": 4960,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
+    },
+    {
+      "id": 2546,
+      "start_time": "2025-08-03T13:00:00.000+00:00",
+      "end_time": "2025-08-03T16:00:00.000+00:00",
+      "title": "Construa o futuro com IA: Workshop Amazon Bedrock 🤖",
+      "description": "Já pensou em criar uma aplicação de IA do zero no mesmo tempo que leva para fazer um miojo (ou alguns miojinhos) e assistir um episódio da sua série favorita? Pois é, nessa atividade você vai mergulhar de cabeça no mundo da IA generativa e sair do outro lado com uma aplicação funcionando!",
+      "hub_event_id": 1,
+      "entity_register_id": 10312,
+      "place": "Sala 22 - Inatel",
+      "allow_questions": false,
+      "external_id": "yazo_2546",
+      "place_color": null,
+      "allow_evaluation": true,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4894,
+          "name": "Marcelo Palladino",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4894/partner_4894_1753477211481.png",
+          "bio": "Senior Developer Advocate na AWS, com mais de 30 anos de experiência em tecnologia. Atua promovendo inovação em nuvem, boas práticas de engenharia e adoção de arquitetura moderna no ecossistema de desenvolvedores.",
+          "role": "Senior Developer Advocate na AWS",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2546,
+            "pivot_speaker_id": 4894,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
         }
       ],
