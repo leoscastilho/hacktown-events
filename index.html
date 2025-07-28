@@ -915,6 +915,13 @@
             flex-shrink: 0;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             white-space: nowrap;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+        }
+        
+        .time-header:hover {
+            color: var(--primary-orange);
+            transform: scale(1.05);
         }
 
         .location-group-header {
@@ -1432,6 +1439,140 @@
             box-shadow: var(--shadow-md);
         }
 
+        /* Time Selector Styles */
+        .time-selector-content {
+            background: var(--gradient-card);
+            margin: 50px auto;
+            padding: 0;
+            width: 90%;
+            max-width: 400px;
+            max-height: 80vh;
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-2xl);
+            border: 1px solid var(--border-light);
+            transform: translateY(-20px);
+            opacity: 0;
+            transition: all var(--transition-normal);
+        }
+
+        .modal.show .time-selector-content {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .time-selector-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(108, 99, 255, 0.05);
+            border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+        }
+
+        .time-selector-header h3 {
+            margin: 0;
+            color: var(--primary-purple);
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+
+        .time-selector-body {
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .time-wheel-container {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+            mask-image: linear-gradient(
+                to bottom,
+                transparent 0%,
+                black 25%,
+                black 75%,
+                transparent 100%
+            );
+            -webkit-mask-image: linear-gradient(
+                to bottom,
+                transparent 0%,
+                black 25%,
+                black 75%,
+                transparent 100%
+            );
+        }
+
+        .time-wheel {
+            position: absolute;
+            width: 100%;
+            padding: 100px 0;
+            cursor: grab;
+            user-select: none;
+            transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+        }
+
+        .time-wheel.dragging {
+            cursor: grabbing;
+            transition: none;
+        }
+
+        .time-slot-option {
+            text-align: center;
+            padding: 15px;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+            opacity: 0.5;
+            transform: scale(0.85);
+        }
+
+        .time-slot-option.selected {
+            color: var(--primary-purple);
+            opacity: 1;
+            transform: scale(1);
+            font-size: 1.6em;
+        }
+
+        .time-selector-indicator {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 50px;
+            border: 2px solid var(--primary-purple);
+            border-radius: var(--radius-lg);
+            pointer-events: none;
+            background: rgba(108, 99, 255, 0.1);
+        }
+
+        .time-selector-confirm {
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            padding: 12px 40px;
+            border-radius: var(--radius-full);
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            box-shadow: var(--shadow-md);
+        }
+
+        .time-selector-confirm:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .time-selector-confirm:active {
+            transform: translateY(0);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             h1 {
@@ -1737,6 +1878,25 @@
         </div>
     </div>
 
+    <!-- Time Selector Modal -->
+    <div class="modal" id="timeSelectorModal">
+        <div class="time-selector-content">
+            <div class="time-selector-header">
+                <h3>Selecione um horário</h3>
+                <span class="close-btn" onclick="closeTimeSelector()">&times;</span>
+            </div>
+            <div class="time-selector-body">
+                <div class="time-wheel-container">
+                    <div class="time-wheel" id="timeWheel">
+                        <!-- Time slots will be dynamically generated -->
+                    </div>
+                    <div class="time-selector-indicator"></div>
+                </div>
+                <button class="time-selector-confirm" onclick="confirmTimeSelection()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Global variables
         let allEvents = {};
@@ -1753,6 +1913,13 @@
         let locationsData = null; // Store locations data for Google Maps links
         let currentHighlightedEvent = null; // Track currently highlighted event
         let scrollObserver = null; // Intersection observer for scroll tracking
+        
+        // Time selector variables
+        let selectedTime = null;
+        let timeWheelOffset = 0;
+        let isDragging = false;
+        let startY = 0;
+        let startOffset = 0;
         
         // Touch/swipe navigation variables
         let touchStartX = 0;
@@ -2404,6 +2571,9 @@
             // Set up scroll listener for sticky nav
             window.addEventListener('scroll', handleStickyNavScroll, { passive: true });
             
+            // Initialize time header click handlers
+            addTimeHeaderClickHandlers();
+            
             // Set up resize listener to update positioning
             window.addEventListener('resize', updateTimeLocationHeaderPosition, { passive: true });
             
@@ -2986,12 +3156,206 @@
             }, 300);
         }
 
+        // Time Selector Functions
+        function openTimeSelector() {
+            const modal = document.getElementById('timeSelectorModal');
+            const timeWheel = document.getElementById('timeWheel');
+            
+            // Generate time slots
+            const times = generateTimeSlots();
+            timeWheel.innerHTML = times.map((time, index) => `
+                <div class="time-slot-option" data-time="${time}" data-index="${index}">
+                    ${time}
+                </div>
+            `).join('');
+            
+            // Show modal
+            modal.style.display = 'block';
+            requestAnimationFrame(() => {
+                modal.classList.add('show');
+                initializeTimeWheel();
+            });
+        }
+
+        function closeTimeSelector() {
+            const modal = document.getElementById('timeSelectorModal');
+            modal.classList.remove('show');
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 300);
+        }
+
+        function generateTimeSlots() {
+            const times = [];
+            const events = allEvents[currentDay] || [];
+            const timeSet = new Set();
+            
+            // Extract unique start times from events
+            events.forEach(event => {
+                const startTime = new Date(event.start_time);
+                const timeKey = formatTime(startTime);
+                timeSet.add(timeKey);
+            });
+            
+            // Convert to array and sort
+            return Array.from(timeSet).sort();
+        }
+
+        function initializeTimeWheel() {
+            const wheel = document.getElementById('timeWheel');
+            const options = wheel.querySelectorAll('.time-slot-option');
+            
+            if (options.length === 0) return;
+            
+            // Set initial position to center first item
+            timeWheelOffset = 0;
+            updateWheelPosition();
+            
+            // Add event listeners
+            wheel.addEventListener('mousedown', startDrag);
+            wheel.addEventListener('touchstart', startDrag, { passive: true });
+            document.addEventListener('mousemove', drag);
+            document.addEventListener('touchmove', drag, { passive: true });
+            document.addEventListener('mouseup', endDrag);
+            document.addEventListener('touchend', endDrag);
+            
+            // Add wheel event
+            wheel.addEventListener('wheel', handleWheel, { passive: false });
+        }
+
+        function startDrag(e) {
+            isDragging = true;
+            startY = e.type.includes('mouse') ? e.clientY : e.touches[0].clientY;
+            startOffset = timeWheelOffset;
+            document.getElementById('timeWheel').classList.add('dragging');
+        }
+
+        function drag(e) {
+            if (!isDragging) return;
+            
+            e.preventDefault();
+            const currentY = e.type.includes('mouse') ? e.clientY : e.touches[0].clientY;
+            const deltaY = currentY - startY;
+            
+            timeWheelOffset = startOffset + deltaY;
+            updateWheelPosition();
+        }
+
+        function endDrag() {
+            if (!isDragging) return;
+            
+            isDragging = false;
+            document.getElementById('timeWheel').classList.remove('dragging');
+            
+            // Snap to nearest item
+            snapToNearestItem();
+        }
+
+        function handleWheel(e) {
+            e.preventDefault();
+            timeWheelOffset -= e.deltaY * 0.5;
+            updateWheelPosition();
+            
+            // Clear any existing timeout
+            clearTimeout(window.wheelTimeout);
+            
+            // Snap after scrolling stops
+            window.wheelTimeout = setTimeout(() => {
+                snapToNearestItem();
+            }, 150);
+        }
+
+        function updateWheelPosition() {
+            const wheel = document.getElementById('timeWheel');
+            const options = wheel.querySelectorAll('.time-slot-option');
+            const itemHeight = 50; // Height of each item
+            
+            // Limit scrolling
+            const maxOffset = 0;
+            const minOffset = -(options.length - 1) * itemHeight;
+            timeWheelOffset = Math.max(minOffset, Math.min(maxOffset, timeWheelOffset));
+            
+            wheel.style.transform = `translateY(${timeWheelOffset}px)`;
+            
+            // Update selected state
+            const selectedIndex = Math.round(-timeWheelOffset / itemHeight);
+            options.forEach((option, index) => {
+                option.classList.toggle('selected', index === selectedIndex);
+            });
+            
+            // Update selected time
+            if (options[selectedIndex]) {
+                selectedTime = options[selectedIndex].dataset.time;
+            }
+        }
+
+        function snapToNearestItem() {
+            const itemHeight = 50;
+            const nearestIndex = Math.round(-timeWheelOffset / itemHeight);
+            timeWheelOffset = -nearestIndex * itemHeight;
+            updateWheelPosition();
+        }
+
+        function confirmTimeSelection() {
+            if (!selectedTime) return;
+            
+            closeTimeSelector();
+            scrollToTime(selectedTime);
+        }
+
+        function scrollToTime(targetTime) {
+            // Find the first element with this time
+            const timeHeaders = document.querySelectorAll('.time-header');
+            
+            for (const header of timeHeaders) {
+                const headerText = header.textContent;
+                if (headerText.includes(targetTime)) {
+                    // Scroll to the parent location group
+                    const locationGroup = header.closest('.location-group');
+                    if (locationGroup) {
+                        // Calculate offset to account for sticky header
+                        const offset = 100; // Adjust based on your header height
+                        const elementPosition = locationGroup.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - offset;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Highlight the section briefly
+                        locationGroup.style.transition = 'background-color 0.3s ease';
+                        locationGroup.style.backgroundColor = 'rgba(108, 99, 255, 0.1)';
+                        setTimeout(() => {
+                            locationGroup.style.backgroundColor = '';
+                        }, 2000);
+                        
+                        break;
+                    }
+                }
+            }
+        }
+
+        // Add click handler to time headers
+        function addTimeHeaderClickHandlers() {
+            // Use event delegation for better performance
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('time-header')) {
+                    openTimeSelector();
+                }
+            });
+        }
+
         // Keyboard navigation and accessibility
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
                 const modal = document.getElementById('eventModal');
                 if (modal.classList.contains('show')) {
                     closeModal();
+                }
+                const timeSelectorModal = document.getElementById('timeSelectorModal');
+                if (timeSelectorModal.classList.contains('show')) {
+                    closeTimeSelector();
                 }
                 const sidebar = document.getElementById('sidebar');
                 if (sidebar.classList.contains('active')) {
@@ -3021,6 +3385,10 @@
             const modal = document.getElementById('eventModal');
             if (event.target === modal) {
                 closeModal();
+            }
+            const timeSelectorModal = document.getElementById('timeSelectorModal');
+            if (event.target === timeSelectorModal) {
+                closeTimeSelector();
             }
         }
 
