@@ -1,8 +1,53 @@
 {
   "date": "2025-07-30",
-  "total_events": 1,
-  "scraped_at": "2025-07-28T11:35:01.737623-03:00",
+  "total_events": 2,
+  "scraped_at": "2025-07-28T14:24:09.837795-03:00",
   "events": [
+    {
+      "id": 2557,
+      "start_time": "2025-07-30T14:30:00.000+00:00",
+      "end_time": "2025-07-30T15:30:00.000+00:00",
+      "title": "Consumismo e desejo: o que fazer com o que não podemos controlar?",
+      "description": "Se cada desejo esconde um vazio, como suprir sem consumir? \nTe venderam que “querer é poder”, então somos livres — mesmo quando o desejo nos foi instalado sem consentimento. O mercado quer confundir, não satisfazer. \n\nTrago uma conversa leve pra rir das vontades emprestadas, ver o consumo como linguagem, o desejo como pista e o vazio como começo. Controlar emoções é impossível — mas dá para desarmar gatilhos e duvidar das vontades. Dá para escolher melhor, antes que o algoritmo decida por você. Sem moralismo, panfletagem ou autocontrole: o tema aqui é desprogramação.",
+      "hub_event_id": 1,
+      "entity_register_id": 10334,
+      "place": "Escola Sânico Teles - Ginásio ",
+      "allow_questions": false,
+      "external_id": "yazo_2557",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4728,
+          "name": "Rubia Gouveia",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1875/partner_1875_1752613457827.png",
+          "bio": "Especialista em Competências Comportamentais, Rúbia Gouveia é palestrante, consultora e mentora. Atua promovendo relações mais conscientes consigo, com os outros, com o planeta e com o dinheiro — sempre a partir do cuidado como prática de autocuidado.",
+          "role": "Desenvolvimento através das relações: pessoais e com o dinheiro",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2557,
+            "pivot_speaker_id": 4728,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Escola Sanico Teles",
+      "nearLocation": "Praça e Arredores"
+    },
     {
       "id": 2413,
       "start_time": "2025-07-30T19:00:00.000+00:00",
@@ -22,8 +67,8 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [],
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [],
       "meta": {
         "is_bookmarked": false,

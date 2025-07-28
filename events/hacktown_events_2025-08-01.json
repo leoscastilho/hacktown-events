@@ -1,7 +1,7 @@
 {
   "date": "2025-08-01",
-  "total_events": 306,
-  "scraped_at": "2025-07-28T11:35:01.765954-03:00",
+  "total_events": 309,
+  "scraped_at": "2025-07-28T14:24:09.867381-03:00",
   "events": [
     {
       "id": 2002,
@@ -42,10 +42,10 @@
         {
           "id": 5203,
           "name": "Giuliano Tamura",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753717385178.png?ims=filters:quality(75)",
+          "bio": "Repórter do Programa 'Terra da Gente' ",
+          "role": "Repórter do Programa 'Terra da Gente' ",
+          "company": "",
           "meta": {
             "pivot_schedule_id": 2002,
             "pivot_speaker_id": 5203,
@@ -361,6 +361,73 @@
       },
       "filterLocation": "Casa MFM",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 1790,
+      "start_time": "2025-08-01T13:00:00.000+00:00",
+      "end_time": "2025-08-01T14:00:00.000+00:00",
+      "title": "Por que sua startup está atrasada por não olhar para a África",
+      "description": "Em um cenário de escassez de talentos e saturação de mercados, a África se destaca como uma nova fronteira estratégica para startups brasileiras. Com profissionais qualificados, juventude conectada e crescimento acelerado, o continente oferece oportunidades únicas de escala e inovação. Esta palestra revela por que ignorar a África pode ser um erro estratégico — e como esse mercado pode impulsionar o próximo salto global.",
+      "hub_event_id": 1,
+      "entity_register_id": 9428,
+      "place": "Mimma's",
+      "allow_questions": false,
+      "external_id": "d57ba83a-7486-420c-a7f3-0bfe971fbe0b",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -768,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4587,
+          "name": "Marcos Jamir",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1728/partner_1728_1752612560750.png",
+          "bio": "Fundador da AfricanDev, conecta desenvolvedores africanos a empresas brasileiras, impulsionando diversidade e inclusão no setor de tecnologia. Atua como empreendedor e articulador de ecossistemas de inovação entre Brasil e África, fortalecendo pontes para oportunidades globais e colaboração estratégica.",
+          "role": "CEO da Africandev",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1790,
+            "pivot_speaker_id": 4587,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 261,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Empreendedorismo",
+          "hub_event_id": 1
+        },
+        {
+          "id": 387,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Diversidade / Equidade / Inclusão",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Mimma's",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2537,
@@ -3897,73 +3964,6 @@
       "nearLocation": "Praça e Arredores"
     },
     {
-      "id": 2305,
-      "start_time": "2025-08-01T14:30:00.000+00:00",
-      "end_time": "2025-08-01T15:30:00.000+00:00",
-      "title": "AI.Africa: presentes conectados, futuros convergentes",
-      "description": "A revolução da IA já está acontecendo no Sul Global. Com base na experiência da comunidade AI.Africa e exemplos práticos em saúde e agricultura, esta palestra mostra como a tecnologia está impulsionando soluções locais, ampliando o protagonismo africano e redesenhando o futuro com propósito humano, impacto social e inovação colaborativa.",
-      "hub_event_id": 1,
-      "entity_register_id": 10011,
-      "place": "Loja Maçônica - Pátio",
-      "allow_questions": false,
-      "external_id": "0f6787db-c453-4303-b978-350ddec4fbd0",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 0,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": true,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4257,
-          "name": "Daniel Quiteque",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1389/partner_1389_1752610511630.png",
-          "bio": "Pesquisador de IA aplicada à internet das coisas no IoT Research Group do INATEL, é pós-graduando em Inovação pela FURG-RS e criador da AI.Africa, comunidade global que conecta líderes africanos em torno da inteligência artificial. É reconhecido por integrar pessoas, tecnologia e futuros transformadores.",
-          "role": "Criador da AI.Africa",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2305,
-            "pivot_speaker_id": 4257,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 391,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Brand Experience / Festivais / Eventos",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 294,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Impacto Social",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Loja Maçônica",
-      "nearLocation": "Praça e Arredores"
-    },
-    {
       "id": 1922,
       "start_time": "2025-08-01T14:30:00.000+00:00",
       "end_time": "2025-08-01T15:30:00.000+00:00",
@@ -4513,6 +4513,104 @@
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 2554,
+      "start_time": "2025-08-01T14:30:00.000+00:00",
+      "end_time": "2025-08-01T15:30:00.000+00:00",
+      "title": "Escalando IoT no Brasil: tendências que impulsionam a sinergia entre manufatura local e ecossistemas inteligentes",
+      "description": "\"Em “Escalando IoT no Brasil”, exploraremos as principais tendências e desafios que impulsionam a sinergia entre a manufatura nacional e ecossistemas inteligentes. O painel reúne visão de mercado, expertise em produção e soluções em IoT para mostrar como estamos construindo o futuro conectado — direto do Brasil.\n\n=====\n\nJosé Alexandre Bassi\nExecutivo de Vendas na Leucotron Tech\n\nMarcelo Rodrigues\nHead de Manufacturing na Leucotron Tech\n\nAugusto Ohashi \nCEO Co-Founder na Nouvenn\n\nLeonardo Gonçalves \nLíder de Engenharia na Nouvenn\"",
+      "hub_event_id": 1,
+      "entity_register_id": 10331,
+      "place": "Loja Maçônica",
+      "allow_questions": false,
+      "external_id": "yazo_2554",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4842,
+          "name": "José Alexandre Bassi",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4842/partner_4842_1753477077601.png",
+          "bio": "Executivo de Vendas na Leucotron Tech, conecta inovação tecnológica a resultados de negócio. Atua na interface entre mercado e tecnologia, promovendo a adoção de soluções inteligentes com foco estratégico.",
+          "role": "Executivo de Vendas",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2554,
+            "pivot_speaker_id": 4842,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4849,
+          "name": "Marcelo Rodrigues",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4849/partner_4849_1753477095541.png",
+          "bio": "Head de Manufacturing na Leucotron Tech, com mais de 18 anos em processos eletroeletrônicos. Lidera operações que conectam a manufatura local à inovação em IoT, entregando dispositivos com agilidade, qualidade e escala 100% nacional.",
+          "role": "Head de Manufacturing na Leucotron",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2554,
+            "pivot_speaker_id": 4849,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4848,
+          "name": "Augusto Ohashi",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4848/partner_4848_1753477093640.png",
+          "bio": "CEO e cofundador da Nouvenn, com 24 anos de experiência em transformação digital para cidades e indústrias. Criador de soluções em IoT, IA e edge computing, atua com inovação sustentável e impacto real nos serviços urbanos.",
+          "role": "CEO e Co-Fundador da Nouvenn",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2554,
+            "pivot_speaker_id": 4848,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        },
+        {
+          "id": 4516,
+          "name": "Leonardo Gonçalves",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1657/partner_1657_1752612116494.png",
+          "bio": "Diretor de Tecnologia na Nouvenn IoT, com 10 anos de experiência no desenvolvimento de soluções conectadas para setores diversos do mercado brasileiro e internacional. Atua na liderança de projetos de inovação tecnológica com foco em Internet das Coisas, conectividade e eficiência operacional.",
+          "role": "Diretor de Engenharia na Nouvenn IoT",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2554,
+            "pivot_speaker_id": 4516,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Loja Maçônica",
+      "nearLocation": "Praça e Arredores"
     },
     {
       "id": 2256,
@@ -5261,6 +5359,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4330,
@@ -5301,7 +5400,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5328,6 +5426,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4896,
@@ -5375,7 +5474,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5402,6 +5500,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4261,
@@ -5480,7 +5579,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5507,6 +5605,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -5531,7 +5630,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5558,6 +5656,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4987,
@@ -5598,7 +5697,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5625,6 +5723,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4539,
@@ -5673,7 +5772,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5700,6 +5798,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4426,
@@ -5755,7 +5854,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5782,6 +5880,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4661,
@@ -5822,7 +5921,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5849,6 +5947,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4408,
@@ -5889,7 +5988,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5916,6 +6014,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4506,
@@ -5956,7 +6055,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7300,22 +7398,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 332,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cidades / Comunidades Inovadoras",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4320,
@@ -7331,6 +7413,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 332,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cidades / Comunidades Inovadoras",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -7360,6 +7458,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4452,
+          "name": "Jonas Calvi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1588/partner_1588_1752611699384.png",
+          "bio": "Advogado e prefeito de Encantado desde 2021, Jonas Calvi lidera projetos estruturantes com foco em inovação, habitação, educação e turismo. Natural do município, sua gestão se destaca pelo planejamento estratégico, investimentos robustos e capacidade de resiliência diante de desafios.",
+          "role": "Prefeito de Encantado-RS",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1954,
+            "pivot_speaker_id": 4452,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -7381,23 +7496,6 @@
           "type": "schedules",
           "name": "Cidades / Comunidades Inovadoras",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4452,
-          "name": "Jonas Calvi",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1588/partner_1588_1752611699384.png",
-          "bio": "Advogado e prefeito de Encantado desde 2021, Jonas Calvi lidera projetos estruturantes com foco em inovação, habitação, educação e turismo. Natural do município, sua gestão se destaca pelo planejamento estratégico, investimentos robustos e capacidade de resiliência diante de desafios.",
-          "role": "Prefeito de Encantado-RS",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1954,
-            "pivot_speaker_id": 4452,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -7427,29 +7525,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 261,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Empreendedorismo",
-          "hub_event_id": 1
-        },
-        {
-          "id": 294,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Impacto Social",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4367,
@@ -7497,6 +7572,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 261,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Empreendedorismo",
+          "hub_event_id": 1
+        },
+        {
+          "id": 294,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Impacto Social",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7512,7 +7610,7 @@
       "description": "A cannabis e o cânhamo estão impulsionando uma transformação no Brasil. Leandro Stelitano apresenta como a inovação tecnológica, a ciência e a mobilização social vêm quebrando barreiras regulatórias e estruturais. A palestra explora o impacto da cannabis medicinal na saúde e o potencial do cânhamo industrial para fomentar práticas circulares e um novo modelo econômico sustentável no país.",
       "hub_event_id": 1,
       "entity_register_id": 9867,
-      "place": "Incubadora Municipal - NEEC",
+      "place": "Escola Sânico Teles - Ginásio",
       "allow_questions": false,
       "external_id": "fd913a46-076b-4c7f-afb2-d013287c7c82",
       "place_color": null,
@@ -7521,9 +7619,26 @@
       "has_check_in": false,
       "tolerance_time_in_minutes": 0,
       "available_slots": 0,
-      "unlimited_slots": true,
+      "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4508,
+          "name": "Leandro Stelitano",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1649/partner_1649_1752612069430.png",
+          "bio": "Leandro Stelitano é fundador e presidente da CANNAB, vice-presidente do Conselho Estadual de Políticas sobre Drogas da Bahia e diretor de Ciência e Tecnologia da ABCCI. Também atua como diretor da Cannabreed Technology Brasil, membro da Comissão de Cannabis Medicinal da OAB/PE e conselheiro fiscal da FACT Brasil, sendo uma das principais lideranças no cenário nacional da cannabis medicinal.",
+          "role": "Articulador de Iniciativas em Cannabis Medicinal, Cânhamo Industrial e Justiça Social",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2229,
+            "pivot_speaker_id": 4508,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -7547,28 +7662,11 @@
           "hub_event_id": 1
         }
       ],
-      "speakers": [
-        {
-          "id": 4508,
-          "name": "Leandro Stelitano",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1649/partner_1649_1752612069430.png",
-          "bio": "Leandro Stelitano é fundador e presidente da CANNAB, vice-presidente do Conselho Estadual de Políticas sobre Drogas da Bahia e diretor de Ciência e Tecnologia da ABCCI. Também atua como diretor da Cannabreed Technology Brasil, membro da Comissão de Cannabis Medicinal da OAB/PE e conselheiro fiscal da FACT Brasil, sendo uma das principais lideranças no cenário nacional da cannabis medicinal.",
-          "role": "Articulador de Iniciativas em Cannabis Medicinal, Cânhamo Industrial e Justiça Social",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2229,
-            "pivot_speaker_id": 4508,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Incubadora Municipal",
+      "filterLocation": "Escola Sanico Teles",
       "nearLocation": "Praça e Arredores"
     },
     {
@@ -7591,22 +7689,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 261,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Empreendedorismo",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4136,
@@ -7622,6 +7704,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 261,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Empreendedorismo",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -7651,22 +7749,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 331,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Pré-concepção Consciente / Parentalidade",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5153,
@@ -7682,6 +7764,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 331,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Pré-concepção Consciente / Parentalidade",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -7711,29 +7809,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        },
-        {
-          "id": 269,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Desenvolvimento de Hardware / Software",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4916,
@@ -7766,6 +7841,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        },
+        {
+          "id": 269,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Desenvolvimento de Hardware / Software",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7793,22 +7891,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 389,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental / Presente / Futuro",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4538,
@@ -7824,6 +7906,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 389,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental / Presente / Futuro",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -7853,6 +7951,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4982,
+          "name": "Maria Eugênia Tenório",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4982/partner_4982_1753477425217.png",
+          "bio": "Arquiteta e urbanista com foco em urbanismo sustentável. Pesquisa soluções para tornar as cidades mais resilientes e sustentáveis. Atualmente, cursa especializações em BIM aplicado à infraestrutura e tecnologias construtivas sustentáveis",
+          "role": "Arquiteta e urbanista, com foco em urbanismo sustentável",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2238,
+            "pivot_speaker_id": 4982,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 281,
@@ -7874,23 +7989,6 @@
           "type": "schedules",
           "name": "Palestra",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4982,
-          "name": "Maria Eugênia Tenório",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4982/partner_4982_1753477425217.png",
-          "bio": "Arquiteta e urbanista com foco em urbanismo sustentável. Pesquisa soluções para tornar as cidades mais resilientes e sustentáveis. Atualmente, cursa especializações em BIM aplicado à infraestrutura e tecnologias construtivas sustentáveis",
-          "role": "Arquiteta e urbanista, com foco em urbanismo sustentável",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2238,
-            "pivot_speaker_id": 4982,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -7920,6 +8018,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4148,
+          "name": "Ana Paula Cury",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1278/partner_1278_1752609780068.png",
+          "bio": "Médica antroposófica, fundadora da Escola de Famílias da EWRS e do COPA — formação de líderes facilitadores de comunidades parentais. Membro do Moveh e do Hubee, atua na promoção de saúde integral e fortalecimento de redes comunitárias.",
+          "role": "Fundadora da Escola de Familias da EWRS/COPA",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1907,
+            "pivot_speaker_id": 4148,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -7941,23 +8056,6 @@
           "type": "schedules",
           "name": "Ancestralidade / Espiritualidade / Futuro",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4148,
-          "name": "Ana Paula Cury",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1278/partner_1278_1752609780068.png",
-          "bio": "Médica antroposófica, fundadora da Escola de Famílias da EWRS e do COPA — formação de líderes facilitadores de comunidades parentais. Membro do Moveh e do Hubee, atua na promoção de saúde integral e fortalecimento de redes comunitárias.",
-          "role": "Fundadora da Escola de Familias da EWRS/COPA",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1907,
-            "pivot_speaker_id": 4148,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -10204,6 +10302,73 @@
       "nearLocation": "Inatel e Arredores"
     },
     {
+      "id": 2305,
+      "start_time": "2025-08-01T17:30:00.000+00:00",
+      "end_time": "2025-08-01T18:30:00.000+00:00",
+      "title": "AI.Africa: presentes conectados, futuros convergentes",
+      "description": "A revolução da IA já está acontecendo no Sul Global. Com base na experiência da comunidade AI.Africa e exemplos práticos em saúde e agricultura, esta palestra mostra como a tecnologia está impulsionando soluções locais, ampliando o protagonismo africano e redesenhando o futuro com propósito humano, impacto social e inovação colaborativa.",
+      "hub_event_id": 1,
+      "entity_register_id": 10011,
+      "place": "INATEL - Teatro Inatel - Prédio 5 - 2º Piso",
+      "allow_questions": false,
+      "external_id": "0f6787db-c453-4303-b978-350ddec4fbd0",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4257,
+          "name": "Daniel Quiteque",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1389/partner_1389_1752610511630.png",
+          "bio": "Pesquisador de IA aplicada à internet das coisas no IoT Research Group do INATEL, é pós-graduando em Inovação pela FURG-RS e criador da AI.Africa, comunidade global que conecta líderes africanos em torno da inteligência artificial. É reconhecido por integrar pessoas, tecnologia e futuros transformadores.",
+          "role": "Criador da AI.Africa",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2305,
+            "pivot_speaker_id": 4257,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 391,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Brand Experience / Festivais / Eventos",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 294,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Impacto Social",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Inatel",
+      "nearLocation": "Inatel e Arredores"
+    },
+    {
       "id": 1948,
       "start_time": "2025-08-01T17:30:00.000+00:00",
       "end_time": "2025-08-01T18:30:00.000+00:00",
@@ -10211,7 +10376,7 @@
       "description": "Uma palestra vivencial que apresentará teorias modernas do trauma emocional como desconexão humana, com propostas ativas de auto investigação e de percepção expansiva de crenças reprodutoras de sofrimento. Um convite ao (des)conforto das vulnerabilidades, com acolhimento compassivo, para reparação de verdades autênticas que venham a sensibilizar as pessoas participantes à experimentar um sentido profundo de pertencimento a si e à comunidade.",
       "hub_event_id": 1,
       "entity_register_id": 9586,
-      "place": "INATEL - Sala 07 - Prédio 1 - Térreo",
+      "place": "A ser anunciado",
       "allow_questions": false,
       "external_id": "4b6af233-5c8b-49ba-83ac-0d8f1916e39d",
       "place_color": null,
@@ -10267,8 +10432,8 @@
         "is_bookmarked": false,
         "rating": 0
       },
-      "filterLocation": "Inatel",
-      "nearLocation": "Inatel e Arredores"
+      "filterLocation": "A ser anunciado",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2484,
@@ -10619,6 +10784,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4785,
+          "name": "Tiago José",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1933/partner_1933_1752613814157.png",
+          "bio": "Consultor e psicanalista com atuação global, formado em escolas de psicanálise no Brasil e no Reino Unido. Cruza subjetividade, inovação e diversidade para tensionar certezas e abrir futuros, combinando saberes acadêmicos e ancestrais em processos de escuta profunda e transformação.",
+          "role": "Consultor em desenvolvimento de lideranças e transformação organizacional",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2352,
+            "pivot_speaker_id": 4785,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 392,
@@ -10640,23 +10822,6 @@
           "type": "schedules",
           "name": "Economia Criativa",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4785,
-          "name": "Tiago José",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1933/partner_1933_1752613814157.png",
-          "bio": "Consultor e psicanalista com atuação global, formado em escolas de psicanálise no Brasil e no Reino Unido. Cruza subjetividade, inovação e diversidade para tensionar certezas e abrir futuros, combinando saberes acadêmicos e ancestrais em processos de escuta profunda e transformação.",
-          "role": "Consultor em desenvolvimento de lideranças e transformação organizacional",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2352,
-            "pivot_speaker_id": 4785,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -10686,6 +10851,7 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [],
       "tags": [
         {
           "id": 23,
@@ -10702,7 +10868,6 @@
           "hub_event_id": 1
         }
       ],
-      "speakers": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10730,22 +10895,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 5299,
@@ -10761,6 +10910,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -10790,15 +10955,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 388,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4565,
@@ -10831,6 +10987,15 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 388,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -10858,6 +11023,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4602,
+          "name": "Larissa Lakshmi",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1743/partner_1743_1752612647424.png",
+          "bio": "Larissa Lakshmi é educadora pré, perinatal e infantil, doula, instrutora de yoga e discípula de Shivakumar Belavadi, da Linhagem Shivanetra (Índia). Mulher e mãe em constante transmutação, realiza mediações de rituais de chegada e passagem, unindo a sabedoria sagrada indiana às ciências modernas. É responsável pelo Temple Of Peace – Prenatal Education & Cosmic Energies. Mãe da Olívia, Henrique e dois anjos.",
+          "role": "Educadora Pré-Natal do Comitê de Boas-Vindas do Planeta Terra",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1940,
+            "pivot_speaker_id": 4602,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 391,
@@ -10879,23 +11061,6 @@
           "type": "schedules",
           "name": "Palestra",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4602,
-          "name": "Larissa Lakshmi",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1743/partner_1743_1752612647424.png",
-          "bio": "Larissa Lakshmi é educadora pré, perinatal e infantil, doula, instrutora de yoga e discípula de Shivakumar Belavadi, da Linhagem Shivanetra (Índia). Mulher e mãe em constante transmutação, realiza mediações de rituais de chegada e passagem, unindo a sabedoria sagrada indiana às ciências modernas. É responsável pelo Temple Of Peace – Prenatal Education & Cosmic Energies. Mãe da Olívia, Henrique e dois anjos.",
-          "role": "Educadora Pré-Natal do Comitê de Boas-Vindas do Planeta Terra",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1940,
-            "pivot_speaker_id": 4602,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -10925,6 +11090,23 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4731,
+          "name": "Samir Karam",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1878/partner_1878_1752613483704.png",
+          "bio": "Engenheiro de Computação pela Unicamp e cofundador da Performa IT, lidera projetos de inovação focados em resultados concretos. Atua com Design Thinking, Lean e Agile para impulsionar a transformação digital em grandes empresas.",
+          "role": "COO & Co-founder Performa_IT. Lean Digital Solutions, Innovation, Design Thinking, Agile.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1934,
+            "pivot_speaker_id": 4731,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 19,
@@ -10946,23 +11128,6 @@
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4731,
-          "name": "Samir Karam",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1878/partner_1878_1752613483704.png",
-          "bio": "Engenheiro de Computação pela Unicamp e cofundador da Performa IT, lidera projetos de inovação focados em resultados concretos. Atua com Design Thinking, Lean e Agile para impulsionar a transformação digital em grandes empresas.",
-          "role": "COO & Co-founder Performa_IT. Lean Digital Solutions, Innovation, Design Thinking, Agile.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1934,
-            "pivot_speaker_id": 4731,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -10992,29 +11157,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 386,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental – Presente / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 389,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental / Presente / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4326,
@@ -11047,6 +11189,29 @@
           "allow_access": false
         }
       ],
+      "tags": [
+        {
+          "id": 386,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental – Presente / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 389,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental / Presente / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -11074,22 +11239,6 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 387,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Diversidade / Equidade / Inclusão",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
       "speakers": [
         {
           "id": 4488,
@@ -11105,6 +11254,22 @@
             "allow_access": false
           },
           "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 387,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Diversidade / Equidade / Inclusão",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
         }
       ],
       "meta": {
@@ -11134,6 +11299,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4683,
+          "name": "Rafael Castro",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1827/partner_1827_1752613182094.png",
+          "bio": "Com 13 anos de atuação no Sebrae, sendo 7 dedicados à inovação, liderou diversas iniciativas de cooperação entre grandes organizações e startups para solucionar desafios por meio da inovação aberta. Desde 2023, aplica essa abordagem com foco no setor público, promovendo conexões estratégicas para transformar serviços e políticas públicas.",
+          "role": "Líder Nacional de Inovação Aberta no Sebrae",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1970,
+            "pivot_speaker_id": 4683,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 395,
@@ -11155,23 +11337,6 @@
           "type": "schedules",
           "name": "Criação Digital / Economia dos Criadores",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4683,
-          "name": "Rafael Castro",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1827/partner_1827_1752613182094.png",
-          "bio": "Com 13 anos de atuação no Sebrae, sendo 7 dedicados à inovação, liderou diversas iniciativas de cooperação entre grandes organizações e startups para solucionar desafios por meio da inovação aberta. Desde 2023, aplica essa abordagem com foco no setor público, promovendo conexões estratégicas para transformar serviços e políticas públicas.",
-          "role": "Líder Nacional de Inovação Aberta no Sebrae",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1970,
-            "pivot_speaker_id": 4683,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -11201,6 +11366,23 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4991,
+          "name": "Oscar Motomura",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4991/partner_4991_1753477453965.png",
+          "bio": "CEO da Amana-Key, especialista em inovações radicais em gestão, estratégia e liderança. Referência na resolução de “equações impossíveis” no setor público e privado, é reconhecido por seu pensamento sistêmico e atuação transformadora.",
+          "role": "CEO do Grupo Amana-Key",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1986,
+            "pivot_speaker_id": 4991,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
       "tags": [
         {
           "id": 388,
@@ -11229,23 +11411,6 @@
           "type": "schedules",
           "name": "Futuro do Trabalho",
           "hub_event_id": 1
-        }
-      ],
-      "speakers": [
-        {
-          "id": 4991,
-          "name": "Oscar Motomura",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4991/partner_4991_1753477453965.png",
-          "bio": "CEO da Amana-Key, especialista em inovações radicais em gestão, estratégia e liderança. Referência na resolução de “equações impossíveis” no setor público e privado, é reconhecido por seu pensamento sistêmico e atuação transformadora.",
-          "role": "CEO do Grupo Amana-Key",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1986,
-            "pivot_speaker_id": 4991,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
         }
       ],
       "meta": {
@@ -11414,10 +11579,10 @@
         {
           "id": 5241,
           "name": "Fernanda Paiva",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/67/67_1753716454410.png?ims=filters:quality(75)",
+          "bio": "Especialista em cultural branding e inovação, com mais de 20 anos de experiência em projetos como Natura Musical. Cofundadora da Flint, Chief Artistic Officer da Musicalize e consultora estratégica, conecta marcas, cultura e futuro com impacto e curadoria.",
+          "role": "Cofundadora da Flint, Chief Artistic Officer da Musicalize e consultora estratégica",
+          "company": "Flint, Musicalize",
           "meta": {
             "pivot_schedule_id": 2209,
             "pivot_speaker_id": 5241,
@@ -12459,7 +12624,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4390,
@@ -12477,6 +12641,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -12526,7 +12691,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4202,
@@ -12544,6 +12708,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12593,7 +12758,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4468,
@@ -12626,6 +12790,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -12675,7 +12840,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4216,
@@ -12693,6 +12857,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12742,7 +12907,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4891,
@@ -12775,6 +12939,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -12824,7 +12989,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4786,
@@ -12842,6 +13006,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -12891,7 +13056,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4157,
@@ -12909,6 +13073,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12958,7 +13123,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4685,
@@ -12976,6 +13140,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13025,7 +13190,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4824,
@@ -13043,6 +13207,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13092,7 +13257,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5165,
@@ -13110,6 +13274,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -15747,21 +15912,6 @@
           "meta": {
             "pivot_schedule_id": 1999,
             "pivot_speaker_id": 4872,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        },
-        {
-          "id": 4886,
-          "name": "Ludimila Rocha",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4886/partner_4886_1753477191849.png",
-          "bio": "Psicóloga especialista em Educação Corporativa, coordena o Mind++ Lab e o Núcleo de Orientação Educacional do Inatel. Atua há mais de 10 anos com desenvolvimento de habilidades comportamentais e performance profissional.",
-          "role": "Coordenadora do Mind++ Lab Inatel",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1999,
-            "pivot_speaker_id": 4886,
             "is_bookmarked": false,
             "allow_access": false
           },
@@ -19547,6 +19697,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4109,
@@ -19610,13 +19761,79 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
       },
       "filterLocation": "Inatel",
       "nearLocation": "Inatel e Arredores"
+    },
+    {
+      "id": 1738,
+      "start_time": "2025-08-01T20:30:00.000+00:00",
+      "end_time": "2025-08-01T21:30:00.000+00:00",
+      "title": "Os desafios da análise de dados em cenários reais e tendências da área",
+      "description": "Nesta palestra, eu abordo os principais desafios enfrentados na análise de dados em contextos reais, vivenciado na minha empresa, como qualidade da informação, integração de fontes e aplicação prática dos insights. A apresentação também explora as tendências emergentes da área, incluindo IA generativa, automação analítica e o papel crescente da inteligência de dados na estratégia das organizações.",
+      "hub_event_id": 1,
+      "entity_register_id": 9376,
+      "place": "ETE - Sala 65",
+      "allow_questions": false,
+      "external_id": "437454ba-1ff7-4dca-afca-6f357e7a45ea",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 1024,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 5079,
+          "name": "Flávio Mota",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_5079/partner_5079_1753477668509.png",
+          "bio": "CEO da Descubra Soluções, lidera projetos que conectam dados, inteligência artificial e tomada de decisão estratégica. Atua com inovação em tecnologia, impulsionando negócios com soluções orientadas por dados.",
+          "role": "CEO da Descubra Soluções",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1738,
+            "pivot_speaker_id": 5079,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 261,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Empreendedorismo",
+          "hub_event_id": 1
+        },
+        {
+          "id": 291,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Gestão / Governança Inovadora",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
     },
     {
       "id": 2509,
@@ -19637,6 +19854,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19647,7 +19865,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19674,6 +19891,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19684,7 +19902,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19711,6 +19928,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4636,
@@ -19729,7 +19947,6 @@
         }
       ],
       "tags": [],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19756,6 +19973,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19766,7 +19984,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19793,6 +20010,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19803,7 +20021,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19830,6 +20047,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19840,7 +20058,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19867,6 +20084,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19877,7 +20095,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19904,6 +20121,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19914,7 +20132,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19941,6 +20158,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19951,7 +20169,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -19978,6 +20195,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -19988,7 +20206,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -20015,6 +20232,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -20025,7 +20243,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -20052,6 +20269,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -20062,7 +20280,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -20089,6 +20306,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -20099,7 +20317,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -20126,6 +20343,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -20136,7 +20354,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -20163,6 +20380,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -20173,7 +20391,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
