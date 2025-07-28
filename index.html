@@ -1838,6 +1838,9 @@
             
             saveFavorites();
             
+            // Immediately update all favorite buttons for this event
+            updateFavoriteButtons(eventId);
+            
             // Clear cache when favorites change
             renderCache.clear();
             
@@ -1856,6 +1859,23 @@
         // Check if event is favorite
         function isFavorite(event) {
             return favorites.has(getEventId(event));
+        }
+
+        // Update all favorite buttons for a specific event immediately
+        function updateFavoriteButtons(eventId) {
+            const isEventFavorite = favorites.has(eventId);
+            
+            // Find all favorite buttons for this event and update their state
+            const favoriteButtons = document.querySelectorAll(`[data-event-id="${eventId}"] .favorite-btn`);
+            favoriteButtons.forEach(btn => {
+                if (isEventFavorite) {
+                    btn.classList.add('active');
+                    btn.setAttribute('aria-label', 'Remover dos favoritos');
+                } else {
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-label', 'Adicionar aos favoritos');
+                }
+            });
         }
 
         // Toggle favorites filter
