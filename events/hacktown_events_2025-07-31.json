@@ -1,7 +1,7 @@
 {
   "date": "2025-07-31",
-  "total_events": 261,
-  "scraped_at": "2025-07-28T07:22:02.522838-03:00",
+  "total_events": 262,
+  "scraped_at": "2025-07-28T09:33:10.414738-03:00",
   "events": [
     {
       "id": 2414,
@@ -2443,6 +2443,73 @@
       "nearLocation": "ETE e Arredores"
     },
     {
+      "id": 2397,
+      "start_time": "2025-07-31T13:00:00.000+00:00",
+      "end_time": "2025-07-31T14:00:00.000+00:00",
+      "title": "Ludopatia digital: quando o jogo vira armadilha",
+      "description": "Em um cenário dominado por algoritmos e estímulos constantes, até o lazer pode adoecer. Esta palestra investiga como jogos digitais, apostas online e sistemas gamificados impactam o cérebro e a saúde mental, conectando dopamina, vício, ansiedade e burnout. Uma análise crítica sobre os efeitos da hiperconectividade e os riscos invisíveis do entretenimento moderno.",
+      "hub_event_id": 1,
+      "entity_register_id": 10103,
+      "place": "Associação José do Patrocínio",
+      "allow_questions": false,
+      "external_id": "da2c4460-677b-4280-a8dc-7b8017b3214e",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": -512,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": false,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4620,
+          "name": "Lila Máy",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1761/partner_1761_1752612757838.png",
+          "bio": "Socióloga, psicanalista e gestora cultural, Lila Máy é diretora do Instituto Olho D’Água e da Conexão Latina. Atua na articulação de projetos integrativos de saúde mental, cultura e meio ambiente, liderando iniciativas em parceria com multinacionais como Natura e Maxion Wheels",
+          "role": "Agência Conexão Latina e Instituto Olho D'Água",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2397,
+            "pivot_speaker_id": 4620,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 389,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Saúde Física / Mental / Presente / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 394,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Ancestralidade / Espiritualidade / Futuro",
+          "hub_event_id": 1
+        },
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "Associação José do Patrocínio",
+      "nearLocation": "Praça e Arredores"
+    },
+    {
       "id": 1643,
       "start_time": "2025-07-31T13:00:00.000+00:00",
       "end_time": "2025-07-31T14:00:00.000+00:00",
@@ -2655,6 +2722,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4781,
@@ -2672,7 +2740,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2722,6 +2789,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4674,
@@ -2739,7 +2807,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -2789,6 +2856,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4534,
@@ -2821,7 +2889,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -2871,6 +2938,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4217,
@@ -2888,7 +2956,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 391,
@@ -2931,6 +2998,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4807,
@@ -2948,7 +3016,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 404,
@@ -2998,6 +3065,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5225,
@@ -3015,7 +3083,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 269,
@@ -3051,6 +3118,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4948,
@@ -3113,7 +3181,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -3156,6 +3223,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4838,
@@ -3173,7 +3241,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -3223,6 +3290,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4821,
@@ -3255,7 +3323,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -3958,7 +4025,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -3982,6 +4048,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4008,7 +4075,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4299,
@@ -4049,6 +4115,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4075,7 +4142,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4147,
@@ -4116,6 +4182,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4142,7 +4209,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4586,
@@ -4183,6 +4249,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4209,7 +4276,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4332,
@@ -4250,6 +4316,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4276,7 +4343,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4777,
@@ -4317,6 +4383,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4343,7 +4410,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5028,
@@ -4384,6 +4450,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4410,7 +4477,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4560,
@@ -4451,6 +4517,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4477,7 +4544,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4160,
@@ -4511,6 +4577,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4537,7 +4604,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4128,
@@ -4578,6 +4644,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -4605,23 +4672,6 @@
       "unlimited_slots": true,
       "requires_booking": false,
       "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4466,
-          "name": "Júlia Moimas",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1602/partner_1602_1752611786310.png",
-          "bio": "Designer, pesquisadora e mentora, integra o time de CX Research do Itaú Unibanco. Fundadora do Grupo de Estudos, comunidade independente com mais de 200 participantes dedicada a design e pesquisa. Atua com foco em aprendizagem contínua, experiência do usuário e investigação colaborativa.",
-          "role": "UX Researcher",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1798,
-            "pivot_speaker_id": 4466,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "tags": [
         {
           "id": 19,
@@ -4643,6 +4693,23 @@
           "type": "schedules",
           "name": "Design / UX / Acessibilidade",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4466,
+          "name": "Júlia Moimas",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1602/partner_1602_1752611786310.png",
+          "bio": "Designer, pesquisadora e mentora, integra o time de CX Research do Itaú Unibanco. Fundadora do Grupo de Estudos, comunidade independente com mais de 200 participantes dedicada a design e pesquisa. Atua com foco em aprendizagem contínua, experiência do usuário e investigação colaborativa.",
+          "role": "UX Researcher",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1798,
+            "pivot_speaker_id": 4466,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4671,23 +4738,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4366,
-          "name": "Gesyel Lopes",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1499/partner_1499_1752611181844.png",
-          "bio": "Especialista em Produtos com 15 anos de experiência em tecnologia, atuando em grandes projetos nas áreas de saúde, educação, aviação e mobilidade urbana. Atualmente, dedica-se a P&D de soluções sob demanda para a indústria, integrando inteligência artificial a sistemas legados.",
-          "role": "Product Owner da Nonnato&CO e Especialista em Gestão de Produtos e Inovação Tecnológica",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1638,
-            "pivot_speaker_id": 4366,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -4710,6 +4760,23 @@
           "type": "schedules",
           "name": "Desenvolvimento de Hardware / Software",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4366,
+          "name": "Gesyel Lopes",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1499/partner_1499_1752611181844.png",
+          "bio": "Especialista em Produtos com 15 anos de experiência em tecnologia, atuando em grandes projetos nas áreas de saúde, educação, aviação e mobilidade urbana. Atualmente, dedica-se a P&D de soluções sob demanda para a indústria, integrando inteligência artificial a sistemas legados.",
+          "role": "Product Owner da Nonnato&CO e Especialista em Gestão de Produtos e Inovação Tecnológica",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1638,
+            "pivot_speaker_id": 4366,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4738,23 +4805,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4300,
-          "name": "Evandro Almeida Jr",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1433/partner_1433_1752610779377.png",
-          "bio": "Jornalista multimídia nascido na periferia de São Paulo, atua como editor digital na TV Band. É Elevate Scholar (INMA) e embaixador da Plant for the Planet. Foi fellow em instituições como DW Brasil, Estadão, Spark Oxfam, YCL, Climate Reality e Dart Center (Columbia), com foco em jornalismo de impacto e temas socioambientais.",
-          "role": "Jornalista Multimídia na TV Band",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1819,
-            "pivot_speaker_id": 4300,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -4777,6 +4827,23 @@
           "type": "schedules",
           "name": "Deepfakes / AI Generativa / Fake News",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4300,
+          "name": "Evandro Almeida Jr",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1433/partner_1433_1752610779377.png",
+          "bio": "Jornalista multimídia nascido na periferia de São Paulo, atua como editor digital na TV Band. É Elevate Scholar (INMA) e embaixador da Plant for the Planet. Foi fellow em instituições como DW Brasil, Estadão, Spark Oxfam, YCL, Climate Reality e Dart Center (Columbia), com foco em jornalismo de impacto e temas socioambientais.",
+          "role": "Jornalista Multimídia na TV Band",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1819,
+            "pivot_speaker_id": 4300,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4805,23 +4872,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4905,
-          "name": "Fabíola Prado",
-          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4905/partner_4905_1753477235414.png",
-          "bio": "Gerente Executiva de Soluções de Software no Inatel. Com mais de 20 anos de experiência, atua no desenvolvimento de times de alta performance com foco em ciência comportamental e gestão empática.",
-          "role": "Gerente Executiva de Soluções de Software do Inatel",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1860,
-            "pivot_speaker_id": 4905,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -4837,6 +4887,23 @@
           "type": "schedules",
           "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4905,
+          "name": "Fabíola Prado",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4905/partner_4905_1753477235414.png",
+          "bio": "Gerente Executiva de Soluções de Software no Inatel. Com mais de 20 anos de experiência, atua no desenvolvimento de times de alta performance com foco em ciência comportamental e gestão empática.",
+          "role": "Gerente Executiva de Soluções de Software do Inatel",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1860,
+            "pivot_speaker_id": 4905,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4865,23 +4932,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4718,
-          "name": "Rodrigo dos Reis",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1865/partner_1865_1752613404398.png",
-          "bio": "Pesquisador de consumo com mais de 20 anos de experiência em diversos setores, atua na geração de insights estratégicos para marcas e mercados. É palestrante em eventos in-company (como Boticário e Pepsico), setoriais (Revestir, DesignForum, ASPACER) e internacionais, como a QRCA Conference, contribuindo para o entendimento profundo do comportamento do consumidor.",
-          "role": "Pesquisador, palestrante e fundador da Zeitgeist",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1787,
-            "pivot_speaker_id": 4718,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -4904,6 +4954,23 @@
           "type": "schedules",
           "name": "Cultura em Movimento",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4718,
+          "name": "Rodrigo dos Reis",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1865/partner_1865_1752613404398.png",
+          "bio": "Pesquisador de consumo com mais de 20 anos de experiência em diversos setores, atua na geração de insights estratégicos para marcas e mercados. É palestrante em eventos in-company (como Boticário e Pepsico), setoriais (Revestir, DesignForum, ASPACER) e internacionais, como a QRCA Conference, contribuindo para o entendimento profundo do comportamento do consumidor.",
+          "role": "Pesquisador, palestrante e fundador da Zeitgeist",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1787,
+            "pivot_speaker_id": 4718,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4932,23 +4999,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4158,
-          "name": "André ZumZum",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1288/partner_1288_1752609838935.png",
-          "bio": "Ultramaratonista e médico veterinário formado, sou apaixonado pela literatura roseana. Unindo essas três paixões, tornei-me museólogo, e neste ano teremos a inauguração do maior museu a céu aberto do país!",
-          "role": "Idealizador e Diretor do Museu de Território Caminhos de Rosa",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1811,
-            "pivot_speaker_id": 4158,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -4971,6 +5021,23 @@
           "type": "schedules",
           "name": "Cultura em Movimento",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4158,
+          "name": "André ZumZum",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1288/partner_1288_1752609838935.png",
+          "bio": "Ultramaratonista e médico veterinário formado, sou apaixonado pela literatura roseana. Unindo essas três paixões, tornei-me museólogo, e neste ano teremos a inauguração do maior museu a céu aberto do país!",
+          "role": "Idealizador e Diretor do Museu de Território Caminhos de Rosa",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1811,
+            "pivot_speaker_id": 4158,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -4999,23 +5066,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4554,
-          "name": "Luis Octavio Rogens",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1695/partner_1695_1752612348404.png",
-          "bio": "Doutorando em Tecnologias da Inteligência e Design Digital (TIDD-PUC-SP), pesquisa os impactos da IA em narrativas sintéticas e a influência geracional na autoria e criatividade. Mestre em Língua Portuguesa (PUC-SP), é graduado em Letras (UNIFESP) e em Jornalismo e Políticas Públicas (ECA-USP). Professor no Mackenzie, atua no Laboratório de Criatividade com projetos de IA generativa aplicados ao ensino de narrativas.",
-          "role": "Professor do Mackenzie",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1800,
-            "pivot_speaker_id": 4554,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -5031,6 +5081,23 @@
           "type": "schedules",
           "name": "Direitos Autorais / Criatividade",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4554,
+          "name": "Luis Octavio Rogens",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1695/partner_1695_1752612348404.png",
+          "bio": "Doutorando em Tecnologias da Inteligência e Design Digital (TIDD-PUC-SP), pesquisa os impactos da IA em narrativas sintéticas e a influência geracional na autoria e criatividade. Mestre em Língua Portuguesa (PUC-SP), é graduado em Letras (UNIFESP) e em Jornalismo e Políticas Públicas (ECA-USP). Professor no Mackenzie, atua no Laboratório de Criatividade com projetos de IA generativa aplicados ao ensino de narrativas.",
+          "role": "Professor do Mackenzie",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1800,
+            "pivot_speaker_id": 4554,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -5059,23 +5126,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4124,
-          "name": "Allan Felippe",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1254/partner_1254_1752609645734.png",
-          "bio": "Professor Doutor em Neurociências e Comportamento pelo Instituto de Psicologia da Universidade de São Paulo, USP.",
-          "role": "Neurocientista",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1760,
-            "pivot_speaker_id": 4124,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -5091,6 +5141,23 @@
           "type": "schedules",
           "name": "Saúde Física / Mental – Presente / Futuro",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4124,
+          "name": "Allan Felippe",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1254/partner_1254_1752609645734.png",
+          "bio": "Professor Doutor em Neurociências e Comportamento pelo Instituto de Psicologia da Universidade de São Paulo, USP.",
+          "role": "Neurocientista",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1760,
+            "pivot_speaker_id": 4124,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -5119,23 +5186,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4616,
-          "name": "Maurício Assis",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1757/partner_1757_1752612734582.png",
-          "bio": "Designer de serviços e experiências com foco em inovação social e construção de comunidades. Atua na escuta, conexão e cocriação para fortalecer territórios e vínculos sociais. Já colaborou com organizações como Pacto Global da ONU, GIZ, Porto, WWF e Stellantis, impulsionando iniciativas de impacto coletivo.",
-          "role": "Gerente de Projetos no Impact Hub SP e Fundador Startup Meu Lugar",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2369,
-            "pivot_speaker_id": 4616,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -5158,6 +5208,23 @@
           "type": "schedules",
           "name": "Diversidade / Equidade / Inclusão",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4616,
+          "name": "Maurício Assis",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1757/partner_1757_1752612734582.png",
+          "bio": "Designer de serviços e experiências com foco em inovação social e construção de comunidades. Atua na escuta, conexão e cocriação para fortalecer territórios e vínculos sociais. Já colaborou com organizações como Pacto Global da ONU, GIZ, Porto, WWF e Stellantis, impulsionando iniciativas de impacto coletivo.",
+          "role": "Gerente de Projetos no Impact Hub SP e Fundador Startup Meu Lugar",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2369,
+            "pivot_speaker_id": 4616,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -5186,23 +5253,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4461,
-          "name": "José Vicente",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1597/partner_1597_1752611757323.png",
-          "bio": "José Vicente é fundador da BTB Solutions e especialista em transformar visão em execução. Atua apoiando líderes na superação do caos operacional e na construção de negócios escaláveis, combinando estratégia com a alma de fundador. Já impulsionou dezenas de empresas a romperem barreiras estruturais e crescerem com consistência e autenticidade.",
-          "role": "Founder e Diretor de Novos Negócios",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1649,
-            "pivot_speaker_id": 4461,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -5218,6 +5268,23 @@
           "type": "schedules",
           "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4461,
+          "name": "José Vicente",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1597/partner_1597_1752611757323.png",
+          "bio": "José Vicente é fundador da BTB Solutions e especialista em transformar visão em execução. Atua apoiando líderes na superação do caos operacional e na construção de negócios escaláveis, combinando estratégia com a alma de fundador. Já impulsionou dezenas de empresas a romperem barreiras estruturais e crescerem com consistência e autenticidade.",
+          "role": "Founder e Diretor de Novos Negócios",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1649,
+            "pivot_speaker_id": 4461,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -5330,6 +5397,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5353,7 +5421,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5397,6 +5464,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5420,7 +5488,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5464,6 +5531,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 384,
@@ -5473,7 +5541,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5517,6 +5584,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5540,7 +5608,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5584,6 +5651,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5600,7 +5668,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5659,6 +5726,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -5675,7 +5743,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5719,6 +5786,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5742,7 +5810,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5786,6 +5853,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 281,
@@ -5809,7 +5877,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5853,6 +5920,7 @@
           "allow_access": false
         }
       ],
+      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -5876,7 +5944,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -5903,6 +5970,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4993,
@@ -5988,7 +6056,6 @@
           "hub_event_id": 1
         }
       ],
-      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -7396,6 +7463,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4368,
@@ -7413,7 +7481,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7463,6 +7530,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4241,
@@ -7480,7 +7548,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7530,6 +7597,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4774,
@@ -7547,7 +7615,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7597,6 +7664,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4229,
@@ -7614,7 +7682,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7664,6 +7731,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4595,
@@ -7681,7 +7749,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7731,6 +7798,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4315,
@@ -7748,7 +7816,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7791,6 +7858,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4622,
@@ -7808,7 +7876,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7858,6 +7925,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4437,
@@ -7875,7 +7943,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7925,6 +7992,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4493,
@@ -7942,7 +8010,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -7992,6 +8059,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4407,
@@ -8009,7 +8077,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -8539,6 +8606,59 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "Ancestralidade / Espiritualidade / Futuro",
+          "hub_event_id": 1
+        }
+      ],
+      "meta": {
+        "is_bookmarked": false,
+        "rating": 0
+      },
+      "filterLocation": "ETE",
+      "nearLocation": "ETE e Arredores"
+    },
+    {
+      "id": 2547,
+      "start_time": "2025-07-31T17:30:00.000+00:00",
+      "end_time": "2025-07-31T18:30:00.000+00:00",
+      "title": "Criatividade que converte: a nova era da personalização inteligente ",
+      "description": "Em um cenário onde dados e criatividade caminham lado a lado, a Diretora de Marketing Services da Serasa Experian, Isabela Torres, apresentará uma visão estratégica sobre como transformar informações em ações de marketing assertivas. A palestra abordará o uso inteligente de dados para segmentações precisas e campanhas direcionadas com alto poder de conversão — tudo isso impulsionado pela criatividade como diferencial competitivo.",
+      "hub_event_id": 1,
+      "entity_register_id": 10313,
+      "place": "ETE - Sala 64",
+      "allow_questions": false,
+      "external_id": "yazo_2547",
+      "place_color": null,
+      "allow_evaluation": false,
+      "order": 0,
+      "has_check_in": false,
+      "tolerance_time_in_minutes": 0,
+      "available_slots": 0,
+      "unlimited_slots": true,
+      "requires_booking": false,
+      "broadcast_rooms": [],
+      "speakers": [
+        {
+          "id": 4946,
+          "name": "Isabela Torres",
+          "picture": "https://mzc9kojc5a.map.azionedge.net/prd-hacktown-2025-ss-v2/app/image/partner_4946/partner_4946_1753477336655.png",
+          "bio": "Diretora de Soluções para Marketing da Serasa Experian. Lidera a vertical com foco em desenvolvimento de produtos e estratégia para grandes clientes em áreas como CRM, mídia e planejamento comercial.",
+          "role": "Diretora de Soluções para Marketing",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2547,
+            "pivot_speaker_id": 4946,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
+        }
+      ],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
           "hub_event_id": 1
         }
       ],
@@ -12625,73 +12745,6 @@
       "nearLocation": "Praça e Arredores"
     },
     {
-      "id": 2397,
-      "start_time": "2025-07-31T19:00:00.000+00:00",
-      "end_time": "2025-07-31T20:00:00.000+00:00",
-      "title": "Ludopatia digital: quando o jogo vira armadilha",
-      "description": "Em um cenário dominado por algoritmos e estímulos constantes, até o lazer pode adoecer. Esta palestra investiga como jogos digitais, apostas online e sistemas gamificados impactam o cérebro e a saúde mental, conectando dopamina, vício, ansiedade e burnout. Uma análise crítica sobre os efeitos da hiperconectividade e os riscos invisíveis do entretenimento moderno.",
-      "hub_event_id": 1,
-      "entity_register_id": 10103,
-      "place": "Associação José do Patrocínio",
-      "allow_questions": false,
-      "external_id": "da2c4460-677b-4280-a8dc-7b8017b3214e",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": -512,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 4620,
-          "name": "Lila Máy",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1761/partner_1761_1752612757838.png",
-          "bio": "Socióloga, psicanalista e gestora cultural, Lila Máy é diretora do Instituto Olho D’Água e da Conexão Latina. Atua na articulação de projetos integrativos de saúde mental, cultura e meio ambiente, liderando iniciativas em parceria com multinacionais como Natura e Maxion Wheels",
-          "role": "Agência Conexão Latina e Instituto Olho D'Água",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2397,
-            "pivot_speaker_id": 4620,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 389,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Saúde Física / Mental / Presente / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 394,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Ancestralidade / Espiritualidade / Futuro",
-          "hub_event_id": 1
-        },
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Associação José do Patrocínio",
-      "nearLocation": "Praça e Arredores"
-    },
-    {
       "id": 1844,
       "start_time": "2025-07-31T19:00:00.000+00:00",
       "end_time": "2025-07-31T20:00:00.000+00:00",
@@ -12770,6 +12823,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4438,
@@ -12787,7 +12841,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12837,6 +12890,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4694,
@@ -12854,7 +12908,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12904,6 +12957,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5053,
@@ -12921,7 +12975,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -12964,6 +13017,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4309,
@@ -12981,7 +13035,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13031,6 +13084,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4732,
@@ -13048,7 +13102,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -13098,6 +13151,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5375,
@@ -13115,7 +13169,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 264,
@@ -13158,6 +13211,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4222,
@@ -13220,7 +13274,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13263,6 +13316,7 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4272,
@@ -13280,7 +13334,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 388,
@@ -13330,6 +13383,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4955,
@@ -13392,7 +13446,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 23,
@@ -13442,6 +13495,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4433,
@@ -13459,7 +13513,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 19,
@@ -14844,6 +14897,29 @@
       "unlimited_slots": false,
       "requires_booking": false,
       "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 23,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Painel",
+          "hub_event_id": 1
+        },
+        {
+          "id": 290,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Economia Criativa",
+          "hub_event_id": 1
+        },
+        {
+          "id": 264,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "IA / Tecnologias Emergentes",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4886,
@@ -14906,29 +14982,6 @@
           "allow_access": false
         }
       ],
-      "tags": [
-        {
-          "id": 23,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Painel",
-          "hub_event_id": 1
-        },
-        {
-          "id": 290,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Economia Criativa",
-          "hub_event_id": 1
-        },
-        {
-          "id": 264,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -14955,23 +15008,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4525,
-          "name": "Liu Berman",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1665/partner_1665_1752612169799.png",
-          "bio": "Especialista em Territórios Criativos e Sustentáveis, é referência nacional em Economia Criativa, Circular e Gestão Colaborativa. Embaixadora do movimento “Reinventando Futuros”, lidera iniciativas de impacto como o Fórum de Economia Circular e a exposição Maré de Mudanças.",
-          "role": "Embaixadora do Movimento Reinventando Futuros e Diretora Executiva da LB Cultura Circular.",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1759,
-            "pivot_speaker_id": 4525,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -14994,6 +15030,23 @@
           "type": "schedules",
           "name": "Ancestralidade / Espiritualidade / Futuro",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4525,
+          "name": "Liu Berman",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1665/partner_1665_1752612169799.png",
+          "bio": "Especialista em Territórios Criativos e Sustentáveis, é referência nacional em Economia Criativa, Circular e Gestão Colaborativa. Embaixadora do movimento “Reinventando Futuros”, lidera iniciativas de impacto como o Fórum de Economia Circular e a exposição Maré de Mudanças.",
+          "role": "Embaixadora do Movimento Reinventando Futuros e Diretora Executiva da LB Cultura Circular.",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1759,
+            "pivot_speaker_id": 4525,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15022,23 +15075,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4375,
-          "name": "Grace Gonçalves",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1508/partner_1508_1752611232219.png",
-          "bio": "CEO da TE & TI Partners, gestora e designer instrucional com 20 anos de atuação em Tecnologia Educacional. Professora de eSports, Gamificação e Inovação Tecnológica, integra a Collab Academy, unindo educação, tecnologia e experiências interativas para potencializar o aprendizado.",
-          "role": "CEO TE & TI Partners",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1834,
-            "pivot_speaker_id": 4375,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15061,6 +15097,23 @@
           "type": "schedules",
           "name": "Educação / Aprendizado",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4375,
+          "name": "Grace Gonçalves",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1508/partner_1508_1752611232219.png",
+          "bio": "CEO da TE & TI Partners, gestora e designer instrucional com 20 anos de atuação em Tecnologia Educacional. Professora de eSports, Gamificação e Inovação Tecnológica, integra a Collab Academy, unindo educação, tecnologia e experiências interativas para potencializar o aprendizado.",
+          "role": "CEO TE & TI Partners",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1834,
+            "pivot_speaker_id": 4375,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15089,23 +15142,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 5295,
-          "name": "Denise Cavalli",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2275,
-            "pivot_speaker_id": 5295,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15121,6 +15157,23 @@
           "type": "schedules",
           "name": "Ética / Consciência / Responsabilidade",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 5295,
+          "name": "Denise Cavalli",
+          "picture": null,
+          "bio": {},
+          "role": {},
+          "company": {},
+          "meta": {
+            "pivot_schedule_id": 2275,
+            "pivot_speaker_id": 5295,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15149,23 +15202,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4238,
-          "name": "Cenira Mota",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1369/partner_1369_1752610359535.png",
-          "bio": "Nutricionista especialista em Comportamento Alimentar, com foco em saúde sem pressões estéticas. Criadora do método +Leve, que integra ciência, escuta ativa e autonomia alimentar. Atende mulheres com histórias complexas e corpos diversos, promovendo bem-estar e pertencimento por meio de uma abordagem sem dietas restritivas e com propósito sustentável.",
-          "role": "Nutricionista Comportamental, criadora do Método + Leve",
-          "company": "-",
-          "meta": {
-            "pivot_schedule_id": 1797,
-            "pivot_speaker_id": 4238,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15188,6 +15224,23 @@
           "type": "schedules",
           "name": "Futuro da Alimentação",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4238,
+          "name": "Cenira Mota",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1369/partner_1369_1752610359535.png",
+          "bio": "Nutricionista especialista em Comportamento Alimentar, com foco em saúde sem pressões estéticas. Criadora do método +Leve, que integra ciência, escuta ativa e autonomia alimentar. Atende mulheres com histórias complexas e corpos diversos, promovendo bem-estar e pertencimento por meio de uma abordagem sem dietas restritivas e com propósito sustentável.",
+          "role": "Nutricionista Comportamental, criadora do Método + Leve",
+          "company": "-",
+          "meta": {
+            "pivot_schedule_id": 1797,
+            "pivot_speaker_id": 4238,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15216,23 +15269,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4288,
-          "name": "Elio Quaresma",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1421/partner_1421_1752610693787.png",
-          "bio": "Jornalista com ampla experiência em marketing estratégico e gestão de equipes criativas. Também atua como narrador esportivo e integrou a comissão técnica da seleção catarinense de Fut7. Pai de menina e entusiasta de novas experiências, conecta comunicação, esportes e criatividade com paixão e versatilidade.",
-          "role": "Consultor de comunicação, marketing e pessoas",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1852,
-            "pivot_speaker_id": 4288,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15255,6 +15291,23 @@
           "type": "schedules",
           "name": "Vendas / Marketing",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4288,
+          "name": "Elio Quaresma",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1421/partner_1421_1752610693787.png",
+          "bio": "Jornalista com ampla experiência em marketing estratégico e gestão de equipes criativas. Também atua como narrador esportivo e integrou a comissão técnica da seleção catarinense de Fut7. Pai de menina e entusiasta de novas experiências, conecta comunicação, esportes e criatividade com paixão e versatilidade.",
+          "role": "Consultor de comunicação, marketing e pessoas",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1852,
+            "pivot_speaker_id": 4288,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15283,23 +15336,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4741,
-          "name": "Silmara Pereira dos Santos",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1888/partner_1888_1752613544110.png",
-          "bio": "Head do programa Potenc.IA na Prosper Digital Skills, executiva de RH com 14 anos de experiência em gestão de pessoas, aprendizagem contínua, desenvolvimento humano, cultura organizacional e diversidade, equidade e inclusão. Desde 2018 atua como consultora, mentora e palestrante, apoiando estratégias de gestão e desenvolvimento de talentos. Certificada como Coach de Pontos Fortes (Gallup), possui pós-graduações em Diversidade e Inclusão (HSM) e Educação Corporativa (Senac), além de formação em Gestão de RH e Relações Públicas.",
-          "role": "Head do Potenc.IA (Prosper)",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1845,
-            "pivot_speaker_id": 4741,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15322,6 +15358,23 @@
           "type": "schedules",
           "name": "Futuro do Trabalho / Carreira / Cultura Organizacional",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4741,
+          "name": "Silmara Pereira dos Santos",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1888/partner_1888_1752613544110.png",
+          "bio": "Head do programa Potenc.IA na Prosper Digital Skills, executiva de RH com 14 anos de experiência em gestão de pessoas, aprendizagem contínua, desenvolvimento humano, cultura organizacional e diversidade, equidade e inclusão. Desde 2018 atua como consultora, mentora e palestrante, apoiando estratégias de gestão e desenvolvimento de talentos. Certificada como Coach de Pontos Fortes (Gallup), possui pós-graduações em Diversidade e Inclusão (HSM) e Educação Corporativa (Senac), além de formação em Gestão de RH e Relações Públicas.",
+          "role": "Head do Potenc.IA (Prosper)",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1845,
+            "pivot_speaker_id": 4741,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15350,23 +15403,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4314,
-          "name": "Fabrício Fuzimoto",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1447/partner_1447_1752610871687.png",
-          "bio": "Formado em Comunicação pela UFRJ e mestre em Administração pelo Ibmec-RJ, é CMO e sócio da Tropical Rights, além de Head de Marketing da Nikita Music. Acumula experiência como head de marketing na gravadora MK Music e na distribuidora Hitbel, com atuação estratégica no mercado musical e de direitos autorais.",
-          "role": "Head de Marketing da Nikita Music e Sócio-Fundador da plataforma Tropical Rights",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 1821,
-            "pivot_speaker_id": 4314,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15389,6 +15425,23 @@
           "type": "schedules",
           "name": "Música / Inovação na Indústria",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4314,
+          "name": "Fabrício Fuzimoto",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1447/partner_1447_1752610871687.png",
+          "bio": "Formado em Comunicação pela UFRJ e mestre em Administração pelo Ibmec-RJ, é CMO e sócio da Tropical Rights, além de Head de Marketing da Nikita Music. Acumula experiência como head de marketing na gravadora MK Music e na distribuidora Hitbel, com atuação estratégica no mercado musical e de direitos autorais.",
+          "role": "Head de Marketing da Nikita Music e Sócio-Fundador da plataforma Tropical Rights",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 1821,
+            "pivot_speaker_id": 4314,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15417,23 +15470,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "speakers": [
-        {
-          "id": 4562,
-          "name": "Lula Rodrigues",
-          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1703/partner_1703_1752612398830.png",
-          "bio": "Lula Rodrigues é consultor, educador e facilitador em gestão, tecnologia e educação. Atuou como CTO e Head de Pedagogia da 42 São Paulo e integra o Núcleo GENERAS (FEA-USP), dedicado a pesquisas em gênero, raça e sexualidade. Foca atualmente em práticas decoloniais, inovação social e métodos ágeis aplicados a parcerias de impacto social.",
-          "role": "Consultor e Professor na OBONOBO e na Quilombo Flow",
-          "company": " ",
-          "meta": {
-            "pivot_schedule_id": 2412,
-            "pivot_speaker_id": 4562,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
       "broadcast_rooms": [],
       "tags": [
         {
@@ -15449,6 +15485,23 @@
           "type": "schedules",
           "name": "Gestão / Governança Inovadora",
           "hub_event_id": 1
+        }
+      ],
+      "speakers": [
+        {
+          "id": 4562,
+          "name": "Lula Rodrigues",
+          "picture": "https://dtirr1ox68qli.cloudfront.net/base_streaming/app/image/partner_1703/partner_1703_1752612398830.png",
+          "bio": "Lula Rodrigues é consultor, educador e facilitador em gestão, tecnologia e educação. Atuou como CTO e Head de Pedagogia da 42 São Paulo e integra o Núcleo GENERAS (FEA-USP), dedicado a pesquisas em gênero, raça e sexualidade. Foca atualmente em práticas decoloniais, inovação social e métodos ágeis aplicados a parcerias de impacto social.",
+          "role": "Consultor e Professor na OBONOBO e na Quilombo Flow",
+          "company": " ",
+          "meta": {
+            "pivot_schedule_id": 2412,
+            "pivot_speaker_id": 4562,
+            "is_bookmarked": false,
+            "allow_access": false
+          },
+          "allow_access": false
         }
       ],
       "meta": {
@@ -15477,6 +15530,23 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
+      "broadcast_rooms": [],
+      "tags": [
+        {
+          "id": 19,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Palestra",
+          "hub_event_id": 1
+        },
+        {
+          "id": 295,
+          "color": "#21C89D",
+          "type": "schedules",
+          "name": "Cultura em Movimento",
+          "hub_event_id": 1
+        }
+      ],
       "speakers": [
         {
           "id": 4492,
@@ -15509,23 +15579,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
-      "tags": [
-        {
-          "id": 19,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Palestra",
-          "hub_event_id": 1
-        },
-        {
-          "id": 295,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Cultura em Movimento",
-          "hub_event_id": 1
-        }
-      ],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -15552,6 +15605,7 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
+      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4159,
@@ -15569,7 +15623,6 @@
           "allow_access": false
         }
       ],
-      "broadcast_rooms": [],
       "tags": [
         {
           "id": 332,
@@ -17023,7 +17076,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4679,
@@ -17064,6 +17116,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17090,7 +17143,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -17115,6 +17167,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17141,7 +17194,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5337,
@@ -17197,6 +17249,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17223,7 +17276,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4903,
@@ -17317,6 +17369,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17343,7 +17396,6 @@
       "available_slots": 0,
       "unlimited_slots": true,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4258,
@@ -17384,6 +17436,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17410,7 +17463,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 5210,
@@ -17451,6 +17503,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17477,7 +17530,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [
         {
           "id": 4536,
@@ -17518,6 +17570,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17544,7 +17597,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -17555,6 +17607,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17581,7 +17634,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -17592,6 +17644,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
@@ -17618,7 +17671,6 @@
       "available_slots": 0,
       "unlimited_slots": false,
       "requires_booking": false,
-      "broadcast_rooms": [],
       "speakers": [],
       "tags": [
         {
@@ -17629,6 +17681,7 @@
           "hub_event_id": 1
         }
       ],
+      "broadcast_rooms": [],
       "meta": {
         "is_bookmarked": false,
         "rating": 0
