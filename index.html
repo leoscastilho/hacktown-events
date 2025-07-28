@@ -214,7 +214,7 @@
             opacity: 0.8;
         }
 
-        .sidebar .day-selector {
+        .sidebar .near-selector {
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -1611,33 +1611,14 @@
         <h3>Filtros e Opções</h3>
         
         <div class="sidebar-section">
-            <div class="sidebar-section-title">Dias do Evento</div>
-            <div class="day-selector" id="daySelector">
-                <!-- Day buttons will be inserted here -->
-            </div>
-        </div>
-
-        <div class="sidebar-section">
             <div class="sidebar-section-title">Filtrar por Proximidade</div>
-            <div class="day-selector" id="nearLocationSelector">
+            <div class="near-selector" id="nearLocationSelector">
                 <button class="day-btn active" data-near-location="" onclick="selectNearLocation('')">Geral</button>
                 <button class="day-btn" data-near-location="Inatel e Arredores" onclick="selectNearLocation('Inatel e Arredores')">Inatel e Arredores</button>
                 <button class="day-btn" data-near-location="ETE e Arredores" onclick="selectNearLocation('ETE e Arredores')">ETE e Arredores</button>
                 <button class="day-btn" data-near-location="Praça e Arredores" onclick="selectNearLocation('Praça e Arredores')">Praça e Arredores</button>
             </div>
         </div>
-
-<!--        <div class="sidebar-section">-->
-<!--            <div class="sidebar-section-title">Opções de Visualização</div>-->
-
-<!--            <div class="toggle-item">-->
-<!--                <label for="showFavoritesOnly">Mostrar apenas favoritos</label>-->
-<!--                <label class="toggle-switch">-->
-<!--                    <input type="checkbox" id="showFavoritesOnly">-->
-<!--                    <span class="slider"></span>-->
-<!--                </label>-->
-<!--            </div>-->
-<!--        </div>-->
 
         <div class="sidebar-section">
             <div class="sidebar-section-title">Filtrar por Local</div>
@@ -1656,13 +1637,6 @@
             </div>
         </div>
 
-        <div class="sidebar-section">
-            <div class="sidebar-section-title">Atualizar Dados</div>
-            <button class="refresh-button" id="refreshCacheBtn" onclick="refreshCache()">
-<!--                <span class="refresh-icon">🔄</span>-->
-                <span class="refresh-text">Atualizar eventos</span>
-            </button>
-        </div>
     </div>
 
     <!-- Sidebar Overlay -->
@@ -2131,7 +2105,7 @@
                         color: var(--text-secondary);
                         border: none;
                         padding: 12px 24px;
-                        border-radius: 8per;
+                        border-radius: 8px;
                         cursor: pointer;
                         font-weight: 600;
                     ">Fechar</button>
@@ -2404,7 +2378,6 @@
         async function init() {
             loadFavorites(); // Load saved favorites
             loadViewedEvents(); // Load viewed events cache
-            createDayButtons();
             createDayIndicatorDots(); // Create day indicator dots
             await loadSummary();
             await loadLocations(); // Load locations data
@@ -2489,23 +2462,6 @@
                 sidebarTotalEvents.textContent = 'Eventos disponíveis';
                 sidebarLastUpdate.textContent = '';
             }
-        }
-
-        // Create day selector buttons
-        function createDayButtons() {
-            const daySelector = document.getElementById('daySelector');
-            
-            EVENT_DATES.forEach(({ date, label }) => {
-                const btn = document.createElement('button');
-                btn.className = 'day-btn';
-                btn.textContent = label;
-                btn.onclick = () => {
-                    selectDay(date);
-                    toggleMenu(); // Close menu after selection
-                };
-                btn.setAttribute('data-date', date);
-                daySelector.appendChild(btn);
-            });
         }
 
         // Select nearLocation filter
