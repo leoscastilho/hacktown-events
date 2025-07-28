@@ -1,7 +1,7 @@
 {
   "date": "2025-08-03",
-  "total_events": 23,
-  "scraped_at": "2025-07-28T09:33:10.490645-03:00",
+  "total_events": 22,
+  "scraped_at": "2025-07-28T11:23:28.002491-03:00",
   "events": [
     {
       "id": 2161,
@@ -1073,59 +1073,6 @@
           "color": "#21C89D",
           "type": "schedules",
           "name": "IA / Tecnologias Emergentes",
-          "hub_event_id": 1
-        }
-      ],
-      "meta": {
-        "is_bookmarked": false,
-        "rating": 0
-      },
-      "filterLocation": "Casa Google Cloud",
-      "nearLocation": "Inatel e Arredores"
-    },
-    {
-      "id": 2204,
-      "start_time": "2025-08-03T18:00:00.000+00:00",
-      "end_time": "2025-08-03T18:40:00.000+00:00",
-      "title": "From Silos to Synergy",
-      "description": "Google Cloud Startup Marketing, explora como a IA pode transformar equipes de marketing, superando desafios comuns como falta de pessoal, orçamento, mensuração e personalização. A palestra demonstra como a IA otimiza campanhas, estende orçamentos com criação de conteúdo e podcasts, e permite \"conversar\" com dados para decisões mais inteligentes. Ela destaca tendências como IA multimodal e agentes de IA, mostrando como o Google Cloud capacita uma nova era de marketing personalizado e eficiente.",
-      "hub_event_id": 1,
-      "entity_register_id": 9842,
-      "place": "Casa Google Cloud - Sala Varanda",
-      "allow_questions": false,
-      "external_id": "a6d1ed6d-b663-42a1-874a-3a6f58a2d81a",
-      "place_color": null,
-      "allow_evaluation": false,
-      "order": 2304,
-      "has_check_in": false,
-      "tolerance_time_in_minutes": 0,
-      "available_slots": 0,
-      "unlimited_slots": false,
-      "requires_booking": false,
-      "broadcast_rooms": [],
-      "speakers": [
-        {
-          "id": 5233,
-          "name": "Giulianna Domingues",
-          "picture": null,
-          "bio": {},
-          "role": {},
-          "company": {},
-          "meta": {
-            "pivot_schedule_id": 2204,
-            "pivot_speaker_id": 5233,
-            "is_bookmarked": false,
-            "allow_access": false
-          },
-          "allow_access": false
-        }
-      ],
-      "tags": [
-        {
-          "id": 307,
-          "color": "#21C89D",
-          "type": "schedules",
-          "name": "Vendas / Marketing",
           "hub_event_id": 1
         }
       ],
