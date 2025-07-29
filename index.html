@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     
-    <!-- Immediate redirect using meta refresh as fallback -->
-    <meta http-equiv="refresh" content="0; url=https://leoscastilho.github.io/better-hacktown/">
-    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -48,13 +45,16 @@
     </div>
 
     <script>
-        // JavaScript redirect that preserves query parameters
+        // JavaScript redirect that preserves query parameters and hash fragments
         (function() {
             const currentUrl = new URL(window.location.href);
             const queryString = currentUrl.search; // Gets ?param=value&other=value
-            const newUrl = 'https://leoscastilho.github.io/better-hacktown/' + queryString;
+            const hashFragment = window.location.hash; // Gets #day=2025-07-31&event=1862&openCard=true
             
-            // Update the manual link to include query params
+            // Build the new URL with both query params and hash
+            const newUrl = 'https://leoscastilho.github.io/better-hacktown/' + queryString + hashFragment;
+            
+            // Update the manual link to include query params and hash
             document.getElementById('manual-link').href = newUrl;
             
             // Perform the redirect
